@@ -1,0 +1,7 @@
+{
+  "_comment": "Tracks visitor-milestone notifications for the 'Japan AI Guide 訪問者数マイルストーン通知' scheduled task. Each firing runs in a fresh, memory-less session, so this file (committed to the repo) is how it remembers what it already notified about. lastNotifiedMilestone is the highest hundred-visitor mark (cumulative visits since site launch on 2026-08-21, per Cloudflare Web Analytics) already reported to the user. Do not edit by hand unless you know what you're changing — the scheduled task reads and rewrites this on every run that finds a new milestone.",
+  "siteLaunchDate": "2026-08-21",
+  "lastNotifiedMilestone": 0,
+  "lastCheckedVisits": null,
+  "lastCheckedAt": null
+}
