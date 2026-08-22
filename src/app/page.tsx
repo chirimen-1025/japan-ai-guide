@@ -1,6 +1,30 @@
 import Link from "next/link";
 import { CULTURE_ARTICLES } from "@/lib/data/culture";
 import { TRAVEL_ARTICLES } from "@/lib/data/travel-articles";
+import { HeroSlideshow } from "@/components/hero-slideshow";
+
+const HERO_SLIDES = [
+  {
+    src: "/photos/fuji-azalea.jpg",
+    alt: "Mount Fuji framed by blooming azaleas near Lake Kawaguchi",
+  },
+  {
+    src: "/photos/fushimi-inari-torii.jpg",
+    alt: "The senbon torii — thousands of vermillion gates — at Fushimi Inari Shrine, Kyoto",
+  },
+  {
+    src: "/photos/kiyomizudera-autumn.jpg",
+    alt: "Kiyomizu-dera temple at sunset, surrounded by autumn foliage, Kyoto",
+  },
+  {
+    src: "/photos/shirakawago-snow.jpg",
+    alt: "Snow blanketing the thatched-roof farmhouses of Shirakawa-go",
+  },
+  {
+    src: "/photos/meguro-river-sakura.jpg",
+    alt: "Cherry blossoms lit up at night along the Meguro River, Tokyo",
+  },
+];
 
 const TOOLS = [
   {
@@ -36,14 +60,15 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="border-b border-border bg-surface">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
+      <section className="relative isolate flex min-h-[34rem] items-end overflow-hidden border-b border-border sm:min-h-[38rem]">
+        <HeroSlideshow slides={HERO_SLIDES} />
+        <div className="relative mx-auto w-full max-w-6xl px-5 py-12 sm:py-16">
           <div className="max-w-2xl">
-            <p className="jp mb-3 text-sm font-semibold text-accent">日本を、もっと身近に。</p>
-            <h1 className="disp text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl">
+            <p className="jp mb-3 text-sm font-semibold text-sakura">日本を、もっと身近に。</p>
+            <h1 className="disp text-4xl font-semibold leading-[1.1] tracking-tight text-white sm:text-5xl">
               Free tools to plan a Japan trip that actually fits you.
             </h1>
-            <p className="mt-5 max-w-lg text-lg text-muted">
+            <p className="mt-5 max-w-lg text-lg text-white/85">
               A trip planner, a budget calculator, and a Japanese phrase generator — no signup,
               no app, no cost. Built for first-time visitors who want less guesswork.
             </p>
@@ -56,7 +81,7 @@ export default function HomePage() {
               </Link>
               <Link
                 href="/tools/phrase-generator"
-                className="rounded-full border border-border bg-paper px-6 py-3 text-sm font-semibold hover:bg-surface-2"
+                className="rounded-full border border-white/40 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm hover:bg-white/20"
               >
                 Find a phrase
               </Link>
