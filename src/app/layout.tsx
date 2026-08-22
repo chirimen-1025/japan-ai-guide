@@ -81,6 +81,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Cloudflare Web Analytics: privacy-friendly, cookieless page-view counter.
             Cloudflare states it does not track individual visitors; see /privacy. */}
         <script
+          async
           type="module"
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "31c64bb3fbcd424b850e5ed954859d30"}'
