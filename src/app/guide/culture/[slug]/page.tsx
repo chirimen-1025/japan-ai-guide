@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { CULTURE_ARTICLES, getCultureArticle } from "@/lib/data/culture";
+import { SITE_URL } from "@/lib/site-config";
 
 export function generateStaticParams() {
   return CULTURE_ARTICLES.map((a) => ({ slug: a.slug }));
@@ -32,7 +33,13 @@ export default async function CultureArticlePage({ params }: { params: Promise<{
     "@type": "Article",
     headline: article.title,
     description: article.summary,
+    // Mirrors dateModified — the site doesn't track a separate original
+    // publish date, so this intentionally avoids inventing an earlier one.
+    datePublished: article.updatedAt,
     dateModified: article.updatedAt,
+    author: { "@type": "Organization", name: "Japan AI Guide", url: SITE_URL },
+    publisher: { "@type": "Organization", name: "Japan AI Guide", url: SITE_URL },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/culture/${slug}` },
   };
 
   return (
