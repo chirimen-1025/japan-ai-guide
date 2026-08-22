@@ -35,7 +35,7 @@ export function HeroSlideshow({ slides }: { slides: Slide[] }) {
           alt={slide.alt}
           loading={i === 0 ? "eager" : "lazy"}
           decoding="async"
-          className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[1500ms] ease-in-out motion-reduce:transition-none ${
+          className={`absolute inset-0 h-full w-full object-cover brightness-110 saturate-125 transition-opacity duration-[1500ms] ease-in-out motion-reduce:transition-none ${
             i === index ? "opacity-100" : "opacity-0"
           }`}
         />
@@ -47,7 +47,7 @@ export function HeroSlideshow({ slides }: { slides: Slide[] }) {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(105deg, rgba(15,20,26,0.82) 0%, rgba(15,20,26,0.55) 38%, rgba(15,20,26,0.18) 62%, rgba(15,20,26,0.35) 100%), linear-gradient(0deg, rgba(15,20,26,0.45) 0%, rgba(15,20,26,0) 35%)",
+            "linear-gradient(105deg, rgba(15,20,26,0.62) 0%, rgba(15,20,26,0.40) 38%, rgba(15,20,26,0.10) 62%, rgba(15,20,26,0.22) 100%), linear-gradient(0deg, rgba(15,20,26,0.32) 0%, rgba(15,20,26,0) 35%)",
         }}
       />
       <div className="absolute bottom-4 right-5 flex gap-1.5">
