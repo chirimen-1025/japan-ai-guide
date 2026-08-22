@@ -50,6 +50,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        {/* Cloudflare Web Analytics: privacy-friendly, cookieless page-view counter.
+            Cloudflare states it does not track individual visitors; see /privacy. */}
+        <script
+          type="module"
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "31c64bb3fbcd424b850e5ed954859d30"}'
+        />
       </body>
     </html>
   );
