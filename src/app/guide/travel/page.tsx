@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { TRAVEL_ARTICLES, listRegions } from "@/lib/data/travel-articles";
+import { getRegionImage } from "@/lib/data/region-images";
 
 export const metadata: Metadata = {
   title: "Japan Travel Guide — By Region",
@@ -24,9 +25,32 @@ export default function TravelGuideIndexPage() {
       <div className="mt-10 flex flex-col gap-10">
         {regions.map(({ region, regionLabel }) => {
           const articles = TRAVEL_ARTICLES.filter((a) => a.region === region);
+          const regionImage = getRegionImage(region);
           return (
             <div key={region}>
-              <h2 className="disp text-xl font-semibold">{regionLabel}</h2>
+              {regionImage ? (
+                <div className="relative isolate flex h-40 items-end overflow-hidden rounded-2xl sm:h-48">
+                  <img
+                    src={regionImage.src}
+                    alt={regionImage.alt}
+                    loading="lazy"
+                    decoding="async"
+                    className="absolute inset-0 h-full w-full object-cover"
+                  />
+                  <div
+                    className="absolute inset-0"
+                    style={{
+                      background:
+                        "linear-gradient(0deg, rgba(15,20,26,0.75) 0%, rgba(15,20,26,0.15) 60%, rgba(15,20,26,0) 100%)",
+                    }}
+                  />
+                  <h2 className="disp relative px-5 py-4 text-xl font-semibold text-white">
+                    {regionLabel}
+                  </h2>
+                </div>
+              ) : (
+                <h2 className="disp text-xl font-semibold">{regionLabel}</h2>
+              )}
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
                 {articles.map((a) => (
                   <Link
