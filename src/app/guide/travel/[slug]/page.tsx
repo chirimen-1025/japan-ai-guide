@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { TRAVEL_ARTICLES, getTravelArticle } from "@/lib/data/travel-articles";
 import { getCultureArticle } from "@/lib/data/culture";
+import { getRegionImage } from "@/lib/data/region-images";
+import { SITE_URL } from "@/lib/site-config";
 
 export function generateStaticParams() {
   return TRAVEL_ARTICLES.map((a) => ({ slug: a.slug }));
@@ -16,10 +18,24 @@ export async function generateMetadata({
   const { slug } = await params;
   const article = getTravelArticle(slug);
   if (!article) return {};
+  const regionImage = getRegionImage(article.region);
   return {
     title: article.title,
     description: article.metaDescription,
     alternates: { canonical: `/guide/travel/${slug}` },
+    ...(regionImage && {
+      openGraph: {
+        images: [
+          {
+            url: regionImage.src,
+            width: regionImage.width,
+            height: regionImage.height,
+            alt: regionImage.alt,
+          },
+        ],
+      },
+      twitter: { images: [regionImage.src] },
+    }),
   };
 }
 
@@ -34,13 +50,22 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
   const relatedCulture = article.relatedCultureSlugs
     .map((s) => getCultureArticle(s))
     .filter((a): a is NonNullable<typeof a> => Boolean(a));
+  const regionImage = getRegionImage(article.region);
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.metaDescription,
+    // The site doesn't track a separate original-publish date from its
+    // last-edited date, so datePublished intentionally mirrors
+    // dateModified here rather than inventing an earlier date.
+    datePublished: article.updatedAt,
     dateModified: article.updatedAt,
+    author: { "@type": "Organization", name: "Japan AI Guide", url: SITE_URL },
+    publisher: { "@type": "Organization", name: "Japan AI Guide", url: SITE_URL },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/travel/${slug}` },
+    ...(regionImage && { image: `${SITE_URL}${regionImage.src}` }),
   };
 
   const breadcrumbLd = {
@@ -64,6 +89,18 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
         <Link href="/guide/travel" className="hover:text-ink">Travel Guide</Link> /{" "}
         <span className="text-ink">{article.title}</span>
       </nav>
+
+      {regionImage && (
+        <img
+          src={regionImage.src}
+          alt={regionImage.alt}
+          width={regionImage.width}
+          height={regionImage.height}
+          loading="eager"
+          decoding="async"
+          className="mb-6 aspect-[16/9] w-full rounded-2xl object-cover"
+        />
+      )}
 
       <div className="flex flex-wrap items-center gap-2">
         <span className="rounded-full bg-brand-soft px-2.5 py-0.5 text-[11px] font-semibold text-brand-strong">
