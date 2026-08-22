@@ -22,15 +22,15 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Transportation",
     title: "How to Use Trains in Tokyo: A Beginner's Guide",
     metaDescription:
-      "Tokyo's train system looks intimidating on a map but is genuinely easy once you know three things: which card to get, how to read a route app, and what the color-coded lines mean.",
-    updatedAt: "2026-08-10",
+      "Tokyo's train system looks intimidating on a map but is genuinely easy once you know the right IC card, a route app, and what the color-coded lines mean.",
+    updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
       {
         heading: "Get an IC card first",
         body: [
           "An IC card (Suica or Pasmo) is the single most useful thing you can get on arrival — tap in, tap out, no ticket math required, and it works on almost every train, subway, and bus in the country, plus convenience stores and vending machines.",
-          "You can get a physical card at ticket machines in major stations, or add a digital version to an iPhone or supported Android phone before you land. (Card fees and top-up minimums change — verify locally at the station or in the transit app you use.)",
+          "Regular Suica and Pasmo cards are back on sale at ticket machines in major stations after a supply shortage in 2023–24, and come with a refundable 500-yen deposit on top of your starting balance. Short-term visitors can skip that deposit with a tourist-only card instead — a physical Welcome Suica (valid 28 days, non-refundable) or Welcome Suica Mobile added to a phone (valid 180 days) — or add regular Suica/Pasmo directly to an iPhone or supported Android phone before you land. (Exact fees, deposit amounts, and which card options are being sold can change — verify locally at the station or in the transit app you use.)",
         ],
       },
       {
@@ -94,13 +94,13 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Kyoto Temples Guide: Which Ones Are Worth Your Time",
     metaDescription:
       "Kyoto has over a thousand temples and shrines. Here's how to pick a handful that are actually worth your limited time, grouped by what makes each one distinct.",
-    updatedAt: "2026-08-10",
+    updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
       {
         heading: "If you only have time for two",
         body: [
-          "Fushimi Inari, for the thousands of vermilion torii gates climbing the mountain — go early morning to beat both the heat and the crowds. Kiyomizu-dera, for the wooden stage jutting out over the hillside with a view across the city.",
+          "Fushimi Inari, for the thousands of vermilion torii gates climbing the mountain — it's free and open 24 hours, so go early morning to beat both the heat and the crowds. Kiyomizu-dera, for the wooden stage jutting out over the hillside with a view across the city.",
         ],
       },
       {
@@ -112,7 +112,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Practical notes",
         body: [
-          "Most major temples charge a small entry fee and have specific opening hours that shift seasonally — always check the specific temple's current hours before building your day around it. (Verify locally — hours and fees change seasonally.)",
+          "Fushimi Inari aside, the other temples on this list charge a small entry fee and keep seasonal hours. As of 2026, Kiyomizu-dera is roughly ¥500 for adults and ¥200 for elementary/junior-high students, open 6:00am–6:00pm (extended to 6:30pm in July and August, and later still during spring/summer/autumn evening illumination events). Ginkaku-ji is roughly ¥1,000 for adults and ¥500 for elementary/junior-high students, open 8:30am–5:00pm from March through November and 9:00am–4:30pm from December through February — Ginkaku-ji doubled its admission price in April 2024, its first increase in over 30 years, so these numbers do move. Always check the specific temple's current hours and fees before building your day around them. (Verify locally — hours and fees change.)",
         ],
       },
     ],
@@ -197,7 +197,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     metaDescription:
       "Hiroshima pairs a sobering, essential history with one of Japan's most photographed views — here's how to fit both into a single trip.",
     updatedAt: "2026-08-22",
-    needsVerification: true,
+    needsVerification: false,
     sections: [
       {
         heading: "Peace Memorial Park and Museum",
@@ -209,7 +209,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Miyajima, the same day or the next",
         body: [
-          "Miyajima Island is a roughly 30–40 minute JR train-and-ferry trip from central Hiroshima (the streetcar covers the same route but takes well over an hour, so the train is the faster option). Itsukushima Shrine's floating torii gate is the postcard image, but whether it's actually surrounded by water depends entirely on the tide — check tide tables if the classic photo matters to you.",
+          "Miyajima Island is roughly a 40–50 minute JR train-and-ferry trip from central Hiroshima (about 25–30 minutes on the JR Sanyo Line to Miyajimaguchi, then a short walk and a 10-minute ferry crossing) — the streetcar covers the same route but takes closer to 80 minutes door to door, so the train is the faster option. Itsukushima Shrine's floating torii gate is the postcard image, but whether it's actually surrounded by water depends entirely on the tide — check tide tables if the classic photo matters to you.",
           "Wild deer wander freely around the island and are used to people, but they will try to eat paper (maps, tickets) out of bags — keep anything paper zipped away.",
         ],
       },
@@ -250,7 +250,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Dazaifu, a half-day trip",
         body: [
-          "Dazaifu Tenmangu, a shrine dedicated to the god of learning, is about 30 minutes from central Fukuoka by train and draws students hoping for exam luck. The approach street has plenty of umegae-mochi (grilled sweet rice cakes) stalls worth stopping at.",
+          "Dazaifu Tenmangu, a shrine dedicated to the god of learning, is about 30 minutes from central Fukuoka by train and draws students hoping for exam luck. The shrine's main hall went through a multi-year restoration, during which worship moved to a striking temporary hall designed by architect Sou Fujimoto; the main hall reopened for worship in 2026 and the temporary structure has been coming down since, so the site's exact look is still settling — worth checking current status locally before you go. The approach street has plenty of umegae-mochi (grilled sweet rice cakes) stalls worth stopping at.",
         ],
       },
     ],
@@ -266,7 +266,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Hokkaido in Winter: What First-Time Visitors Should Know",
     metaDescription:
       "Hokkaido's winter is a different trip from the rest of Japan — heavy snow, ski towns, and a few practical things worth knowing before you pack.",
-    updatedAt: "2026-08-10",
+    updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
       {
@@ -300,7 +300,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Mount Fuji Viewpoints: Where to See It Without Climbing It",
     metaDescription:
       "You don't need to climb Mount Fuji to have a great view of it. Here are the reliable spots to see it, and how weather affects your odds.",
-    updatedAt: "2026-08-10",
+    updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
       {
@@ -312,13 +312,13 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Reliable viewpoints",
         body: [
-          "The Chureito Pagoda near Fujiyoshida is one of the most photographed views, especially with cherry blossoms or autumn leaves framing the mountain. Lake Kawaguchiko offers calmer, reflection-style views and is easy to combine with an overnight stay in the area.",
+          "The Chureito Pagoda near Fujiyoshida is one of the most photographed views, especially with cherry blossoms or autumn leaves framing the mountain — the surrounding Arakurayama Sengen Park is free to enter, though reaching the pagoda itself means climbing several hundred steps. Lake Kawaguchiko offers calmer, reflection-style views and is easy to combine with an overnight stay in the area.",
         ],
       },
       {
         heading: "From Tokyo, without an overnight trip",
         body: [
-          "On a clear day, Mount Fuji is visible from parts of Tokyo itself, including some observation decks — a good backup if your schedule doesn't allow a dedicated day trip. (Verify locally — visibility depends entirely on weather that day.)",
+          "On a clear day, Mount Fuji is visible from parts of Tokyo itself — a good backup if your schedule doesn't allow a dedicated day trip. The Tokyo Metropolitan Government Building's observation deck in Shinjuku is a reliable free option (no admission charge, open into the evening on most days), and paid rooftop decks like Shibuya Sky also face Fuji's direction on clear days. Exact hours, closure days, and ticket prices change from time to time, so check each venue's site before you go. (Verify locally — visibility itself still depends entirely on weather that day.)",
         ],
       },
     ],
@@ -1040,7 +1040,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "History",
     title: "Mie: Ise Jingu, Japan's Most Sacred Shrine, and the Ise-Shima Coast",
     metaDescription:
-      "Mie is home to Ise Jingu, Shinto's most important shrine, plus pearl farms and seafood in Ise-Shima — honest notes on getting there and what else is worth skipping.",
+      "Mie is home to Ise Jingu, Shinto's most important shrine, plus pearl farms and seafood in Ise-Shima — honest notes on getting there and what to skip.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -1109,7 +1109,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Attractions",
     title: "Hyogo: Himeji Castle, Kobe Beef, and Arima Onsen in One Trip",
     metaDescription:
-      "Hyogo pairs Japan's best-preserved castle with Kobe's food and port scene and an old-school onsen town — a practical, high-value stop between Osaka and Hiroshima.",
+      "Hyogo pairs Japan's best-preserved castle with Kobe's food scene and an old-school onsen town — a practical stop between Osaka and Hiroshima.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -1700,7 +1700,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Arashiyama: bamboo, a river, and a monkey park",
         body: [
-          "The Arashiyama Bamboo Grove is a few hundred meters of path through towering bamboo — genuinely striking, and genuinely crowded by mid-morning, so an early visit (before 8am if you can manage it) makes a real difference. The Togetsukyo Bridge over the Katsura River nearby is a good photo stop, and Iwatayama Monkey Park, a short climb up the hillside, has wild macaques and a lookout over the city.",
+          "The Arashiyama Bamboo Grove is a few hundred meters of path through towering bamboo — free to walk, open around the clock, genuinely striking, and genuinely crowded by mid-morning, so an early visit (before 8am if you can manage it) makes a real difference. The Togetsukyo Bridge over the Katsura River nearby is a good photo stop, and Iwatayama Monkey Park, a short climb up the hillside, has wild macaques and a lookout over the city; as of 2026 it's roughly ¥800 for adults and ¥400 for children, cash only, open 9am–4pm (closed on some heavy-rain/snow days), so bring coins rather than relying on a card.",
           "This area works best as a half-day: bamboo grove, a temple or two (Tenryu-ji's garden is the standout, and is UNESCO-listed), then the monkey park if you have energy left for the climb.",
         ],
       },
@@ -1708,7 +1708,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         heading: "Higashiyama and Gion's preserved streets",
         body: [
           "Sannenzaka and Ninenzaka are sloped, stone-paved streets lined with old wooden shopfronts leading up toward Kiyomizu-dera — one of the most reliably photogenic stretches in the city, which also means it's busy most of the day. Continue north and you reach Gion, Kyoto's most famous geiko (geisha) and maiko district, with Hanamikoji its main street.",
-          "A real etiquette note: geiko and maiko are working professionals commuting to appointments, not photo props. Don't block their path, don't grab or touch them, and don't follow them down side streets — harassment from tourists got bad enough that parts of Gion's private lanes were closed to non-residents in recent years. If you want a posed photo with someone in costume, book a kimono/henshin studio experience instead.",
+          "A real etiquette note: geiko and maiko are working professionals commuting to appointments, not photo props. Don't block their path, don't grab or touch them, and don't follow them down side streets. Harassment from tourists got bad enough that Kyoto now enforces this with money: photographing anyone on Gion's private side streets has carried a ¥10,000 fine since 2019, and since spring 2024 a handful of specific alleys around southern Gion (Kosode Koji among them) are off-limits to non-residents entirely, marked with multilingual signs. Roughly 90% of Gion — Hanamikoji, the Shirakawa canal area, the main temples — remains fully open to visitors; it's only the narrow residential lanes that are restricted. If you want a posed photo with someone in costume, book a kimono/henshin studio experience instead.",
         ],
       },
     ],
@@ -1730,7 +1730,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Kaiseki, if you want to splurge once",
         body: [
-          "Kaiseki is a multi-course meal built around the season — small, precisely prepared dishes served in a set order, originally tied to the tea ceremony. It's Kyoto's most formal food tradition and it's expensive; a proper kaiseki dinner is a real splurge, not a casual meal. Lunch kaiseki (hirugozen) at the same restaurants is often a fraction of the dinner price if you want the experience without the full cost.",
+          "Kaiseki is a multi-course meal built around the season — small, precisely prepared dishes served in a set order, originally tied to the tea ceremony. It's Kyoto's most formal food tradition and it's expensive; as a rough guide, dinner kaiseki runs anywhere from about ¥10,000 at accessible spots to ¥30,000-¥50,000+ per person at the top end, before drinks and service charges, so a proper kaiseki dinner is a real splurge, not a casual meal. Lunch kaiseki (hirugozen) at the same restaurants is often 40-60% cheaper than the dinner course if you want the experience without the full cost — exact pricing varies a lot by restaurant and season, so check the specific menu before booking.",
         ],
       },
       {
@@ -1748,7 +1748,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "A day trip for matcha: Uji",
         body: [
-          "Uji, about 20 minutes from Kyoto by train, is one of Japan's most historic matcha-growing areas and a reasonable half-day add-on if you care about tea — plus Byodo-in, the temple pictured on the 10-yen coin, with its own reflecting pond.",
+          "Uji is one of Japan's most historic matcha-growing areas and a reasonable half-day add-on if you care about tea — plus Byodo-in, the temple pictured on the 10-yen coin, with its own reflecting pond. It's an easy trip from Kyoto Station: the JR Nara Line rapid service takes about 20 minutes and costs roughly ¥240 one-way (local trains take a bit longer); fares do get periodic small revisions, so treat that number as approximate.",
         ],
       },
     ],
@@ -1770,19 +1770,19 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Osaka Castle",
         body: [
-          "The current Osaka Castle keep is a concrete reconstruction from the 1930s (with further restoration since), not the original — the first castle here was destroyed centuries ago and rebuilt more than once. It still anchors a genuinely pleasant park, especially during cherry blossom season, and the museum inside covers the castle's role in unifying Japan under Toyotomi Hideyoshi. The observation floor gives a good city view if the history alone doesn't sell you.",
+          "The current Osaka Castle keep is a concrete reconstruction from the 1930s (with further restoration since), not the original — the first castle here was destroyed centuries ago and rebuilt more than once. It still anchors a genuinely pleasant park, especially during cherry blossom season, and the museum inside covers the castle's role in unifying Japan under Toyotomi Hideyoshi. The observation floor gives a good city view if the history alone doesn't sell you. As of 2026, admission to the keep is ¥600 for adults (free for middle-school age and under), with standard hours of 9:00 a.m. to 5:00 p.m. (last entry 4:30 p.m.), extended to around 6 or 7 p.m. during cherry blossom season, Golden Week, and summer; the keep closes for a few days around New Year's. Fees and hours do shift, so check the official Osaka Castle site before you go.",
         ],
       },
       {
         heading: "Universal Studios Japan",
         body: [
-          "USJ, in Osaka's Konohana ward, is one of the most-visited theme parks in Japan and includes Super Nintendo World, a fully built-out area based on Mario. Lines for headline attractions get long — an Express Pass or the park's virtual queue system for popular rides is worth the extra cost if you only have one day and want to see everything, and it's worth checking current ticket and queue options before you go, since they change.",
+          "USJ, in Osaka's Konohana ward, is one of the most-visited theme parks in Japan and includes Super Nintendo World, a fully built-out area based on Mario. Lines for headline attractions get long — an Express Pass or the park's virtual queue system for popular rides is worth the extra cost if you only have one day and want to see everything. USJ uses date-based dynamic pricing for its 1-Day Studio Pass, so the adult price moves with demand — roughly ¥8,600–8,900 on the cheapest off-peak days up to around ¥11,800–11,900 during peak periods (holidays, Golden Week, midsummer) as of 2026 — so it's worth checking the official ticket calendar and current queue options before you go.",
         ],
       },
       {
         heading: "Umeda Sky Building and Shinsekai",
         body: [
-          "The Umeda Sky Building's twin towers, connected by a 'floating garden' observatory near the top, are a striking piece of modern architecture and a good sunset or night view spot. For a different mood entirely, Shinsekai is Osaka's retro entertainment district under the Tsutenkaku Tower, generally credited as the birthplace of kushikatsu (breaded fried skewers) — the neighborhood leans deliberately nostalgic rather than polished, which is part of its appeal.",
+          "The Umeda Sky Building's twin towers, connected by a 'floating garden' observatory near the top, are a striking piece of modern architecture and a good sunset or night view spot. As of 2026, the observatory's adult admission is ¥2,000, with hours of 9:30 a.m. to 10:30 p.m. (last entry 10:00 p.m.), though the operator does run occasional special hours (extended for New Year's sunrise, shortened for maintenance), so it's worth confirming on the official site if your visit is time-sensitive. For a different mood entirely, Shinsekai is Osaka's retro entertainment district under the Tsutenkaku Tower, generally credited as the birthplace of kushikatsu (breaded fried skewers) — the neighborhood leans deliberately nostalgic rather than polished, which is part of its appeal.",
         ],
       },
     ],
@@ -1799,7 +1799,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     metaDescription:
       "Osaka's evening scene runs from a long covered shopping arcade to a youth fashion district built around vintage American style — here's how they fit together.",
     updatedAt: "2026-08-22",
-    needsVerification: true,
+    needsVerification: false,
     sections: [
       {
         heading: "Shinsaibashi-suji",
@@ -1907,7 +1907,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Sapporo Beer Museum and Susukino at night",
         body: [
-          "The Sapporo Beer Museum, housed in a red-brick former brewery building, is Japan's only beer museum and traces the company's founding in the late 1800s during Hokkaido's early development push — the on-site beer hall is the easy way to follow up a free museum visit with a paid pint. Susukino, one of Japan's largest nightlife districts, is where most of Sapporo's evening energy concentrates, with everything from casual izakaya to karaoke and bars.",
+          "The Sapporo Beer Museum, housed in a red-brick former brewery building, is Japan's only beer museum and traces the company's founding in the late 1800s during Hokkaido's early development push. Following a 2026 renovation for the company's 150th anniversary, the self-guided museum floor is no longer free to enter — admission runs around ¥1,000 for adults (discounted for Hokkaido residents, free for elementary-age kids and under), on top of a paid tasting in the on-site beer hall, so budget for both and check current pricing before you go. Susukino, one of Japan's largest nightlife districts, is where most of Sapporo's evening energy concentrates, with everything from casual izakaya to karaoke and bars.",
         ],
       },
       {
@@ -1935,7 +1935,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Furano and Biei's flower fields",
         body: [
-          "Furano's lavender fields, most famously at Farm Tomita, bloom in a short window roughly through July, turning entire hillsides purple — genuinely one of Hokkaido's most photographed sights, and worth checking current bloom updates before committing to a date, since the window is narrow and weather-dependent. Neighboring Biei is known for a patchwork of rolling farmland in different colors and crops, best explored slowly by rental car along back roads rather than rushed by bus.",
+          "Furano's lavender fields, most famously at Farm Tomita, typically bloom from around late June to late July, with the deepest color usually in early-to-mid July, turning entire hillsides purple — genuinely one of Hokkaido's most photographed sights. The exact window shifts a bit year to year with the weather, so check the farm's current bloom updates before committing to a date rather than assuming it'll match a past year exactly. Neighboring Biei is known for a patchwork of rolling farmland in different colors and crops, best explored slowly by rental car along back roads rather than rushed by bus.",
         ],
       },
       {
@@ -1976,7 +1976,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Fukuoka Tower and Canal City",
         body: [
-          "Fukuoka Tower, near the bayside PayPay Dome, is a seaside observation tower with ocean views — a reasonable stop if you're already in the area rather than a dedicated destination. Canal City Hakata, closer to downtown, is a large shopping and entertainment complex built around an actual indoor canal with a fountain show — distinctive architecture even if you're not there to shop.",
+          "Fukuoka Tower, near the bayside dome stadium (currently branded Mizuho PayPay Dome Fukuoka — the naming-rights sponsor has changed several times over the years, so it's worth confirming the current name locally), is a seaside observation tower with ocean views — a reasonable stop if you're already in the area rather than a dedicated destination. Canal City Hakata, closer to downtown, is a large shopping and entertainment complex built around an actual indoor canal with a fountain show — distinctive architecture even if you're not there to shop.",
         ],
       },
       {
@@ -1999,7 +1999,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     metaDescription:
       "Two easy half-day trips from Fukuoka city: Itoshima's beaches and cafes on the coast, and Yanagawa's slow canal boat rides through an old castle town.",
     updatedAt: "2026-08-22",
-    needsVerification: true,
+    needsVerification: false,
     sections: [
       {
         heading: "Itoshima",
@@ -2619,7 +2619,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Shojin Ryori of Dewa Sanzan: Yamagata's Mountain Buddhist Cuisine",
     metaDescription:
-      "The Dewa Sanzan pilgrimage mountains preserve a strict vegetarian Buddhist food tradition built around foraged mountain vegetables and Yamagata's sansai culture.",
+      "The Dewa Sanzan pilgrimage mountains preserve a strict vegetarian Buddhist food tradition built around foraged mountain vegetables and sansai culture.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -3851,7 +3851,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Masuzushi: Toyama's Iconic Pressed Trout Sushi, Explained",
     metaDescription:
-      "Masuzushi is Toyama's signature pressed sushi, thinly sliced marinated trout layered over vinegared rice in a round bamboo-leaf-lined mold, unlike nigiri or rolls.",
+      "Masuzushi is Toyama's signature pressed sushi: marinated trout layered over vinegared rice in a round bamboo-leaf-lined mold, unlike nigiri or rolls.",
     updatedAt: "2026-08-22",
     needsVerification: false,
     sections: [
@@ -3935,7 +3935,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Why Toyama Eats More Kombu Than Anywhere Else in Japan",
     metaDescription:
-      "Toyama produces almost no kombu itself, yet household consumption is often cited as among Japan's highest, a habit that traces back to a historic shipping route.",
+      "Toyama produces almost no kombu itself, yet household consumption is often cited as among Japan's highest, tracing back to a historic shipping route.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -3963,7 +3963,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Shiroebi: The Translucent White Shrimp Found Only in Toyama Bay",
     metaDescription:
-      "Shiroebi live in a steep underwater trench close to Toyama's shore, one of very few places they are commercially fished, and are prized raw as a delicate sashimi.",
+      "Shiroebi live in a steep underwater trench off Toyama's shore, one of very few places they're commercially fished, and prized raw as delicate sashimi.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -3991,7 +3991,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Jibuni: The Duck Stew at the Center of Kanazawa's Kaga Cuisine",
     metaDescription:
-      "Jibuni is a Kanazawa specialty of flour-dusted duck simmered in sweet dashi with local vegetables, topped with sharp wasabi, tracing back to samurai-era kitchens.",
+      "Jibuni is a Kanazawa specialty: flour-dusted duck simmered in sweet dashi with local vegetables, topped with wasabi, tracing back to samurai-era kitchens.",
     updatedAt: "2026-08-22",
     needsVerification: false,
     sections: [
@@ -4243,7 +4243,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Echizen Crab: Fukui's Signature Winter Delicacy",
     metaDescription:
-      "Echizen crab is the branded name for male snow crab landed in Fukui, tagged at port and historically associated with crab once served to Japan's imperial family.",
+      "Echizen crab is the branded name for male snow crab landed in Fukui, tagged at port and historically linked to crab once served to Japan's imperial family.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -5055,7 +5055,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Ise Tea: Mie's Overlooked Green Tea Region",
     metaDescription:
-      "Mie is one of Japan's top green tea regions, though its Ise-cha rarely gets credit — here's what makes this sencha and kabusecha tea distinct from Uji or Shizuoka.",
+      "Mie is one of Japan's top green tea regions, though its Ise-cha rarely gets credit — what makes this sencha and kabusecha distinct from Uji or Shizuoka.",
     updatedAt: "2026-08-22",
     needsVerification: false,
     sections: [
@@ -5307,7 +5307,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Kobe's Western Bakery and Confectionery Legacy",
     metaDescription:
-      "Kobe's status as an early foreign trading port made it one of Japan's great centers for Western confectionery culture, and an early adopter of bread, still visible today.",
+      "Kobe's status as an early foreign trading port made it one of Japan's centers for Western confectionery culture, and an early adopter of bread.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -5531,7 +5531,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Tottori Wagyu and the Birthplace of Japan's Beef Hot Pot",
     metaDescription:
-      "Tottori claims a role in the origins of Japan's beef hot pot tradition, and its small-batch Wagyu beef remains one of the prefecture's best-kept culinary secrets.",
+      "Tottori claims a role in the origins of Japan's beef hot pot tradition, and its small-batch Wagyu beef remains a well-kept culinary secret.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -5979,7 +5979,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Yamaguchi's Uiro: A Steamed Rice Sweet With Old Roots",
     metaDescription:
-      "Yamaguchi's version of uiro, made with bracken (warabi) starch rather than the rice flour used in most other regions' versions, has roots in the region's medieval trade history and a distinct local texture.",
+      "Yamaguchi's uiro uses bracken (warabi) starch instead of the rice flour most regions use, with roots in medieval trade history and a distinct texture.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -6623,7 +6623,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Tosa Jiro: Kochi's Branded Eating Chicken",
     metaDescription:
-      "What Tosa Jiro branded chicken actually is, how it differs from Kochi's ornamental Onagadori rooster and the ancient Tosa Jidori breed it comes from, and where to find it served locally.",
+      "What Tosa Jiro chicken actually is, how it differs from Kochi's ornamental Onagadori and the ancient Tosa Jidori breed it comes from, and where to try it.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -7211,7 +7211,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Chicken Nanban: Miyazaki's Original Fried Chicken Dish",
     metaDescription:
-      "A guide to chicken nanban, Miyazaki's original sweet-vinegar fried chicken topped with tartar sauce, covering its Nobeoka origins and how locals actually order it.",
+      "A guide to chicken nanban, Miyazaki's sweet-vinegar fried chicken topped with tartar sauce, covering its Nobeoka origins and how locals order it.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -7323,7 +7323,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Food",
     title: "Miyazaki Beef and Jidori Chicken: The Prefecture's Prize Livestock",
     metaDescription:
-      "A look at Miyazaki's two prized proteins, award-winning Miyazaki-gyu wagyu beef and charcoal-grilled jidori free-range chicken, and how each is typically served.",
+      "A look at Miyazaki's two prized proteins: award-winning Miyazaki-gyu wagyu beef and charcoal-grilled jidori free-range chicken, and how each is served.",
     updatedAt: "2026-08-22",
     needsVerification: true,
     sections: [
@@ -7728,7 +7728,8 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "What to Expect as a Visitor",
         body: [
-          "Tsukiji Outer Market rewards an early, on-foot visit for fresh seafood snacks, tamagoyaki, and produce, with narrow lanes that get crowded by midday. Toyosu has an observation deck for viewing (not participating in) the tuna auction and its own food stalls, but auction viewing typically requires early arrival and sometimes reservations that change over time — check current hours and access rules locally before planning a trip around it.",
+          "Tsukiji Outer Market rewards an early, on-foot visit for fresh seafood snacks, tamagoyaki, and produce, with narrow lanes that get crowded by midday. Most shops run roughly 5:00–14:00 and close on Sundays, national holidays, and some Wednesdays, so a late-morning arrival on a random weekday is the safest bet if you want the market at full swing.",
+          "Toyosu has an observation deck for viewing (not participating in) the tuna auction, roughly 5:45–6:25am, plus its own food stalls and sushi counters. General gallery viewing is free and usually doesn't require a reservation, but the closer viewing deck is allocated by a lottery you apply for in advance, and the whole market — auction included — is closed on Sundays, most Wednesdays, and national holidays. Lottery procedures, exact hours, and closure days shift over time, so check current rules on the market's official site before planning a trip around it.",
         ],
       },
     ],
@@ -8114,13 +8115,13 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Why Hiroshima Leads in Oysters",
         body: [
-          "Hiroshima Bay's combination of nutrient-rich river runoff and calm, sheltered waters makes it one of the best oyster-growing environments in Japan, and the prefecture produces roughly the majority of the country's farmed oysters — commonly cited as around 60%. Farmers use a rope-suspension cultivation method rather than seabed farming, hanging oyster spat from rafts so they grow in the water column where nutrients are richest.",
+          "Hiroshima Bay's combination of nutrient-rich river runoff and calm, sheltered waters makes it one of the best oyster-growing environments in Japan, and the prefecture produces roughly the majority of the country's farmed oysters — commonly cited as around 60%. Farmers use a rope-suspension cultivation method rather than seabed farming, hanging oyster spat from rafts so they grow in the water column where nutrients are richest. Note that a large, still not fully explained die-off hit Hiroshima Bay farms in late 2025, killing off an estimated 80–90% of oysters in some affected areas and prompting emergency government support for growers — supply and prices may still be recovering, so this is a case where checking current availability with a restaurant or vendor before your trip genuinely matters.",
         ],
       },
       {
         heading: "How Oysters Are Served",
         body: [
-          "Hiroshima oysters show up grilled (kaki no yaki), deep-fried (kaki furai), and simmered into hotpots, alongside raw preparations where sanitary certification allows it. Some regional twists even fold oysters into an okonomiyaki-style dish, distinct from the more famous cabbage-and-noodle version. Peak season runs roughly from autumn through late winter, though exact timing and availability shift year to year, so check current conditions locally.",
+          "Hiroshima oysters show up grilled (kaki no yaki), deep-fried (kaki furai), and simmered into hotpots, alongside raw preparations where sanitary certification allows it. Some regional twists even fold oysters into an okonomiyaki-style dish, distinct from the more famous cabbage-and-noodle version. Peak season runs roughly from autumn through late winter, though exact timing and availability shift year to year — and given the recent die-off, checking current conditions locally is especially worthwhile this year.",
         ],
       },
     ],
@@ -8176,7 +8177,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Tasting the Regional Style",
         body: [
-          "Sake from soft-water regions like Saijo is generally described as lighter-bodied and more fragrant than sake brewed with the harder water traditional in Nada, making it well suited to delicate ginjo-style brewing. The district's cluster of breweries, marked by distinctive tall chimneys, is walkable, and many offer seasonal tastings — though hours and availability change, so verify current details before visiting.",
+          "Sake from soft-water regions like Saijo is generally described as lighter-bodied and more fragrant than sake brewed with the harder water traditional in Nada, making it well suited to delicate ginjo-style brewing. The district's cluster of around seven breweries, marked by distinctive tall chimneys, sits within an easily walkable area near Saijo Station, and many offer seasonal tastings — though hours and availability change, so verify current details before visiting.",
         ],
       },
     ],
@@ -8249,7 +8250,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     metaDescription:
       "Hokkaido's cold, nutrient-rich seas make it one of Japan's top seafood regions — a guide to its scallops, crab, and sea urchin beyond the basics.",
     updatedAt: "2026-08-22",
-    needsVerification: true,
+    needsVerification: false,
     sections: [
       {
         heading: "Cold Waters, Exceptional Seafood",
