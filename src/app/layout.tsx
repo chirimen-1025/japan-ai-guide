@@ -28,6 +28,26 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // Sitewide structured data: helps Google understand this is a single
+  // organization/website (not a random page) and can surface a sitelinks
+  // search box. Kept minimal and honest — no claims this project can't back.
+  const organizationLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Japan AI Guide",
+    url: SITE_URL,
+    logo: `${SITE_URL}/icon.svg`,
+  };
+  // No SearchAction here: the site doesn't have a working search endpoint
+  // yet, and a potentialAction that doesn't actually work would be a false
+  // claim in the structured data rather than a genuine feature.
+  const websiteLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Japan AI Guide",
+    url: SITE_URL,
+  };
+
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
       <head>
@@ -44,6 +64,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link
           href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap"
           rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }}
         />
       </head>
       <body className="min-h-full flex flex-col bg-paper text-ink">
