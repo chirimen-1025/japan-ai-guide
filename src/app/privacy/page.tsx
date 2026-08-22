@@ -45,10 +45,11 @@ export default function PrivacyPage() {
 
         <h2 className="disp mt-2 text-xl font-semibold text-brand-strong">Cookies and analytics</h2>
         <p>
-          This site does not set its own cookies and does not run third-party advertising or
-          tracking scripts. If that changes in the future (for example, adding privacy-respecting
-          analytics to understand which guides are useful), this page will be updated to say so
-          before it happens, not after.
+          This site does not set its own cookies and does not run advertising or third-party
+          tracking scripts. It uses Cloudflare Web Analytics, a cookieless page-view counter that
+          Cloudflare states does not track individual visitors, to see which guides and tools are
+          actually useful. It doesn&apos;t use fingerprinting or any technique to identify you across
+          visits, and no personal data is sold or shared with advertisers.
         </p>
 
         <h2 className="disp mt-2 text-xl font-semibold text-brand-strong">External links</h2>
