@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #fbf9f5;
+  --surface: #ffffff;
+  --surface-2: #f2ede2;
+  --ink: #1c1f26;
+  --muted: #666b76;
+  --border: #e6dfd0;
+  --brand: #1e4d6b;
+  --brand-strong: #163a52;
+  --brand-soft: #dfe9ee;
+  --accent: #e8563e;
+  --accent-strong: #cf432c;
+  --accent-soft: #fbe2dc;
+  --sakura: #f2a6b4;
+  --sakura-soft: #fbeaee;
+  --ok: #2f7a52;
+  --warn: #b9862e;
+  --radius: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12151b;
+    --surface: #191d24;
+    --surface-2: #20252e;
+    --ink: #f1ede4;
+    --muted: #9aa0ac;
+    --border: #2b303b;
+    --brand: #6ea3c2;
+    --brand-strong: #8ebcd6;
+    --brand-soft: #1c2c37;
+    --accent: #f0806a;
+    --accent-strong: #f59d8b;
+    --accent-soft: #3a251f;
+    --sakura: #e79aac;
+    --sakura-soft: #33212a;
+    --ok: #63b98a;
+    --warn: #d9ab5c;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #12151b;
+  --surface: #191d24;
+  --surface-2: #20252e;
+  --ink: #f1ede4;
+  --muted: #9aa0ac;
+  --border: #2b303b;
+  --brand: #6ea3c2;
+  --brand-strong: #8ebcd6;
+  --brand-soft: #1c2c37;
+  --accent: #f0806a;
+  --accent-strong: #f59d8b;
+  --accent-soft: #3a251f;
+  --sakura: #e79aac;
+  --sakura-soft: #33212a;
+  --ok: #63b98a;
+  --warn: #d9ab5c;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-sakura: var(--sakura);
+  --color-sakura-soft: var(--sakura-soft);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --radius-lg: var(--radius);
+  /* Loaded via <link> in layout.tsx (not next/font/google, which needs
+     build-time network access this sandbox doesn't have — see README.md).
+     Falls back gracefully to system faces wherever the link is blocked. */
+  --font-display: "Fraunces", "Iowan Old Style", "Georgia", serif;
+  --font-sans: "Figtree", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+  --font-jp: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", var(--font-sans);
+}
+
+* { border-color: var(--border); }
+html { color-scheme: light dark; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+::selection { background: var(--accent-soft); color: var(--ink); }
+
+.disp { font-family: var(--font-display); text-wrap: balance; }
+.jp { font-family: var(--font-jp); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

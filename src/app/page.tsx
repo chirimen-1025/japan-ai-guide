@@ -1,0 +1,154 @@
+import Link from "next/link";
+import { CULTURE_ARTICLES } from "@/lib/data/culture";
+import { TRAVEL_ARTICLES } from "@/lib/data/travel-articles";
+
+const TOOLS = [
+  {
+    href: "/tools/trip-planner",
+    jp: "旅程",
+    title: "Trip Planner",
+    desc: "Tell it your days, regions, and interests — get a realistic day-by-day itinerary.",
+  },
+  {
+    href: "/tools/budget-calculator",
+    jp: "予算",
+    title: "Budget Calculator",
+    desc: "See Budget, Standard, and Luxury cost estimates for your trip length and group size.",
+  },
+  {
+    href: "/tools/phrase-generator",
+    jp: "会話",
+    title: "Phrase Generator",
+    desc: "Describe what you need in plain English — get the Japanese phrase that actually fits.",
+  },
+  {
+    href: "/tools/restaurant-helper",
+    jp: "食事",
+    title: "Restaurant Helper",
+    desc: "Know what you're ordering, and show staff clear cards for allergies and dietary needs.",
+  },
+];
+
+export default function HomePage() {
+  const featuredArticles = TRAVEL_ARTICLES.slice(0, 3);
+  const featuredCulture = CULTURE_ARTICLES.slice(0, 3);
+
+  return (
+    <div>
+      {/* Hero */}
+      <section className="border-b border-border bg-surface">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
+          <div className="max-w-2xl">
+            <p className="jp mb-3 text-sm font-semibold text-accent">日本を、もっと身近に。</p>
+            <h1 className="disp text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl">
+              Free tools to plan a Japan trip that actually fits you.
+            </h1>
+            <p className="mt-5 max-w-lg text-lg text-muted">
+              A trip planner, a budget calculator, and a Japanese phrase generator — no signup,
+              no app, no cost. Built for first-time visitors who want less guesswork.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link
+                href="/tools/trip-planner"
+                className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-accent-strong"
+              >
+                Plan my trip
+              </Link>
+              <Link
+                href="/tools/phrase-generator"
+                className="rounded-full border border-border bg-paper px-6 py-3 text-sm font-semibold hover:bg-surface-2"
+              >
+                Find a phrase
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tools */}
+      <section className="mx-auto max-w-6xl px-5 py-16">
+        <div className="flex items-end justify-between gap-4">
+          <h2 className="disp text-2xl font-semibold">Start with a free tool</h2>
+        </div>
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {TOOLS.map((tool) => (
+            <Link
+              key={tool.href}
+              href={tool.href}
+              className="group flex flex-col rounded-2xl border border-border bg-surface p-6 shadow-sm transition-shadow hover:shadow-md"
+            >
+              <span className="jp flex h-11 w-11 items-center justify-center rounded-xl bg-brand-soft text-lg font-semibold text-brand-strong">
+                {tool.jp}
+              </span>
+              <p className="disp mt-4 text-lg font-semibold">{tool.title}</p>
+              <p className="mt-1.5 text-sm text-muted">{tool.desc}</p>
+              <span className="mt-4 text-sm font-semibold text-accent group-hover:underline">
+                Open tool →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Travel guide */}
+      <section className="border-t border-border bg-surface">
+        <div className="mx-auto max-w-6xl px-5 py-16">
+          <div className="flex items-end justify-between gap-4">
+            <h2 className="disp text-2xl font-semibold">Travel guides</h2>
+            <Link href="/guide/travel" className="text-sm font-semibold text-brand hover:underline">
+              See all guides →
+            </Link>
+          </div>
+          <div className="mt-8 grid gap-5 sm:grid-cols-3">
+            {featuredArticles.map((a) => (
+              <Link
+                key={a.slug}
+                href={`/guide/travel/${a.slug}`}
+                className="flex flex-col rounded-2xl border border-border bg-paper p-6 shadow-sm transition-shadow hover:shadow-md"
+              >
+                <span className="text-xs font-semibold uppercase tracking-wide text-accent">
+                  {a.regionLabel} · {a.categoryLabel}
+                </span>
+                <p className="disp mt-2 text-base font-semibold leading-snug">{a.title}</p>
+                <p className="mt-2 line-clamp-3 text-sm text-muted">{a.metaDescription}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Culture guide */}
+      <section className="mx-auto max-w-6xl px-5 py-16">
+        <div className="flex items-end justify-between gap-4">
+          <h2 className="disp text-2xl font-semibold">Culture &amp; etiquette</h2>
+          <Link href="/guide/culture" className="text-sm font-semibold text-brand hover:underline">
+            See all guides →
+          </Link>
+        </div>
+        <div className="mt-8 grid gap-5 sm:grid-cols-3">
+          {featuredCulture.map((a) => (
+            <Link
+              key={a.slug}
+              href={`/guide/culture/${a.slug}`}
+              className="flex flex-col rounded-2xl border border-border bg-surface p-6 shadow-sm transition-shadow hover:shadow-md"
+            >
+              <p className="disp text-base font-semibold leading-snug">{a.title}</p>
+              <p className="mt-2 line-clamp-3 text-sm text-muted">{a.summary}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Trust strip */}
+      <section className="border-t border-border bg-sakura-soft">
+        <div className="mx-auto max-w-6xl px-5 py-10 text-center">
+          <p className="text-sm text-ink">
+            Every tool on this site runs entirely in your browser — nothing you type is sent
+            anywhere. Guides mark anything that changes over time (prices, hours) as{" "}
+            <strong>&ldquo;verify locally&rdquo;</strong> instead of guessing a number.
+          </p>
+        </div>
+      </section>
+    </div>
+  );
+}
