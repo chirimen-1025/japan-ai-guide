@@ -25,6 +25,11 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: { canonical: "/" },
+  // Google Search Console site-ownership verification (HTML tag method —
+  // this is a .pages.dev subdomain, so the Domain-property/DNS-TXT method
+  // isn't available; this renders <meta name="google-site-verification"
+  // content="..."> in <head>, which is all Search Console checks for).
+  verification: { google: "GY0GfvUqKFPINziaA1_r95c_KdgtRBHf8BHduaRhREE" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
