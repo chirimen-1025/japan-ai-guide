@@ -334,19 +334,19 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Aomori Travel Guide: Nebuta Matsuri, Hirosaki Castle, and Oirase Gorge",
     metaDescription:
       "Aomori pairs one of Japan's loudest summer festivals with a castle famous for cherry blossoms and a remote gorge worth the extra travel time.",
-    updatedAt: "2026-08-22",
+    updatedAt: "2026-08-23",
     needsVerification: true,
     sections: [
       {
         heading: "Nebuta Matsuri: giant lit-up warriors",
         body: [
-          "Aomori City's Nebuta Matsuri runs for about a week in early August and centers on huge illuminated floats shaped like warriors and mythical figures, pulled through downtown at night while haneto dancers in bright costumes leap and chant around them. It's one of Tohoku's biggest festivals and gets genuinely packed — book accommodation early and check the exact dates for the year you're traveling, since they shift slightly.",
+          "Aomori City's Nebuta Matsuri runs every year from August 2 to 7 and centers on huge illuminated floats shaped like warriors and mythical figures, pulled through downtown at night while haneto dancers in bright costumes leap and chant around them. It's one of Tohoku's biggest festivals and gets genuinely packed on those six nights, so book accommodation well in advance.",
         ],
       },
       {
         heading: "Hirosaki Castle in cherry blossom season",
         body: [
-          "Hirosaki Castle's grounds are consistently ranked among Japan's best hanami spots, with thousands of cherry trees around the moat. The small original castle keep was moved off its foundation in 2015 for stone-wall repairs and has been going through a multi-year restoration since — interior viewing has been closed for extended stretches during this work, so check the current status before counting on going inside. Late April into early May is peak bloom, but exact timing depends on the year's weather — don't lock in dates months ahead without checking a bloom forecast closer to the trip.",
+          "Hirosaki Castle's grounds are consistently ranked among Japan's best hanami spots, with thousands of cherry trees around the moat. The small original castle keep was moved off its foundation in 2015 for stone-wall repairs; it's due to be shifted back onto that foundation in late 2026, but interior viewing was suspended in November 2025 and isn't expected to reopen until around 2032, once follow-on seismic reinforcement work wraps up — for now, plan on viewing the keep from outside only. The Honmaru/Kitanomaru paid area of the park charges a modest entry fee (320 yen for adults as of the 2025 rate) and is open roughly April through late November, 9am to 5pm, with extended evening hours during the spring cherry blossom festival, then reverts to free, unstaffed access over winter — confirm current pricing and hours before a visit, since these get revised periodically. Peak bloom typically falls in the second half of April into early May, but exact timing and the festival's own dates shift with the year's weather, so check a bloom forecast closer to the trip rather than locking in dates months ahead.",
         ],
       },
       {
@@ -430,19 +430,19 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Akita: Kakunodate's Samurai Streets and the Namahage Demon Tradition",
     metaDescription:
       "Akita offers a preserved samurai district, a folklore tradition involving demon-masked visitors, and hearty rice-based food, but expect rural travel.",
-    updatedAt: "2026-08-22",
+    updatedAt: "2026-08-23",
     needsVerification: true,
     sections: [
       {
         heading: "Kakunodate's samurai residences",
         body: [
-          "Kakunodate is sometimes called the Little Kyoto of Tohoku for its preserved samurai district — a street of black wooden gates and walled residences, several of which are open to walk through. It's especially known for weeping cherry trees planted generations ago that arch over the street in spring. Outside cherry blossom season it's much quieter and still worth the stop if you're passing through on the Akita Shinkansen line.",
+          "Kakunodate is sometimes called the Little Kyoto of Tohoku for its preserved samurai district — a street of black wooden gates and walled residences, several of which are open to walk through, including the Aoyagi and Ishiguro houses, each charging a modest entry fee (around 500 yen per house as of recent years) and open roughly 9am to 5pm, with shorter winter hours — confirm current pricing and hours before you go, since these do get revised. It's especially known for weeping cherry trees planted generations ago that arch over the street in spring. Outside cherry blossom season it's much quieter and still worth the stop if you're passing through on the Akita Shinkansen line.",
         ],
       },
       {
         heading: "Namahage folklore on the Oga Peninsula",
         body: [
-          "On the Oga Peninsula, the Namahage tradition involves men in straw costumes and fearsome demon masks visiting homes around New Year's Eve to scare children into behaving and working hard — it's meant as a blessing more than a scare, though it looks intense on video. A museum on the peninsula recreates the ritual year-round if you're not visiting during the actual event, but check current opening details before planning a special trip out there.",
+          "On the Oga Peninsula, the Namahage tradition involves men in straw costumes and fearsome demon masks visiting homes around New Year's Eve to scare children into behaving and working hard — it's meant as a blessing more than a scare, though it looks intense on video. There's also a separate public festival version, the Namahage Sedo Festival, held over a few evenings in mid-February, though exact dates shift each year, so check current dates before planning a trip around it. The Namahage Museum on the peninsula recreates the ritual year-round for visitors who aren't there for the actual event or festival — it's open daily (no closed days), with an entry fee of roughly 660 yen for adults as of recent years, though both the hours and fee are worth double-checking before a special trip out there.",
         ],
       },
       {
@@ -1007,13 +1007,13 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Nagoya and Aichi: Castle, Cars, and a Food Scene of Its Own",
     metaDescription:
       "Nagoya rarely tops first-timer itineraries, but its castle grounds, Toyota's origin-story museum, and distinct local food make a solid case for it.",
-    updatedAt: "2026-08-22",
+    updatedAt: "2026-08-23",
     needsVerification: true,
     sections: [
       {
         heading: "Nagoya Castle",
         body: [
-          "Nagoya Castle's main keep is a postwar concrete reconstruction — the original burned in WWII air raids — but the grounds and the rebuilt wooden Honmaru Palace are worth the visit. Restoration and seismic work on the keep has been ongoing at various points, so check the current status of what's actually open before you go.",
+          "Nagoya Castle's main keep is a postwar concrete reconstruction — the original burned in WWII air raids — and it has been closed to visitors since 2018 over earthquake-safety concerns; the city has long-running plans to eventually rebuild it in wood, but no firm reopening date has been set, so check current status before you go. The grounds and the rebuilt wooden Honmaru Palace, however, are open, and general admission is a modest, city-set fee (roughly 500 yen for adults as of recent years, with discounts for Nagoya seniors and free entry for junior-high age and younger) — confirm the current rate before visiting.",
         ],
       },
       {
@@ -2032,7 +2032,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Aomori Apples: Japan's Apple Capital and How the Fruit Shapes Local Food",
     metaDescription:
       "Aomori grows more than half of Japan's apples; here's why the fruit dominates local food culture, from fresh eating varieties to cider and apple pie.",
-    updatedAt: "2026-08-22",
+    updatedAt: "2026-08-23",
     needsVerification: true,
     sections: [
       {
@@ -2088,8 +2088,8 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Aomori Sake: Cold-Climate Brewing in Japan's Snow Country",
     metaDescription:
       "Aomori's long, cold winters and clean water make it a serious sake-producing prefecture, with styles that lean crisp, dry, and food-friendly.",
-    updatedAt: "2026-08-22",
-    needsVerification: true,
+    updatedAt: "2026-08-23",
+    needsVerification: false,
     sections: [
       {
         heading: "A Climate Built for Brewing",
@@ -2116,13 +2116,13 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Hachinohe's Morning Market and Aomori's Squid Culture",
     metaDescription:
       "Hachinohe's early-morning street market and Aomori's status as a top squid-landing port shape a food culture built around speed and freshness.",
-    updatedAt: "2026-08-22",
+    updatedAt: "2026-08-23",
     needsVerification: true,
     sections: [
       {
         heading: "One of Japan's Largest Morning Markets",
         body: [
-          "Hachinohe hosts one of Japan's largest regular morning markets, a stretch of street stalls that opens before dawn selling fresh produce, seafood, grilled skewers, and hot breakfast food to fishermen, farmers, and early risers. It has run for decades as a genuine local trading spot rather than a tourist event, though it has become a known stop for visitors too. Hours are early, often starting around 3 or 4 a.m. and wrapping by mid-morning, so confirm the current schedule and day of the week before planning a visit.",
+          "Hachinohe's Tatehama Ganpeki waterfront market is one of Japan's largest regular morning markets, a long stretch of stalls that opens before dawn selling fresh produce, seafood, grilled skewers, and hot breakfast food to fishermen, farmers, and early risers. It's Sunday-only, typically running from mid-March through December with hours roughly from dawn until 9am, plus a handful of extra dates and closures that shift slightly each year. It has run for decades as a genuine local trading spot rather than a tourist event, though it has become a known stop for visitors too — confirm the current season and any exception dates before planning a Sunday around it.",
         ],
       },
       {
@@ -2144,7 +2144,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Oma Tuna: Why Aomori's Bluefin Commands Premium Prices",
     metaDescription:
       "Oma, at Aomori's northern tip, produces some of Japan's most sought-after bluefin tuna, caught one fish at a time by traditional pole-and-line methods.",
-    updatedAt: "2026-08-22",
+    updatedAt: "2026-08-23",
     needsVerification: true,
     sections: [
       {
@@ -2156,7 +2156,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         heading: "Eating It, and Managing Expectations",
         body: [
-          "Most of the top-grade Oma tuna caught each season ships out to Tokyo and other major markets rather than staying in Aomori, so finding it locally at its absolute best isn't guaranteed, a genuine trade-off worth knowing before making a special trip for it. When available locally, it's served simply as sashimi or nigiri to let the fat content of different cuts, akami, chutoro, and otoro, speak for itself. The main season runs roughly autumn into winter as fish migrate through the strait; exact timing varies by year, so verify locally.",
+          "Most of the top-grade Oma tuna caught each season ships out to Tokyo and other major markets rather than staying in Aomori, so finding it locally at its absolute best isn't guaranteed, a genuine trade-off worth knowing before making a special trip for it. When available locally, it's served simply as sashimi or nigiri to let the fat content of different cuts, akami, chutoro, and otoro, speak for itself. The pole-and-line fishing season runs roughly August through January, with the cooling water from autumn into winter considered peak, when larger, fattier fish tend to come in — though restaurants in Oma also serve flash-frozen catch outside that window, so tuna is available locally in some form year-round; ask locally about what's fresh versus frozen.",
         ],
       },
     ],
@@ -2452,8 +2452,8 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Kiritanpo Nabe: Akita's Mashed Rice Skewer Hot Pot",
     metaDescription:
       "Kiritanpo presses cooked rice onto cedar skewers and grills it before simmering in hot pot broth, Akita's most identifiable regional dish.",
-    updatedAt: "2026-08-22",
-    needsVerification: true,
+    updatedAt: "2026-08-23",
+    needsVerification: false,
     sections: [
       {
         heading: "From Grilled Rice Skewer to Hot Pot Ingredient",
@@ -2508,8 +2508,8 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Babahera Ice Cream: Akita's Roadside Summer Tradition",
     metaDescription:
       "Babahera is hand-scooped ice cream sold from roadside parasol stands, traditionally by older women, and a genuinely local Akita summer street custom.",
-    updatedAt: "2026-08-22",
-    needsVerification: true,
+    updatedAt: "2026-08-23",
+    needsVerification: false,
     sections: [
       {
         heading: "Ice Cream Sold From a Parasol, Not a Shop",
@@ -2536,8 +2536,8 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     title: "Akita Sake: Rice, Snow, and a Serious Brewing Reputation",
     metaDescription:
       "Akita combines heavy snowfall, clean water, and rice varieties bred for sake to produce some of Japan's most respected regional brewing traditions.",
-    updatedAt: "2026-08-22",
-    needsVerification: true,
+    updatedAt: "2026-08-23",
+    needsVerification: false,
     sections: [
       {
         heading: "Rice Country With Brewing to Match",
