@@ -8338,7 +8338,51 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-trains-beginner-guide"],
+    relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide"],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "jr-pass-worth-it-guide",
+    region: "tokyo",
+    regionLabel: "Tokyo",
+    category: "transportation",
+    categoryLabel: "Transportation",
+    title: "Is the Japan Rail Pass Worth It? Price, Coverage, and How to Decide",
+    metaDescription:
+      "The JR Pass isn't automatically the cheapest option anymore. What it actually costs, what it covers (and the two big exceptions), and a quick way to tell if it'll save you money.",
+    updatedAt: "2026-08-23",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "What it actually costs",
+        body: [
+          "The nationwide Japan Rail Pass comes in ordinary (standard) and Green Car (first class) versions, each sold for 7, 14, or 21 consecutive days. Since the October 2023 price revision, ordinary-class prices roughly doubled from where they'd sat for years, which is the main reason the pass is no longer an automatic yes for every itinerary — it's worth actually doing the math (see below) rather than assuming it's the cheapest option by default. Children aged 6–11 get roughly half off.",
+          "It's sold exclusively to foreign visitors entering Japan under temporary visitor status — you'll need to show your passport and temporary visitor stamp or sticker when you activate it, and it isn't available to Japanese citizens or residents.",
+        ],
+      },
+      {
+        heading: "What it covers — and the two big exceptions",
+        body: [
+          "The pass covers unlimited rides on most Shinkansen lines plus JR's rapid, express, and local trains nationwide, along with many JR bus routes and the JR West Miyajima ferry. For a multi-city trip, that's genuinely a lot of ground.",
+          "Two exceptions catch people out. First, it does not cover the Nozomi and Mizuho Shinkansen services — the fastest trains on the Tokaido/Sanyo line. You can still travel the same route on a Hikari or Sakura instead, which the pass does cover, usually only 10–20 minutes slower. Second, it does not cover subway or metro systems — Tokyo Metro, Toei Subway, Osaka Metro, and similar — so you'll still want an IC card loaded for city-level travel even on days you're using the pass for the long-distance leg.",
+        ],
+      },
+      {
+        heading: "Do the math before you buy",
+        body: [
+          "Since the price increase, the pass tends to pay off on itineraries with several long-distance legs inside the validity window — a loop like Tokyo–Kyoto–Hiroshima–Tokyo, for example, where you're covering meaningful distance more than once. It tends not to pay off if your trip mostly stays within one city or region, or only involves one or two long-distance hops — at that point, buying individual reserved-seat tickets as you go (see our guide to booking Shinkansen tickets) is often cheaper.",
+          "Before buying, add up what the individual one-way fares for your planned long-distance legs would actually cost and compare that total to the pass price for your trip length. JR also sells regional passes (JR East, JR West, and others) covering a single area at a lower price, which can be a better fit if your trip stays mostly in one part of the country.",
+        ],
+      },
+      {
+        heading: "How to buy and activate it",
+        body: [
+          "Buying through the official website or an authorized overseas distributor before you leave lets you pre-book reserved seats online ahead of arrival, which is worth doing during busy travel periods. Either way, you'll exchange a voucher (or complete online activation) for the actual pass at a designated exchange office in Japan, showing your passport and temporary visitor entry stamp.",
+          "The pass activates on the date you specify, not the date you exchange it, so there's no rush to activate it the moment you land if your rail-heavy days start a few days into the trip.",
+        ],
+      },
+    ],
+    relatedSlugs: ["shinkansen-tickets-beginner-guide", "tokyo-trains-beginner-guide"],
     relatedCultureSlugs: [],
   },
 ];
