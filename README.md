@@ -82,6 +82,11 @@ If you later attach a custom domain in Cloudflare Pages, update
   through at least one independent fact-checking pass; see the `about`
   page for how that process works.
 - `src/lib/data/culture.ts` — general culture/etiquette guides.
+- `src/lib/data/region-images.ts` — one real, freely-licensed hero photo per
+  region key (47 prefectures + `mt-fuji`, all covered as of 2026-08-23),
+  shared across every article in that region via `getRegionImage(region)`.
+  CC BY / CC BY-SA sources carry a `credit` field, rendered as a small
+  attribution line under the hero image; CC0/public-domain sources omit it.
 - Articles that mention time-sensitive details (prices, hours, seasonal
   closures) flag it explicitly rather than stating a number that could go
   stale; see `needsVerification` on the `TravelArticle` type.
@@ -97,3 +102,10 @@ If you later attach a custom domain in Cloudflare Pages, update
   generically.
 - No ads, affiliate links, analytics, or paid service integrations have
   been added without the project owner's explicit go-ahead.
+- **New articles ship with an image already in place.** Before adding a
+  travel article for a `region` key not yet in `region-images.ts`, source
+  and add that region's hero photo (freely-licensed, e.g. Wikimedia
+  Commons — verify license + author, add a `credit` field unless
+  CC0/public-domain) as part of the same task, not as a follow-up. Articles
+  for a region already covered just reuse its existing image automatically
+  — nothing to do there.
