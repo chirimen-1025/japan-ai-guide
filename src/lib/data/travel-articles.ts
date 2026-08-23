@@ -48,7 +48,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-3-day-itinerary"],
+    relatedSlugs: ["tokyo-3-day-itinerary", "shinkansen-tickets-beginner-guide"],
     relatedCultureSlugs: ["train-manners"],
   },
   {
@@ -8294,6 +8294,51 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       },
     ],
     relatedSlugs: [],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "shinkansen-tickets-beginner-guide",
+    region: "tokyo",
+    regionLabel: "Tokyo",
+    category: "transportation",
+    categoryLabel: "Transportation",
+    title: "How to Buy Shinkansen Tickets: Reserved Seats, IC Cards, and Booking Ahead",
+    metaDescription:
+      "An IC card gets you onto local trains, not the Shinkansen. Here's how reserved-seat tickets actually work — booking with SmartEX, boarding with a tapped IC card, and reserving oversized luggage.",
+    updatedAt: "2026-08-23",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "An IC card doesn't cover the Shinkansen",
+        body: [
+          "Suica, Pasmo, ICOCA, and the rest are brilliant for local trains, subways, and buses — tap in, tap out, done. The Shinkansen (bullet train) is a separate system: it needs its own ticket or reservation, on top of your IC card rather than paid for out of its balance. Mixing the two up is one of the most common planning mistakes for first-time visitors, especially anyone connecting from a city like Osaka or Kobe onward to Tokyo.",
+          "A Shinkansen fare has two parts: the base fare (unchin) and a limited express surcharge (tokkyu ryokin). A reserved seat adds a further reserved-seat surcharge on top of both. Non-reserved cars exist on most — not all — routes and skip that last surcharge.",
+        ],
+      },
+      {
+        heading: "Booking with SmartEX is the easiest way",
+        body: [
+          "SmartEX (smart-ex.jp) is the official reservation system for the Tokaido, Sanyo, and Kyushu Shinkansen — the lines connecting Tokyo, Nagoya, Osaka, Hiroshima, and Fukuoka. Register a credit card, pay in yen, and you can then board three ways: scan a QR ticket (printed, or added to Apple Wallet), tap the IC card you linked to your booking, or pick up a physical ticket at a station machine. The Tohoku and Hokkaido Shinkansen, and some other JR West routes, use separate reservation sites, so check which line you actually need before signing up for one.",
+          "You can also book at a staffed ticket counter (Midori no Madoguchi) or an English-language ticket machine at any Shinkansen station — no advance account needed, but you'll need to be there in person.",
+          "Reserved-seat sales open exactly one month before the travel date, at the same time of day. If you're traveling as a group and want everyone seated together — especially around Golden Week, Obon, or New Year — book as soon as that window opens rather than waiting until closer to the date.",
+        ],
+      },
+      {
+        heading: "Non-reserved seats are cheaper but not guaranteed",
+        body: [
+          "Most Tokaido/Sanyo Shinkansen trains keep a few cars as non-reserved (jiyuseki) — first-come, first-served, no seat guarantee, and a slightly lower fare since it skips the reserved-seat surcharge. It's a reasonable option outside peak times for a small, flexible group; it's a real gamble for a group of five or six on a busy weekend. Some Tohoku and Hokkaido Shinkansen services (most Hayabusa trains, for example) are reserved-seat only, with no non-reserved option at all.",
+          "JR Pass holders get reserved seats included at no extra cost, but 'included' doesn't mean automatic — the reservation still has to be made ahead of time through the JR Pass site or a station counter.",
+        ],
+      },
+      {
+        heading: "Traveling with big luggage needs its own reservation",
+        body: [
+          "On the Tokaido, Sanyo, and Kyushu Shinkansen, any bag with a total size (height + width + depth) over 160cm requires a seat booked in the oversized-baggage area — this is a free reservation, not an extra fee, but it has to be selected when booking. Bring oversized luggage on board without reserving it, and the standard result is a ¥1,000 handling fee plus wherever the crew tells you to store it, instead of a spot near your own seat.",
+          "The upper limit is 250cm total size and under 30kg, with a maximum of two bags per person. A normal-sized carry-on or checked suitcase is almost always well under the 160cm threshold — this mostly matters for oversized sports equipment, multiple large suitcases, or a family traveling with a lot of gear.",
+        ],
+      },
+    ],
+    relatedSlugs: ["tokyo-trains-beginner-guide"],
     relatedCultureSlugs: [],
   },
 ];
