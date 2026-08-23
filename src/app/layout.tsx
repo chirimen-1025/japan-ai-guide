@@ -57,12 +57,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             This is the root layout (wraps every route), so the
             no-page-custom-font rule — written for Pages Router's
             per-page _document.js — doesn't apply here; it loads
-            site-wide, not per-page. */}
+            site-wide, not per-page.
+            display=optional (not swap): with swap, the page first paints
+            with the fallback font and then reflows once each of these 4
+            families finishes downloading — since none of them share the
+            fallback's metrics, every swap shifts line breaks and heights,
+            which is exactly what showed up as 100% "Poor" CLS in Cloudflare
+            Web Analytics. optional gives the browser a short window to use
+            the real font if it's already cached/fast, and otherwise commits
+            to the fallback for that render with no later swap — trading an
+            occasional fallback-font first paint for zero font-driven
+            layout shift. */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@500;700&display=optional"
           rel="stylesheet"
         />
         <script
