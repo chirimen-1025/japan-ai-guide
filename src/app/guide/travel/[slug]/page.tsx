@@ -91,15 +91,31 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
       </nav>
 
       {regionImage && (
-        <img
-          src={regionImage.src}
-          alt={regionImage.alt}
-          width={regionImage.width}
-          height={regionImage.height}
-          loading="eager"
-          decoding="async"
-          className="mb-6 aspect-[16/9] w-full rounded-2xl object-cover"
-        />
+        <div className="mb-6">
+          <img
+            src={regionImage.src}
+            alt={regionImage.alt}
+            width={regionImage.width}
+            height={regionImage.height}
+            loading="eager"
+            decoding="async"
+            className="aspect-[16/9] w-full rounded-2xl object-cover"
+          />
+          {regionImage.credit && (
+            <p className="mt-1.5 text-right text-[11px] text-muted">
+              Photo:{" "}
+              <a
+                href={regionImage.credit.sourceUrl}
+                className="hover:text-ink"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                {regionImage.credit.author}
+              </a>{" "}
+              / {regionImage.credit.license}
+            </p>
+          )}
+        </div>
       )}
 
       <div className="flex flex-wrap items-center gap-2">
