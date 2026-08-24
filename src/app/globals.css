@@ -1,5 +1,69 @@
 @import "tailwindcss";
 
+/* Metric-matched fallback faces for CLS. display=optional (see layout.tsx)
+   only controls *whether* the browser swaps from the fallback to the real
+   webfont — it does nothing about *how big* that swap's layout shift is.
+   Cloudflare Web Analytics showed 100% "Poor" CLS traced to exactly the
+   elements that use these fonts (site-header logo/nav, hero buttons,
+   heading-containing sections): when a visit doesn't have the font cached,
+   the swap from a generic fallback to Fraunces/Figtree/IBM Plex Mono/Zen
+   Kaku Gothic New changes text width/height enough to reflow surrounding
+   flex layouts. These synthetic @font-face rules give each fallback the
+   same box metrics (ascent/descent/line-gap/average-char-width, via
+   size-adjust) as the real font it stands in for, computed from
+   @capsizecss/metrics — the same data next/font/google itself uses — so
+   the box never changes size regardless of when or whether the swap
+   happens. Georgia/Arial/Courier New are used as the metrics reference
+   because they're the fonts with published metrics closest to each real
+   face; the actual glyphs rendered still come from whichever local() font
+   the browser picks. */
+@font-face {
+  font-family: "Fraunces fallback";
+  src: local("Georgia");
+  size-adjust: 105.2039%;
+  ascent-override: 92.9623%;
+  descent-override: 24.2386%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Figtree fallback";
+  src: local("Arial");
+  size-adjust: 100.7176%;
+  ascent-override: 94.3231%;
+  descent-override: 24.8219%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono fallback";
+  src: local("Courier New");
+  size-adjust: 99.9837%;
+  ascent-override: 102.5167%;
+  descent-override: 27.5045%;
+  line-gap-override: 0%;
+}
+
+/* Zen Kaku Gothic New has no independently-published metrics; capsize's
+   data shows it shares identical ascent/descent/line-gap with Noto Sans JP
+   (1160/-288/0 per 1000 units em) — CJK fonts are generally far more
+   uniform in these metrics across families than Latin fonts are, since
+   full-width glyphs are drawn to the same em-square convention. Using
+   those values directly (size-adjust 100%, i.e. no correction) is a safe
+   approximation rather than leaving Japanese text unfixed. */
+@font-face {
+  font-family: "Zen Kaku Gothic New fallback";
+  src:
+    local("Hiragino Kaku Gothic ProN"),
+    local("Yu Gothic UI"),
+    local("Meiryo"),
+    local("Noto Sans JP");
+  size-adjust: 100%;
+  ascent-override: 116%;
+  descent-override: 28.8%;
+  line-gap-override: 0%;
+}
+
 :root {
   --paper: #fbf9f5;
   --surface: #ffffff;
@@ -80,11 +144,14 @@
   --radius-lg: var(--radius);
   /* Loaded via <link> in layout.tsx (not next/font/google, which needs
      build-time network access this sandbox doesn't have — see README.md).
-     Falls back gracefully to system faces wherever the link is blocked. */
-  --font-display: "Fraunces", "Iowan Old Style", "Georgia", serif;
-  --font-sans: "Figtree", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
-  --font-jp: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", var(--font-sans);
+     Falls back gracefully to system faces wherever the link is blocked.
+     Each real face is followed by its metric-matched "* fallback" face
+     (defined above) before the generic system fonts, so a font swap never
+     changes box size — see the comment on those @font-face rules. */
+  --font-display: "Fraunces", "Fraunces fallback", "Iowan Old Style", "Georgia", serif;
+  --font-sans: "Figtree", "Figtree fallback", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "IBM Plex Mono fallback", ui-monospace, "SF Mono", monospace;
+  --font-jp: "Zen Kaku Gothic New", "Zen Kaku Gothic New fallback", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", var(--font-sans);
 }
 
 * { border-color: var(--border); }
