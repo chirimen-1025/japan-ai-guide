@@ -109,3 +109,35 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Mascot idle motion: transform-only (no layout properties), so it never
+   triggers layout/CLS. The blanket prefers-reduced-motion rule above
+   already freezes all three of these for anyone who's asked for less
+   motion, since it targets every element with `*`. */
+@keyframes mascot-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+@keyframes mascot-wag {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(16deg); }
+}
+@keyframes mascot-wave {
+  0%, 20% { transform: rotate(0deg); }
+  35%, 65% { transform: rotate(-22deg); }
+  80%, 100% { transform: rotate(0deg); }
+}
+
+.mascot-float {
+  animation: mascot-bob 3.2s ease-in-out infinite;
+}
+.mascot-tail {
+  transform-box: fill-box;
+  transform-origin: 15% 85%;
+  animation: mascot-wag 1.3s ease-in-out infinite;
+}
+.mascot-paw {
+  transform-box: fill-box;
+  transform-origin: 85% 15%;
+  animation: mascot-wave 2.2s ease-in-out infinite;
+}

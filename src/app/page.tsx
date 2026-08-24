@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CULTURE_ARTICLES } from "@/lib/data/culture";
 import { TRAVEL_ARTICLES } from "@/lib/data/travel-articles";
 import { HeroSlideshow } from "@/components/hero-slideshow";
+import { Mascot } from "@/components/mascot";
 
 const HERO_SLIDES = [
   {
@@ -75,17 +76,28 @@ export default function HomePage() {
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 href="/tools/trip-planner"
-                className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-accent-strong"
+                className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-sm transition-transform duration-200 hover:bg-accent-strong hover:scale-105 active:scale-95"
               >
                 Plan my trip
               </Link>
               <Link
                 href="/tools/phrase-generator"
-                className="rounded-full border border-white/40 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm hover:bg-white/20"
+                className="rounded-full border border-white/40 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-transform duration-200 hover:bg-white/20 hover:scale-105 active:scale-95"
               >
                 Find a phrase
               </Link>
             </div>
+          </div>
+
+          {/* Mascot: purely decorative flourish, adds no information, so
+              it's hidden from assistive tech entirely via aria-hidden.
+              Only shown from lg up — there's no room next to the headline
+              on narrower screens without crowding it. */}
+          <div
+            aria-hidden="true"
+            className="mascot-float pointer-events-none absolute bottom-16 right-4 hidden w-32 select-none drop-shadow-[0_8px_16px_rgba(15,20,26,0.35)] lg:block xl:right-10 xl:w-40"
+          >
+            <Mascot className="h-auto w-full" />
           </div>
         </div>
       </section>
@@ -100,15 +112,16 @@ export default function HomePage() {
             <Link
               key={tool.href}
               href={tool.href}
-              className="group flex flex-col rounded-2xl border border-border bg-surface p-6 shadow-sm transition-shadow hover:shadow-md"
+              className="group flex flex-col rounded-2xl border border-border bg-surface p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
             >
-              <span className="jp flex h-11 w-11 items-center justify-center rounded-xl bg-brand-soft text-lg font-semibold text-brand-strong">
+              <span className="jp flex h-11 w-11 items-center justify-center rounded-xl bg-brand-soft text-lg font-semibold text-brand-strong transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110">
                 {tool.jp}
               </span>
               <p className="disp mt-4 text-lg font-semibold">{tool.title}</p>
               <p className="mt-1.5 text-sm text-muted">{tool.desc}</p>
-              <span className="mt-4 text-sm font-semibold text-accent group-hover:underline">
-                Open tool →
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-accent group-hover:underline">
+                Open tool
+                <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
               </span>
             </Link>
           ))}
@@ -129,7 +142,7 @@ export default function HomePage() {
               <Link
                 key={a.slug}
                 href={`/guide/travel/${a.slug}`}
-                className="flex flex-col rounded-2xl border border-border bg-paper p-6 shadow-sm transition-shadow hover:shadow-md"
+                className="flex flex-col rounded-2xl border border-border bg-paper p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
               >
                 <span className="text-xs font-semibold uppercase tracking-wide text-accent">
                   {a.regionLabel} · {a.categoryLabel}
@@ -155,7 +168,7 @@ export default function HomePage() {
             <Link
               key={a.slug}
               href={`/guide/culture/${a.slug}`}
-              className="flex flex-col rounded-2xl border border-border bg-surface p-6 shadow-sm transition-shadow hover:shadow-md"
+              className="flex flex-col rounded-2xl border border-border bg-surface p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
             >
               <p className="disp text-base font-semibold leading-snug">{a.title}</p>
               <p className="mt-2 line-clamp-3 text-sm text-muted">{a.summary}</p>
