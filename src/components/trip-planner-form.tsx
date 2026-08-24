@@ -266,6 +266,12 @@ export function TripPlannerForm() {
             This plan combines everyone&apos;s picks below — the most-requested regions come first,
             and it covers every interest anyone added.
           </p>
+          {canJoin && travelerCount < 3 && (
+            <p className="mt-2 text-sm font-semibold text-brand">
+              Invite {3 - travelerCount} more {3 - travelerCount === 1 ? "person" : "people"} to get
+              a plan that reflects your whole group&apos;s picks.
+            </p>
+          )}
         </div>
 
         <div className="flex flex-col gap-8">
@@ -418,6 +424,17 @@ export function TripPlannerForm() {
 
         {plan && grouped && (
           <div className="flex flex-col gap-8">
+            <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-brand bg-brand-soft px-5 py-3">
+              <p className="text-sm font-medium text-ink">
+                Your itinerary is ready — planning with friends?
+              </p>
+              <a
+                href="#share-trip"
+                className="shrink-0 text-sm font-semibold text-brand hover:text-brand-strong"
+              >
+                Get a shareable group link ↓
+              </a>
+            </div>
             {Array.from(grouped.entries()).map(([region, dayList]) => (
               <div key={region}>
                 <p className="text-xs font-semibold uppercase tracking-wide text-accent">
@@ -449,11 +466,12 @@ export function TripPlannerForm() {
               in flexibility.
             </p>
 
-            <div className="rounded-2xl border border-border bg-brand-soft p-6">
-              <p className="disp text-lg font-semibold">Share this itinerary with your travel group</p>
+            <div id="share-trip" className="rounded-2xl border border-brand bg-brand-soft p-6 shadow-sm">
+              <p className="disp text-xl font-semibold">Share this itinerary with your travel group</p>
               <p className="mt-1 text-sm text-muted">
-                Send a link and friends can add their own regions and interests — you&apos;ll get one
-                merged plan for the whole group.
+                Send a link and friends can add their own regions and interests. Plans work best
+                with 3 or more travelers — invite a couple of friends and the merged itinerary
+                will actually reflect what everyone wants, not just your first guess.
               </p>
               <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-end">
                 <div className="flex-1">
@@ -478,7 +496,15 @@ export function TripPlannerForm() {
                   Get share link
                 </button>
               </div>
-              {shareUrl && <CopyLinkBox url={shareUrl} />}
+              {shareUrl && (
+                <>
+                  <CopyLinkBox url={shareUrl} />
+                  <p className="mt-3 text-xs text-muted">
+                    Tip: invite at least 2 friends — the more people who add their preferences,
+                    the better the merged plan gets.
+                  </p>
+                </>
+              )}
             </div>
           </div>
         )}
