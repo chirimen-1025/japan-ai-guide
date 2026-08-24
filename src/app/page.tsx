@@ -53,6 +53,27 @@ const TOOLS = [
   },
 ];
 
+const MORE_TOOLS = [
+  {
+    href: "/tools/emergency",
+    jp: "緊急",
+    title: "Emergency Assistant",
+    desc: "Lost your passport? Missed your train? Get plain steps and a phrase card, fast.",
+  },
+  {
+    href: "/tools/transport",
+    jp: "移動",
+    title: "Transport Helper",
+    desc: "Compare Shinkansen, flights, and buses between popular destinations.",
+  },
+  {
+    href: "/tools/menu",
+    jp: "食材",
+    title: "Menu Helper",
+    desc: "Decode izakaya food, rice bowls, drinks, and menu vocabulary at a glance.",
+  },
+];
+
 export default function HomePage() {
   const featuredArticles = TRAVEL_ARTICLES.slice(0, 3);
   const featuredCulture = CULTURE_ARTICLES.slice(0, 3);
@@ -113,6 +134,30 @@ export default function HomePage() {
               </span>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* More tools */}
+      <section className="border-t border-border bg-surface">
+        <div className="mx-auto max-w-6xl px-5 py-14">
+          <h2 className="disp text-xl font-semibold">More helpful tools</h2>
+          <div className="mt-6 grid gap-4 sm:grid-cols-3">
+            {MORE_TOOLS.map((tool) => (
+              <Link
+                key={tool.href}
+                href={tool.href}
+                className="group flex items-start gap-3 rounded-xl border border-border bg-paper p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+              >
+                <span className="jp flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-brand-soft text-sm font-semibold text-brand-strong transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110">
+                  {tool.jp}
+                </span>
+                <span>
+                  <span className="disp block text-sm font-semibold">{tool.title}</span>
+                  <span className="mt-0.5 block text-xs text-muted">{tool.desc}</span>
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
