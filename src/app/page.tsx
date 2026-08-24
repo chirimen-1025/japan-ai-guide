@@ -2,7 +2,6 @@ import Link from "next/link";
 import { CULTURE_ARTICLES } from "@/lib/data/culture";
 import { TRAVEL_ARTICLES } from "@/lib/data/travel-articles";
 import { HeroSlideshow } from "@/components/hero-slideshow";
-import { Mascot } from "@/components/mascot";
 
 const HERO_SLIDES = [
   {
@@ -87,17 +86,6 @@ export default function HomePage() {
                 Find a phrase
               </Link>
             </div>
-          </div>
-
-          {/* Mascot: purely decorative flourish, adds no information, so
-              it's hidden from assistive tech entirely via aria-hidden.
-              Only shown from lg up — there's no room next to the headline
-              on narrower screens without crowding it. */}
-          <div
-            aria-hidden="true"
-            className="mascot-float pointer-events-none absolute bottom-16 right-4 hidden w-32 select-none drop-shadow-[0_8px_16px_rgba(15,20,26,0.35)] lg:block xl:right-10 xl:w-40"
-          >
-            <Mascot className="h-auto w-full" />
           </div>
         </div>
       </section>
