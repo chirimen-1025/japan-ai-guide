@@ -152,6 +152,42 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
         ))}
       </div>
 
+      <div className="mt-10 border-t border-border pt-6">
+        <p className="text-xs font-semibold uppercase tracking-wide text-muted">Useful tools</p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Link
+            href="/tools/phrase-generator"
+            className="rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-brand"
+          >
+            Phrase Generator
+          </Link>
+          <Link
+            href="/tools/restaurant-helper"
+            className="rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-brand"
+          >
+            Restaurant Helper
+          </Link>
+          <Link
+            href="/tools/transport"
+            className="rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-brand"
+          >
+            Transport Helper
+          </Link>
+          <Link
+            href="/tools/menu"
+            className="rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-brand"
+          >
+            Menu Helper
+          </Link>
+          <Link
+            href="/tools/emergency"
+            className="rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-brand"
+          >
+            Emergency Assistant
+          </Link>
+        </div>
+      </div>
+
       {(relatedArticles.length > 0 || relatedCulture.length > 0) && (
         <div className="mt-12 border-t border-border pt-8">
           <p className="text-sm font-semibold text-muted">Related reading</p>
