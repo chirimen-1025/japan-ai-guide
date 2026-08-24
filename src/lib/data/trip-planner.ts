@@ -1,3 +1,5 @@
+import { encodeState, decodeState } from "@/lib/url-state";
+
 export type Interest = "food" | "culture" | "nature" | "shopping" | "anime";
 
 export interface DayTemplate {
@@ -123,4 +125,108 @@ export function generateTripPlan(opts: {
   }
 
   return plan;
+}
+
+// ---------------------------------------------------------------------
+// Group trip planning: share a link, everyone adds their own regions and
+// interests, and the plan above regenerates from the combined group. This
+// is a rule-based merge (see mergeTravelerPreferences), not an AI call —
+// deliberately, so it stays free to run and its logic stays inspectable,
+// consistent with every other tool on this site. The whole group's state
+// lives in the share link itself (via url-state.ts) — no account, no
+// database, no server.
+// ---------------------------------------------------------------------
+
+export interface SharedTraveler {
+  name: string;
+  regionIds: string[];
+  interests: Interest[];
+}
+
+export interface GroupState {
+  days: number;
+  travelers: SharedTraveler[];
+}
+
+// Keeps the trip focused (matches the solo planner's own "up to 3 regions"
+// guidance) and keeps the share link from growing without bound.
+export const MAX_GROUP_REGIONS = 4;
+export const MAX_TRAVELERS = 6;
+
+export interface GroupMergeResult {
+  regionIds: string[];
+  interests: Interest[];
+  // Which travelers asked for each region, for the "requested by" note in
+  // the UI — this is what makes the merge feel like it actually listened,
+  // rather than just silently mixing everyone together.
+  regionRequestedBy: Record<string, string[]>;
+}
+
+export function mergeTravelerPreferences(travelers: SharedTraveler[]): GroupMergeResult {
+  const regionCount = new Map<string, number>();
+  const regionRequestedBy: Record<string, string[]> = {};
+  const interestSet = new Set<Interest>();
+
+  for (const t of travelers) {
+    for (const r of t.regionIds) {
+      regionCount.set(r, (regionCount.get(r) ?? 0) + 1);
+      (regionRequestedBy[r] ??= []).push(t.name);
+    }
+    for (const i of t.interests) interestSet.add(i);
+  }
+
+  // Most-requested regions first (ties keep first-requested order), capped
+  // so a big group doesn't spread a short trip across too many cities.
+  const regionIds = [...regionCount.keys()]
+    .sort((a, b) => (regionCount.get(b) ?? 0) - (regionCount.get(a) ?? 0))
+    .slice(0, MAX_GROUP_REGIONS);
+
+  return {
+    regionIds: regionIds.length ? regionIds : ["tokyo"],
+    interests: [...interestSet],
+    regionRequestedBy,
+  };
+}
+
+export interface GroupPlanResult extends GroupMergeResult {
+  plan: PlanDay[];
+}
+
+export function generateGroupTripPlan(days: number, travelers: SharedTraveler[]): GroupPlanResult {
+  const merged = mergeTravelerPreferences(travelers);
+  const plan = generateTripPlan({ days, regionIds: merged.regionIds, interests: merged.interests });
+  return { ...merged, plan };
+}
+
+// Wire format uses short keys purely to keep the shared URL shorter —
+// "d"/"t"/"n"/"r"/"i" rather than "days"/"travelers"/"name"/... The rest of
+// the app never sees this shape; encodeGroupState/decodeGroupState are the
+// only places it exists.
+interface GroupStateWire {
+  d: number;
+  t: { n: string; r: string[]; i: string[] }[];
+}
+
+export function encodeGroupState(state: GroupState): string {
+  const wire: GroupStateWire = {
+    d: state.days,
+    t: state.travelers.map((tr) => ({ n: tr.name, r: tr.regionIds, i: tr.interests })),
+  };
+  return encodeState(wire);
+}
+
+export function decodeGroupState(encoded: string): GroupState | null {
+  const wire = decodeState<GroupStateWire>(encoded);
+  if (!wire || typeof wire.d !== "number" || !Array.isArray(wire.t)) return null;
+  const days = Math.max(1, Math.min(21, Math.round(wire.d)));
+  const travelers: SharedTraveler[] = wire.t
+    .filter((t) => t && Array.isArray(t.r) && Array.isArray(t.i))
+    .slice(0, MAX_TRAVELERS)
+    .map((t, i) => ({
+      name: typeof t.n === "string" && t.n.trim() ? t.n.trim().slice(0, 40) : `Traveler ${i + 1}`,
+      regionIds: t.r.filter((r): r is string => typeof r === "string" && REGIONS.some((rg) => rg.id === r)),
+      interests: t.i.filter((x): x is Interest => INTERESTS.some((it) => it.id === x)),
+    }));
+  if (!travelers.length) return null;
+  return { days, travelers };
 }
