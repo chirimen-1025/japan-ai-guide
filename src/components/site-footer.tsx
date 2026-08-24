@@ -18,6 +18,9 @@ export function SiteFooter() {
             <li><Link href="/tools/budget-calculator" className="hover:text-brand">Budget Calculator</Link></li>
             <li><Link href="/tools/phrase-generator" className="hover:text-brand">Phrase Generator</Link></li>
             <li><Link href="/tools/restaurant-helper" className="hover:text-brand">Restaurant Helper</Link></li>
+            <li><Link href="/tools/emergency" className="hover:text-brand">Emergency Assistant</Link></li>
+            <li><Link href="/tools/transport" className="hover:text-brand">Transport Helper</Link></li>
+            <li><Link href="/tools/menu" className="hover:text-brand">Menu Helper</Link></li>
           </ul>
         </div>
         <div>
