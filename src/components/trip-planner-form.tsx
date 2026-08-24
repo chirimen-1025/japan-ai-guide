@@ -367,7 +367,7 @@ export function TripPlannerForm() {
 
   // ---- Solo planner view (default) ---------------------------------------
   return (
-    <div className="grid gap-8 lg:grid-cols-[380px,1fr]">
+    <div className="grid gap-8 lg:grid-cols-[380px_1fr]">
       <div className="flex flex-col gap-7 rounded-2xl border border-border bg-surface p-6 shadow-sm lg:sticky lg:top-24 lg:self-start">
         <div>
           <label className="text-sm font-semibold" htmlFor="days">
