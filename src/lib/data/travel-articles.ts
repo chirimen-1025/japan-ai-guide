@@ -8385,6 +8385,137 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     relatedSlugs: ["shinkansen-tickets-beginner-guide", "tokyo-trains-beginner-guide"],
     relatedCultureSlugs: [],
   },
+  {
+    slug: "cherry-blossom-season-by-region",
+    region: "sakura-season",
+    regionLabel: "Cherry Blossom Season",
+    category: "nature",
+    categoryLabel: "Nature",
+    title: "Cherry Blossom (Sakura) Season in Japan: When to Go, Region by Region",
+    metaDescription:
+      "Sakura season isn't one date on a calendar — it's a wave that moves across Japan over roughly four months. Here's approximately when full bloom happens in each region, and how to actually plan a trip around it.",
+    updatedAt: "2026-08-25",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short version",
+        body: [
+          "Cherry blossoms don't bloom on the same date nationwide — the bloom front (sakura zensen) moves from south to north over about six weeks, starting in Kyushu and western Honshu in mid-to-late March and reaching Hokkaido by late April or early May. Okinawa is the one exception: it blooms earlier and separately, in January and February, with a different species of cherry (more on that below).",
+          "\"Full bloom\" (mankai) usually arrives 4–10 days after the first flowers open, and good viewing typically lasts about a week after that before petals start falling. Forecasters publish updated predictions through the winter and early spring, and the closer you get to your travel dates, the more accurate they are — a forecast made in December is a rough guess; one made in early March is usually solid.",
+        ],
+      },
+      {
+        heading: "Okinawa: the outlier that blooms first",
+        body: [
+          "Okinawa's cherry blossoms are a different species — kanhizakura (Taiwan cherry), with deep pink, bell-shaped flowers that hang downward rather than the pale, outward-facing blooms seen on the mainland. They peak in late January through mid-February, months before anywhere else in Japan, mostly in northern Okinawa around Nago and Mt. Yae.",
+          "If your trip lands in Okinawa in winter, this is worth knowing about specifically — it's a real hanami experience, just not the one most people picture, and with a fraction of the crowds of the mainland's spring peak.",
+        ],
+      },
+      {
+        heading: "Kyushu, Shikoku & western Honshu (mid-to-late March)",
+        body: [
+          "This is where mainland sakura season typically starts. Fukuoka and Hiroshima usually reach full bloom in the last few days of March to the first few days of April, with flowering starting a week or so earlier. If your trip is fixed for mid-to-late March, this belt of the country is your best shot at catching peak bloom.",
+        ],
+      },
+      {
+        heading: "Tokyo, Kansai & central Japan (late March–early April)",
+        body: [
+          "Tokyo, Kyoto, Osaka, and Nagoya cluster tightly together, typically reaching full bloom in the last week of March through the first few days of April. This is the highest-demand window of the entire season — it covers Japan's most-visited cities, so accommodation books up and popular spots (Ueno Park, the Philosopher's Path, the Kamo River) get genuinely crowded at peak. If you can, book lodging as soon as your dates are set rather than waiting for the bloom forecast to firm up.",
+          "Elevation complicates the picture even within this belt. Yoshino, in Nara prefecture, is Japan's single most famous cherry blossom mountain — some 30,000 trees planted in bands up the slope, so the lower sections bloom first and the bloom visibly climbs the mountain over about two weeks, stretching the viewing window well beyond a single city's peak date (see our Nara guide below). Lake Kawaguchi, near Mt. Fuji, is another example: despite sitting close to Tokyo, its higher elevation pushes its peak to around the second week of April, a week or two behind central Tokyo.",
+        ],
+      },
+      {
+        heading: "Tohoku & the mountains (mid-to-late April)",
+        body: [
+          "Northern Honshu runs about two to three weeks behind Tokyo. Sendai typically reaches full bloom in the first week of April, but the more northern and higher-elevation spots — Hirosaki Castle in Aomori being the best-known — usually peak in the last week of April, giving Tohoku a noticeably longer runway than the crowded Kansai/Kanto window.",
+        ],
+      },
+      {
+        heading: "Hokkaido (late April–mid May)",
+        body: [
+          "Hokkaido closes out the season. Sapporo typically reaches full bloom around the third or fourth week of April, and areas further north or at higher elevation can push into early-to-mid May. If your trip is locked into late April or May and you specifically want cherry blossoms, Hokkaido is often the only realistic option left on the mainland.",
+        ],
+      },
+      {
+        heading: "How to actually plan around it",
+        body: [
+          "If your travel dates are flexible, work backward from the forecast: pick the region whose typical peak lines up with your window, and lean toward the earlier end of that region's range rather than the exact predicted full-bloom date, since flowers can be blown or rained off within days of peaking.",
+          "If your dates are fixed, do the reverse — figure out which region is statistically likely to be at or near peak on your actual travel dates, rather than hoping a single famous spot (like central Tokyo) happens to line up. A trip planned for early April, for instance, has a much better shot at Kyushu or Kansai than at Hokkaido.",
+          "However you plan it, treat any specific date here as a starting point, not a guarantee — bloom timing shifts by a week or more year to year depending on that winter's temperatures, and official forecasts aren't finalized until a few weeks out. Our Trip Planner can build a day-by-day itinerary once you've picked a region and window.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "nara-food-and-yoshino-cherry-blossoms",
+      "tokyo-3-day-itinerary",
+      "autumn-leaves-season-by-region",
+    ],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "autumn-leaves-season-by-region",
+    region: "autumn-leaves-season",
+    regionLabel: "Autumn Leaves Season",
+    category: "nature",
+    categoryLabel: "Nature",
+    title: "Autumn Leaves (Koyo) Season in Japan: When to Go, Region by Region",
+    metaDescription:
+      "Autumn colors sweep from Hokkaido to Kyushu over roughly ten weeks — twice as long as cherry blossom season. Here's approximately when peak koyo happens in each region, and why elevation matters as much as latitude.",
+    updatedAt: "2026-08-25",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short version",
+        body: [
+          "Autumn leaves (koyo) move in the opposite direction from cherry blossoms — the color front starts in Hokkaido and high mountain ranges in late September, then sweeps south and downhill, finishing in Kyushu and sheltered lowland valleys in early-to-mid December. It's a much longer wave than sakura season: roughly ten weeks nationwide versus about six for cherry blossoms.",
+          "The extra length comes from a second axis that barely matters for sakura: elevation. A mountain range can peak weeks before the city at its base, even in the same prefecture — Hakone or Nikko can be past peak while Tokyo's own parks are still green. Two tree types drive most of what you see: maples (momiji), which turn a deep red, and ginkgo (icho), which turns bright yellow slightly later in the same location.",
+        ],
+      },
+      {
+        heading: "Hokkaido & the high mountains (late September–mid October)",
+        body: [
+          "Color starts earliest at altitude. Daisetsuzan, Hokkaido's highest mountain range, can begin changing in early-to-mid September — one of the first places in the country to turn. Lower-elevation Hokkaido, including Sapporo itself, typically peaks later, toward the end of October.",
+        ],
+      },
+      {
+        heading: "Tohoku & the Japan Alps (early-to-mid October)",
+        body: [
+          "Northern Honshu's mountain scenery — Lake Towada and Oirase Gorge in Aomori, Kamikochi and the wider Japan Alps in Nagano — typically peaks in the first half of October. Lower-elevation Tohoku cities generally lag a couple of weeks behind their own surrounding mountains, so a single prefecture can have two very different koyo windows depending on where you go within it.",
+        ],
+      },
+      {
+        heading: "Tokyo, Kanto & central lowlands (late October–mid November, longer than it looks)",
+        body: [
+          "This is where the elevation gap is most likely to catch visitors out. Hakone and Nikko, both easy day trips from Tokyo, typically peak in early-to-mid November — while central Tokyo's own parks and gardens (Shinjuku Gyoen, the Meiji Jingu Gaien ginkgo avenue) usually don't peak until late November into early December. Treat \"Tokyo in autumn\" as two separate windows rather than one, depending on whether you're headed to the mountains or staying in the city.",
+        ],
+      },
+      {
+        heading: "Kansai & Kyoto (mid-November–early December, the famous peak)",
+        body: [
+          "Kyoto's temple gardens — Arashiyama, Tofuku-ji, Kiyomizu-dera — are Japan's best-known koyo destination, and the reputation is earned. Peak color typically runs from mid-to-late November into the first few days of December, depending on the specific garden and how sheltered it is. It's also the single most crowded and booked-up koyo window in the country, on par with cherry blossom season in Kansai for how far ahead lodging fills up.",
+        ],
+      },
+      {
+        heading: "Kyushu & the south (late November–mid December, latest of all)",
+        body: [
+          "Kyushu closes out the season, typically peaking from late November into mid-December, occasionally later in sheltered valleys. If your trip lands in early-to-mid December and you still want to catch color, Kyushu is usually the last realistic option.",
+        ],
+      },
+      {
+        heading: "How this differs from planning around sakura",
+        body: [
+          "The main practical difference is slack: with a ten-week national window instead of six, koyo season gives you more room to be wrong about the exact peak and still see good color somewhere. The trade-off is that elevation matters more than it does for cherry blossoms, so \"which region\" is only half the question — you also need to decide whether you're chasing mountain color or lowland/city color, since those can be three to four weeks apart in the same area.",
+          "As with sakura, treat these windows as a starting point rather than a fixed date — peak timing shifts from year to year with autumn temperatures, and forecasts firm up through September and October rather than being reliable months in advance. Our Trip Planner can help turn a target region and window into an actual day-by-day plan.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "kyoto-arashiyama-and-higashiyama-walking-guide",
+      "nagano-snow-monkeys-matsumoto-castle-and-the-alps",
+      "cherry-blossom-season-by-region",
+    ],
+    relatedCultureSlugs: [],
+  },
 ];
 
 export function getTravelArticle(slug: string): TravelArticle | undefined {

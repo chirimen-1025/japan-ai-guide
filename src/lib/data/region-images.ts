@@ -493,6 +493,31 @@ export const REGION_IMAGES: Record<string, RegionImage> = {
       sourceUrl: "https://commons.wikimedia.org/wiki/File:Japan_Kawagoe.jpg",
     },
   },
+  // Nationwide seasonal-topic guides (not tied to a single prefecture) reuse
+  // an already-credited photo from elsewhere in this file rather than
+  // introducing a new, unverified image source.
+  "sakura-season": {
+    src: "/photos/chureito-pagoda-fuji.jpg",
+    alt: "Chureito Pagoda framed by cherry blossoms with snow-capped Mount Fuji rising behind it, Yamanashi",
+    width: 1184,
+    height: 664,
+    credit: {
+      author: "Manishprabhune",
+      license: "CC BY-SA 4.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji.jpg",
+    },
+  },
+  "autumn-leaves-season": {
+    src: "/photos/yamadera-view.jpg",
+    alt: "The mountain valley view from Yamadera temple in autumn, Yamagata",
+    width: 1280,
+    height: 433,
+    credit: {
+      author: "ぱちょぴ",
+      license: "CC BY-SA 3.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Yamadera_Panorama_2011.jpg",
+    },
+  },
 };
 
 export function getRegionImage(region: string): RegionImage | undefined {
