@@ -518,6 +518,36 @@ export const REGION_IMAGES: Record<string, RegionImage> = {
       sourceUrl: "https://commons.wikimedia.org/wiki/File:Yamadera_Panorama_2011.jpg",
     },
   },
+  "winter-travel": {
+    src: "/photos/shirakawago-snow.jpg",
+    alt: "Snow-covered gassho-zukuri thatched-roof farmhouses in Shirakawa-go, Gifu",
+    width: 1280,
+    height: 855,
+  },
+  "new-year-in-japan": {
+    src: "/photos/naritasan-pagoda.jpg",
+    alt: "The Great Pagoda of Peace at Naritasan Shinshoji Temple, Chiba",
+    width: 1280,
+    height: 854,
+    credit: {
+      author: "Øyvind Holmstad",
+      license: "CC BY-SA 4.0",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Naritasan_Temple_Great_Pagoda_of_Peace_b.jpg",
+    },
+  },
+  "winter-illuminations": {
+    src: "/photos/sapporo-white-illumination.jpg",
+    alt: "Illuminated light sculptures and the Sapporo TV Tower lit up blue at night during the Sapporo White Illumination, Odori Park, Hokkaido",
+    width: 736,
+    height: 550,
+    credit: {
+      author: "蛇使いの工藤",
+      license: "CC BY-SA 4.0",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Sapporo_television_tower_at_night_IMG_2982.jpg",
+    },
+  },
 };
 
 export function getRegionImage(region: string): RegionImage | undefined {
