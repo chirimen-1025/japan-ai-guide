@@ -8516,6 +8516,175 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedCultureSlugs: [],
   },
+  {
+    slug: "winter-travel-guide-by-region",
+    region: "winter-travel",
+    regionLabel: "Winter Travel",
+    category: "nature",
+    categoryLabel: "Nature",
+    title: "Visiting Japan in Winter: A Region-by-Region Guide to Weather, Crowds, and What to Pack",
+    metaDescription:
+      "Winter in Japan isn't one climate — it ranges from serious snow to shorts-weather in the same week, depending on region and which coast you're on. Here's what to actually expect and pack, region by region.",
+    updatedAt: "2026-08-25",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short version",
+        body: [
+          "December through February is Japan's quietest and often cheapest major travel season outside the New Year holiday itself — flights and hotels are generally more available, and popular sights that are shoulder-to-shoulder in cherry blossom or autumn leaf season are comfortable to actually walk around. The trade-off is weather that varies far more than most first-time visitors expect, and not just by latitude.",
+          "The bigger split isn't simply north versus south — it's which coast you're on. The Sea of Japan side (Niigata, Toyama, Akita, the western side of Tohoku and Hokkaido) picks up moisture from Siberian winds crossing the sea and gets dramatically heavier snowfall than the Pacific side at a similar or even more northern latitude, which tends to stay cold but dry and sunny. A trip planned around 'how far north am I going' can miss this entirely.",
+        ],
+      },
+      {
+        heading: "Hokkaido: genuinely cold, genuinely snowy",
+        body: [
+          "Typical daytime highs run roughly -2°C to -4°C (24-28°F) in the heart of winter, with reliable, heavy snowfall — this is real winter, not a mild dusting. It's also the reason people come specifically for it: powder snow skiing and snowboarding (Niseko among the best-known destinations), and the Sapporo Snow Festival in early February, with massive snow and ice sculptures at Odori Park. Serious layered winter gear, waterproof boots, and grip for icy sidewalks aren't optional here.",
+        ],
+      },
+      {
+        heading: "Tohoku & the Sea of Japan coast: where the heavy snow actually falls",
+        body: [
+          "This is the region the coast-versus-latitude point matters most for. Sendai, on Tohoku's Pacific side, is relatively dry and sunny in winter despite its northern location. Niigata and Toyama, on the Sea of Japan side at a similar or even more southern latitude, regularly see meters of snow accumulate over the season. If snow itself — rather than just cold weather — is part of what you're after, look at the map's west coast, not just how far north you're going.",
+        ],
+      },
+      {
+        heading: "Tokyo, Kansai & the Pacific side: cold but usually dry",
+        body: [
+          "Tokyo and Kyoto typically see daytime highs around 7-12°C (45-54°F) with nights close to or below freezing, under mostly clear, dry skies — snow is rare enough that when it does fall, train delays and minor chaos tend to follow, since infrastructure isn't built around it. For sightseeing, this combination of cold-but-clear weather and thinner crowds (outside the New Year holiday itself, covered in a separate guide) makes winter a genuinely good time to visit these cities.",
+        ],
+      },
+      {
+        heading: "Kyushu & Okinawa: winter that barely bites",
+        body: [
+          "Fukuoka and the rest of Kyushu run mild by Japanese winter standards, generally 10-12°C (50-54°F) in the daytime with little snow outside the interior mountains. Okinawa is the real outlier — daytime temperatures of roughly 17-19°C (63-66°F) make it Japan's closest thing to a winter escape, though it's a mild subtropical winter, not a beach-weather one.",
+        ],
+      },
+      {
+        heading: "What to actually pack and expect",
+        body: [
+          "Layering matters more than one heavy coat, since indoor heating varies a lot by building — modern spaces and trains are usually well-heated, but older wooden structures like some temples, shrines, and traditional ryokan can be surprisingly cold, and genkan entryways are unheated by design. If your route includes the Sea of Japan coast or Hokkaido, waterproof, grippy footwear is worth prioritizing over how warm a coat looks. Wherever you're headed, treat published winter temperatures as a starting point — conditions shift year to year, so it's worth checking a closer-in forecast once your dates are set.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "hokkaido-winter-first-timers",
+      "new-year-in-japan",
+      "winter-illuminations-in-japan",
+    ],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "new-year-in-japan",
+    region: "new-year-in-japan",
+    regionLabel: "New Year in Japan",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "New Year (Oshogatsu) in Japan: What's Open, What's Closed, and What First-Time Visitors Get Wrong",
+    metaDescription:
+      "Japan's New Year holiday is the biggest nationwide shutdown of the year — bigger than Christmas for closures. Here's what actually closes, what stays open, and how to plan a trip that includes it.",
+    updatedAt: "2026-08-25",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short version",
+        body: [
+          "Roughly December 29 through January 3 (sometimes stretching to January 4 or 5) is Japan's biggest nationwide shutdown of the year, bigger than Christmas in terms of what actually closes. If a trip includes these dates, it's worth planning around the shutdown deliberately rather than being surprised by it mid-trip — the flip side is that it's also when one of Japan's most striking traditions, hatsumode, happens.",
+        ],
+      },
+      {
+        heading: "What actually closes",
+        body: [
+          "Small, family-run restaurants take their one major break of the year and are almost all closed. Banks and ATMs shut down across the holiday — withdraw cash you'll need by around December 29, since even convenience-store ATMs can be affected. Most museums and galleries, national and municipal, close for several days. Independent boutiques and side-street shops generally stay shuttered the whole period. Department stores close specifically on January 1st, then reopen January 2nd for their major New Year sales (hatsuuri) — the one closure that flips into an opening opportunity.",
+        ],
+      },
+      {
+        heading: "What stays open (and gets you through it)",
+        body: [
+          "Convenience stores (7-Eleven, FamilyMart, Lawson) run 24/7 through the entire period without exception, and major fast-food chains — McDonald's, Yoshinoya, Matsuya — typically stay open too. Hotel and ryokan in-house restaurants operate normally, which is worth factoring into where you stay if your dates fall in this window. Large shopping and dining complexes inside major train stations generally get back up and running from January 2nd onward, faster than standalone shops in the surrounding neighborhood.",
+        ],
+      },
+      {
+        heading: "Hatsumode: the flip side of the shutdown",
+        body: [
+          "While restaurants and shops go quiet, shrines and temples see their single busiest stretch of the entire year for hatsumode, the first prayer visit of the new year. Famous ones — Tokyo's Meiji Shrine, Chiba's Narita-san Shinshoji (see our Narita guide) — draw enormous, genuinely memorable crowds, sometimes with lines running late into the night on December 31st and through the following days. It's a real, worthwhile experience, but go in expecting a crowded, festive atmosphere rather than a quiet temple visit.",
+        ],
+      },
+      {
+        heading: "Transportation gets squeezed too",
+        body: [
+          "December 29 through January 4 is also a mass domestic travel period, as much of the country heads home for the holiday and back again. Shinkansen and highways get genuinely congested, particularly December 28-30 on the way out and January 2-3 on the return, and reserved seats for those specific travel days can sell out well in advance. If your own itinerary involves a long-distance train during that window, booking earlier than usual is worth it.",
+        ],
+      },
+      {
+        heading: "How to actually plan around it",
+        body: [
+          "Treat the dining and shopping scene in major cities as running on a skeleton crew for roughly three days: lean on hotel restaurants, convenience stores, and the chains that stay open rather than planning a restaurant-hopping itinerary for January 1-3 specifically. Build in some slack around those dates rather than packing them with reservations, budget real time for hatsumode as a bucket-list activity rather than a quick stop, and if you're traveling long-distance by train on December 28-30 or January 2-3, book that leg as early as you can.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "chiba-narita-temple-town-and-boso-peninsula",
+      "winter-travel-guide-by-region",
+      "winter-illuminations-in-japan",
+    ],
+    relatedCultureSlugs: ["shrines-and-temples"],
+  },
+  {
+    slug: "winter-illuminations-in-japan",
+    region: "winter-illuminations",
+    regionLabel: "Winter Illuminations",
+    category: "attractions",
+    categoryLabel: "Attractions",
+    title: "Winter Illuminations in Japan: The Best Light Displays and When to See Them",
+    metaDescription:
+      "Japan's winter illuminations run far longer than Christmas lights back home — some last into February. Here's where to see the best of them and roughly when, from Tokyo's districts to Kobe's Luminarie and Sapporo's snow festival.",
+    updatedAt: "2026-08-25",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short version",
+        body: [
+          "Winter illuminations generally run from November through February, with some stretching into March, which is longer than most Western Christmas-light traditions — plenty last well past New Year rather than coming down right after it. They're also one of the most reliably rewarding winter activities: usually free or low-cost, outdoors, and photogenic even for visitors just passing through a district rather than planning a special trip.",
+        ],
+      },
+      {
+        heading: "Tokyo: several districts, several different vibes",
+        body: [
+          "Marunouchi and Shinjuku Southern Terrace tend to run the longest, often into mid-February, while Roppongi Hills, Tokyo Midtown, and Azabudai Hills cluster into a shorter, more Christmas-focused window through around December 25th. The Meguro River's illuminated walk, threading through the same cherry-blossom-lined path covered in our sakura guide, typically runs from early December into late January. Exact dates shift by a week or two most years, so treat any specific date here as a starting point and confirm closer to your trip.",
+        ],
+      },
+      {
+        heading: "Kobe Luminarie: the one with real history",
+        body: [
+          "Held roughly late January into early February, Kobe Luminarie isn't just a shopping-district light show — it began in 1995 to commemorate the Great Hanshin Earthquake and give the city a symbol of hope during recovery, and it's kept that meaning ever since. It's a more deliberate trip than the Tokyo displays, but a distinct one worth it specifically for what it represents, not just how it looks.",
+        ],
+      },
+      {
+        heading: "Sapporo: illuminations plus one of the biggest winter festivals anywhere",
+        body: [
+          "Sapporo's White Illumination runs alongside the Sapporo Snow Festival, an entirely separate and much larger draw held in early February (February 4-11 in its 2027 edition) across three sites: Odori Park's massive snow sculptures and International Snow Sculpture Contest, the Susukino district's ice sculptures and ice bar, and the Tsudome site's family-oriented snow attractions. It draws more than two million visitors most years, so if you're specifically targeting festival week, book accommodation well ahead of time.",
+        ],
+      },
+      {
+        heading: "A less obvious pick: Shirakawa-go's winter light-up",
+        body: [
+          "The thatched-roof gassho-zukuri village covered in our Gifu guide holds special evening light-up dates in January and February, when its snow-covered farmhouses are lit from within against the dark. It's a completely different mood from the city displays — quiet and rural rather than urban and dense — but dates are limited and access is often managed specifically because of crowding, so check the current year's schedule and any reservation requirements before building a trip around it.",
+        ],
+      },
+      {
+        heading: "How to actually plan around it",
+        body: [
+          "Because most illuminations run from November or December through February, they pair naturally with a winter or New Year trip rather than requiring a dedicated visit. Dates shift by a week or two year to year, so confirm specifics once your travel dates are set rather than trusting a general date range from a prior year. Dinner reservations near popular illumination districts get busy on weekend evenings during peak weeks, so booking ahead is worth it if a specific restaurant matters to you.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "gifu-shirakawago-and-takayama",
+      "winter-travel-guide-by-region",
+      "new-year-in-japan",
+    ],
+    relatedCultureSlugs: [],
+  },
 ];
 
 export function getTravelArticle(slug: string): TravelArticle | undefined {
