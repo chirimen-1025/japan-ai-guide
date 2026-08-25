@@ -8685,6 +8685,71 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedCultureSlugs: [],
   },
+  {
+    slug: "hatsumode-crowds-and-quiet-alternatives",
+    region: "hatsumode-crowds",
+    regionLabel: "Hatsumode Crowds",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "New Year Shrine Crowds in Japan: The Busiest Hatsumode Spots and Where to Go Instead",
+    metaDescription:
+      "Japan's most famous shrines pull two to three million hatsumode visitors apiece over three days. Here's which ones, when the crush actually peaks, and a strategy for spending New Year somewhere quieter without giving up the sightseeing.",
+    updatedAt: "2026-08-25",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short version",
+        body: [
+          "There's a real gap between late December and the New Year holiday itself, and it's worth planning around deliberately. From roughly December 28-31, Japan's famous temples, shrines, and city centers are already decorated for the New Year and genuinely pleasant to visit — festive but not overwhelmed. Then, from January 1st, hatsumode (the year's first shrine or temple visit) sends millions of people to a small number of famous sites over just three days, and the same places that were comfortable a week earlier get seriously crowded.",
+          "A trip that leans into this pattern — big-name sightseeing before New Year, then a deliberate move to somewhere quieter for January 1-3 itself — tends to work better than trying to do it all in one place through the holiday.",
+        ],
+      },
+      {
+        heading: "Japan's busiest hatsumode destinations",
+        body: [
+          "The same handful of sites top the list most years, each drawing on the order of two to three million visitors over the three-day New Year period (sanganichi): Meiji Jingu in Tokyo, Naritasan Shinshoji in Chiba (see our Narita guide), and Kawasaki Daishi in Kanagawa each pull roughly 3 million. Fushimi Inari Taisha and Sensoji aren't far behind at around 2.5 million each, followed by Sumiyoshi Taisha in Osaka, Tsurugaoka Hachimangu in Kamakura, and Atsuta Jingu in Nagoya at around 2 million. These aren't quiet, contemplative visits — they're closer to a packed festival, which is a real experience in its own right, just not always the one people expect when they picture 'visiting a shrine.'",
+        ],
+      },
+      {
+        heading: "When the crush actually happens",
+        body: [
+          "At nearly all of these sites, the worst crowding is the daytime hours of January 1st specifically, roughly 11am to 3pm, when both the overnight hatsumode crowd and the daytime arrivals overlap. Early morning — around 5 to 8am — is noticeably calmer even on January 1st itself, and evenings from around 4pm onward ease up too. January 2nd and 3rd are generally a step down from the 1st but still busy through the same midday window. By January 4th, once the holiday ends and it falls on a weekday, crowds at even the busiest sites drop off sharply.",
+        ],
+      },
+      {
+        heading: "The strategy: sightsee before New Year, go quiet for the New Year itself",
+        body: [
+          "Because the big shrines and temples are already dressed for the season by late December but haven't hit hatsumode crowds yet, that window — roughly December 28-31 — is arguably the best time to actually see them: New Year decorations up, atmosphere building, but still walkable. If seeing a famous name like Meiji Jingu or Fushimi Inari matters to you, this is when to go, not January 1st.",
+          "Then, rather than staying in the same city through the holiday itself, moving to a smaller region for January 1-3 sidesteps the worst of it entirely. You'll still get hatsumode — nearly every neighborhood in Japan has a local shrine that does brisk business on New Year's Day — just without funneling into one of the handful of sites that pull visitors from across the entire country.",
+        ],
+      },
+      {
+        heading: "Where 'quiet' actually means quiet",
+        body: [
+          "The reason regional destinations stay calm over New Year isn't that nobody visits their shrines — it's that the visitors are almost entirely local, rather than the whole country converging on one address. Smaller mountain towns and regional cities are a good target for this: Takayama and the snow-covered village of Shirakawa-go in Gifu (see our guide, also covered in our winter illuminations guide for its January light-up), Yamadera's mountainside temple steps in Yamagata, and Kanazawa's gardens and geisha districts in Ishikawa are all genuinely worthwhile New Year destinations that don't show up on any hatsumode crowd ranking.",
+          "Onsen towns fit this pattern especially well, because they're already built around a self-contained draw rather than a single famous shrine: Kusatsu in Gunma, Beppu and Yufuin in Oita, and Dogo Onsen in Ehime (see our guides) all stay pleasant through the New Year holiday instead of overwhelmed. And you no longer need a historic public bathhouse town to get the experience — a growing number of ryokan and hotels, including in regions without much onsen tradition at all, now build a private open-air bath (露天風呂) directly into the guest room. That means soaking outdoors in the cold, quietly, on your own schedule, without the etiquette of a shared bathhouse (our onsen etiquette guide still applies if you do visit a communal one), which makes almost any quiet regional inn a viable New Year onsen trip.",
+          "Regional food is worth building the trip around too, not just tolerating between sights. Areas like Gifu (Hida beef, hoba miso grilled with mountain vegetables), Yamagata (Yonezawa beef, imoni taro stew), and Ishikawa (Kaga cuisine like jibuni duck stew, plus Omicho Market's seafood) each have a real kyodo ryori — local, home-region cooking — tradition built around what's grown or caught nearby, and winter is a strong season for a lot of it, including crab season peaking across the Hokuriku coast right over the New Year period. A trip organized around one of these food traditions reads as a destination in its own right, not a consolation prize for skipping the crowds.",
+        ],
+      },
+      {
+        heading: "How to actually plan it",
+        body: [
+          "Book accommodation for both legs early — a quiet region for New Year still has limited inventory even though its shrines aren't crowded, and everyone else in Japan is also traveling somewhere over the same holiday. If a famous shrine's hatsumode is specifically on your list as an experience rather than something to avoid, aim for early morning (before 8am) or evening (after 4pm) on any of the three days, or visit slightly off-peak on January 2nd or 3rd rather than the 1st. And if your trip runs past January 4th, that's when even the biggest names return to something close to a normal, comfortable visit.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "new-year-in-japan",
+      "gifu-shirakawago-and-takayama",
+      "ishikawa-kanazawa-gardens-and-geisha-districts",
+      "gunma-kusatsu-onsen-and-tomioka-silk-mill",
+      "oita-beppu-hot-springs-yufuin",
+      "ehime-dogo-onsen-matsuyama-castle",
+      "gifu-hoba-miso-mountain-cooking",
+      "ishikawa-jibuni-kaga-cuisine-duck-stew",
+    ],
+    relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
+  },
 ];
 
 export function getTravelArticle(slug: string): TravelArticle | undefined {
