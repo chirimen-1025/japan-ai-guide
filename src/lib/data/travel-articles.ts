@@ -8750,6 +8750,104 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
   },
+  {
+    slug: "plum-blossom-season-by-region",
+    region: "plum-blossom-season",
+    regionLabel: "Plum Blossom Season",
+    category: "nature",
+    categoryLabel: "Nature",
+    title: "Plum Blossom Season in Japan: Where to See Ume Before Everyone Else Arrives for Sakura",
+    metaDescription:
+      "Plum blossoms (ume) bloom weeks before cherry blossoms and draw a fraction of the crowd. Here's the region-by-region bloom order and where to actually go.",
+    updatedAt: "2026-08-25",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short version",
+        body: [
+          "Plum blossoms (ume) are Japan's first real flowering-tree season of the year, opening weeks to months before cherry blossoms and drawing a fraction of the crowd. Where sakura viewing means picnic mats claimed at dawn and famous spots packed shoulder to shoulder, ume gardens in full bloom are often genuinely peaceful — the flowers are smaller and the display less overwhelming than sakura, but the trade-off is a much calmer visit and, in places like Dazaifu and Kitano Tenmangu, a deeper cultural story attached to the trees themselves.",
+          "Bloom timing moves south to north and coastal to inland, the same general pattern as cherry blossoms but starting much earlier and stretched over a longer window — which makes it easier to plan around than sakura's famously narrow, weather-dependent peak.",
+        ],
+      },
+      {
+        heading: "Roughly when and where it starts",
+        body: [
+          "Japan's earliest plum blossoms are usually found at Atami Baien on the Izu Peninsula in Shizuoka, a warm coastal microclimate where trees can start opening as early as late December or January — often advertised as the first ume of the year anywhere in Japan. From there, bloom progresses through Kyushu and the rest of western Japan in January and February, reaches the Kanto and Kansai regions (Tokyo, Kyoto, Ibaraki) mainly in February, and doesn't wrap up in cooler Tohoku areas until sometime in March. Exact dates shift meaningfully year to year with winter temperatures, so treat any specific week as a rough estimate and check a current bloom forecast before finalizing plans, the same way you would for sakura.",
+        ],
+      },
+      {
+        heading: "Where to actually go",
+        body: [
+          "Atami Baien (Shizuoka) claims the earliest blooms in the country most years and holds a long-running plum festival alongside it, making it a realistic option even for a January trip when almost nothing else is in flower. Dazaifu Tenmangu (Fukuoka, see our Fukuoka guide) is dedicated to Sugawara no Michizane, the deified scholar strongly associated with plum trees in Japanese legend, and the shrine grounds are planted with thousands of them — visiting doubles as a stop at one of Kyushu's most significant shrines, not just a flower-viewing trip. Kitano Tenmangu in Kyoto, also dedicated to Michizane, has a large plum grove and is one of the more atmospheric ume spots in the Kansai region. Kairakuen in Mito, Ibaraki (see our Ibaraki guide) is counted among Japan's three great gardens and plants several thousand plum trees across its grounds. In Tokyo, Yushima Tenjin, Hanegi Park, Koishikawa Korakuen, and Kyu Shiba Rikyu are all accessible city options without a day trip. And Odawara's ume festival in Kanagawa (near Hakone, see our Kanagawa guide) is known for pairing its plum orchards with a Mount Fuji backdrop on clear days.",
+        ],
+      },
+      {
+        heading: "Why plan a trip around it specifically",
+        body: [
+          "Beyond the smaller crowds, ume carries more cultural weight in Japan than its lower profile abroad suggests — it was the flower Japanese poetry associated with spring before sakura took over that role, and its connection to Michizane (posthumously worshipped as Tenjin, the god of scholarship) means plum-viewing at shrines like Dazaifu and Kitano Tenmangu overlaps with genuine religious and academic significance, not just scenery. If you also want to understand ume as food rather than flower, our Wakayama guide covers the umeboshi and umeshu side of plum culture, which is a different, separate part of the tradition from the blossoms themselves.",
+        ],
+      },
+      {
+        heading: "How to actually plan it",
+        body: [
+          "Because ume bloom windows are longer and less synchronized than sakura's, there's more flexibility in when you go, but also less certainty about hitting exact peak bloom at any single garden — search for the specific site's current bloom status shortly before your trip rather than booking around a fixed calendar date. If your trip lands in January or early February, Atami and Kyushu are the more reliable bets; by mid-to-late February, Kanto and Kansai spots like Kairakuen, Tokyo's gardens, and Kitano Tenmangu are more likely to be in bloom.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "cherry-blossom-season-by-region",
+      "ibaraki-hitachi-seaside-park-and-kairakuen",
+      "fukuoka-food-and-yatai",
+      "kanagawa-kamakura-great-buddha-and-hakone",
+      "wakayama-nanko-ume-umeboshi-umeshu",
+    ],
+    relatedCultureSlugs: ["shrines-and-temples"],
+  },
+  {
+    slug: "typhoon-season-travel-guide",
+    region: "typhoon-season-travel",
+    regionLabel: "Typhoon Season Travel",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Traveling to Japan During Typhoon Season: What Actually Happens and How to Plan Around It",
+    metaDescription:
+      "Typhoon season runs roughly July through October and peaks in August-September. Here's what a typhoon actually does to a trip, and how to plan so it doesn't wreck yours.",
+    updatedAt: "2026-08-25",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short version",
+        body: [
+          "Japan's typhoon season runs roughly July through October, with the highest chance of a storm actually affecting your trip in August and September. Most years only a handful of typhoons make direct landfall on Japan, and disruption from any single one is usually short, on the order of one or two days, not your whole trip. The realistic risk isn't 'a typhoon will hit,' it's 'a typhoon might force a day of altered plans,' and a trip built with a little flexibility handles that easily.",
+        ],
+      },
+      {
+        heading: "How much this actually varies by region",
+        body: [
+          "Typhoon exposure isn't even across Japan. Okinawa and the southern Kyushu coast see the most direct approaches by a wide margin, since that's the typical storm track coming up from the Pacific and East China Sea (see our Okinawa and Kagoshima guides). Central and western Japan, including the Kansai and Tokyo areas, see occasional direct hits, mostly in August and September. Hokkaido and the far north are affected the least, and a typhoon reaching that far north is usually already weakening by the time it does.",
+        ],
+      },
+      {
+        heading: "What actually happens when one approaches",
+        body: [
+          "Forecasters typically give several days of advance warning once a storm's path becomes clear enough to act on, so you're very unlikely to be caught with zero notice. As a typhoon gets close, train operators — most visibly the Shinkansen — often announce a 'planned suspension' (keikaku unko) roughly a day ahead, canceling or reducing service on affected lines for the day the storm is expected to pass through, then resuming once conditions clear. Airlines do the same with flights, usually waiving change fees for the affected dates. The disruption itself is generally brief: heavy wind and rain for the day the storm passes, with service and normal conditions returning within a day or two afterward.",
+        ],
+      },
+      {
+        heading: "How to actually plan around it",
+        body: [
+          "If your trip falls in August, September, or early October, avoid locking in non-changeable intercity train reservations far in advance — Shinkansen reserved seats can usually be booked or changed just a day or two ahead, which keeps you from holding a ticket for a train that ends up suspended. Build in slack: a itinerary where every single day is a hard connection between cities leaves no room to simply wait out a one-day disruption, while one with a spare day or a flexible order of stops absorbs it easily. Keep an eye on forecasts once you're within about a week of departure rather than worrying about long-range outlooks, and have a rough indoor backup plan (museums, shopping areas, indoor markets) for whichever city you're in if a storm day lines up with your visit there. Travel insurance that covers trip delay and cancellation is worth having for a trip in this window specifically, since it's the one time of year cancellations are meaningfully more likely than the rest of the year.",
+          "Outside of the August-September peak, the same general awareness still applies through early October, but the odds of any single day being disrupted drop off, and by mid-October the season is winding down.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "okinawa-ryukyu-kingdom-history-culture",
+      "kagoshima-sakurajima-ibusuki-sand-baths",
+      "fukuoka-food-and-yatai",
+    ],
+    relatedCultureSlugs: [],
+  },
 ];
 
 export function getTravelArticle(slug: string): TravelArticle | undefined {

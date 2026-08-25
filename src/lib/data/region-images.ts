@@ -548,6 +548,36 @@ export const REGION_IMAGES: Record<string, RegionImage> = {
         "https://commons.wikimedia.org/wiki/File:Sapporo_television_tower_at_night_IMG_2982.jpg",
     },
   },
+  "hatsumode-crowds": {
+    src: "/photos/fushimi-inari-torii.jpg",
+    alt: "The senbon torii — thousands of vermillion gates — at Fushimi Inari Shrine, Kyoto, one of Japan's busiest hatsumode destinations",
+    width: 1280,
+    height: 824,
+  },
+  "plum-blossom-season": {
+    src: "/photos/kairakuen-plum-blossoms.jpg",
+    alt: "White and pink plum blossoms in full bloom at Kairakuen, one of Japan's three great gardens, Mito, Ibaraki",
+    width: 1280,
+    height: 849,
+    credit: {
+      author: "SQ0",
+      license: "CC BY 4.0",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Ibaraki_Kairaku-en_812_xl.jpg",
+    },
+  },
+  "typhoon-season-travel": {
+    src: "/photos/kabira-bay.jpg",
+    alt: "Glass-bottom boats on the turquoise water of Kabira Bay, Ishigaki Island, Okinawa — the part of Japan typhoons approach most often",
+    width: 1280,
+    height: 854,
+    credit: {
+      author: "663highland",
+      license: "CC BY-SA 3.0",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island41s3s4500.jpg",
+    },
+  },
 };
 
 export function getRegionImage(region: string): RegionImage | undefined {
