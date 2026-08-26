@@ -1,0 +1,12 @@
+{
+  "_comment": "Tracks the active growth goal and its history for the 'Japan AI Guide 成長目標チェック' scheduled task. Each firing runs in a fresh, memory-less session, so this file (committed to the repo) is how it remembers the current target and past results. activeGoal is null when no goal is currently set (e.g. right after a deadline was reached and a new goal hasn't been confirmed by the user yet) — in that state the task should just remind the user a new goal is needed, not invent one. Cumulative visits are counted from siteLaunchDate per Cloudflare Web Analytics, same method as visitor-milestone-state.json.",
+  "siteLaunchDate": "2026-08-21",
+  "activeGoal": {
+    "label": "公開1週間で累計60訪問",
+    "targetVisits": 60,
+    "targetDate": "2026-08-28",
+    "setAt": "2026-08-25",
+    "visitsAtSetTime": 31
+  },
+  "history": []
+}
