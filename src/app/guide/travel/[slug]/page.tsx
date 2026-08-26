@@ -5,6 +5,7 @@ import { TRAVEL_ARTICLES, getTravelArticle } from "@/lib/data/travel-articles";
 import { getCultureArticle } from "@/lib/data/culture";
 import { getRegionImage } from "@/lib/data/region-images";
 import { SITE_URL } from "@/lib/site-config";
+import { TripMapAddButton } from "@/components/trip-map-add-button";
 
 export function generateStaticParams() {
   return TRAVEL_ARTICLES.map((a) => ({ slug: a.slug }));
@@ -129,7 +130,15 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
 
       <h1 className="disp mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">{article.title}</h1>
       <p className="mt-3 text-muted">{article.metaDescription}</p>
-      <p className="mt-2 text-xs text-muted">Last updated {article.updatedAt}</p>
+      <div className="mt-4 flex flex-wrap items-center gap-3">
+        <p className="text-xs text-muted">Last updated {article.updatedAt}</p>
+        <TripMapAddButton
+          slug={article.slug}
+          region={article.region}
+          regionLabel={article.regionLabel}
+          title={article.title}
+        />
+      </div>
 
       {article.needsVerification && (
         <div className="mt-5 rounded-xl border border-accent/30 bg-accent-soft px-4 py-3 text-sm text-ink">
@@ -184,6 +193,12 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
             className="rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-brand"
           >
             Emergency Assistant
+          </Link>
+          <Link
+            href="/tools/trip-map"
+            className="rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-brand"
+          >
+            Trip Map
           </Link>
         </div>
       </div>
