@@ -86,6 +86,7 @@ export const REGION_COORDINATES: Record<string, RegionCoordinate> = {
   "great-night-views": { lat: 43.0618, lng: 141.3545 }, // Hokkaido (Sapporo)
   "scenic-beauty-spots": { lat: 36.5613, lng: 136.6562 }, // Ishikawa (Kenrokuen)
   "ad-famous-scenic-spots": { lat: 34.1858, lng: 131.4714 }, // Yamaguchi (Motonosumi)
+  "three-great-tenjin": { lat: 33.5904, lng: 130.4017 }, // Fukuoka (Dazaifu Tenmangu)
 };
 
 export function getRegionCoordinate(region: string): RegionCoordinate | undefined {

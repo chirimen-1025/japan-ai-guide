@@ -626,6 +626,13 @@ export const REGION_IMAGES: Record<string, RegionImage> = {
         "https://commons.wikimedia.org/wiki/File:%E5%85%83%E4%B9%83%E9%9A%85%E7%A8%B2%E6%88%90%E7%A5%9E%E7%A4%BE_Motonosumi-Inari-jinja_20090504.jpg",
     },
   },
+  "three-great-tenjin": {
+    src: "/photos/dazaifu-tenmangu-honden.jpg",
+    alt: "Crowds of visitors before the main hall (honden) of Dazaifu Tenmangu, one of Japan's three great Tenjin shrines, Fukuoka",
+    width: 632,
+    height: 413,
+    // CC0 — public domain, no attribution required.
+  },
 };
 
 export function getRegionImage(region: string): RegionImage | undefined {

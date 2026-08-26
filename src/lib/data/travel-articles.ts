@@ -9165,6 +9165,75 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedCultureSlugs: [],
   },
+  {
+    slug: "japans-three-great-tenjin-shrines",
+    region: "three-great-tenjin",
+    regionLabel: "Japan's Three Great Tenjin",
+    category: "attractions",
+    categoryLabel: "Attractions",
+    title: "Japan's Three Great Tenjin Shrines: Kitano, Dazaifu, and Hofu Tenmangu",
+    metaDescription:
+      "Kitano and Dazaifu Tenmangu are always on the list of Japan's \"three great Tenjin\" shrines — the third spot is genuinely disputed. What each shrine offers, plus the annual festivals that define them, from Kyoto's plum-blossom Baika-sai to Hofu's dramatic Hadaka Bo Matsuri.",
+    updatedAt: "2026-08-27",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "What \"Japan's Three Great Tenjin\" Means",
+        body: [
+          "A Tenjin shrine (also called a Tenmangu) enshrines Sugawara no Michizane, a real 9th-century scholar and government minister who was exiled from Kyoto to Dazaifu on false charges and died there in 903. Within a few decades, a series of misfortunes back in the capital — plague, lightning strikes, deaths among his political rivals — were popularly attributed to his vengeful spirit, and he was deified as Tenjin, a god now associated mainly with scholarship and academic success. There are reportedly around 10,000–12,000 Tenjin/Tenmangu shrines across Japan today, making Michizane one of the most widely enshrined figures in the country, and students commonly visit one before entrance exams to pray for good results.",
+          "\"Japan's three great Tenjin\" (日本三大天神, also written 日本三天神) is an informal ranking of the three most historically significant of these shrines — the kind of \"three great X\" list Japan has for gardens, night views, and countless other categories. Unlike some of those lists, though, this one doesn't have a single agreed-upon answer, which is itself worth understanding before you plan a visit around it.",
+        ],
+      },
+      {
+        heading: "Two Are Settled — the Third Is Genuinely Disputed",
+        body: [
+          "Kitano Tenmangu in Kyoto and Dazaifu Tenmangu in Fukuoka are included in essentially every version of this list, and both are considered the \"head shrines\" (総本社) of the entire Tenjin/Tenmangu network nationwide. The disagreement is over the third seat.",
+          "Hofu Tenmangu in Yamaguchi is the most commonly cited third shrine, largely on the strength of its own claim to be the very first Tenjin shrine ever built, founded in 904 — a year before Kitano and 15 years before Dazaifu's shrine complex was formally established. But it isn't the only claimant: Oitsugo Tenmangu in Ibaraki argues its case on the grounds that it enshrines Michizane's remains, Kohiragata Tenmangu in Niigata points to housing the first-ever carved image of him, and a handful of other shrines make similar historically-grounded but shrine-specific arguments. None of this is a controversy in any serious sense — it's closer to several respected old shrines each having a genuine, defensible claim, with no central authority to settle it. This guide covers Hofu Tenmangu as the third shrine since it's the version most often repeated, but treat that as \"the common answer,\" not an official one.",
+        ],
+      },
+      {
+        heading: "Kitano Tenmangu (Kyoto)",
+        body: [
+          "Founded in 947, Kitano Tenmangu sits in northwest Kyoto and is considered the original head shrine of the Tenjin network. Its main hall (honden), rebuilt in 1607 under Toyotomi Hideyori, is a National Treasure and a notable example of Momoyama-period shrine architecture — a distinct, more ornate style than the older Heian-period shrines Kyoto is also known for.",
+          "The shrine grounds hold roughly 1,500 plum trees (Michizane was famously devoted to plum blossoms, and one legend says a plum tree in Kyoto uprooted itself and flew to be near him in exile), making late February into March a particularly good window to visit. Around the grounds you'll also find several bronze \"nade-ushi\" (stroking bull) statues — reclining oxen visitors touch for good luck, since an ox is traditionally considered Michizane's sacred messenger. A flea market and antiques fair is held on the 25th of every month (Michizane's birth and death are both associated with that date), which is a good time to visit if the date lines up with your trip.",
+          "Kitano Tenmangu also holds two well-known annual festivals. The Zuiki Matsuri, usually held October 1–5, is a harvest festival said to date back roughly 1,000 years: a mikoshi (portable shrine) roofed in taro stalks and decorated with other autumn vegetables and grains is paraded through the surrounding neighborhood, with geiko and maiko from the nearby Kamishichiken geisha district taking part. On February 25 — the date tied to Michizane's death — the shrine holds Baika-sai, where geiko and maiko from Kamishichiken serve matcha to seated visitors among the plum trees; it's a small paid, ticketed event that tends to sell out, so plan ahead if the date falls during your trip.",
+          "Kitano Tenmangu is reachable by city bus from central Kyoto (roughly 20–30 minutes from Kyoto Station depending on route and traffic); there's no train station directly at the shrine.",
+        ],
+      },
+      {
+        heading: "Dazaifu Tenmangu (Fukuoka)",
+        body: [
+          "Founded in 919, Dazaifu Tenmangu was built directly over the site of Michizane's grave in the town where he died in exile, which gives it a more personal, memorial character than a typical shrine founding. Its main hall is a nationally designated Important Cultural Property, and the approach to it runs through a lively shopping street selling umegae-mochi, a plum-shaped grilled mochi cake specific to this shrine.",
+          "As of 2026, the shrine's honden is undergoing a multi-year restoration, and in the meantime worship takes place at a striking temporary hall designed by architect Sou Fujimoto — its roof planted with local greenery — expected to remain in use until roughly 2027. Like Kitano, Dazaifu Tenmangu has its own \"flying plum\" tree said to be a descendant of the one that followed Michizane from Kyoto, and its own nade-ushi statues near the entrance.",
+          "Dazaifu Tenmangu also runs two notable festivals of its own. Usokae Matsuri, held every January 7, centers on a play on words: after dark, visitors exchange small carved wooden bullfinch (uso) charms hand to hand, symbolically trading away the past year's \"uso\" (lies and misfortunes) for good luck — a mix of solemn ritual and cheerful chaos. In autumn, the shrine's Jinko-shiki festival (roughly September 21–25, though exact dates can shift year to year) is a procession in Heian-period costume that carries the shrine's mikoshi about 2.5km to a nearby shrine and back; it's said to date to the early 12th century and is recognized as a Fukuoka intangible folk cultural property.",
+          "Dazaifu Tenmangu is about a 5-minute walk from Dazaifu Station on the Nishitetsu line, which connects to central Fukuoka (Tenjin Station — itself named after this shrine's god) in around 30 minutes.",
+        ],
+      },
+      {
+        heading: "Hofu Tenmangu (Yamaguchi)",
+        body: [
+          "Founded in 904, Hofu Tenmangu describes itself as the first Tenjin shrine built anywhere in Japan, predating both Kitano and Dazaifu's formal shrine complexes. It's a considerably smaller, quieter site than the other two, with one of Yamaguchi Prefecture's oldest large stone torii gates at its entrance and a hillside pavilion, Shunpuro, that gives a wide view back over the town of Hofu.",
+          "Hofu Tenmangu's best-known event — and arguably the most dramatic festival of the three shrines — is the Gojinko-sai, far better known by its nickname, Hadaka Bo Matsuri (\"naked man festival\"). Held every year on the fourth Saturday of November, it's said to trace back over a thousand years to a ritual first held in 1004 to mark Michizane's posthumous pardon and restoration of rank. Thousands of participants wrapped in white cloth rather than ordinary clothing take turns shouldering a heavy mikoshi — reportedly around 500kg — down a steep flight of stone steps and along a roughly 2.5km route to the coast and back, in a fast, physically demanding procession. It isn't part of Japan's canonical \"three great naked festivals\" (that trio is usually named as Okayama's Saidaiji Eyo, Aichi's Konomiya Hadaka Matsuri, and Iwate's Kuroishi-ji Sominsai), but it's one of the largest events of its kind in western Japan and the single best reason to time a Hofu Tenmangu visit around late November. It's free to watch from the roadside, though the route gets crowded and nearby streets close to traffic that evening — arrive early for a clear view.",
+          "Hofu Tenmangu is around a 15-minute walk from JR Hofu Station, making it an easy stop if you're already routing through Yamaguchi rather than a dedicated day trip on its own.",
+        ],
+      },
+      {
+        heading: "Planning a Visit",
+        body: [
+          "All three shrines are free to enter, though Kitano Tenmangu's separate treasure hall and plum garden, and Dazaifu Tenmangu's adjoining museum, charge their own small admission during relevant seasons. January and early February bring the heaviest crowds — students visiting before entrance exams, plus New Year's hatsumode traffic layered on top — so a visit in late February or March gets you the plum blossoms with noticeably fewer people.",
+          "Each shrine's festival calendar is also worth checking before you book: Kitano's Baika-sai (Feb 25) and Zuiki Matsuri (Oct 1–5), Dazaifu's Usokae Matsuri (Jan 7) and Jinko-shiki (around Sept 21–25), and Hofu's Hadaka Bo Matsuri (fourth Saturday of November) can each turn a routine visit into the highlight of a trip if the dates line up — but exact dates and ticketing for the paid events can shift year to year, so confirm current details on the shrine's own site closer to your travel dates.",
+          "Because none of these three shrines sit close together (Kyoto, Fukuoka, and Yamaguchi are each a significant trip apart), visiting all three on one trip isn't a realistic single-day plan the way some \"three great\" lists in this guide are — it's more sensible to treat each as a highlight within a broader Kansai, Kyushu, or Chugoku itinerary. As with any shrine, admission fees, treasure hall hours, and the status of Dazaifu's temporary worship hall can change — verify current details locally or on the shrine's own site before building a day around them.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "kyoto-temples-worth-visiting",
+      "fukuoka-city-attractions-ohori-park-and-canal-city",
+      "yamaguchi-hagi-and-kintaikyo-bridge",
+      "plum-blossom-season-by-region",
+    ],
+    relatedCultureSlugs: ["shrines-and-temples"],
+  },
 ];
 
 export function getTravelArticle(slug: string): TravelArticle | undefined {
