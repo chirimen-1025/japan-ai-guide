@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const NAV = [
   { href: "/tools/trip-planner", label: "Trip Planner" },
+  { href: "/tools/trip-map", label: "Trip Map" },
   { href: "/tools/budget-calculator", label: "Budget" },
   { href: "/tools/phrase-generator", label: "Phrases" },
   { href: "/tools/restaurant-helper", label: "Restaurant" },
