@@ -55,6 +55,12 @@ const TOOLS = [
 
 const MORE_TOOLS = [
   {
+    href: "/tools/trip-map",
+    jp: "地図",
+    title: "Trip Map",
+    desc: "Add places from any article to a list, see them plotted on a map, and get a rough day-count estimate.",
+  },
+  {
     href: "/tools/emergency",
     jp: "緊急",
     title: "Emergency Assistant",
