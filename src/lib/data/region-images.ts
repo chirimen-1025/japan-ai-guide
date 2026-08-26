@@ -578,6 +578,54 @@ export const REGION_IMAGES: Record<string, RegionImage> = {
         "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island41s3s4500.jpg",
     },
   },
+  "ski-snowboard-season": {
+    src: "/photos/jigokudani-snow-monkeys.jpg",
+    alt: "Japanese macaques (snow monkeys) soaking in a hot spring surrounded by snow, Jigokudani Monkey Park, Nagano — in the same snow country as the Hakuba ski resorts",
+    width: 800,
+    height: 601,
+    credit: {
+      author: "Yosemite",
+      license: "CC BY-SA 3.0",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Jigokudani_hotspring_in_Nagano_Japan_001.jpg",
+    },
+  },
+  "coming-of-age-day": {
+    src: "/photos/fushimi-inari-torii.jpg",
+    alt: "The senbon torii — thousands of vermillion gates — at Fushimi Inari Shrine, Kyoto, the kind of shrine setting where Coming-of-Age Day visitors in furisode are often seen",
+    width: 1280,
+    height: 824,
+  },
+  "great-night-views": {
+    src: "/photos/sapporo-white-illumination.jpg",
+    alt: "Illuminated light sculptures and the Sapporo TV Tower lit up blue at night during the Sapporo White Illumination, Odori Park, Hokkaido",
+    width: 736,
+    height: 550,
+    credit: {
+      author: "蛇使いの工藤",
+      license: "CC BY-SA 4.0",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Sapporo_television_tower_at_night_IMG_2982.jpg",
+    },
+  },
+  "scenic-beauty-spots": {
+    src: "/photos/kenrokuen-garden.jpg",
+    alt: "A stone lantern and stream in Kenrokuen Garden, Kanazawa — a Special Place of Scenic Beauty",
+    width: 1280,
+    height: 860,
+  },
+  "ad-famous-scenic-spots": {
+    src: "/photos/motonosumi-inari-shrine.jpg",
+    alt: "A row of bright red torii gates descending a coastal cliff at Motonosumi Inari Shrine, Yamaguchi",
+    width: 641,
+    height: 483,
+    credit: {
+      author: "noppo3",
+      license: "CC BY-SA 3.0",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:%E5%85%83%E4%B9%83%E9%9A%85%E7%A8%B2%E6%88%90%E7%A5%9E%E7%A4%BE_Motonosumi-Inari-jinja_20090504.jpg",
+    },
+  },
 };
 
 export function getRegionImage(region: string): RegionImage | undefined {

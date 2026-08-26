@@ -8848,6 +8848,323 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedCultureSlugs: [],
   },
+  {
+    slug: "ski-snowboard-season-by-region",
+    region: "ski-snowboard-season",
+    regionLabel: "Ski & Snowboard Season",
+    category: "nature",
+    categoryLabel: "Nature",
+    title: "Japan's Ski Season by Region: Niseko, Hakuba, Zao, and Naeba Compared",
+    metaDescription:
+      "How Japan's top ski regions compare on snow quality, season length, access from Tokyo, and atmosphere, so you can pick the right base for your trip.",
+    updatedAt: "2026-08-26",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Why Japan's Ski Regions Feel So Different From Each Other",
+        body: [
+          "Japan is a narrow, mountainous country that runs from subarctic Hokkaido in the north down through the Japan Alps and into the snow-heavy \"snow country\" region along the Sea of Japan coast, and that geography is why a ski trip to Niseko can feel like a completely different experience from a ski trip to Hakuba or Zao Onsen even though all three are within the same country and broadly the same season. Elevation, distance from the coast, and local weather patterns all shape how dry or wet the snow is, how long the season runs, and how crowded or quiet a resort town feels.",
+          "This guide compares four of the most talked-about ski and snowboard destinations in Japan: Niseko in Hokkaido, the Hakuba Valley in Nagano, Zao Onsen in Yamagata, and the Naeba and Echigo-Yuzawa area in Niigata. None of these is objectively \"the best,\" since the right pick usually depends on how much time you have, how far you're willing to travel from Tokyo, and whether you're chasing legendary powder, a lively international scene, a quieter onsen town, or the simplest possible logistics.",
+        ],
+      },
+      {
+        heading: "Niseko, Hokkaido: Legendary Powder and an International Scene",
+        body: [
+          "Niseko is usually the name that comes up first in any conversation about Japanese powder snow, and its reputation is generally well earned: the resort area's position downwind of the Sea of Japan tends to produce frequent, very light, dry snowfalls through most of the winter. The season typically runs from roughly late November or early December into early April, with peak powder conditions usually concentrated in January and February, though exact opening and closing dates shift a bit from year to year depending on snowfall.",
+          "What sets Niseko apart from Japan's other resort areas is less about the snow alone and more about the atmosphere that has built up around it over the past couple of decades. It has become one of the most international ski destinations in Asia, with a large seasonal Australian visitor base along with growing numbers of visitors from elsewhere, and the town has developed an accordingly lively apres-ski scene of bars, restaurants, and nightlife that feels distinct from the quieter, more traditionally Japanese atmosphere of many other ski towns. Niseko United, the collective name for the linked ski areas on the mountain, also offers a good amount of terrain variety and generally reliable English-language signage and service, which makes it an easy landing spot for first-time visitors to Japan.",
+          "The tradeoff is that Niseko is relatively far from Tokyo, typically requiring a flight to Sapporo's New Chitose Airport followed by a bus or train transfer of roughly two to three hours, so it tends to suit trips built around a multi-day or multi-week stay rather than a quick side trip.",
+        ],
+      },
+      {
+        heading: "Hakuba Valley, Nagano: Variety, Olympic Legacy, and Alpine Scenery",
+        body: [
+          "The Hakuba Valley is actually a cluster of roughly ten separate ski resorts spread across a single dramatic valley in the Japan Alps, which gives it a level of terrain variety that's hard to match anywhere else in the country, ranging from gentle beginner slopes to steep, expert-level terrain at areas like Happo-One and Cortina. The area hosted alpine skiing events during the 1998 Nagano Winter Olympics, and that Olympic-caliber infrastructure and terrain still shape the valley's reputation today.",
+          "Snow in Hakuba tends to be a bit heavier and wetter on average than Niseko's famously dry powder, since the valley sits further south and is shaped more by Alpine-style weather systems, but conditions are still generally very good by international standards, with a season that typically runs from around early December through late April in a decent year, sometimes even later at higher elevations. Hakuba also has an increasingly international crowd, especially around the main village areas, though it tends to feel a bit less concentrated and less nightlife-driven than Niseko.",
+          "Access is one of Hakuba's biggest advantages: it's usually reachable from Tokyo in roughly three to four hours by a combination of Shinkansen and bus, or by direct bus, and it sits close to Nagano city, which makes it realistic to combine a ski trip with a visit to Nagano's temples and other attractions on the same trip.",
+        ],
+      },
+      {
+        heading: "Zao Onsen, Yamagata: Snow Monsters and a Quieter, More Local Feel",
+        body: [
+          "Zao Onsen in Yamagata Prefecture is known less for having the single best powder in Japan and more for a distinctive natural phenomenon: in midwinter, strong winds and freezing moisture coat the resort's Aomori fir trees in thick layers of rime ice, creating eerie, rounded shapes locally nicknamed \"snow monsters,\" or juhyo. These formations are usually at their most dramatic from around January through February, and many visitors plan trips specifically around seeing them, including illuminated night viewings of the juhyo field that are typically offered on select evenings during peak season.",
+          "Zao Onsen is also, as the name suggests, built around a long-established hot spring town, and it tends to draw a noticeably more local, less internationally-oriented crowd than Niseko or Hakuba, which can make it appealing for travelers who want a quieter, more traditionally Japanese ski town atmosphere. The ski season here typically runs from roughly early December into early April, and while the resort doesn't usually market itself on powder volume the way Niseko does, snowfall is generally reliable and the terrain includes a good mix of long, gentle runs suited to families and more relaxed skiing.",
+          "Access from Tokyo usually takes around three hours by Shinkansen to Yamagata or Fukushima followed by a bus transfer, making it a moderately convenient option that's neither as remote as Niseko nor as close as the Yuzawa area.",
+        ],
+      },
+      {
+        heading: "Naeba and Echigo-Yuzawa, Niigata: The Easiest Day Trip From Tokyo",
+        body: [
+          "The Yuzawa area of Niigata Prefecture, including resorts like Naeba and GALA Yuzawa, is generally the most convenient ski region for anyone based in Tokyo, largely because of a direct Shinkansen line that connects Tokyo Station to the area in roughly seventy minutes to a bit over an hour and a half depending on the specific resort and train. GALA Yuzawa is particularly well known for having its own dedicated Shinkansen station essentially built into the base of the mountain, which makes it realistic to ski as a genuine day trip from Tokyo without an overnight stay, something that isn't really practical with Niseko, Hakuba, or Zao.",
+          "This region tends to get heavy, reliable snowfall thanks to its position in Japan's classic \"snow country\" along the Niigata coast, with a season that typically runs from around early December through late March or early April. The snow quality is generally good, though on average it can run a little heavier and wetter than Niseko's powder, and the terrain is generally considered more approachable for beginners and intermediate riders than the steeper terrain found in parts of Hakuba.",
+          "Because of its accessibility, the Yuzawa and Naeba area also tends to draw large weekend crowds from Tokyo, particularly around national holidays, so travelers looking for a quieter experience may want to plan around weekdays when possible.",
+        ],
+      },
+      {
+        heading: "Planning Advice: Crowds, Gear, Passes, and the Onsen Bonus",
+        body: [
+          "Timing a Japan ski trip well usually means being aware of two crowd surges that can affect pricing and availability across all of these regions: the Australian winter holiday period around late December through January, which tends to hit Niseko and Hakuba especially hard, and Lunar New Year, which typically falls sometime between late January and mid-February and can bring a wave of visitors from elsewhere in Asia. Booking well in advance for these windows, or shifting a trip slightly earlier or later in the season, can generally make for a calmer and often better-value experience.",
+          "Gear rental is widely available and generally of solid quality at all four of these regions, so bringing your own equipment is more a matter of personal preference and comfort than necessity, particularly for boots; renting locally also avoids the hassle of hauling gear through airports and trains. Lift ticket options usually range from single-day passes to multi-day and area-wide passes that cover several connected resorts, such as the passes that link the various Hakuba Valley resorts or the Niseko United mountain, and it's generally worth comparing these against buying individual day tickets if you plan to stay more than a couple of days.",
+          "One distinctly Japanese bonus worth building into any ski trip is the onsen, or hot spring bath, culture that surrounds most of these resort areas, and Zao Onsen and Niseko in particular have long-standing hot spring traditions attached to the towns themselves. Soaking in a hot spring after a day on the slopes is a genuinely popular local custom rather than just a tourist add-on, and it's usually worth setting aside time for, whether that means a public bathhouse, a hotel's own bath, or a standalone onsen facility near the base of the mountain.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "hokkaido-winter-first-timers",
+      "yamagata-yamadera-steps-and-zao-snow-monsters",
+      "nagano-snow-monkeys-matsumoto-castle-and-the-alps",
+      "winter-travel-guide-by-region",
+    ],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "coming-of-age-day-and-kimono-photography",
+    region: "coming-of-age-day",
+    regionLabel: "Coming-of-Age Day",
+    category: "history",
+    categoryLabel: "History & Culture",
+    title: "Coming-of-Age Day and Kimono Photography in Japan",
+    metaDescription:
+      "Every January, Japan's young adults dress in vivid furisode and hakama for Seijin no Hi. Here's what the day means, and how to appreciate it respectfully.",
+    updatedAt: "2026-08-26",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "What Is Coming-of-Age Day?",
+        body: [
+          "Coming-of-Age Day, known in Japanese as \"Seijin no Hi\", is a national holiday held on the second Monday of January (fixed by law, so the date itself is not something visitors need to hedge about, even though the exact day naturally shifts from year to year). It honors young people who are marking the transition into adulthood, and it is one of the most visually striking days on the Japanese calendar because so many of the people celebrating step outside in formal traditional dress, typically for the only time in their lives.",
+          "The holiday traces back to a local celebration held in Saitama in 1946, in the aftermath of the Second World War, meant to encourage and reassure a generation of young people facing an uncertain future. It became a nationwide national holiday in 1948 and has been observed in some form ever since, though the exact date has moved around as Japan's \"Happy Monday\" system shifted several holidays onto Mondays to create long weekends.",
+          "Municipalities across the country, from big-city wards to small towns, organize local Seijin Shiki ceremonies for residents who are reaching this milestone, which means the event is fundamentally a community and family occasion rather than a centralized spectacle staged for outside viewers.",
+        ],
+      },
+      {
+        heading: "The Age 18-vs-20 Question, Explained",
+        body: [
+          "This is worth clarifying because it trips up a lot of visitors and even some guidebooks: Japan officially lowered the legal age of adulthood from 20 to 18 in April 2022, a change to the Civil Code that affects things like signing contracts and getting a passport without parental consent. That might suggest Coming-of-Age Day ceremonies would shift to honor 18-year-olds instead, but in practice the vast majority of municipalities have continued to hold Seijin Shiki for people turning, or who have recently turned, 20.",
+          "The reasoning tends to come down to a few practical points. The legal drinking, smoking, and gambling age in Japan stayed at 20 even after the adulthood threshold changed, so a ceremony built around that milestone still lines up with when people can legally take part in the toasting and socializing that often follows. On top of that, Japanese 18-year-olds are typically deep in university entrance exam season in January, which makes that age an awkward time to ask an entire cohort to take a day off for formal ceremonies and family photos. Many local governments surveyed residents after the law changed and found a strong preference for keeping the tradition tied to age 20, so they simply kept the ceremony as is while just adjusting the official name in some places to something like \"Ceremony to Celebrate Twenty-Year-Olds\" rather than \"Adulthood Ceremony,\" to avoid implying it confers legal adult status.",
+          "So if you are visiting Japan in January and see references to Coming-of-Age Day, it is safe to assume the ceremonies and the furisode-and-hakama crowds you might encounter are almost entirely twenty-year-olds, not eighteen-year-olds, even though the latter are technically the legal adults now.",
+        ],
+      },
+      {
+        heading: "How the Day Is Actually Celebrated",
+        body: [
+          "The core of Seijin no Hi is a formal ceremony organized by each participant's home municipality, usually held at a city hall, community hall, or convention center rather than at a shrine or temple. Local officials give speeches, honorees are recognized as a group, and there is often a keepsake or small gift handed out. It is closer in spirit to a graduation ceremony than to a festival, and attendance is generally limited to the honorees and sometimes their families, not open to the general public.",
+          "The morning of the ceremony is a production in itself for many young women. It typically starts hours earlier with a visit to a hair and makeup salon, since styling an elaborate updo and applying formal makeup to go with a furisode is a specialized, time-consuming process. Many families book these appointments and kimono rentals many months in advance, since salons get fully booked around this date every year.",
+          "After the ceremony wraps up, the rest of the day tends to be social rather than official: honorees regroup with childhood friends they may not have seen in years, families gather for photos and sometimes a special meal, and it is common to see groups in furisode and hakama out and about in parks, near shrines, or at photo studios in the hours before or after the formal proceedings.",
+        ],
+      },
+      {
+        heading: "The Furisode and Hakama Look",
+        body: [
+          "The visual signature of the day is the furisode, a style of kimono with long, flowing sleeves that is reserved for unmarried young women, typically worn only once or twice in a lifetime, for occasions like this one and sometimes a graduation ceremony. Furisode are famous for being some of the most elaborate and colorful kimono made, with bold patterns, bright dyes, and often gold or metallic accents, paired with an ornate obi sash, a decorated hair ornament, and sometimes a fur stole for warmth given the January chill.",
+          "Young men tend to appear in either a formal hakama and kimono combination, similar in spirit to what is worn at graduation ceremonies, or increasingly in a standard business suit, which has become common enough that plenty of male honorees skip traditional dress altogether. Because renting a furisode and booking the accompanying hair, makeup, and photography can be expensive, some families instead rent a simpler kimono or reuse one passed down within the family.",
+          "Professional photography is a big part of the tradition. Many families book a formal portrait session, either at a studio beforehand or with a photographer on the day itself, and it is common to see honorees posing for family photos outside their ceremony venue or at a nearby park or shrine.",
+        ],
+      },
+      {
+        heading: "Where a Visitor Might See It, and How to Behave",
+        body: [
+          "Because Seijin Shiki ceremonies are organized locally and are not really designed as tourist attractions, there is no single central event to attend, and visitors should not expect to walk into a ceremony hall. What travelers can realistically encounter is the atmosphere around it: clusters of furisode-clad young women and their families near city halls and community centers on the morning of the holiday, and a noticeably higher concentration of formal kimono around popular shrines that week, since many honorees and their families also make a shrine visit as part of the milestone.",
+          "Meiji Jingu in Tokyo is probably the best-known example of this secondary effect. It is not hosting an official Seijin Shiki ceremony, but its scale and popularity as a shrine mean that on and around Coming-of-Age Day, and sometimes for the surrounding days, visitors are likely to see many young women in furisode and young men in hakama coming through for shrine visits, family photos, and general celebration. Other major shrines in large cities can show a similar, if smaller, effect.",
+          "If you want to experience this as a visitor, the respectful approach is to treat it the way you would any family milestone you happen to witness in public, such as a wedding party or a graduation. Enjoying the color and atmosphere from a distance is fine, but photographing specific individuals or families up close without asking first is not appropriate, since this is a deeply personal and often emotional day for the people involved, not a costume event staged for onlookers. If you would like a photo with someone in furisode, a polite request in simple English or Japanese, together with an understanding that \"no\" is a perfectly normal answer, goes a long way.",
+        ],
+      },
+      {
+        heading: "Kimono Rental Is a Separate, Year-Round Experience",
+        body: [
+          "It is worth being clear that Coming-of-Age Day itself is not something tourists participate in, since Seijin Shiki ceremonies are tied to residency and age rather than being open events. However, wearing a kimono while sightseeing is a completely separate and very accessible activity available in most major tourist areas year-round, including places like Kyoto, Asakusa in Tokyo, and Kamakura, where rental shops offer everything from casual cotton yukata to more formal kimono, often bundled with hairstyling and sometimes photography.",
+          "These rental experiences are aimed at visitors and are generally treated as a fun, low-stakes part of sightseeing rather than anything tied to a specific milestone, so there is no need to wait for January or to conflate the two. If seeing the Coming-of-Age Day crowds sparks an interest in wearing kimono yourself, booking one of these separate rental experiences during your trip, at any time of year, is the appropriate way to do it, rather than assuming any overlap with the Seijin Shiki season.",
+        ],
+      },
+    ],
+    relatedSlugs: ["new-year-in-japan", "tokyo-3-day-itinerary"],
+    relatedCultureSlugs: ["shrines-and-temples"],
+  },
+  {
+    slug: "three-great-night-views-of-japan",
+    region: "great-night-views",
+    regionLabel: "Great Night Views",
+    category: "attractions",
+    categoryLabel: "Attractions",
+    title: "The Three Great Night Views of Japan: Hakodate, Nagasaki, and Kobe",
+    metaDescription:
+      "Hakodate, Nagasaki, and Kobe form Japan's classic \"Three Great Night Views\" trio — here's how to see each one, and how a newer list differs.",
+    updatedAt: "2026-08-26",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "What the \"Three Great Night Views\" Designation Actually Means",
+        body: [
+          "Long before anyone was ranking hotels or ramen shops, Japan had already developed a habit of grouping its scenery into threes, and nighttime cityscapes eventually got the same treatment. The phrase most visitors encounter is \"Nihon Sankei Yakei\" (日本三大夜景), typically translated as the \"Three Great Night Views of Japan,\" and it generally refers to the illuminated panoramas seen from Mt. Hakodate in Hokkaido, Mt. Inasa above Nagasaki, and the hillside overlooks of Kobe (most famously Mt. Rokko and Mt. Maya). This grouping is old and informal rather than a single government-issued award; it grew out of decades of travel writing and popular consensus, often discussed alongside comparisons to a supposed \"world three great night views\" that historically paired Hong Kong and Naples with one of these Japanese cities.",
+          "It's worth being precise here, because this is one of the more commonly muddled bits of Japan travel trivia: there is a separate, newer, and formally organized designation called the \"New Three Great Night Views of Japan\" (日本新三大夜景), run by a night-view tourism organization that periodically resurveys and re-announces its picks (roughly every few years, based on a public and expert voting process tied to Japan's broader \"night view heritage\" project). That newer list has, at various points, included Nagasaki alongside cities like Sapporo (viewed from Mt. Moiwa) and Kitakyushu (viewed from Mt. Sarakura), and its lineup can change between selection cycles. Because the newer designation is periodically re-voted and the classic trio is not, travelers should treat the \"new\" list as a rotating, promotional honor rather than a replacement for the long-established Hakodate–Nagasaki–Kobe grouping this article focuses on.",
+        ],
+      },
+      {
+        heading: "Hakodate: The Hourglass Silhouette from Mt. Hakodate",
+        body: [
+          "Hakodate's night view is built almost entirely around geography. The city sits on a narrow, pinched strip of land connecting a rounded headland to Hokkaido's main body, and from the observation deck atop Mt. Hakodate (standing a few hundred meters above the city), that geography reads as a glowing hourglass or bowtie shape between two dark stretches of water, with the city lights concentrated along the narrow waist. It's a view that photographs distinctly differently from a typical skyline shot, since the drama comes from the shoreline shape itself rather than skyscraper density.",
+          "Most visitors ride the Mt. Hakodate Ropeway up from the base station, a trip that typically takes only a few minutes each way, though queues can build substantially in the hour or so around sunset since that transition period, when the sky still holds some color while city lights are switching on, is generally considered the most photogenic window. Because the mountaintop is exposed and can be windy or fogged in even when the city below is clear, it's worth checking current conditions before heading up, and building in some flexibility around dusk rather than arriving right at the last possible ropeway departure.",
+        ],
+      },
+      {
+        heading: "Nagasaki: A Bowl of Light Around the Harbor from Mt. Inasa",
+        body: [
+          "Nagasaki's old town was built into a natural amphitheater of hills wrapped around a harbor, and that layout is exactly what makes its night view distinctive. From the observation platform on Mt. Inasa, reached by ropeway (and sometimes described in local materials with a car or bus route up as an alternative), the city lights fill the bowl-shaped valley on all sides of the dark water, giving an enclosed, almost stadium-like sense of scale that's different from the linear or fan-shaped views typical of other Japanese cities. This bowl effect is frequently cited as the reason Nagasaki's view has also drawn attention in newer, separately organized \"world night view\" style rankings, distinct from the classic domestic trio described above.",
+          "As with the other two cities, the roughly 30 minutes to an hour bracketing sunset tends to be recommended as the ideal visiting window, since it lets visitors watch the harbor transition from daylight into full illumination rather than arriving to lights already fully on. Ropeway operating hours and the last-ascent cutoff can shift seasonally, so it's generally a good idea to confirm current timing locally rather than assuming a fixed schedule, and to have a backup plan in mind in case of cloud cover or rain, which can significantly dull the view from altitude.",
+        ],
+      },
+      {
+        heading: "Kobe: City Lights Meeting the Bay",
+        body: [
+          "Kobe's contribution to the classic trio is often called the \"ten-million-dollar night view\" (a phrase that started as a nod to a lower dollar figure decades ago and has since been inflated in local branding), and it's distinguished by the way a dense, orderly grid of city lights runs right down to the edge of Osaka Bay, with the port's cranes, ships, and waterline adding a working-harbor texture that pure skyline views usually lack. The classic vantage points are up in the hills behind the city, particularly Mt. Rokko and the closer, easier-to-reach Mt. Maya (whose Kikuseidai observation deck is a commonly recommended spot), both of which look down over central Kobe toward the water.",
+          "Travelers who prefer to stay at sea level rather than heading into the hills can also get a different, closer-up version of Kobe's nighttime charm from the waterfront around Meriken Park and the Kobe Port Tower area, though this lower vantage trades the sweeping elevated panorama for an intimate view of the illuminated harbor structures themselves. Getting up to Rokko or Maya typically involves a combination of local transit, a cable car or ropeway, and sometimes a connecting bus, so it's worth mapping the full route in advance and, again, aiming for the period around sunset on a clear evening for the best combination of visibility and atmosphere.",
+        ],
+      },
+      {
+        heading: "Classic Three vs. \"New\" Three: Don't Mix Them Up",
+        body: [
+          "Because Nagasaki appears prominently in both the older, informal \"Nihon Sankei Yakei\" trio and the newer, formally re-voted \"New Three Great Night Views\" project, it's easy to see how the two designations get blended together in casual writing, but they are genuinely separate honors with different histories, different organizing bodies, and different (and sometimes shifting) member cities. Hakodate and Kobe belong specifically to the older, classic grouping and are not reliably part of the newer rotating list, while cities such as Sapporo and Kitakyushu have appeared in the newer designation without being part of the classic three. When reading other travel sources, it's worth checking which list is actually being referenced before assuming any single, fixed \"official\" set of three cities applies across the board.",
+        ],
+      },
+      {
+        heading: "Planning a Night View Visit",
+        body: [
+          "All three classic locations reward the same basic strategy: aim to arrive at the summit or observation point before sunset so you can watch the transition from daylight to full illumination, since that changeover period is when most photographers and locals consider the view at its best, and build in a buffer for ropeway or cable car queues that tend to peak in exactly that window. Clear, low-humidity nights produce noticeably crisper views than hazy or rainy ones, so if your schedule allows some flexibility, it's worth checking a short-range forecast and shifting your visit to the clearest evening available rather than fixing a specific date far in advance.",
+          "Ropeway and cable car schedules, ticket prices, and last-ascent times can all vary by season and are subject to change, so treat any specific hours you see quoted, including on this page, as a general guide rather than a guarantee, and confirm current operating details directly with the relevant ropeway or transit operator shortly before your visit. It's also sensible to dress warmer than you might expect, since mountaintop viewpoints are typically several degrees cooler and windier than the city streets below, especially outside the summer months.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "hokkaido-summer-furano-lavender-and-hakodate",
+      "nagasaki-atomic-bomb-history-dejima",
+      "hyogo-himeji-castle-and-kobe",
+    ],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "japans-places-of-scenic-beauty-explained",
+    region: "scenic-beauty-spots",
+    regionLabel: "Places of Scenic Beauty",
+    category: "history",
+    categoryLabel: "History & Culture",
+    title: "Japan's Places of Scenic Beauty, Explained",
+    metaDescription:
+      "What \"Places of Scenic Beauty\" and \"Special Places of Scenic Beauty\" actually mean in Japanese law, and which famous sites hold the top tier.",
+    updatedAt: "2026-08-26",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "A Legal Designation, Not Just a Pretty View",
+        body: [
+          "When a Japanese garden, gorge, or coastal view gets called a \"Place of Scenic Beauty\" (名勝, Meishō), that is not a travel writer's compliment, it is a formal legal status. The designation is made under Japan's Act on Protection of Cultural Properties and administered by the Agency for Cultural Affairs, commonly known as Bunkacho. The same law also creates categories for Historic Sites and Natural Monuments, and Places of Scenic Beauty sit alongside those as one of the three main types of \"Monuments\" the law recognizes.",
+          "Being designated changes what can legally happen to a site. Altering the landscape, cutting down trees, building structures, or otherwise disturbing a designated Place of Scenic Beauty generally requires permission from the relevant cultural affairs authority, not just a landowner's say-so. That is a meaningfully different thing from a site simply being popular or photogenic, and it is worth keeping in mind as you read lists online that casually mix \"scenic and lovely\" with \"legally protected,\" since the two overlap a lot but are not identical.",
+        ],
+      },
+      {
+        heading: "Two Tiers: Regular and Special",
+        body: [
+          "Within this system there is a second, higher tier called Special Places of Scenic Beauty (特別名勝, Tokubetsu Meishō), reserved for sites judged to be of especially outstanding value. Think of it as roughly analogous to how some World Heritage sites get extra attention within an already exclusive list, except this is a purely domestic Japanese legal distinction with its own criteria and its own paperwork.",
+          "The exact numbers shift over time as new sites are added, so they are worth treating as approximate rather than fixed. As of recent counts, there were roughly 36 sites nationwide holding the Special tier, out of a total of somewhere around 400 or so Places of Scenic Beauty overall (a figure that includes those 36 special ones). Because designations do get added periodically, and because count figures found online do not always agree with each other, treat any specific number you see, including the ones here, as a reasonable approximation rather than gospel, and this is one of the reasons this article is flagged for verification.",
+        ],
+      },
+      {
+        heading: "Famous Special Places of Scenic Beauty Worth Visiting",
+        body: [
+          "The roster of Special Places of Scenic Beauty reads like a highlight reel of Japan's most photographed landscapes and gardens. Matsushima Bay near Sendai, with its pine-covered islets scattered across the water, holds the designation, and so does Amanohashidate, the pine-covered sandbar in Kyoto Prefecture that appears to float between two arms of the sea when viewed from its famous overlooks. Itsukushima, the shrine island better known as Miyajima near Hiroshima, is on the list as well. What makes this trio especially fun for travel planning is that all three are also separately known as the \"Three Views of Japan\" (Nihon Sankei), an older and more informal ranking of Japan's most celebrated scenery, so in these three cases the folk reputation and the formal legal designation happen to line up.",
+          "Kyoto's temple gardens contribute a disproportionate share of entries, including the garden at Kinkaku-ji (formally Rokuon-ji), the garden at Ginkaku-ji (formally Jisho-ji), the rock garden at Ryoan-ji, the Hojo garden at Daitoku-ji, and the Ninomaru Palace garden at Nijo Castle, among others clustered in and around the old capital. Kanazawa's Kenrokuen, widely considered one of the finest strolling gardens in the country, is likewise designated, and it carries a similar kind of double honor to the Three Views trio: Kenrokuen is also counted among the informal \"Three Great Gardens of Japan\" (Nihon Sanmeien), alongside Okayama's Korakuen, which is itself a Special Place of Scenic Beauty, and Mito's Kairakuen, which reporting suggests holds only the regular Meishō designation rather than the Special tier. That is a genuinely interesting wrinkle: three gardens celebrated together in popular culture as Japan's best do not all sit at the same rung of the legal ladder, which is exactly the kind of nuance that gets flattened when lists get copied from site to site without checking.",
+          "The list extends well beyond gardens and beaches into dramatic natural terrain, including the alpine valley of Kamikochi in Nagano, the Kurobe Gorge in Toyama, Lake Towada straddling Aomori and Akita, and reportedly Mount Fuji itself, whose slopes carry scenic-beauty protection in addition to its more widely known World Heritage status. Tokyo contributes its own entries too, with strolling gardens such as Rikugien and Hamarikyu Gardens appearing on the Special list, a reminder that this is not purely a rural or Kyoto-centric category.",
+        ],
+      },
+      {
+        heading: "What the Designation Actually Protects",
+        body: [
+          "Because the underlying law treats Places of Scenic Beauty as cultural property rather than simply as land, the protections are aimed at preserving the character that earned the designation in the first place, whether that is the layout of a strolling garden, the shape of a coastline, or the composition of a gorge. Local and national authorities are typically involved in reviewing proposed changes, and maintenance work at these sites, from pruning historic pines to repairing garden paths, is often carried out with an eye toward keeping the site consistent with its designated form rather than modernizing it freely.",
+          "For visitors, this legal backing is part of why so many of these places feel remarkably well kept decades or centuries after they were first laid out. It is also why development pressure near a designated site can become a genuine point of local controversy, since altering the surroundings of a legally protected scenic area is a bureaucratic matter, not just an aesthetic one.",
+        ],
+      },
+      {
+        heading: "A Word of Caution: Fame and Formal Status Do Not Always Match",
+        body: [
+          "It is easy to assume that any site described online as one of Japan's great scenic or historic landmarks must carry the Special designation, but that is not always the case. Nikko's shrine and temple precinct, home to the elaborately decorated Tosho-gu shrine, is protected as a Historic Site under the same cultural properties law, but available records point to that precinct being designated at the regular Historic Site level rather than as a Special Historic Site or a Special Place of Scenic Beauty, despite Nikko's immense popularity and its separate UNESCO World Heritage status. That does not make Nikko any less worth visiting, but it is a good reminder that \"famous,\" \"beautiful,\" and \"holds the top legal tier\" are three different claims, and travel content that blurs them together is exactly the kind of thing worth double-checking, ideally against the Agency for Cultural Affairs' own records, before repeating as fact.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "ishikawa-kanazawa-gardens-and-geisha-districts",
+      "miyagi-matsushima-bay-and-sendai-gyutan",
+      "cherry-blossom-season-by-region",
+      "autumn-leaves-season-by-region",
+    ],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "japans-most-cm-famous-scenic-spots",
+    region: "ad-famous-scenic-spots",
+    regionLabel: "CM-Famous Scenic Spots",
+    category: "attractions",
+    categoryLabel: "Attractions",
+    title: "Japan's Most CM-Famous Scenic Spots: Tsunoshima, Motonosumi, and Eshima Ohashi",
+    metaDescription:
+      "Three Japanese landmarks that went viral through car commercials and CNN coverage: a turquoise bridge, a cliffside torii shrine, and an optical-illusion overpass.",
+    updatedAt: "2026-08-26",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "When a Landscape Becomes a Screen Star",
+        body: [
+          "Some of Japan's most photographed places did not become famous the old-fashioned way, through centuries of pilgrimage or a mention in classical literature. They became famous because a camera crew found them first. A sweeping bridge over impossibly blue water, a hillside cascading with vermilion shrine gates, and a highway overpass that looks like it was designed for a video game have all become bucket-list stops largely because millions of people saw them on a screen before they ever saw them in person.",
+          "This guide covers three such spots in western Japan, all reachable from the Yamaguchi, Shimane, and Tottori area: Tsunoshima Bridge, Motonosumi Inari Shrine, and Eshima Ohashi Bridge. It is worth being precise about how each one actually got famous, because the routes are different. Tsunoshima Bridge and Eshima Ohashi are widely credited to Japanese car commercials that used their dramatic road shapes as a selling point. Motonosumi Inari Shrine's fame is generally traced to an international media list and the social media sharing that followed, not to an advertisement at all. Blurring those origin stories together is easy to do and easy to get wrong, so this article keeps them separate.",
+        ],
+      },
+      {
+        heading: "Tsunoshima Bridge: The Bridge That Sold Cars",
+        body: [
+          "Tsunoshima Bridge (Tsunoshima Ohashi) is a roughly 1,780-meter bridge in Shimonoseki, Yamaguchi Prefecture, connecting the mainland to the small island of Tsunoshima. Opened in 2000 without a toll, it is often cited as one of the longest toll-free bridges in Japan. What makes it a magnet for photographers is the water it crosses: on a sunny day the shallow, sandy-bottomed sea on either side turns a strikingly bright turquoise-to-emerald color, so the bridge appears to float across a tropical-looking lagoon despite being firmly in the Sea of Japan.",
+          "The bridge's visibility skyrocketed because of its recurring role in Japanese automobile commercials, and it is widely reported that a Nissan Skyline advertisement was among the campaigns that used its long, gently curving deck as a backdrop, helping cement the bridge's reputation as a dream driving location. Yamaguchi Prefecture's coastal roads more broadly have become a favorite of car-commercial location scouts precisely because of scenery like this, and Tsunoshima Bridge is usually named as the flagship example. Because ad campaigns and their exact vehicle lineups change over the years and are not always centrally documented, treat any specific brand or model attached to the bridge's fame as a reported detail worth double-checking rather than settled trivia, and do not be surprised if you find other car brands and models named in different sources as well.",
+          "Whatever the exact commercial history, the practical effect is the same: this is now one of the most Instagrammed bridges in Japan, and it earns that reputation on a clear day when the water color is at its best.",
+        ],
+      },
+      {
+        heading: "Visiting Tsunoshima Bridge",
+        body: [
+          "The classic photo is taken from the Amagase Observation Deck (Amagase Tenboudai), a small parking area and lookout on the mainland side that gives an elevated view down the length of the bridge with the color gradient of the water on full display; it is typically busiest in the late morning through early afternoon when the sun is high enough to light up the turquoise shallows, and many visitors also come for sunset. Tsunoshima Bridge is, however, a real two-lane public road carrying local traffic, delivery vehicles, and cyclists, so pull fully into a designated parking or viewing area before taking photos and never stop in a driving lane or on the shoulder to get a shot. Once across, the island itself has a lighthouse, beaches, and seafood restaurants worth building into a half-day or full-day trip from Shimonoseki, which is roughly a 40 to 50 minute drive away depending on the route.",
+        ],
+      },
+      {
+        heading: "Motonosumi Inari Shrine: Famous Through a Different Route",
+        body: [
+          "Motonosumi Inari Shrine sits on a dramatic stretch of coastline in Nagato, also in Yamaguchi Prefecture, and is instantly recognizable for its row of roughly 123 red torii gates marching down a grassy cliff toward the open ocean, ending with a small offering box mounted unusually high on the final gate. The shrine was founded in the 1950s, which makes it relatively young by Japanese shrine standards, and for decades it remained a fairly local destination.",
+          "That changed after CNN Travel included the shrine in a widely shared 2015 feature commonly referenced as \"Japan's 31 Most Beautiful Places,\" which brought it to a global English-speaking audience for the first time. This is the key point that separates Motonosumi from the two bridges in this guide: its rise to fame is generally attributed to that international media coverage and the wave of social media sharing and travel-blog attention that followed, not to a television or car commercial. It is worth being careful not to lump this shrine in with the CM-driven fame of Tsunoshima Bridge or Eshima Ohashi Bridge, since the mechanism by which each place became famous is genuinely different, even though all three now show up in the same social media feeds and the same lists of only-in-Japan photo spots.",
+        ],
+      },
+      {
+        heading: "Visiting Motonosumi Inari Shrine",
+        body: [
+          "The gates run along a sloped path above the cliff edge, and the postcard shot is usually taken partway up the path looking back down the tunnel of red gates toward the ocean, with soft morning light generally considered the most flattering time before midday crowds and haze build up. Near the top of the hill sits a red torii-shaped collection box for the shrine's offerings, itself become something of a photo prop, and a small vermilion Fudekake Inari statue with a fox figure is nearby. Because the path can be narrow and the cliffside footing uneven in places, comfortable shoes are worth wearing, and visitors should stay on the marked path both for their own safety and out of respect for the shrine grounds. The shrine is roughly a 45 minute drive from central Nagato and can reasonably be combined with a Tsunoshima Bridge visit in the same day, since both are on the Yamaguchi coast, though the driving loop between them typically takes a full day when photo stops are included.",
+        ],
+      },
+      {
+        heading: "Eshima Ohashi Bridge: The Slope That Isn't Quite What It Looks Like",
+        body: [
+          "Eshima Ohashi Bridge spans Lake Nakaumi between Matsue in Shimane Prefecture and Sakaiminato in Tottori Prefecture, and it has picked up the nickname \"Betabumi-zaka,\" a colloquial phrase roughly translatable as \"floor-it slope,\" a reference to the idea that a driver would need to floor the accelerator to climb it. The bridge was built tall enough, with a rise of around 44 to 45 meters, to let large ships pass underneath without needing to open, which is what gives it its steep-looking profile in the first place.",
+          "Its viral fame is widely credited to a Daihatsu television commercial for the Tanto Custom minivan, which used a long telephoto lens to compress the bridge's approach into what looks like an almost vertical wall of road. The ad prompted a wave of viewers to ask whether such a bridge could possibly be real, and the resulting curiosity, amplified through social media sharing of the commercial and of visitors' own photos, is generally cited as the reason the bridge became a nationally and internationally known photo destination.",
+          "The important caveat, confirmed by multiple road tests and measurements after the commercial aired, is that the bridge is nowhere near as steep to actually drive as it appears in that footage. Its real gradient is a modest few percent, comparable to an ordinary highway overpass, and cars cross it at normal speed without any special effort. The dramatic wall-like appearance is a photography trick produced by a long lens compressing perspective from a specific low, distant vantage point, not a description of what driving over the bridge actually feels like, and setting that expectation up front saves visitors from disappointment or confusion when they arrive and find a perfectly ordinary-feeling drive.",
+        ],
+      },
+      {
+        heading: "Visiting Eshima Ohashi Bridge and Practical Notes for All Three Spots",
+        body: [
+          "The famous compressed-perspective photo of Eshima Ohashi is typically taken from a distance on the Shimane side, using a zoom or telephoto lens from a low angle near the water rather than from on top of the bridge itself, and there are informal viewing spots near the shoreline on both approaches where photographers commonly set up; a clear day with good visibility generally produces the most striking compression effect. As with Tsunoshima Bridge, this is a functioning stretch of national highway carrying regular commuter and freight traffic, so photograph it from the roadside or an official pull-off, never from a traffic lane or the bridge deck itself, and be mindful of local residents who use this bridge every day as part of ordinary life rather than as a backdrop.",
+          "All three locations reward a rental car more than public transit, since they sit in the less densely served parts of Yamaguchi, Shimane, and Tottori; Shimonoseki and Nagato serve as reasonable bases for Tsunoshima Bridge and Motonosumi Inari Shrine, while Matsue or Yonago make sensible bases for Eshima Ohashi Bridge, and driving between the two clusters typically takes a couple of hours along the San'in coast. None of these sites charge admission, and none keep fixed hours in the way a museum would, though visiting in daylight is strongly recommended for both photography and safety. Because opening arrangements, parking rules, and even nicknames tied to advertising campaigns can shift over time, it is worth checking current local tourism information before a trip, and treating any single ad campaign or brand mentioned here as the commonly reported version of the story rather than an unchangeable fact.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "yamaguchi-hagi-and-kintaikyo-bridge",
+      "tottori-sand-dunes-and-snow-crab",
+      "shimane-izumo-taisha-and-matsue",
+    ],
+    relatedCultureSlugs: [],
+  },
 ];
 
 export function getTravelArticle(slug: string): TravelArticle | undefined {
