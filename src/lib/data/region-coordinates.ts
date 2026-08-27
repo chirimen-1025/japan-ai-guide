@@ -87,6 +87,7 @@ export const REGION_COORDINATES: Record<string, RegionCoordinate> = {
   "scenic-beauty-spots": { lat: 36.5613, lng: 136.6562 }, // Ishikawa (Kenrokuen)
   "ad-famous-scenic-spots": { lat: 34.1858, lng: 131.4714 }, // Yamaguchi (Motonosumi)
   "three-great-tenjin": { lat: 33.5904, lng: 130.4017 }, // Fukuoka (Dazaifu Tenmangu)
+  "nihon-sankei": { lat: 34.3853, lng: 132.4553 }, // Hiroshima (Miyajima/Itsukushima)
 };
 
 export function getRegionCoordinate(region: string): RegionCoordinate | undefined {

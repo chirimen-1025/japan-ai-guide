@@ -9234,6 +9234,65 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
+  {
+    slug: "japans-three-views-nihon-sankei",
+    region: "nihon-sankei",
+    regionLabel: "Japan's Three Views",
+    category: "attractions",
+    categoryLabel: "Attractions",
+    title: "Japan's Three Views (Nihon Sankei): Matsushima, Miyajima, and Amanohashidate",
+    metaDescription:
+      "Matsushima, Miyajima, and Amanohashidate have been Japan's official \"three great views\" since the 1600s — one of the few such lists nobody actually disputes. What each place offers, and how to see them.",
+    updatedAt: "2026-08-27",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "What \"Japan's Three Views\" Means",
+        body: [
+          "\"Japan's Three Views\" (日本三景, Nihon Sankei) names three scenic spots — Matsushima in Miyagi, Miyajima (Itsukushima) in Hiroshima, and Amanohashidate in Kyoto — as the country's most celebrated landscapes. The idea traces to 1643, when the Confucian scholar Hayashi Gahō described all three in his travel writings as \"sansho no kikan\" (三處奇觀), \"three places of marvelous view.\" The specific phrase \"Nihon Sankei\" itself is usually credited to a slightly later scholar, Kaibara Ekiken, who used it in his own 1689 travel diary after visiting Amanohashidate.",
+          "Unlike several other \"three great X\" lists in Japan (including the Tenjin shrines covered elsewhere in this guide), this one has no real dispute over membership — no rival fourth site with its own claim. All three have carried Japan's official \"Special Place of Scenic Beauty\" designation since 1952, and since 2006 the three host municipalities have jointly marked July 21 — Hayashi Gahō's birthday — as \"Nihon Sankei Day.\" The catch for a visitor is practical rather than historical: the three sites are nowhere near each other, spread across Tohoku, the Seto Inland Sea coast, and northern Kyoto.",
+        ],
+      },
+      {
+        heading: "Matsushima (Miyagi)",
+        body: [
+          "Matsushima is a bay dotted with small pine-covered islands — commonly cited as roughly 260, though older poetic references simply called it \"808 islands,\" meaning \"too many to count,\" and exact counts vary by source. An Edo-period set of four named viewpoints around the bay, the \"Matsushima Shidaikan,\" are still the classic way to take it in; the easiest to reach is Ōgidani, a short walk from a parking area behind Matsushima-Kaigan Station, particularly good for autumn foliage.",
+          "Zuiganji, the area's major temple, was rebuilt in 1609 as the Date clan's family temple under feudal lord Date Masamune; its main hall and kitchen (kuri) are National Treasures, known for gilded sliding-door paintings. Near the boat pier, the small Godaidō hall — traditionally dated to the early 9th century, with its current structure a 1604 rebuild under Masamune — sits on its own tiny islet, its exterior carved with the 12 zodiac animals. Sightseeing boats circle the bay in roughly 50 minutes; several operators run from piers near Matsushima-Kaigan Station, with some cruises also departing from Shiogama a little further down the coast.",
+          "Matsushima is reachable from Sendai via the JR Senseki Line to Matsushima-Kaigan Station, a ride of well under an hour. In mid-August, the bay hosts Matsushima Ryūtō-e (\"Umi no Bon\"), a lantern-floating ceremony held around Obon with a fireworks display over the water, honoring ancestors; exact dates shift slightly year to year, so confirm them if planning around it. Matsushima's dense scatter of islands is also widely credited with having blunted the force of the March 2011 tsunami compared to more exposed stretches of the Tohoku coast.",
+        ],
+      },
+      {
+        heading: "Miyajima / Itsukushima (Hiroshima)",
+        body: [
+          "Miyajima's vermilion torii gate, standing offshore from Itsukushima Shrine, is probably the single most photographed image of Japan's \"three views.\" Legend places the shrine's founding in 593; it was rebuilt in its present aristocratic shinden-zukuri style in 1168 under Taira no Kiyomori, and Itsukushima Shrine was inscribed as a UNESCO World Heritage Site in 1996. The torii's appearance depends entirely on the tide: at low tide you can walk out across the flat to the gate itself, while at high tide it appears to float. Tide times shift daily, so check a current tide table for your travel date rather than relying on a fixed schedule — a well-timed day trip can sometimes catch both looks.",
+          "Beyond the shrine, Mount Misen rises behind the town, reachable by a two-stage ropeway (with an additional short walk to the actual 500m summit) or by hiking trails of varying difficulty, with sweeping views over the Seto Inland Sea on a clear day. The island is also home to several hundred sacred deer that wander freely around the shrine and town; feeding them has been banned since 2007, both for their health and visitor safety.",
+          "Miyajima is reached by train or streetcar from central Hiroshima to Miyajimaguchi, then a roughly 10-minute ferry crossing (a small per-person visitor tax applies, introduced in 2023). In early-to-mid summer, on a date set by the old lunar calendar (so it shifts year to year, typically landing in late June or July), the shrine holds Kangensai — a festival dating to 1146 under Taira no Kiyomori, in which a mikoshi is carried by ornate boat past the torii to a circuit of smaller shrines, with traditional court music (gagaku) performed at each stop, timed so the return trip happens under a nearly full moon.",
+        ],
+      },
+      {
+        heading: "Amanohashidate (Kyoto)",
+        body: [
+          "Amanohashidate is a narrow, roughly 3.6km sandbar across Miyazu Bay, covered in thousands of pine trees and connecting two shores like a natural bridge — hence the name, \"bridge of heaven,\" tied to an old myth in which a fallen celestial ladder became the landform. The signature way to view it is matanozoki — bending over and looking at it upside-down between your legs — from one of two viewpoints on opposite ends: Kasamatsu Park to the north, reached by cable car or chairlift, where the inverted view is called \"Shōryūkan\" (ascending dragon view), and Amanohashidate View Land to the south, reached by chairlift or monorail, where the same trick produces \"Hiryūkan\" (flying dragon view).",
+          "You can cross the sandbar itself on foot in under an hour, by rental bicycle in about 15 minutes, or by a short sightseeing boat between piers near Chionji Temple and Motoise Kono Shrine. Chionji, at the sandbar's town-side entrance, is dedicated to the bodhisattva of wisdom and makes a natural start or end point for a walk across.",
+          "Amanohashidate is a longer trip from Kyoto than the other two views: a direct limited express train takes around two hours, or you can transfer via Fukuchiyama onto the Kyoto Tango Railway, with the station a short walk from the sandbar's entrance. Local festivals do exist around Miyazu, but sourcing on their current names and dates was thin enough that it's worth checking directly with Miyazu City's tourism site if you want to time a visit around one.",
+        ],
+      },
+      {
+        heading: "Planning a Visit",
+        body: [
+          "None of the three views charge admission just to see the landscape itself, but the ways most people experience them up close — Matsushima's boat cruises, Miyajima's ropeway, Amanohashidate's cable car, chairlift, or bike rental — all carry their own small fees, and prices move over time, so treat any specific figure you find (including in this guide) as a rough starting point to confirm before you go.",
+          "Because Matsushima (Tohoku), Miyajima (the Seto Inland Sea coast), and Amanohashidate (northern Kyoto) sit in three different regions of Japan, visiting all three on one trip isn't realistic the way it might be for sights clustered in a single area — this is more a checklist to work into separate regional itineraries than a single route. Miyajima pairs naturally with a Hiroshima visit, Matsushima with a Sendai/Tohoku trip, and Amanohashidate with extra time built around a Kyoto stay.",
+        ],
+      },
+    ],
+    relatedSlugs: [
+      "hiroshima-peace-and-miyajima",
+      "miyagi-matsushima-bay-and-sendai-gyutan",
+      "japans-three-great-tenjin-shrines",
+      "three-great-night-views-of-japan",
+    ],
+    relatedCultureSlugs: ["shrines-and-temples"],
+  },
 ];
 
 export function getTravelArticle(slug: string): TravelArticle | undefined {

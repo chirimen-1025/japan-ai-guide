@@ -633,6 +633,13 @@ export const REGION_IMAGES: Record<string, RegionImage> = {
     height: 413,
     // CC0 — public domain, no attribution required.
   },
+  "nihon-sankei": {
+    src: "/photos/itsukushima-torii.jpg",
+    alt: "The vermilion floating torii gate of Itsukushima Shrine at high tide on Miyajima, one of Japan's Three Views, Hiroshima",
+    width: 737,
+    height: 467,
+    // CC0 — public domain, no attribution required.
+  },
 };
 
 export function getRegionImage(region: string): RegionImage | undefined {
