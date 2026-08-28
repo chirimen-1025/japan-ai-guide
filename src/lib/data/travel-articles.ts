@@ -12,6 +12,7 @@ export interface TravelArticle {
   relatedSlugs: string[];
   relatedCultureSlugs: string[];
   affiliateTours?: { label: string; url: string }[];
+  faq?: { question: string; answer: string }[];
 }
 
 export const TRAVEL_ARTICLES: TravelArticle[] = [
@@ -51,6 +52,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["tokyo-3-day-itinerary", "shinkansen-tickets-beginner-guide", "tokyo-ramen-styles-guide", "tokyo-sushi-culture-edomae-vs-conveyor-belt", "japan-ic-card-guide"],
     relatedCultureSlugs: ["train-manners"],
+    faq: [
+      {
+        question: "What's the easiest way to pay for trains in Tokyo?",
+        answer: "An IC card (Suica or Pasmo) — tap in, tap out, no ticket math required, and it works across nearly every train, subway, and bus operator in the city.",
+      },
+      {
+        question: "Why does the Tokyo train map look so complicated?",
+        answer: "It layers multiple operators — JR, Tokyo Metro, Toei, and private lines — onto one map, but a route-planning app like Google Maps or Japan Transit Planner handles the complexity for you.",
+      },
+      {
+        question: "Can I use a foreign phone's Suica or Pasmo in Tokyo?",
+        answer: "Yes, if your phone supports Apple Wallet or Google Wallet in Japan, you can add a mobile Suica directly and top it up with a compatible card.",
+      },
+    ],
   },
   {
     slug: "tokyo-3-day-itinerary",
@@ -8413,6 +8428,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide", "tokyo-tsukiji-toyosu-seafood-market-culture", "tokyo-3-day-itinerary", "tokyo-ramen-styles-guide", "japan-ic-card-guide"],
     relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "Can I use my IC card to ride the Shinkansen?",
+        answer: "Not for the reserved-seat fare — you need a separate Shinkansen ticket or a SmartEX booking, though your IC card still works for connecting local trains.",
+      },
+      {
+        question: "What is SmartEX?",
+        answer: "SmartEX is JR's official online booking system for reserving Shinkansen tickets in advance and boarding with a linked IC card instead of a paper ticket.",
+      },
+      {
+        question: "Do I need to reserve a seat on the Shinkansen?",
+        answer: "Reserved seats aren't strictly required — unreserved cars exist on most trains — but reserving ahead guarantees you a seat, which matters during busy travel periods.",
+      },
+    ],
   },
   {
     slug: "jr-pass-worth-it-guide",
@@ -8457,6 +8486,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["shinkansen-tickets-beginner-guide", "tokyo-trains-beginner-guide", "tokyo-3-day-itinerary", "tokyo-depachika-food-hall-culture", "domestic-flights-and-buses-japan", "luggage-forwarding-coin-lockers-japan"],
     relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "Is the Japan Rail Pass still worth buying?",
+        answer: "It depends on your itinerary — the JR Pass isn't automatically the cheapest option anymore, so it's worth comparing its price against the cost of buying individual Shinkansen tickets for your specific route.",
+      },
+      {
+        question: "Does the JR Pass cover all trains in Japan?",
+        answer: "No — it covers most JR trains including many Shinkansen services, but it excludes the fastest Nozomi and Mizuho Shinkansen services and non-JR private railways.",
+      },
+      {
+        question: "Can tourists still buy the Japan Rail Pass?",
+        answer: "Yes, it's available to short-term visitors, though eligibility and pricing details are worth double-checking against the current official terms before you buy.",
+      },
+    ],
   },
   {
     slug: "cherry-blossom-season-by-region",
@@ -9335,6 +9378,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["money-in-japan-cash-cards-mobile-payments", "staying-connected-in-japan-sim-esim-wifi", "airport-arrival-guide-narita-haneda-kansai", "packing-list-for-japan-trip"],
     relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "Do I need a visa to visit Japan as a tourist?",
+        answer: "Most visitors from around 74 countries and regions with visa-exemption agreements don't need one for short tourist trips — you get 90 days on arrival in most cases, though a few countries get shorter stays like 15 or 30 days.",
+      },
+      {
+        question: "Is Visit Japan Web mandatory?",
+        answer: "No, it's not strictly mandatory — paper immigration and customs forms are still available — but registering in advance lets you use the faster joint immigration-and-customs kiosks at major airports.",
+      },
+      {
+        question: "How much cash can I bring into Japan without declaring it?",
+        answer: "You can bring up to ¥1 million (or the equivalent) without declaring it; anything above that needs to be declared on arrival regardless of your nationality.",
+      },
+    ],
   },
   {
     slug: "money-in-japan-cash-cards-mobile-payments",
@@ -9369,6 +9426,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["visa-and-entry-requirements-japan", "japan-ic-card-guide", "tipping-culture-in-japan", "staying-connected-in-japan-sim-esim-wifi"],
     relatedCultureSlugs: ["convenience-store-culture"],
+    faq: [
+      {
+        question: "Is Japan a cashless country now?",
+        answer: "Not entirely — cities are increasingly cashless, but many small restaurants, temples, shrines, and rural shops still only take cash, so carrying some yen is still a good idea.",
+      },
+      {
+        question: "Which ATMs accept foreign cards in Japan?",
+        answer: "Seven Bank ATMs inside 7-Eleven stores and Japan Post Bank ATMs are the most reliable for foreign cards; many other Japanese bank ATMs don't accept them.",
+      },
+      {
+        question: "Can I use PayPay as a tourist?",
+        answer: "Yes — you can register with a passport and phone number and top up with a foreign Visa or Mastercard, though spending is capped until you submit further verification.",
+      },
+    ],
   },
   {
     slug: "tipping-culture-in-japan",
@@ -9398,6 +9469,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["money-in-japan-cash-cards-mobile-payments", "accommodation-types-in-japan", "no-trash-cans-in-japan"],
     relatedCultureSlugs: ["bowing"],
+    faq: [
+      {
+        question: "Do you tip in restaurants in Japan?",
+        answer: "No — tipping isn't expected anywhere in Japan, including restaurants, taxis, and hotels, and staff will often try to return the money if you leave it.",
+      },
+      {
+        question: "Is there any situation where tipping is appropriate in Japan?",
+        answer: "The closest exception is kokorozuke, a small envelope of cash given to a personal attendant (nakai-san) at some traditional ryokan, though even this is fading out at modern chains.",
+      },
+      {
+        question: "What does a service charge on a Japanese restaurant bill mean?",
+        answer: "It's a fixed fee (commonly 10-15%) some high-end restaurants and hotels add automatically — it's not an invitation to tip further on top.",
+      },
+    ],
   },
   {
     slug: "japan-ic-card-guide",
@@ -9432,6 +9517,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["tokyo-trains-beginner-guide", "shinkansen-tickets-beginner-guide", "jr-pass-worth-it-guide", "money-in-japan-cash-cards-mobile-payments"],
     relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "What's the difference between Suica, Pasmo, and ICOCA?",
+        answer: "Almost nothing for a visitor — they're issued by different regional operators, but all of them work interchangeably on trains, subways, buses, and convenience stores across nearly all of Japan.",
+      },
+      {
+        question: "Can I use an IC card on the Shinkansen?",
+        answer: "Not for the reserved-seat fare itself — you need a separate ticket or SmartEX booking, though you can still use the IC card for a connecting local train or a station kiosk purchase.",
+      },
+      {
+        question: "Is mobile Suica better than a physical card?",
+        answer: "For most visitors, yes — it skips the ¥500 deposit and lets you top up directly from a compatible phone and card, as long as your phone supports Apple Wallet or Google Wallet in Japan.",
+      },
+    ],
   },
   {
     slug: "staying-connected-in-japan-sim-esim-wifi",
@@ -9466,6 +9565,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["airport-arrival-guide-narita-haneda-kansai", "visa-and-entry-requirements-japan", "money-in-japan-cash-cards-mobile-payments", "packing-list-for-japan-trip"],
     relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "Is free WiFi enough to get by in Japan?",
+        answer: "Not reliably — Japan's WiFi environment is consistently the most-cited inconvenience among tourists, so most visitors are better off with an eSIM, physical SIM, or pocket WiFi as their main connection.",
+      },
+      {
+        question: "Should I get an eSIM or pocket WiFi for Japan?",
+        answer: "An eSIM works best for one eSIM-capable phone traveling solo; pocket WiFi is better for a group or family sharing one connection across multiple devices.",
+      },
+      {
+        question: "Do I need an unlocked phone to use a Japanese SIM?",
+        answer: "Yes, for a physical SIM or an eSIM you'll need a phone that's unlocked from your home carrier.",
+      },
+    ],
   },
   {
     slug: "airport-arrival-guide-narita-haneda-kansai",
@@ -9506,6 +9619,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["visa-and-entry-requirements-japan", "staying-connected-in-japan-sim-esim-wifi", "japan-ic-card-guide", "tokyo-3-day-itinerary"],
     relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "Which Tokyo airport is closer to the city, Narita or Haneda?",
+        answer: "Haneda is significantly closer — a Keikyu Line or monorail ride to central Tokyo takes 11-20 minutes, versus 60-90 minutes on the Narita Express from Narita.",
+      },
+      {
+        question: "What's the fastest way from Kansai Airport to Osaka?",
+        answer: "The Nankai Rapi:t limited express reaches Namba in about 34 minutes, making it the fastest option into central Osaka.",
+      },
+      {
+        question: "Do I need to fill out a customs form on arrival in Japan?",
+        answer: "You'll either complete it digitally in advance through Visit Japan Web or fill out a paper form handed out on the plane or at the airport.",
+      },
+    ],
   },
   {
     slug: "no-trash-cans-in-japan",
@@ -9540,6 +9667,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["smoking-areas-in-japan", "avoiding-crowds-overtourism-japan", "packing-list-for-japan-trip"],
     relatedCultureSlugs: ["convenience-store-culture"],
+    faq: [
+      {
+        question: "Why doesn't Japan have public trash cans?",
+        answer: "Most were removed after the 1995 Tokyo subway sarin gas attack over security concerns, and the habit of carrying your own trash simply stuck.",
+      },
+      {
+        question: "Where can I throw away trash as a tourist in Japan?",
+        answer: "Convenience stores have small bins near the entrance for items bought there, and department stores and stations sometimes have recycling bins for bottles and cans.",
+      },
+      {
+        question: "Is it illegal to litter in Japan?",
+        answer: "Littering carries real social disapproval and, in many municipalities, can be against local ordinances, even where it isn't a nationally codified crime.",
+      },
+    ],
   },
   {
     slug: "smoking-areas-in-japan",
@@ -9574,6 +9715,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["no-trash-cans-in-japan", "avoiding-crowds-overtourism-japan", "domestic-flights-and-buses-japan"],
     relatedCultureSlugs: ["train-manners"],
+    faq: [
+      {
+        question: "Can you smoke on the street in Japan?",
+        answer: "Not in most city centers — Tokyo's 23 wards, Osaka, Kyoto, and other major cities ban street smoking with on-the-spot fines of roughly ¥1,000-2,000.",
+      },
+      {
+        question: "Are IQOS and other heated tobacco products allowed where cigarettes aren't?",
+        answer: "No, heated tobacco products like IQOS, glo, and Ploom follow the exact same rules and restrictions as regular cigarettes in Japan.",
+      },
+      {
+        question: "Can you smoke on the Shinkansen?",
+        answer: "No — all Shinkansen trains have been fully non-smoking since March 2024, though major stations keep platform-level smoking rooms.",
+      },
+    ],
   },
   {
     slug: "avoiding-crowds-overtourism-japan",
@@ -9604,6 +9759,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["no-trash-cans-in-japan", "mount-fuji-viewpoints", "kyoto-temples-worth-visiting", "smoking-areas-in-japan"],
     relatedCultureSlugs: ["shrines-and-temples"],
+    faq: [
+      {
+        question: "Do I need to pay a fee to climb Mount Fuji now?",
+        answer: "Yes, a mandatory fee of roughly ¥4,000 applies across all four main climbing routes as of the 2026 season.",
+      },
+      {
+        question: "What's the best time of day to visit crowded spots like Kyoto's temples?",
+        answer: "Early morning, ideally before 9am — most famous shrines and temples open well before tour buses arrive.",
+      },
+      {
+        question: "Is Gion in Kyoto closed to tourists?",
+        answer: "Not entirely, but some private alleys have been closed to visitors after repeated complaints about harassment of geisha and maiko, so stick to public streets and posted photography rules.",
+      },
+    ],
   },
   {
     slug: "accommodation-types-in-japan",
@@ -9638,6 +9807,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["tipping-culture-in-japan", "packing-list-for-japan-trip", "luggage-forwarding-coin-lockers-japan"],
     relatedCultureSlugs: ["onsen-etiquette", "shoes-indoors"],
+    faq: [
+      {
+        question: "What's the difference between a ryokan and a hotel?",
+        answer: "A ryokan is a traditional Japanese inn with tatami rooms, futon bedding, and usually dinner and breakfast included, while a hotel is Western-style with a bed and typically no meals included.",
+      },
+      {
+        question: "Are capsule hotels comfortable for a full night's stay?",
+        answer: "They're compact and functional rather than spacious, with a private sleeping pod and shared bathroom facilities — fine for a night or two, mostly used by solo travelers.",
+      },
+      {
+        question: "What is a minshuku?",
+        answer: "A minshuku is a small, family-run Japanese-style bed-and-breakfast, generally more modest and personal than a ryokan.",
+      },
+    ],
   },
   {
     slug: "packing-list-for-japan-trip",
@@ -9672,6 +9855,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["winter-travel-guide-by-region", "typhoon-season-travel-guide", "accommodation-types-in-japan", "staying-connected-in-japan-sim-esim-wifi"],
     relatedCultureSlugs: ["shoes-indoors"],
+    faq: [
+      {
+        question: "Do I need a power adapter for Japan?",
+        answer: "Japan uses Type A/B plugs at 100V, so if you're coming from a country with different plug shapes you'll need an adapter, though most modern electronics handle the lower voltage fine.",
+      },
+      {
+        question: "What should I pack for Japan in summer?",
+        answer: "Lightweight, breathable clothing, a hand towel or handkerchief since public restrooms often lack paper towels, and a portable handheld fan, since humidity is the bigger issue over raw heat.",
+      },
+      {
+        question: "Can I bring my prescription medication to Japan?",
+        answer: "Generally yes, but bring it in original packaging with a doctor's note, since some common Western medications are restricted or need documentation on entry.",
+      },
+    ],
   },
   {
     slug: "luggage-forwarding-coin-lockers-japan",
@@ -9706,6 +9903,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["shinkansen-tickets-beginner-guide", "accommodation-types-in-japan", "domestic-flights-and-buses-japan"],
     relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "How much does luggage forwarding cost in Japan?",
+        answer: "Typically around ¥2,000-3,000 per suitcase on a route like Tokyo to Kyoto, with next-day delivery standard between major cities.",
+      },
+      {
+        question: "How much do coin lockers cost in Japan?",
+        answer: "Rates run roughly ¥300-400 for a small locker up to ¥900-1,000 for an extra-large one, priced per day.",
+      },
+      {
+        question: "Can I ship my luggage directly to my next hotel?",
+        answer: "Yes, that's exactly what takkyubin services like Yamato Transport's kuroneko service are designed for — arrange it at your current hotel's front desk or a convenience store counter.",
+      },
+    ],
   },
   {
     slug: "domestic-flights-and-buses-japan",
@@ -9740,6 +9951,20 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["jr-pass-worth-it-guide", "shinkansen-tickets-beginner-guide", "luggage-forwarding-coin-lockers-japan", "airport-arrival-guide-narita-haneda-kansai"],
     relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "Is it cheaper to fly or take the Shinkansen in Japan?",
+        answer: "On long routes (roughly 500km+), a budget airline like Peach or Jetstar Japan is often cheaper than the Shinkansen, though the bullet train usually wins on convenience for shorter, more central routes.",
+      },
+      {
+        question: "How much cheaper are highway buses than the Shinkansen?",
+        answer: "Highway and overnight buses run at roughly a quarter of the Shinkansen's fare on a route like Tokyo-Osaka, but take 7-9 hours instead of about 2.5.",
+      },
+      {
+        question: "Do budget airlines in Japan include checked baggage?",
+        answer: "Usually not — LCCs like Peach and Jetstar Japan charge extra for checked bags on top of the base fare.",
+      },
+    ],
   },
 ];
 
