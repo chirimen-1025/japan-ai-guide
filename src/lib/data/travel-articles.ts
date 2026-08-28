@@ -11,6 +11,7 @@ export interface TravelArticle {
   sections: { heading: string; body: string[] }[];
   relatedSlugs: string[];
   relatedCultureSlugs: string[];
+  affiliateTours?: { label: string; url: string }[];
 }
 
 export const TRAVEL_ARTICLES: TravelArticle[] = [
@@ -118,6 +119,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["nara-deer-park-and-todaiji", "kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market"],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
+    affiliateTours: [
+      {
+        label: "Kyoto: Nijo Castle & Imperial Palace Guided Tour",
+        url: "https://www.getyourguide.com/kyoto-l96826/kyoto-nijo-castle-and-kyoto-imperial-palace-guided-tour-t935322/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "nara-deer-park-and-todaiji",
