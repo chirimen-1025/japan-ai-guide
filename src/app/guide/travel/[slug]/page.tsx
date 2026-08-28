@@ -6,6 +6,7 @@ import { getCultureArticle } from "@/lib/data/culture";
 import { getRegionImage } from "@/lib/data/region-images";
 import { SITE_URL } from "@/lib/site-config";
 import { TripMapAddButton } from "@/components/trip-map-add-button";
+import { FEATURE_FLAGS } from "@/lib/feature-flags";
 
 export function generateStaticParams() {
   return TRAVEL_ARTICLES.map((a) => ({ slug: a.slug }));
@@ -160,6 +161,29 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
           </div>
         ))}
       </div>
+
+      {FEATURE_FLAGS.ENABLE_AFFILIATE && article.affiliateTours && article.affiliateTours.length > 0 && (
+        <div className="mt-10 border-t border-border pt-6">
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted">Book a guided tour</p>
+          <div className="mt-3 flex flex-col gap-2">
+            {article.affiliateTours.map((tour) => (
+              <a
+                key={tour.url}
+                href={tour.url}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="rounded-xl border border-border bg-surface px-4 py-3 text-sm font-medium text-ink hover:border-brand"
+              >
+                {tour.label} →
+              </a>
+            ))}
+          </div>
+          <p className="mt-2 text-xs text-muted">
+            Affiliate link — if you book through it, we may earn a small commission at no extra
+            cost to you.
+          </p>
+        </div>
+      )}
 
       <div className="mt-10 border-t border-border pt-6">
         <p className="text-xs font-semibold uppercase tracking-wide text-muted">Useful tools</p>
