@@ -49,7 +49,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-3-day-itinerary", "shinkansen-tickets-beginner-guide", "tokyo-ramen-styles-guide", "tokyo-sushi-culture-edomae-vs-conveyor-belt"],
+    relatedSlugs: ["tokyo-3-day-itinerary", "shinkansen-tickets-beginner-guide", "tokyo-ramen-styles-guide", "tokyo-sushi-culture-edomae-vs-conveyor-belt", "japan-ic-card-guide"],
     relatedCultureSlugs: ["train-manners"],
   },
   {
@@ -123,7 +123,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["nara-deer-park-and-todaiji", "kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "kyoto-wagashi-tea-sweets-culture"],
+    relatedSlugs: ["nara-deer-park-and-todaiji", "kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "kyoto-wagashi-tea-sweets-culture", "avoiding-crowds-overtourism-japan"],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
     affiliateTours: [
       {
@@ -341,7 +341,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-3-day-itinerary", "japans-three-great-tenjin-shrines", "japans-three-views-nihon-sankei", "winter-illuminations-in-japan"],
+    relatedSlugs: ["tokyo-3-day-itinerary", "japans-three-great-tenjin-shrines", "japans-three-views-nihon-sankei", "winter-illuminations-in-japan", "avoiding-crowds-overtourism-japan"],
     relatedCultureSlugs: [],
   },
   {
@@ -8411,7 +8411,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide", "tokyo-tsukiji-toyosu-seafood-market-culture", "tokyo-3-day-itinerary", "tokyo-ramen-styles-guide"],
+    relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide", "tokyo-tsukiji-toyosu-seafood-market-culture", "tokyo-3-day-itinerary", "tokyo-ramen-styles-guide", "japan-ic-card-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -8455,7 +8455,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["shinkansen-tickets-beginner-guide", "tokyo-trains-beginner-guide", "tokyo-3-day-itinerary", "tokyo-depachika-food-hall-culture"],
+    relatedSlugs: ["shinkansen-tickets-beginner-guide", "tokyo-trains-beginner-guide", "tokyo-3-day-itinerary", "tokyo-depachika-food-hall-culture", "domestic-flights-and-buses-japan", "luggage-forwarding-coin-lockers-japan"],
     relatedCultureSlugs: [],
   },
   {
@@ -9298,6 +9298,448 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["hiroshima-peace-and-miyajima", "miyagi-matsushima-bay-and-sendai-gyutan", "japans-three-great-tenjin-shrines", "three-great-night-views-of-japan", "mount-fuji-viewpoints"],
     relatedCultureSlugs: ["shrines-and-temples"],
+  },
+  {
+    slug: "visa-and-entry-requirements-japan",
+    region: "visa-and-entry",
+    regionLabel: "Visa & Entry",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Japan Visa-Free Entry and Visit Japan Web: What First-Time Visitors Need to Know",
+    metaDescription:
+      "Most visitors don't need a visa for short trips, but Visit Japan Web and a few entry-requirement details trip people up. Here's what actually matters.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Do you need a visa?",
+        body: [
+          "Japan has reciprocal visa-exemption arrangements with a large number of countries, covering most of Europe, North America, and several Asia-Pacific nations. Under this \"Temporary Visitor\" status, most exempt nationalities get 90 days on arrival for tourism, business, family visits, or transit — no advance visa application needed. A handful of countries get shorter windows instead (Indonesia and Thailand typically around 15 days, Brunei and Qatar around 30), and Indonesia and Qatar specifically require pre-registration with a Japanese mission before departure, not just an on-arrival stamp.",
+          "Visa-free status is for visiting, not working or studying long-term, and immigration officers do check: proof of onward travel or sufficient funds, a credible reason for the trip, and your first accommodation actually booked (vague plans to \"find a hotel later\" aren't enough). Repeatedly stringing together back-to-back 90-day stays can also draw scrutiny as suspected \"visa running,\" even without any single rule being broken.",
+        ],
+      },
+      {
+        heading: "Visit Japan Web, in plain terms",
+        body: [
+          "Visit Japan Web is the online portal that consolidates your immigration arrival card and customs declaration (and increasingly tax-free shopping registration) into one profile and a single QR code. Registering means scanning your passport with your phone camera, entering your flight and hotel details, and answering the standard customs questions in advance — arrival card, cash-declaration, and prohibited-items questions included.",
+          "It isn't strictly mandatory — paper forms are still handed out on the plane and at the airport — but it's worth doing anyway: registered travelers get routed through faster joint immigration-and-customs kiosks at major airports instead of separate queues. Register a few days before you fly, not at the gate, since filling it in on unfamiliar airport wifi with a jet-lagged brain is exactly the situation it's meant to save you from.",
+        ],
+      },
+      {
+        heading: "A few things people get caught out on",
+        body: [
+          "Some nationalities need a specific passport type to use the visa-exemption route at all — a handful of countries require a biometric e-passport, and a couple require a machine-readable passport at minimum. If you're carrying more than ¥1 million in cash (or equivalent), that has to be declared on arrival regardless of nationality.",
+          "Exact country lists, stay durations, and passport requirements are the kind of thing that changes with little notice, so treat this as a starting framework rather than a substitute for checking your own passport's current requirements on Japan's Ministry of Foreign Affairs site shortly before you travel.",
+        ],
+      },
+    ],
+    relatedSlugs: ["money-in-japan-cash-cards-mobile-payments", "staying-connected-in-japan-sim-esim-wifi", "airport-arrival-guide-narita-haneda-kansai", "packing-list-for-japan-trip"],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "money-in-japan-cash-cards-mobile-payments",
+    region: "money-and-payments",
+    regionLabel: "Money & Payments",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Money in Japan: Cash, Cards, and Mobile Payments for Visitors",
+    metaDescription:
+      "Japan is more cashless than its reputation suggests, but cards still fail at small shops and shrines. Here's what actually works, and how much cash to carry.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Cash still matters more than you'd expect",
+        body: [
+          "Plenty of small restaurants, izakaya, temples and shrines, rural shops, and even some coin lockers are still cash-only, so carrying roughly ¥20,000–30,000 as a buffer is a reasonable habit rather than paranoia. Seven Bank ATMs inside 7-Eleven stores and Japan Post Bank ATMs are the two networks that reliably accept foreign cards; plenty of other Japanese bank ATMs simply don't, and some rural branches keep limited overnight hours.",
+        ],
+      },
+      {
+        heading: "Cards and contactless",
+        body: [
+          "Chain retailers, department stores, hotels, and most city restaurants now take contactless Visa and Mastercard without issue. Independent local spots — a neighborhood ramen counter, a small izakaya — are far less predictable. If an ATM or card terminal offers to charge you in your home currency instead of yen, decline it; that \"convenience\" (dynamic currency conversion) usually costs an extra 3–5% versus just paying in yen and letting your own bank handle the conversion.",
+        ],
+      },
+      {
+        heading: "Mobile payments: PayPay, Suica, Apple/Google Pay",
+        body: [
+          "PayPay is Japan's dominant QR-code payment app, and it does work for foreign visitors — registration takes a passport and phone number, and you can top up with a foreign Visa or Mastercard, though spending is capped (roughly ¥50,000 a month) until you submit further verification. Mobile Suica, added to Apple Wallet or Google Wallet, is arguably the single most useful thing to set up before landing: no physical card, no deposit, and it covers trains, buses, and convenience-store purchases in one tap. See our IC card guide for how Suica compares to Pasmo and ICOCA.",
+        ],
+      },
+    ],
+    relatedSlugs: ["visa-and-entry-requirements-japan", "japan-ic-card-guide", "tipping-culture-in-japan", "staying-connected-in-japan-sim-esim-wifi"],
+    relatedCultureSlugs: ["convenience-store-culture"],
+  },
+  {
+    slug: "tipping-culture-in-japan",
+    region: "tipping-culture",
+    regionLabel: "Tipping Culture",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Tipping in Japan: Why You Shouldn't (and the Rare Exceptions)",
+    metaDescription:
+      "Trying to tip in Japan usually just confuses people. Here's why the custom doesn't exist, and the few situations where a gratuity is genuinely expected.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "There's no tipping culture, and that's not a technicality",
+        body: [
+          "Good service in Japan is considered the standard, already reflected in the price, not something that earns extra payment on top. Staff generally take pride in doing the job well regardless of any additional tip, and offering one doesn't read as generous so much as confusing. In the mild version, a server politely declines the extra cash and hands it back with a smile; in the more awkward version, they'll actually chase you down the street assuming you left change behind by mistake.",
+        ],
+      },
+      {
+        heading: "The exceptions",
+        body: [
+          "The closest thing to a tip is kokorozuke at a high-end traditional ryokan — a gratuity for the nakai-san, the personal attendant who looks after your room, presented as a few thousand yen in a small envelope at the very start of your stay, never as loose cash. It's a shrinking custom even in Japan, and many modern ryokan chains actively discourage it now.",
+          "Private tour guides or interpreters who are used to international norms may appreciate a discreet envelope, though it's genuinely optional. Separately, some high-end restaurants and luxury hotels add a service charge — commonly 10–15% — directly to the bill. That's a fixed fee already built into what you owe, not an invitation to tip further on top.",
+        ],
+      },
+    ],
+    relatedSlugs: ["money-in-japan-cash-cards-mobile-payments", "accommodation-types-in-japan", "no-trash-cans-in-japan"],
+    relatedCultureSlugs: ["bowing"],
+  },
+  {
+    slug: "japan-ic-card-guide",
+    region: "ic-cards",
+    regionLabel: "IC Cards",
+    category: "transportation",
+    categoryLabel: "Transportation",
+    title: "Suica, Pasmo, or ICOCA? Japan's IC Card System Explained",
+    metaDescription:
+      "One IC card works almost everywhere in Japan, so which one you get barely matters — until it does. Here's what's actually different between them.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "They all do the same thing",
+        body: [
+          "Suica (JR East / Tokyo), Pasmo (Tokyo's private and metro lines), ICOCA (JR West / Osaka), and the various regional cards — Kitaca in Hokkaido, TOICA around Nagoya, SUGOCA in Kyushu, and others — are all interoperable on trains, subways, and buses nationwide, with only rare regional exceptions. In practice this means the \"right\" card is just whichever one is easiest to buy in the city you land in, not a decision that locks you out of anywhere else.",
+        ],
+      },
+      {
+        heading: "Physical vs mobile",
+        body: [
+          "A physical card carries a refundable ¥500 deposit on top of your starting balance; regular Suica and Pasmo sales have had supply hiccups in the past, with tourist-only options like a non-refundable Welcome Suica sold specifically to sidestep the deposit. Mobile Suica, added straight into Apple Wallet or Google Wallet, skips the deposit entirely and lets you top up from your phone with a compatible card — genuinely the simplest option if your phone and card support it, since there's no physical card to lose or return.",
+        ],
+      },
+      {
+        heading: "What it can and can't pay for",
+        body: [
+          "An IC card covers trains, subways, and buses in most cities, plus convenience stores, vending machines, and coin lockers with a tap. What it doesn't cover is a reserved Shinkansen seat, which needs a separate ticket or SmartEX booking — see our Shinkansen ticket guide for how that works. Running low mid-trip is common and not a problem: top-up machines sit at the entrance of essentially every station.",
+        ],
+      },
+    ],
+    relatedSlugs: ["tokyo-trains-beginner-guide", "shinkansen-tickets-beginner-guide", "jr-pass-worth-it-guide", "money-in-japan-cash-cards-mobile-payments"],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "staying-connected-in-japan-sim-esim-wifi",
+    region: "staying-connected",
+    regionLabel: "Staying Connected",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "SIM, eSIM, Pocket WiFi, or Free WiFi: Staying Connected in Japan",
+    metaDescription:
+      "Japan's free WiFi is patchier than you'd expect, so most visitors need a data plan. Here's how to pick between eSIM, a physical SIM, and pocket WiFi.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Why you probably need a data plan",
+        body: [
+          "In surveys of foreign tourists, Japan's WiFi environment is consistently the single most-cited inconvenience, ahead of language barriers or transit confusion. Free public WiFi does exist — the Japan Connected-free Wi-Fi app covers roughly 92,000 registered hotspots across airports, train stations, and some convenience stores, plus municipal programs in cities like Osaka and Fukuoka — but it requires installing the app and registering an email address, Android and iOS connect to it differently, and coverage thins out fast once you're off the main tourist track. It's a backup, not something to navigate a whole trip on.",
+        ],
+      },
+      {
+        heading: "eSIM vs physical SIM vs pocket WiFi",
+        body: [
+          "An eSIM installs before you even leave home and activates the moment you land, with no physical swap — the catch is you need an eSIM-compatible, unlocked phone. A physical SIM means picking one up at an airport counter or vending machine and swapping out your home SIM, which means losing access to your home number for the trip. Pocket WiFi is a small rented device that covers multiple people and devices on one connection — useful for a group or family — but it needs charging, carrying, and a separate online reservation with airport pickup and return.",
+        ],
+      },
+      {
+        heading: "Practical picks",
+        body: [
+          "Traveling solo with an eSIM-capable phone: eSIM is the least friction. Traveling as a group who'd rather share one connection: pocket WiFi. Need a working local phone number for deliveries or restaurant reservations: a physical SIM. Specific providers and prices shift often enough that naming one here would go stale fast — treat this as the decision framework, and compare current options closer to your travel dates.",
+        ],
+      },
+    ],
+    relatedSlugs: ["airport-arrival-guide-narita-haneda-kansai", "visa-and-entry-requirements-japan", "money-in-japan-cash-cards-mobile-payments", "packing-list-for-japan-trip"],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "airport-arrival-guide-narita-haneda-kansai",
+    region: "airport-arrival",
+    regionLabel: "Airport Arrival",
+    category: "transportation",
+    categoryLabel: "Transportation",
+    title: "Narita, Haneda, and Kansai Airport: Arrival and Transport Guide",
+    metaDescription:
+      "Which Tokyo or Osaka airport you land at changes your whole first day. Here's what to expect at immigration and the fastest way into the city from each.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Narita Airport (Tokyo)",
+        body: [
+          "Narita has three terminals connected by a free shuttle bus (10–15 minutes between them), with Terminal 3 handling low-cost carriers and noticeably more basic facilities than 1 and 2. Into the city, the Narita Express (N'EX) runs direct to Shinjuku, Shibuya, and Tokyo Station in 60–90 minutes for roughly ¥3,140–3,330; the Keisei Skyliner is the fastest option at 36–41 minutes to the Ueno/Nippori area for about ¥2,580; the Keisei Limited Express is the budget, no-transfer choice at 70–80 minutes for around ¥1,030. A limousine bus (90–120 minutes, ¥1,000–3,100) drops you at your hotel directly, and a taxi runs ¥17,000–22,000 — worth splitting among a group rather than taking solo.",
+        ],
+      },
+      {
+        heading: "Haneda Airport (Tokyo)",
+        body: [
+          "Haneda sits much closer to central Tokyo than Narita. The Keikyu Line reaches Shinagawa in 11–14 minutes for about ¥327, with many trains continuing onto the Toei Asakusa Line without a transfer. The Tokyo Monorail reaches Hamamatsucho in 13–20 minutes for around ¥519 and is covered by the Japan Rail Pass. A limousine bus takes 45–60 minutes for ¥1,000–1,400 with direct hotel drop-off, and a taxi runs ¥7,600–9,000 or more depending on time of day. Either airport, expect one train transfer if your hotel is around Shinjuku or Shibuya.",
+        ],
+      },
+      {
+        heading: "Kansai Airport / KIX (Osaka)",
+        body: [
+          "The JR Haruka Express reaches Osaka Station in about 45 minutes or Kyoto in about 75, for a discounted foreign-visitor fare of roughly ¥1,800 (it doesn't stop at Namba, and it's fully covered by the JR Pass). The Nankai Rapi:t limited express reaches Namba in 34 minutes for ¥1,520–1,670 and is the better pick for the Dotonbori/Shinsaibashi area. The plain Nankai Airport Express skips the reserved-seat surcharge, takes 45–50 minutes to Namba for about ¥970, and accepts ICOCA or Suica directly. A limousine bus to Osaka Station takes about an hour for ¥1,300–1,800, and a taxi into central Osaka runs ¥15,000–20,000.",
+        ],
+      },
+      {
+        heading: "Immigration and customs, either way",
+        body: [
+          "Registering on Visit Japan Web before you fly routes you through the faster joint immigration-and-customs kiosks at all three airports — see our visa and entry guide for how to set it up. Skip it and you'll fill out paper landing and customs forms on the plane or at the airport instead, which works fine but takes longer at busy arrival times.",
+        ],
+      },
+    ],
+    relatedSlugs: ["visa-and-entry-requirements-japan", "staying-connected-in-japan-sim-esim-wifi", "japan-ic-card-guide", "tokyo-3-day-itinerary"],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "no-trash-cans-in-japan",
+    region: "trash-and-recycling",
+    regionLabel: "Trash & Recycling",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Why There Are No Trash Cans in Japan (and What to Do With Your Garbage)",
+    metaDescription:
+      "Japan is spotless despite having almost no public trash cans. Here's the actual reason, and where visitors are supposed to put their garbage instead.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Why the bins disappeared",
+        body: [
+          "Public trash cans became scarce across Japan largely in the wake of the 1995 Tokyo subway sarin gas attack, when security concerns led many municipalities to remove them from stations and streets rather than manage the risk. Removing them also meant not having to service or maintain them, and the habit stuck: carrying your own trash until you find somewhere appropriate is treated as completely normal, not an inconvenience worth complaining about locally.",
+        ],
+      },
+      {
+        heading: "Where to actually put your trash",
+        body: [
+          "Convenience stores (7-Eleven, FamilyMart, Lawson) keep small bins just inside the entrance, intended for things bought there. Train station platforms and areas near vending machines sometimes have recycling bins, but usually only for bottles and cans, not general trash. Department stores and shopping malls have bins in restrooms and food courts. The simplest habit is carrying a small bag in your daypack and clearing it out at your hotel at the end of the day.",
+        ],
+      },
+      {
+        heading: "What not to do",
+        body: [
+          "Leaving trash on a park bench, at a shrine, or on public seating draws real disapproval even where it isn't formally against the law. Where bins do exist, sorting matters — burnable, non-burnable, PET bottles, and cans are typically separated — so if you're not sure which is which, it's better to just carry it back to the hotel than guess wrong into someone's carefully sorted bin.",
+        ],
+      },
+    ],
+    relatedSlugs: ["smoking-areas-in-japan", "avoiding-crowds-overtourism-japan", "packing-list-for-japan-trip"],
+    relatedCultureSlugs: ["convenience-store-culture"],
+  },
+  {
+    slug: "smoking-areas-in-japan",
+    region: "smoking-rules",
+    regionLabel: "Smoking Rules",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Where You Can (and Can't) Smoke in Japan",
+    metaDescription:
+      "Street smoking is banned and fined in most big cities, but designated smoking rooms are everywhere once you know to look. Here's how the rules actually work.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Street smoking is banned in most city centers",
+        body: [
+          "Central Tokyo's 23 wards, along with Osaka, Kyoto, Yokohama, Fukuoka, and other major cities, ban smoking while walking on the street, and it's enforced with on-the-spot fines of roughly ¥1,000–2,000. Dropping a cigarette butt carries its own separate fine. Since the 2020 Health Promotion Act, indoor smoking is banned by default nationwide except in specifically designated smoking rooms.",
+        ],
+      },
+      {
+        heading: "Where the designated areas are",
+        body: [
+          "Look for small glass-walled smoking booths near station exits, in larger parks, and outside office buildings — they're common once you know what you're looking for, just not obvious from a distance. Some convenience stores have a small outdoor smoking corner. Both Narita and Haneda maintain smoking rooms before and after security in every terminal, so a connecting flight doesn't mean going without.",
+        ],
+      },
+      {
+        heading: "Heated tobacco and trains",
+        body: [
+          "IQOS, glo, and Ploom heated tobacco products follow the exact same rules as cigarettes in Japan — same street bans, same designated rooms — even in places where they're treated differently elsewhere. Every Shinkansen has been fully non-smoking since March 2024, though major stations including Tokyo, Kyoto, Hakata, Nagoya, Hiroshima, and Sendai still keep platform-level smoking rooms for a stop between trains.",
+        ],
+      },
+    ],
+    relatedSlugs: ["no-trash-cans-in-japan", "avoiding-crowds-overtourism-japan", "domestic-flights-and-buses-japan"],
+    relatedCultureSlugs: ["train-manners"],
+  },
+  {
+    slug: "avoiding-crowds-overtourism-japan",
+    region: "overtourism",
+    regionLabel: "Avoiding Crowds",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Overtourism in Japan: New Fees, Rules, and How to Avoid the Worst Crowds",
+    metaDescription:
+      "Record visitor numbers have brought new fees and restrictions to Mount Fuji and Kyoto. Here's what changed, and how to plan around the crowds.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "What's changed at the hotspots",
+        body: [
+          "Mount Fuji now charges a mandatory climbing fee of roughly ¥4,000 across all four main routes, with the Yoshida Trail capping daily climbers at around 4,000 and restricting entry for anyone without an overnight hut reservation — aimed squarely at stopping risky \"bullet climbing,\" summiting overnight without rest. The Shizuoka-side trails now require a mandatory safety briefing and approval before you're allowed to start.",
+          "Kyoto introduced an accommodation tax that scales with room price, with the most expensive stays (over roughly ¥100,000 a night) facing a meaningfully higher nightly tourism tax, and the city is exploring resident/visitor dual pricing for buses to ease the chronic overcrowding around Kiyomizu-dera and Gion. Himeji Castle has already moved to resident-discounted pricing — general admission went up while local residents pay less — which measurably reduced attendance and increased revenue, and other sites are reportedly watching that result closely.",
+        ],
+      },
+      {
+        heading: "How to actually avoid the crush",
+        body: [
+          "Early morning beats every other trick: most famous shrines and temples open well before the tour buses arrive, and a 7am visit to a place like Fushimi Inari or Kiyomizu-dera is a genuinely different experience from a 1pm one. Weekdays beat weekends, and shoulder-season months beat the sakura and koyo peaks by a wide margin — see our cherry blossom and autumn leaves guides for the actual timing.",
+          "For Mount Fuji specifically, book permits and hut reservations well ahead rather than assuming you can show up and climb. In Kyoto's geisha districts, stick to public streets and follow posted photography restrictions — some private alleys in Gion have been closed to tourists entirely after repeated complaints from residents about harassment and unwanted photography.",
+        ],
+      },
+    ],
+    relatedSlugs: ["no-trash-cans-in-japan", "mount-fuji-viewpoints", "kyoto-temples-worth-visiting", "smoking-areas-in-japan"],
+    relatedCultureSlugs: ["shrines-and-temples"],
+  },
+  {
+    slug: "accommodation-types-in-japan",
+    region: "accommodation-types",
+    regionLabel: "Accommodation Types",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Hotel, Ryokan, or Capsule Hotel? Japan's Accommodation Types Explained",
+    metaDescription:
+      "Japan's lodging options go well beyond generic hotels. Here's what a ryokan, minshuku, business hotel, and capsule hotel each actually offer.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Japanese-style stays",
+        body: [
+          "A ryokan is a traditional inn, typically with dinner and breakfast included, futon laid out on tatami floors, and often built around an onsen — expect to remove your shoes at the entrance. Prices span roughly ¥6,000–60,000+ per person depending on class, with the higher end including an elaborate multi-course kaiseki dinner. A minshuku is the more modest, family-run version — closer to a bed-and-breakfast, ¥5,000–14,000 per person, often with home-cooked meals and a more personal feel than a ryokan's polished service.",
+        ],
+      },
+      {
+        heading: "Western-style and budget options",
+        body: [
+          "Standard hotels range from roughly ¥8,000 to ¥200,000+ per room, covering everything from budget chains to five-star luxury. Business hotels — APA, Toyoko Inn, and similar chains — run ¥7,000–20,000 per room: small, efficient, and built for convenience near a station rather than character. Capsule hotels (¥3,000–5,000 per person) offer a private sleeping pod with shared bath facilities, mostly used by solo travelers, while hostels and dorms (¥2,000–5,000 per person) are the cheapest reliable option for a bed.",
+        ],
+      },
+      {
+        heading: "A couple of niche options worth knowing about",
+        body: [
+          "Temple lodgings (shukubo), found in places like Koyasan, let you stay at a working Buddhist temple for roughly ¥6,000–20,000 per person, with vegetarian shojin ryori meals and the option to join a morning prayer session. Manga cafes (¥1,500–3,000) aren't real accommodation, but they're a legitimate 24-hour fallback — a private booth, a shower, a drink bar — if you miss the last train home.",
+        ],
+      },
+    ],
+    relatedSlugs: ["tipping-culture-in-japan", "packing-list-for-japan-trip", "luggage-forwarding-coin-lockers-japan"],
+    relatedCultureSlugs: ["onsen-etiquette", "shoes-indoors"],
+  },
+  {
+    slug: "packing-list-for-japan-trip",
+    region: "packing-list",
+    regionLabel: "Packing List",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "What to Pack for Japan: A Practical, Season-Aware Packing List",
+    metaDescription:
+      "Japan's plugs, weather swings, and shoe-off culture catch first-time visitors off guard. Here's what's actually worth packing, and what to buy there instead.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The stuff that's easy to forget",
+        body: [
+          "Japan runs on Type A/B plugs at 100V — lower voltage than the US's 120V or Europe's 230V. Most modern electronics (phone chargers, laptops) handle that fine, but double-check anything with a heating element, like a hairdryer or straightener, before assuming it'll work. Slip-on shoes are genuinely useful given how often you'll take them off — temples, some restaurants, ryokan — and a portable battery pack is worth packing for the phone you'll be navigating with all day.",
+        ],
+      },
+      {
+        heading: "Season actually changes what you need",
+        body: [
+          "Summer (June–September) is a humidity problem as much as a heat one; a small hand towel or handkerchief is worth carrying since public restrooms often skip paper towels and hand dryers, and a portable handheld fan is a local habit worth copying rather than a tourist affectation. Winter varies hugely by region — see our winter travel guide for specifics — but layering over one heavy coat works better than the coat alone, since you'll move between heated interiors and cold platforms all day. Rainy season (tsuyu, roughly June) and typhoon season both call for a compact umbrella; if you forget one, every convenience store sells cheap clear ones.",
+        ],
+      },
+      {
+        heading: "What to just buy there instead",
+        body: [
+          "Toiletries and basic over-the-counter medicine are easy to find at any convenience store or drugstore, so there's little reason to overpack for them. Prescription medication is the exception — bring it with a doctor's note and original packaging, since a few common Western medications (some containing pseudoephedrine or codeine) are restricted or require documentation on entry.",
+        ],
+      },
+    ],
+    relatedSlugs: ["winter-travel-guide-by-region", "typhoon-season-travel-guide", "accommodation-types-in-japan", "staying-connected-in-japan-sim-esim-wifi"],
+    relatedCultureSlugs: ["shoes-indoors"],
+  },
+  {
+    slug: "luggage-forwarding-coin-lockers-japan",
+    region: "luggage-and-lockers",
+    regionLabel: "Luggage & Lockers",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Luggage Forwarding and Coin Lockers: Traveling Light in Japan",
+    metaDescription:
+      "You don't have to drag suitcases through train stations in Japan. Here's how takkyubin luggage forwarding and coin lockers actually work.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Takkyubin: shipping your bags ahead",
+        body: [
+          "Yamato Transport's kuroneko takkyubin service (and similar options from Sagawa and Japan Post) will ship a suitcase hotel-to-hotel, typically for around ¥2,000–3,000 per bag on a route like Tokyo to Kyoto, arriving the next day — same-day delivery exists on some routes but shouldn't be assumed without checking. Arrange it at your hotel's front desk, or at a convenience store counter if your accommodation doesn't offer it. It's especially useful for sidestepping the Shinkansen's oversized-luggage reservation requirement on a travel day.",
+        ],
+      },
+      {
+        heading: "Coin lockers for day trips",
+        body: [
+          "Typical daily rates run small ¥300–400 (a daypack), medium ¥500–600 (carry-on size), large ¥700–800 (a standard suitcase), and extra-large ¥900–1,000 (oversized bags). Most modern lockers accept a tap from an IC card; older ones still want coins. A green light means available, red means occupied. Major stations like Tokyo, Shinjuku, and Kyoto have hundreds of lockers spread across multiple levels, but they do fill up by mid-morning on busy weekends — a neighboring station, a staffed cloak counter, or an app like Ecbo Cloche (which lets local shops store your bag) are the usual fallbacks.",
+        ],
+      },
+      {
+        heading: "Which one for which trip",
+        body: [
+          "Switching hotels between cities: takkyubin, so you're not hauling bags onto a packed train. A single day trip out of a base hotel: a coin locker at the departure station, picked up again on the way back.",
+        ],
+      },
+    ],
+    relatedSlugs: ["shinkansen-tickets-beginner-guide", "accommodation-types-in-japan", "domestic-flights-and-buses-japan"],
+    relatedCultureSlugs: [],
+  },
+  {
+    slug: "domestic-flights-and-buses-japan",
+    region: "domestic-transport",
+    regionLabel: "Domestic Transport",
+    category: "transportation",
+    categoryLabel: "Transportation",
+    title: "Domestic Flights and Highway Buses: Beyond the Shinkansen",
+    metaDescription:
+      "The Shinkansen isn't always the cheapest or fastest way around Japan. Here's when a budget flight or a highway bus actually makes more sense.",
+    updatedAt: "2026-08-28",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "When flying beats the bullet train",
+        body: [
+          "On longer routes — roughly 500km and up, like Tokyo–Sapporo, where there's no direct Shinkansen link at all, or Tokyo–Fukuoka — flying can beat the train on total door-to-door time even after airport transfers are factored in. ANA and JAL, the full-service carriers handling around 70% of domestic seats, sit at the higher end but include a real checked-bag allowance (20–23kg). Budget carriers — Peach out of Kansai, Jetstar Japan and Spring Japan out of Narita — undercut them noticeably on base fare but charge extra for checked bags and often fly from secondary terminals with longer connection times.",
+        ],
+      },
+      {
+        heading: "When a highway bus makes more sense",
+        body: [
+          "Highway and overnight buses, bookable through Willer Express and similar aggregator sites, run at roughly a quarter of the Shinkansen's fare on a route like Tokyo–Osaka — but take 7–9 hours versus about 2.5 by rail. Standard 4-row seating is cramped for that long, while pricier 3-row \"luxury\" night buses add deeper recline, blankets, and privacy hoods. The appeal is genuinely trading a hotel night for a bus seat — a real budget move on a longer trip, not just a marketing angle.",
+        ],
+      },
+      {
+        heading: "Picking between train, plane, and bus",
+        body: [
+          "Short-to-medium distance with a JR Pass already in hand: the Shinkansen wins on convenience even when it isn't the cheapest option. Long distance without a JR Pass and time matters: an LCC flight. Tight budget with a flexible schedule: a highway bus. Book Shinkansen tickets through SmartEX (see our ticket-buying guide), flights directly through the airline's own site, and buses through Willer Express or a bus aggregator site.",
+        ],
+      },
+    ],
+    relatedSlugs: ["jr-pass-worth-it-guide", "shinkansen-tickets-beginner-guide", "luggage-forwarding-coin-lockers-japan", "airport-arrival-guide-narita-haneda-kansai"],
+    relatedCultureSlugs: [],
   },
 ];
 
