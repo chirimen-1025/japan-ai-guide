@@ -751,6 +751,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: [],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
+    affiliateTours: [
+      {
+        label: "Tokyo: Mt. Fuji Tour, Hakone Ropeway, Owakudani, Lake Ashi",
+        url: "https://www.getyourguide.com/tokyo-l193/tokyo-mt-fuji-tour-hakone-ropeway-owakudani-lake-ashi-t1035544/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "niigata-rice-sake-and-sado-island",
@@ -1165,6 +1171,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: [],
     relatedCultureSlugs: ["onsen-etiquette"],
+    affiliateTours: [
+      {
+        label: "Osaka: Himeji Castle, Arima Onsen & Mount Rokko Day Trip",
+        url: "https://www.getyourguide.com/osaka-l1204/osakahimeji-castle-arima-onsenand-mount-rokko-day-trip-t384942/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "wakayama-koyasan-and-kumano-kodo",
@@ -1441,6 +1453,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: [],
     relatedCultureSlugs: ["onsen-etiquette"],
+    affiliateTours: [
+      {
+        label: "Ehime: Dogo Onsen Culture Walk — Bathhouse, Shrine & Food",
+        url: "https://www.getyourguide.com/matsuyama-l150261/ehime-dogo-onsen-culture-walk-bathhouse-shrine-food-t1191270/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "kochi-shimanto-river-katsurahama",
@@ -1612,6 +1630,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: [],
     relatedCultureSlugs: ["onsen-etiquette"],
+    affiliateTours: [
+      {
+        label: "Fukuoka: Nyoirinji Temple, Beppu Hells (Tickets Included) & Yufuin",
+        url: "https://www.getyourguide.com/fukuoka-l32581/from-fukuoka-nyoirinji-temple-beppu-hells-and-yufuin-t912853/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "miyazaki-takachiho-gorge-mythology",
