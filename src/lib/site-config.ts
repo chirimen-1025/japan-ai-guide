@@ -22,4 +22,4 @@ export const SITE_URL =
 // takedown requests, etc. No real inbox was set up for this project yet —
 // replace this with a real address you control before publishing. Using a
 // fake or unmonitored address here would be worse than omitting it.
-export const CONTACT_EMAIL = "REPLACE-WITH-A-REAL-CONTACT-EMAIL@example.com";
+export const CONTACT_EMAIL = "s12969800@gmail.com";
