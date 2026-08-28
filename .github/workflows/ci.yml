@@ -1,0 +1,44 @@
+name: CI
+
+# Runs on every push to main. This is separate from — and in addition to —
+# Cloudflare Pages' own build/deploy, which is triggered independently by
+# the same push. This workflow's job is to catch problems Cloudflare Pages
+# wouldn't (SEO regressions like an over-long title or an orphaned page)
+# and, on success, to notify Bing/Yandex via IndexNow so new/changed pages
+# get crawled promptly instead of waiting for their next scheduled visit.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npx tsc --noEmit
+
+      - name: SEO lint (title/meta length, internal-link orphans, broken slugs)
+        run: node scripts/seo-lint.mjs
+
+      - name: Build static export
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://japan-ai-guide.pages.dev
+          NEXT_PUBLIC_ENABLE_AFFILIATE: "true"
+
+      - name: Notify IndexNow (Bing/Yandex) of current URLs
+        if: success()
+        run: node scripts/indexnow-submit.mjs
