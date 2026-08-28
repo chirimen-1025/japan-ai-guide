@@ -13,7 +13,7 @@ export default function TermsPage() {
     <div className="mx-auto max-w-3xl px-5 py-12">
       <p className="jp text-sm font-semibold text-accent">利用規約・免責事項</p>
       <h1 className="disp mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Terms &amp; Disclaimer</h1>
-      <p className="mt-3 text-sm text-muted">Last updated 2026-08-22.</p>
+      <p className="mt-3 text-sm text-muted">Last updated 2026-08-28.</p>
 
       <div className="mt-8 flex flex-col gap-6 text-[15px] leading-7 text-ink">
         <h2 className="disp text-xl font-semibold text-brand-strong">Independent, unofficial resource</h2>
@@ -43,6 +43,18 @@ export default function TermsPage() {
           </a>{" "}
           page. Despite that process, errors can still slip through at this scale of content. If you
           find one, please report it — see contact details below.
+        </p>
+
+        <h2 className="disp mt-2 text-xl font-semibold text-brand-strong">Affiliate disclosure</h2>
+        <p>
+          Some links on this site — including tour and activity links marked &ldquo;Book a guided
+          tour&rdquo; on travel articles — are affiliate links. If you click through and make a
+          booking, Japan AI Guide may earn a small commission from the booking partner, at no extra
+          cost to you. This never affects which places or experiences are described positively or
+          negatively in an article; affiliate links are only added to destinations already covered
+          on their own merits. Non-affiliate links (to official tourism boards, transit operators,
+          and similar sources) are used wherever a direct, non-commercial source is more useful to
+          the reader.
         </p>
 
         <h2 className="disp mt-2 text-xl font-semibold text-brand-strong">No liability</h2>
