@@ -10,7 +10,7 @@ export const CULTURE_ARTICLES: CultureArticle[] = [
   {
     slug: "bowing",
     title: "Bowing in Japan: A Practical Guide for Visitors",
-    summary: "You don't need to master the etiquette — a small nod goes a long way. Here's what actually matters.",
+    summary: "You don't need to master the etiquette — a small nod goes a long way, from shop staff to shrine visits to business handshakes.",
     updatedAt: "2026-08-01",
     sections: [
       {
@@ -60,7 +60,7 @@ export const CULTURE_ARTICLES: CultureArticle[] = [
   {
     slug: "onsen-etiquette",
     title: "Onsen (Hot Spring) Etiquette for First-Timers",
-    summary: "Public bathing has clear, learnable rules. Follow them and you'll fit right in.",
+    summary: "Public bathing has clear, learnable rules — wash before you soak, skip the swimwear, and mind a few habits around tattoos and towels.",
     updatedAt: "2026-08-01",
     sections: [
       {
@@ -125,7 +125,7 @@ export const CULTURE_ARTICLES: CultureArticle[] = [
   {
     slug: "convenience-store-culture",
     title: "How to Use a Japanese Convenience Store Like a Local",
-    summary: "Konbini are genuinely useful for travelers — good food, ATMs, and more, once you know how they work.",
+    summary: "Konbini are genuinely useful for travelers — good food, foreign-card ATMs, bill payment, and more, once you know the everyday habits locals expect.",
     updatedAt: "2026-08-01",
     sections: [
       {

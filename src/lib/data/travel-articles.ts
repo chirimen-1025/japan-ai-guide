@@ -49,7 +49,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-3-day-itinerary", "shinkansen-tickets-beginner-guide"],
+    relatedSlugs: ["tokyo-3-day-itinerary", "shinkansen-tickets-beginner-guide", "tokyo-ramen-styles-guide", "tokyo-sushi-culture-edomae-vs-conveyor-belt"],
     relatedCultureSlugs: ["train-manners"],
   },
   {
@@ -83,7 +83,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-trains-beginner-guide"],
+    relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide", "shinkansen-tickets-beginner-guide", "tokyo-depachika-food-hall-culture", "tokyo-izakaya-culture-guide", "tokyo-ramen-styles-guide"],
     relatedCultureSlugs: [],
     affiliateTours: [
       {
@@ -123,7 +123,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["nara-deer-park-and-todaiji", "kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market"],
+    relatedSlugs: ["nara-deer-park-and-todaiji", "kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "kyoto-wagashi-tea-sweets-culture"],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
     affiliateTours: [
       {
@@ -163,7 +163,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["kyoto-temples-worth-visiting", "nara-kasuga-taisha-and-other-temples", "nara-food-and-yoshino-cherry-blossoms"],
+    relatedSlugs: ["kyoto-temples-worth-visiting", "nara-kasuga-taisha-and-other-temples", "nara-food-and-yoshino-cherry-blossoms", "nara-sake-brewing-birthplace"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -197,7 +197,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["hiroshima-peace-and-miyajima", "osaka-attractions-castle-usj-and-umeda-sky", "osaka-nightlife-shinsaibashi-and-amerikamura"],
+    relatedSlugs: ["hiroshima-peace-and-miyajima", "osaka-attractions-castle-usj-and-umeda-sky", "osaka-nightlife-shinsaibashi-and-amerikamura", "osaka-battera-hakozushi-pressed-sushi", "osaka-dashi-udon-culture", "osaka-kuidaore-food-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -233,7 +233,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["osaka-food-guide"],
+    relatedSlugs: ["osaka-food-guide", "hiroshima-momiji-manju-sweets", "hiroshima-oyster-culture", "hiroshima-saijo-sake-brewing"],
     relatedCultureSlugs: ["shrines-and-temples"],
     affiliateTours: [
       {
@@ -273,7 +273,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["fukuoka-city-attractions-ohori-park-and-canal-city", "fukuoka-itoshima-coast-and-yanagawa-canals"],
+    relatedSlugs: ["fukuoka-city-attractions-ohori-park-and-canal-city", "fukuoka-itoshima-coast-and-yanagawa-canals", "fukuoka-mizutaki-chicken-hotpot", "fukuoka-motsunabe-offal-hotpot", "fukuoka-mentaiko-spicy-cod-roe"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -307,7 +307,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["sapporo-city-guide-ramen-beer-and-snow-festival", "hokkaido-summer-furano-lavender-and-hakodate"],
+    relatedSlugs: ["sapporo-city-guide-ramen-beer-and-snow-festival", "hokkaido-summer-furano-lavender-and-hakodate", "hokkaido-dairy-soft-serve-culture", "hokkaido-seafood-scallops-crab-uni", "hokkaido-soup-curry"],
     relatedCultureSlugs: [],
   },
   {
@@ -341,7 +341,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-3-day-itinerary"],
+    relatedSlugs: ["tokyo-3-day-itinerary", "japans-three-great-tenjin-shrines", "japans-three-views-nihon-sankei", "winter-illuminations-in-japan"],
     relatedCultureSlugs: [],
   },
   {
@@ -375,7 +375,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aomori-hachinohe-morning-market-squid", "aomori-sake-cold-climate-brewing", "aomori-senbei-jiru-hotpot", "aomori-apple-culture-and-orchards", "aomori-oma-bluefin-tuna"],
     relatedCultureSlugs: [],
   },
   {
@@ -409,7 +409,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["iwate-nanbu-sake-brewing", "iwate-sanriku-coast-seafood", "iwate-wanko-soba", "gifu-shirakawago-and-takayama", "iwate-mochi-culture-ichinoseki"],
     relatedCultureSlugs: [],
   },
   {
@@ -437,7 +437,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-dogo-onsen-matsuyama-castle", "kanagawa-kamakura-great-buddha-and-hakone", "miyagi-hittsumi-hotpot", "miyagi-zunda-sweets"],
     relatedCultureSlugs: [],
     affiliateTours: [
       {
@@ -477,7 +477,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["akita-babahera-ice-cream", "akita-hinai-jidori-chicken", "akita-inaniwa-udon", "akita-sake-brewing-tradition", "akita-kiritanpo-nabe"],
     relatedCultureSlugs: [],
   },
   {
@@ -511,7 +511,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamagata-dewa-sanzan-shojin-ryori", "yamagata-imoni-taro-stew", "yamagata-sake-appellation", "yamagata-sakuranbo-cherries", "yamagata-yonezawa-beef"],
     relatedCultureSlugs: ["onsen-etiquette"],
   },
   {
@@ -545,7 +545,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukushima-joban-mono-seafood", "fukushima-momo-peaches", "fukushima-aizu-soba-culture", "fukushima-kitakata-ramen"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -579,7 +579,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ibaraki-anko-nabe-anglerfish-hot-pot", "ibaraki-local-sake-breweries", "ibaraki-melon-culture", "ibaraki-mito-natto-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -613,7 +613,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tochigi-nasu-sake-breweries", "tochigi-utsunomiya-gyoza", "tochigi-kanpyo-dried-gourd-strips", "tochigi-nikko-yuba-tofu-skin", "tochigi-strawberries-tochiotome-skyberry"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -647,7 +647,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gunma-konnyaku-konjac-culture", "gunma-yakimanju-grilled-buns", "gunma-mizusawa-udon", "gunma-sake-jomo-plain", "gunma-shimonita-negi-leek"],
     relatedCultureSlugs: ["onsen-etiquette"],
   },
   {
@@ -681,7 +681,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saitama-chichibu-soba-and-sake", "saitama-fukaya-negi-leek", "saitama-musashino-udon", "saitama-soka-senbei-rice-crackers", "saitama-kawagoe-sweet-potato-food-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -715,7 +715,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["chiba-boso-biwa-loquat", "chiba-choshi-fishing-port-seafood", "chiba-namerou-boso-fishermans-dish", "chiba-peanut-farming-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -749,7 +749,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kanagawa-odawara-kamaboko-fish-cake", "kanagawa-sake-and-craft-beer", "kanagawa-shonan-shirasu-whitebait", "miyagi-matsushima-bay-and-sendai-gyutan", "kanagawa-yokohama-chinatown-food"],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
     affiliateTours: [
       {
@@ -790,7 +790,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["niigata-hegisoba-noodles", "niigata-murakami-salmon-culture", "niigata-tare-katsudon-local-soul-food", "niigata-sasadango-wagashi"],
     relatedCultureSlugs: ["onsen-etiquette"],
   },
   {
@@ -825,7 +825,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["autumn-leaves-season-by-region", "toyama-kombu-culture-everyday-cooking", "toyama-shiroebi-white-shrimp-toyama-bay", "toyama-wagashi-mochi-confectionery-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -860,7 +860,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ishikawa-kanazawa-wagashi-tradition", "ishikawa-kanogani-snow-crab-brand", "ishikawa-omicho-market-food-culture", "nagano-snow-monkeys-matsumoto-castle-and-the-alps", "three-great-night-views-of-japan"],
     relatedCultureSlugs: [],
   },
   {
@@ -894,7 +894,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukui-echizen-crab-seafood-brand", "fukui-echizen-oroshi-soba", "fukui-sake-brewing-culture", "fukui-sauce-katsudon-everyday-food", "fukui-winter-mizuyokan-tradition"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -923,7 +923,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyazaki-wagyu-jidori-chicken", "yamanashi-kofu-torimotsu-ramen", "yamanashi-shingen-mochi-wagashi", "yamanashi-hoshigaki-dried-persimmon-craft"],
     relatedCultureSlugs: [],
   },
   {
@@ -957,7 +957,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ishikawa-kanazawa-gardens-and-geisha-districts", "nagano-apples-and-highland-fruit", "nagano-nozawana-pickles", "nagano-oyaki", "nagano-sake-alpine-water"],
     relatedCultureSlugs: [],
   },
   {
@@ -992,7 +992,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gifu-ayu-nagara-river-cormorant-fishing", "gifu-hoshigaki-dried-persimmon", "gifu-sake-brewing-tradition", "gifu-hida-beef-wagyu", "iwate-hiraizumi-and-morioka-wanko-soba"],
     relatedCultureSlugs: [],
   },
   {
@@ -1026,7 +1026,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shizuoka-abekawa-mochi", "shizuoka-sakura-ebi-suruga-bay", "shizuoka-wasabi", "shizuoka-fujinomiya-yakisoba"],
     relatedCultureSlugs: ["onsen-etiquette"],
   },
   {
@@ -1060,7 +1060,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aichi-kishimen", "aichi-mikawa-mirin-handa-brewing", "aichi-nagoya-cochin", "aichi-ogura-toast-kissaten-culture", "aichi-uiro"],
     relatedCultureSlugs: [],
     affiliateTours: [
       {
@@ -1101,7 +1101,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["coming-of-age-day-and-kimono-photography", "mie-ise-cha-green-tea", "mie-ise-udon", "mie-matsusaka-beef-tradition", "mie-toba-seafood-market-culture"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -1135,7 +1135,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["oita-beppu-hot-springs-yufuin", "shiga-omi-beef-sukiyaki-tradition", "shiga-omi-shonin-merchant-food-culture", "shiga-sake-omi-rice-breweries", "shiga-lake-biwa-freshwater-fish"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -1169,7 +1169,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hyogo-nada-sake-district", "hyogo-tamba-black-soybeans-chestnuts", "hyogo-akashiyaki-octopus-dumplings", "fukuoka-city-attractions-ohori-park-and-canal-city", "hyogo-kobe-western-confectionery-bread", "three-great-night-views-of-japan"],
     relatedCultureSlugs: ["onsen-etiquette"],
     affiliateTours: [
       {
@@ -1210,7 +1210,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["wakayama-kaki-no-ha-sushi", "wakayama-koyasan-shojin-ryori", "wakayama-mikan-oranges", "japans-places-of-scenic-beauty-explained", "wakayama-nanko-ume-umeboshi-umeshu"],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
   },
   {
@@ -1244,7 +1244,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tottori-curry-culture-everyday-food", "tottori-pear-sweets-and-wagashi", "tottori-rakkyo-sand-dune-pickled-scallions", "tottori-sake-daisen-mountain-water", "tottori-wagyu-beef-and-gyunabe-hot-pot"],
     relatedCultureSlugs: [],
   },
   {
@@ -1278,7 +1278,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shimane-izumo-soba-warigo-style", "shimane-nodoguro-san-in-coast-fish", "shimane-sake-izumo-mythology", "shimane-shijimi-clam-miso-soup", "shimane-matsue-wagashi-tea-culture"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -1312,7 +1312,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okayama-kibidango-momotaro-sweets", "okayama-sake-bizen-omachi-rice", "okayama-barazushi-scattered-sushi", "okayama-demi-katsudon-everyday-food", "okayama-peaches-and-muscat-grapes"],
     relatedCultureSlugs: [],
   },
   {
@@ -1346,7 +1346,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagasaki-atomic-bomb-history-dejima", "yamaguchi-dassai-sake-and-brewing", "yamaguchi-hagi-natsumikan-citrus", "yamaguchi-iwakuni-zushi-festival-food"],
     relatedCultureSlugs: [],
   },
   {
@@ -1382,7 +1382,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tokushima-chikuwa-sumaki-fish-cake", "tokushima-naruto-kintoki-sweet-potato", "tokushima-ramen-dark-broth-guide", "tokushima-sudachi-citrus"],
     relatedCultureSlugs: [],
   },
   {
@@ -1416,7 +1416,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagawa-hone-tsuki-dori-roast-chicken", "kagawa-local-sake-breweries", "kagawa-olive-gyu-olive-hamachi", "kagawa-shodoshima-soy-sauce", "kagawa-wasanbon-traditional-sugar"],
     relatedCultureSlugs: [],
   },
   {
@@ -1451,7 +1451,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-saijo-sake-brewing-water", "ehime-tai-meshi-sea-bream-rice", "ehime-tarto-matsuyama-sponge-cake", "miyagi-matsushima-bay-and-sendai-gyutan", "ehime-mikan-citrus-varieties"],
     relatedCultureSlugs: ["onsen-etiquette"],
     affiliateTours: [
       {
@@ -1492,7 +1492,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kochi-aisukurin-ice-cream-treat", "kochi-tosa-jiro-branded-chicken", "kochi-yuzu-drinks-umaji-village", "kochi-sawachi-ryori-feast-platters"],
     relatedCultureSlugs: [],
   },
   {
@@ -1526,7 +1526,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saga-sake-brewing", "saga-wagyu-beef-guide", "saga-yobuko-morning-market-squid", "saga-ariake-sea-nori-seafood"],
     relatedCultureSlugs: [],
   },
   {
@@ -1560,7 +1560,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagasaki-shippoku-ryori-feast", "nagasaki-biwa-loquat-fruit", "nagasaki-castella-cake-history", "yamaguchi-hagi-and-kintaikyo-bridge", "nagasaki-seafood-market-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -1594,7 +1594,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kumamoto-basashi-horse-sashimi", "kumamoto-ikinari-dango-sweets", "kumamoto-kuma-shochu-rice", "kumamoto-ramen-tonkotsu-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -1628,7 +1628,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["oita-beppu-jigoku-mushi-steam-cooking", "oita-mugi-shochu-barley", "oita-seki-saba-aji-brand-fish", "shiga-lake-biwa-and-hikone-castle", "oita-yaseuma-sweet-snack"],
     relatedCultureSlugs: ["onsen-etiquette"],
     affiliateTours: [
       {
@@ -1669,7 +1669,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["cherry-blossom-season-by-region", "miyazaki-kinkan-kumquat-sweets", "miyazaki-obiten-street-food", "miyazaki-shochu-culture", "miyazaki-wagyu-jidori-chicken"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -1703,7 +1703,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagoshima-karukan-wagashi", "kagoshima-kurobuta-black-pork", "kagoshima-imo-jochu-culture", "kagoshima-satsuma-age-street-food"],
     relatedCultureSlugs: [],
   },
   {
@@ -1737,7 +1737,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okinawa-agu-pork", "okinawa-awamori-deep-dive", "okinawa-market-food-culture", "okinawa-sweets-chinsuko-sataandagi"],
     relatedCultureSlugs: [],
   },
   {
@@ -1767,7 +1767,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["kyoto-temples-worth-visiting", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market"],
+    relatedSlugs: ["kyoto-temples-worth-visiting", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "japans-most-cm-famous-scenic-spots", "kyoto-obanzai-home-style-cooking", "kyoto-kyoyasai-heirloom-vegetables"],
     relatedCultureSlugs: ["bowing", "shrines-and-temples"],
   },
   {
@@ -1807,7 +1807,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-temples-worth-visiting"],
+    relatedSlugs: ["kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-temples-worth-visiting", "akita-hinai-jidori-chicken", "kyoto-wagashi-tea-sweets-culture", "kyoto-kyoyasai-heirloom-vegetables", "kyoto-obanzai-home-style-cooking"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -1841,7 +1841,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["osaka-food-guide", "osaka-nightlife-shinsaibashi-and-amerikamura"],
+    relatedSlugs: ["osaka-food-guide", "osaka-nightlife-shinsaibashi-and-amerikamura", "osaka-battera-hakozushi-pressed-sushi", "osaka-dashi-udon-culture", "osaka-kuidaore-food-culture"],
     relatedCultureSlugs: [],
     affiliateTours: [
       {
@@ -1881,7 +1881,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["osaka-food-guide", "osaka-attractions-castle-usj-and-umeda-sky"],
+    relatedSlugs: ["osaka-food-guide", "osaka-attractions-castle-usj-and-umeda-sky", "osaka-battera-hakozushi-pressed-sushi", "osaka-dashi-udon-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -1915,7 +1915,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["nara-deer-park-and-todaiji", "nara-food-and-yoshino-cherry-blossoms"],
+    relatedSlugs: ["nara-deer-park-and-todaiji", "nara-food-and-yoshino-cherry-blossoms", "nara-chagayu-tea-porridge", "nara-miwa-somen-noodles"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -1944,7 +1944,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["nara-deer-park-and-todaiji", "nara-kasuga-taisha-and-other-temples"],
+    relatedSlugs: ["nara-deer-park-and-todaiji", "nara-kasuga-taisha-and-other-temples", "nara-miwa-somen-noodles", "nara-sake-brewing-birthplace"],
     relatedCultureSlugs: [],
   },
   {
@@ -1978,7 +1978,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["hokkaido-winter-first-timers", "hokkaido-summer-furano-lavender-and-hakodate"],
+    relatedSlugs: ["hokkaido-winter-first-timers", "hokkaido-summer-furano-lavender-and-hakodate", "hiroshima-anagomeshi-conger-eel-rice", "hokkaido-dairy-soft-serve-culture", "hokkaido-seafood-scallops-crab-uni"],
     relatedCultureSlugs: [],
     affiliateTours: [
       {
@@ -2019,7 +2019,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["hokkaido-winter-first-timers", "sapporo-city-guide-ramen-beer-and-snow-festival"],
+    relatedSlugs: ["hokkaido-winter-first-timers", "sapporo-city-guide-ramen-beer-and-snow-festival", "hokkaido-soup-curry", "hokkaido-dairy-soft-serve-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -2053,7 +2053,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["fukuoka-food-and-yatai", "fukuoka-itoshima-coast-and-yanagawa-canals"],
+    relatedSlugs: ["fukuoka-food-and-yatai", "fukuoka-itoshima-coast-and-yanagawa-canals", "fukuoka-mentaiko-spicy-cod-roe", "fukuoka-mizutaki-chicken-hotpot", "hyogo-himeji-castle-and-kobe"],
     relatedCultureSlugs: [],
     affiliateTours: [
       {
@@ -2093,7 +2093,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["fukuoka-food-and-yatai", "fukuoka-city-attractions-ohori-park-and-canal-city"],
+    relatedSlugs: ["fukuoka-food-and-yatai", "fukuoka-city-attractions-ohori-park-and-canal-city", "fukuoka-mentaiko-spicy-cod-roe", "fukuoka-mizutaki-chicken-hotpot", "fukuoka-motsunabe-offal-hotpot"],
     relatedCultureSlugs: [],
   },
   {
@@ -2121,7 +2121,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aomori-oma-bluefin-tuna", "aomori-sake-cold-climate-brewing", "aomori-senbei-jiru-hotpot", "shizuoka-fujinomiya-yakisoba", "aomori-hachinohe-morning-market-squid", "aomori-nebuta-festival-and-hirosaki-castle"],
     relatedCultureSlugs: [],
   },
   {
@@ -2149,7 +2149,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aomori-apple-culture-and-orchards", "aomori-nebuta-festival-and-hirosaki-castle", "aomori-oma-bluefin-tuna", "aomori-sake-cold-climate-brewing", "hyogo-akashiyaki-octopus-dumplings"],
     relatedCultureSlugs: [],
   },
   {
@@ -2177,7 +2177,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aomori-apple-culture-and-orchards", "aomori-nebuta-festival-and-hirosaki-castle", "aomori-senbei-jiru-hotpot", "aomori-hachinohe-morning-market-squid", "kumamoto-basashi-horse-sashimi"],
     relatedCultureSlugs: [],
   },
   {
@@ -2205,7 +2205,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aomori-apple-culture-and-orchards", "aomori-nebuta-festival-and-hirosaki-castle", "aomori-oma-bluefin-tuna", "ibaraki-kasumigaura-renkon-lotus-root", "aomori-sake-cold-climate-brewing"],
     relatedCultureSlugs: [],
   },
   {
@@ -2233,7 +2233,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aomori-apple-culture-and-orchards", "aomori-hachinohe-morning-market-squid", "aomori-senbei-jiru-hotpot", "aomori-nebuta-festival-and-hirosaki-castle"],
     relatedCultureSlugs: [],
   },
   {
@@ -2261,7 +2261,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["iwate-hiraizumi-and-morioka-wanko-soba", "iwate-mochi-culture-ichinoseki", "iwate-nanbu-sake-brewing", "iwate-sanriku-coast-seafood"],
     relatedCultureSlugs: [],
   },
   {
@@ -2289,7 +2289,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["iwate-jajamen-morioka", "iwate-sanriku-coast-seafood", "iwate-wanko-soba", "iwate-hiraizumi-and-morioka-wanko-soba"],
     relatedCultureSlugs: [],
   },
   {
@@ -2317,7 +2317,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["iwate-mochi-culture-ichinoseki", "iwate-nanbu-sake-brewing", "iwate-sanriku-coast-seafood", "kochi-sunday-market-nichiyoichi"],
     relatedCultureSlugs: [],
   },
   {
@@ -2345,7 +2345,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["iwate-hiraizumi-and-morioka-wanko-soba", "iwate-jajamen-morioka", "iwate-sanriku-coast-seafood", "iwate-wanko-soba"],
     relatedCultureSlugs: [],
   },
   {
@@ -2373,7 +2373,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["iwate-hiraizumi-and-morioka-wanko-soba", "iwate-jajamen-morioka", "iwate-mochi-culture-ichinoseki", "iwate-nanbu-sake-brewing", "iwate-wanko-soba"],
     relatedCultureSlugs: [],
   },
   {
@@ -2401,7 +2401,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyagi-matsushima-oysters-seafood", "miyagi-sake-junmai", "miyagi-zunda-sweets", "miyagi-hittsumi-hotpot"],
     relatedCultureSlugs: [],
   },
   {
@@ -2429,7 +2429,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyagi-hittsumi-hotpot", "miyagi-matsushima-bay-and-sendai-gyutan", "miyagi-matsushima-oysters-seafood", "miyagi-sake-junmai", "miyagi-sasakamaboko-fish-cake"],
     relatedCultureSlugs: [],
   },
   {
@@ -2457,7 +2457,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyagi-matsushima-oysters-seafood", "miyagi-sasakamaboko-fish-cake", "miyagi-zunda-sweets", "ishikawa-sake-hakusan-brewing"],
     relatedCultureSlugs: [],
   },
   {
@@ -2485,7 +2485,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyagi-zunda-sweets", "miyagi-matsushima-bay-and-sendai-gyutan", "miyagi-matsushima-oysters-seafood", "oita-mugi-shochu-barley", "miyagi-sasakamaboko-fish-cake"],
     relatedCultureSlugs: [],
   },
   {
@@ -2513,7 +2513,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagawa-hone-tsuki-dori-roast-chicken", "miyagi-hittsumi-hotpot", "miyagi-sasakamaboko-fish-cake", "miyagi-zunda-sweets", "miyagi-sake-junmai"],
     relatedCultureSlugs: [],
   },
   {
@@ -2541,7 +2541,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["akita-babahera-ice-cream", "akita-hinai-jidori-chicken", "akita-inaniwa-udon", "akita-kakunodate-samurai-district-and-namahage", "akita-sake-brewing-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -2569,7 +2569,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["akita-babahera-ice-cream", "akita-hinai-jidori-chicken", "akita-sake-brewing-tradition", "akita-kakunodate-samurai-district-and-namahage", "akita-kiritanpo-nabe"],
     relatedCultureSlugs: [],
   },
   {
@@ -2597,7 +2597,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["akita-inaniwa-udon", "akita-kakunodate-samurai-district-and-namahage", "akita-kiritanpo-nabe", "ishikawa-jibuni-kaga-cuisine-duck-stew", "akita-hinai-jidori-chicken", "akita-sake-brewing-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -2625,7 +2625,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["akita-inaniwa-udon", "akita-kakunodate-samurai-district-and-namahage", "akita-kiritanpo-nabe", "akita-babahera-ice-cream"],
     relatedCultureSlugs: [],
   },
   {
@@ -2653,7 +2653,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["akita-babahera-ice-cream", "akita-inaniwa-udon", "akita-kakunodate-samurai-district-and-namahage", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "akita-kiritanpo-nabe"],
     relatedCultureSlugs: [],
   },
   {
@@ -2681,7 +2681,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamagata-sakuranbo-cherries", "yamagata-yamadera-steps-and-zao-snow-monsters", "yamagata-yonezawa-beef", "kanagawa-yokohama-iekei-ramen"],
     relatedCultureSlugs: [],
   },
   {
@@ -2709,7 +2709,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tochigi-nasu-sake-breweries", "yamagata-sake-appellation", "yamagata-sakuranbo-cherries", "yamagata-yamadera-steps-and-zao-snow-monsters", "yamagata-yonezawa-beef"],
     relatedCultureSlugs: [],
   },
   {
@@ -2737,7 +2737,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ibaraki-anko-nabe-anglerfish-hot-pot", "yamagata-dewa-sanzan-shojin-ryori", "yamagata-sakuranbo-cherries", "yamagata-yamadera-steps-and-zao-snow-monsters", "yamagata-yonezawa-beef"],
     relatedCultureSlugs: [],
   },
   {
@@ -2765,7 +2765,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamagata-imoni-taro-stew", "yamagata-yamadera-steps-and-zao-snow-monsters", "yamagata-dewa-sanzan-shojin-ryori", "yamagata-sake-appellation"],
     relatedCultureSlugs: [],
   },
   {
@@ -2793,7 +2793,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamagata-dewa-sanzan-shojin-ryori", "yamagata-imoni-taro-stew", "yamagata-sake-appellation", "yamagata-yamadera-steps-and-zao-snow-monsters"],
     relatedCultureSlugs: [],
   },
   {
@@ -2821,7 +2821,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukushima-aizu-soba-culture", "fukushima-sake-award-winning", "fukushima-joban-mono-seafood", "fukushima-momo-peaches", "fukushima-ouchi-juku-and-aizu-castle"],
     relatedCultureSlugs: [],
   },
   {
@@ -2849,7 +2849,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukushima-sake-award-winning", "fukushima-joban-mono-seafood", "fukushima-kitakata-ramen", "wakayama-ramen-style", "fukushima-ouchi-juku-and-aizu-castle"],
     relatedCultureSlugs: [],
   },
   {
@@ -2877,7 +2877,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-jakoten-uwajima-fried-fish-cake", "fukushima-aizu-soba-culture", "fukushima-joban-mono-seafood", "fukushima-kitakata-ramen", "fukushima-momo-peaches"],
     relatedCultureSlugs: [],
   },
   {
@@ -2905,7 +2905,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukushima-joban-mono-seafood", "fukushima-kitakata-ramen", "fukushima-ouchi-juku-and-aizu-castle", "fukushima-sake-award-winning"],
     relatedCultureSlugs: [],
   },
   {
@@ -2933,7 +2933,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukushima-aizu-soba-culture", "fukushima-momo-peaches", "fukushima-ouchi-juku-and-aizu-castle", "fukushima-sake-award-winning", "fukushima-kitakata-ramen"],
     relatedCultureSlugs: [],
   },
   {
@@ -2961,7 +2961,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ibaraki-anko-nabe-anglerfish-hot-pot", "ibaraki-hitachi-seaside-park-and-kairakuen", "ibaraki-kasumigaura-renkon-lotus-root", "ibaraki-local-sake-breweries"],
     relatedCultureSlugs: [],
   },
   {
@@ -2989,7 +2989,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ibaraki-melon-culture", "ibaraki-mito-natto-tradition", "ibaraki-hitachi-seaside-park-and-kairakuen", "yamagata-sake-appellation", "ibaraki-local-sake-breweries"],
     relatedCultureSlugs: [],
   },
   {
@@ -3017,7 +3017,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ibaraki-anko-nabe-anglerfish-hot-pot", "ibaraki-hitachi-seaside-park-and-kairakuen", "ibaraki-kasumigaura-renkon-lotus-root", "ibaraki-local-sake-breweries"],
     relatedCultureSlugs: [],
   },
   {
@@ -3045,7 +3045,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aomori-hachinohe-morning-market-squid", "ibaraki-local-sake-breweries", "ibaraki-melon-culture", "ibaraki-mito-natto-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -3073,7 +3073,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ibaraki-hitachi-seaside-park-and-kairakuen", "ibaraki-kasumigaura-renkon-lotus-root", "ibaraki-mito-natto-tradition", "ibaraki-anko-nabe-anglerfish-hot-pot", "ibaraki-melon-culture", "kagoshima-imo-jochu-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -3101,7 +3101,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tochigi-kanpyo-dried-gourd-strips", "tochigi-nikko-toshogu-shrine", "tochigi-nasu-sake-breweries", "tochigi-nikko-yuba-tofu-skin"],
     relatedCultureSlugs: [],
   },
   {
@@ -3129,7 +3129,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tochigi-kanpyo-dried-gourd-strips", "tochigi-nasu-sake-breweries", "tochigi-nikko-toshogu-shrine", "tochigi-nikko-yuba-tofu-skin"],
     relatedCultureSlugs: [],
   },
   {
@@ -3157,7 +3157,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["niigata-hegisoba-noodles", "tochigi-kanpyo-dried-gourd-strips", "tochigi-nasu-sake-breweries", "tochigi-nikko-toshogu-shrine", "tochigi-strawberries-tochiotome-skyberry", "tochigi-utsunomiya-gyoza"],
     relatedCultureSlugs: [],
   },
   {
@@ -3185,7 +3185,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tochigi-nikko-toshogu-shrine", "tochigi-nikko-yuba-tofu-skin", "tochigi-strawberries-tochiotome-skyberry", "yamagata-dewa-sanzan-shojin-ryori", "tochigi-utsunomiya-gyoza"],
     relatedCultureSlugs: [],
   },
   {
@@ -3213,7 +3213,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tochigi-nikko-yuba-tofu-skin", "tochigi-strawberries-tochiotome-skyberry", "tochigi-utsunomiya-gyoza", "ehime-mikan-citrus-varieties", "tochigi-nikko-toshogu-shrine"],
     relatedCultureSlugs: [],
   },
   {
@@ -3241,7 +3241,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gunma-kusatsu-onsen-and-tomioka-silk-mill", "gunma-shimonita-negi-leek", "gunma-yakimanju-grilled-buns", "gunma-konnyaku-konjac-culture", "gunma-sake-jomo-plain"],
     relatedCultureSlugs: [],
   },
   {
@@ -3269,7 +3269,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gunma-shimonita-negi-leek", "gunma-yakimanju-grilled-buns", "gunma-kusatsu-onsen-and-tomioka-silk-mill", "kumamoto-ikinari-dango-sweets", "gunma-mizusawa-udon", "gunma-sake-jomo-plain"],
     relatedCultureSlugs: [],
   },
   {
@@ -3297,7 +3297,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gunma-konnyaku-konjac-culture", "gunma-kusatsu-onsen-and-tomioka-silk-mill", "gunma-mizusawa-udon", "gunma-sake-jomo-plain"],
     relatedCultureSlugs: [],
   },
   {
@@ -3325,7 +3325,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gunma-kusatsu-onsen-and-tomioka-silk-mill", "gunma-yakimanju-grilled-buns", "gunma-konnyaku-konjac-culture", "gunma-mizusawa-udon", "gunma-shimonita-negi-leek"],
     relatedCultureSlugs: [],
   },
   {
@@ -3353,7 +3353,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gunma-konnyaku-konjac-culture", "gunma-mizusawa-udon", "gunma-kusatsu-onsen-and-tomioka-silk-mill", "gunma-sake-jomo-plain"],
     relatedCultureSlugs: [],
   },
   {
@@ -3381,7 +3381,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saitama-fukaya-negi-leek", "saitama-kawagoe-little-edo-and-chichibu-shibazakura", "saitama-chichibu-soba-and-sake", "saitama-kawagoe-sweet-potato-food-culture", "saitama-soka-senbei-rice-crackers"],
     relatedCultureSlugs: [],
   },
   {
@@ -3409,7 +3409,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saitama-kawagoe-little-edo-and-chichibu-shibazakura", "saitama-kawagoe-sweet-potato-food-culture", "saitama-musashino-udon", "saitama-chichibu-soba-and-sake"],
     relatedCultureSlugs: [],
   },
   {
@@ -3437,7 +3437,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saitama-fukaya-negi-leek", "saitama-kawagoe-little-edo-and-chichibu-shibazakura", "saitama-kawagoe-sweet-potato-food-culture", "mie-akafuku-mochi-ise-sweets", "saitama-musashino-udon", "saitama-soka-senbei-rice-crackers"],
     relatedCultureSlugs: [],
   },
   {
@@ -3465,7 +3465,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saitama-chichibu-soba-and-sake", "saitama-kawagoe-little-edo-and-chichibu-shibazakura", "saitama-kawagoe-sweet-potato-food-culture", "saitama-musashino-udon"],
     relatedCultureSlugs: [],
   },
   {
@@ -3493,7 +3493,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saitama-chichibu-soba-and-sake", "saitama-fukaya-negi-leek", "saitama-soka-senbei-rice-crackers", "saitama-kawagoe-little-edo-and-chichibu-shibazakura", "saitama-musashino-udon"],
     relatedCultureSlugs: [],
   },
   {
@@ -3521,7 +3521,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["chiba-boso-biwa-loquat", "chiba-choshi-fishing-port-seafood", "chiba-soy-sauce-heritage-noda-choshi", "chiba-narita-temple-town-and-boso-peninsula", "ishikawa-sake-hakusan-brewing"],
     relatedCultureSlugs: [],
   },
   {
@@ -3549,7 +3549,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["chiba-narita-temple-town-and-boso-peninsula", "chiba-soy-sauce-heritage-noda-choshi", "chiba-boso-biwa-loquat", "chiba-choshi-fishing-port-seafood"],
     relatedCultureSlugs: [],
   },
   {
@@ -3577,7 +3577,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["chiba-choshi-fishing-port-seafood", "chiba-namerou-boso-fishermans-dish", "chiba-peanut-farming-culture", "chiba-boso-biwa-loquat"],
     relatedCultureSlugs: [],
   },
   {
@@ -3605,7 +3605,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["chiba-boso-biwa-loquat", "chiba-soy-sauce-heritage-noda-choshi", "chiba-namerou-boso-fishermans-dish", "chiba-narita-temple-town-and-boso-peninsula", "chiba-peanut-farming-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -3633,7 +3633,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["chiba-choshi-fishing-port-seafood", "chiba-namerou-boso-fishermans-dish", "chiba-narita-temple-town-and-boso-peninsula", "saga-ureshino-tea-wagashi", "chiba-peanut-farming-culture", "chiba-soy-sauce-heritage-noda-choshi"],
     relatedCultureSlugs: [],
   },
   {
@@ -3661,7 +3661,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kanagawa-odawara-kamaboko-fish-cake", "kanagawa-sake-and-craft-beer", "kanagawa-yokohama-chinatown-food", "kanagawa-shonan-shirasu-whitebait", "yamagata-imoni-taro-stew"],
     relatedCultureSlugs: [],
   },
   {
@@ -3689,7 +3689,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kanagawa-shonan-shirasu-whitebait", "kanagawa-sake-and-craft-beer", "kanagawa-yokohama-iekei-ramen", "kanagawa-kamakura-great-buddha-and-hakone"],
     relatedCultureSlugs: [],
   },
   {
@@ -3717,7 +3717,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kanagawa-kamakura-great-buddha-and-hakone", "kanagawa-odawara-kamaboko-fish-cake", "kanagawa-sake-and-craft-beer", "kanagawa-yokohama-chinatown-food", "kanagawa-yokohama-iekei-ramen"],
     relatedCultureSlugs: [],
   },
   {
@@ -3745,7 +3745,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kanagawa-kamakura-great-buddha-and-hakone", "kanagawa-yokohama-iekei-ramen", "kanagawa-sake-and-craft-beer", "kanagawa-shonan-shirasu-whitebait"],
     relatedCultureSlugs: [],
   },
   {
@@ -3773,7 +3773,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kanagawa-kamakura-great-buddha-and-hakone", "kanagawa-odawara-kamaboko-fish-cake", "kanagawa-yokohama-iekei-ramen", "kanagawa-shonan-shirasu-whitebait", "kanagawa-yokohama-chinatown-food", "nagano-apples-and-highland-fruit"],
     relatedCultureSlugs: [],
   },
   {
@@ -3801,7 +3801,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["niigata-murakami-salmon-culture", "niigata-rice-sake-and-sado-island", "niigata-sasadango-wagashi", "tochigi-nikko-yuba-tofu-skin", "niigata-tanrei-karakuchi-sake-seafood-pairing", "niigata-tare-katsudon-local-soul-food"],
     relatedCultureSlugs: [],
   },
   {
@@ -3829,7 +3829,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["niigata-hegisoba-noodles", "niigata-murakami-salmon-culture", "niigata-rice-sake-and-sado-island", "niigata-tanrei-karakuchi-sake-seafood-pairing", "niigata-tare-katsudon-local-soul-food"],
     relatedCultureSlugs: [],
   },
   {
@@ -3857,7 +3857,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["niigata-murakami-salmon-culture", "niigata-sasadango-wagashi", "niigata-tare-katsudon-local-soul-food", "niigata-hegisoba-noodles"],
     relatedCultureSlugs: [],
   },
   {
@@ -3885,7 +3885,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["niigata-rice-sake-and-sado-island", "niigata-tanrei-karakuchi-sake-seafood-pairing", "niigata-sasadango-wagashi", "niigata-hegisoba-noodles"],
     relatedCultureSlugs: [],
   },
   {
@@ -3913,7 +3913,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["niigata-hegisoba-noodles", "niigata-rice-sake-and-sado-island", "niigata-sasadango-wagashi", "niigata-tanrei-karakuchi-sake-seafood-pairing"],
     relatedCultureSlugs: [],
   },
   {
@@ -3941,7 +3941,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagawa-wasanbon-traditional-sugar", "toyama-jizake-sake-tateyama-snowmelt", "toyama-kombu-culture-everyday-cooking", "toyama-shiroebi-white-shrimp-toyama-bay"],
     relatedCultureSlugs: [],
   },
   {
@@ -3969,7 +3969,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["toyama-tateyama-kurobe-alpine-route", "toyama-shiroebi-white-shrimp-toyama-bay", "toyama-jizake-sake-tateyama-snowmelt", "toyama-kombu-culture-everyday-cooking"],
     relatedCultureSlugs: [],
   },
   {
@@ -3997,7 +3997,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["toyama-kombu-culture-everyday-cooking", "toyama-masuzushi-pressed-trout-sushi", "toyama-shiroebi-white-shrimp-toyama-bay", "miyazaki-shochu-culture", "toyama-wagashi-mochi-confectionery-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -4025,7 +4025,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["toyama-jizake-sake-tateyama-snowmelt", "toyama-masuzushi-pressed-trout-sushi", "toyama-shiroebi-white-shrimp-toyama-bay", "toyama-tateyama-kurobe-alpine-route", "toyama-wagashi-mochi-confectionery-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -4053,7 +4053,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["toyama-jizake-sake-tateyama-snowmelt", "toyama-kombu-culture-everyday-cooking", "toyama-masuzushi-pressed-trout-sushi", "toyama-tateyama-kurobe-alpine-route", "toyama-wagashi-mochi-confectionery-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -4081,7 +4081,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["akita-babahera-ice-cream", "ishikawa-kanazawa-wagashi-tradition", "ishikawa-kanogani-snow-crab-brand", "ishikawa-omicho-market-food-culture", "ishikawa-sake-hakusan-brewing"],
     relatedCultureSlugs: [],
   },
   {
@@ -4109,7 +4109,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ishikawa-jibuni-kaga-cuisine-duck-stew", "ishikawa-kanazawa-gardens-and-geisha-districts", "ishikawa-kanogani-snow-crab-brand", "ishikawa-omicho-market-food-culture", "kochi-sawachi-ryori-feast-platters"],
     relatedCultureSlugs: [],
   },
   {
@@ -4137,7 +4137,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ishikawa-kanogani-snow-crab-brand", "ishikawa-omicho-market-food-culture", "ishikawa-jibuni-kaga-cuisine-duck-stew", "chiba-namerou-boso-fishermans-dish", "miyagi-sake-junmai"],
     relatedCultureSlugs: [],
   },
   {
@@ -4165,7 +4165,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ishikawa-jibuni-kaga-cuisine-duck-stew", "ishikawa-kanazawa-gardens-and-geisha-districts", "ishikawa-kanazawa-wagashi-tradition", "ishikawa-kanogani-snow-crab-brand", "ishikawa-sake-hakusan-brewing"],
     relatedCultureSlugs: [],
   },
   {
@@ -4193,7 +4193,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ishikawa-jibuni-kaga-cuisine-duck-stew", "ishikawa-kanazawa-gardens-and-geisha-districts", "ishikawa-kanazawa-wagashi-tradition", "ishikawa-omicho-market-food-culture", "ishikawa-sake-hakusan-brewing"],
     relatedCultureSlugs: [],
   },
   {
@@ -4221,7 +4221,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukui-sauce-katsudon-everyday-food", "fukui-tojinbo-cliffs-and-eiheiji-temple", "fukui-winter-mizuyokan-tradition", "nagano-shinshu-soba", "fukui-sake-brewing-culture", "nagano-oyaki"],
     relatedCultureSlugs: [],
   },
   {
@@ -4249,7 +4249,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukui-echizen-crab-seafood-brand", "fukui-echizen-oroshi-soba", "fukui-sake-brewing-culture", "fukui-winter-mizuyokan-tradition", "fukui-tojinbo-cliffs-and-eiheiji-temple"],
     relatedCultureSlugs: [],
   },
   {
@@ -4277,7 +4277,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukui-echizen-oroshi-soba", "fukui-sake-brewing-culture", "fukui-sauce-katsudon-everyday-food", "fukui-tojinbo-cliffs-and-eiheiji-temple"],
     relatedCultureSlugs: [],
   },
   {
@@ -4305,7 +4305,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukui-echizen-crab-seafood-brand", "fukui-winter-mizuyokan-tradition", "fukui-echizen-oroshi-soba", "fukui-sauce-katsudon-everyday-food", "fukui-tojinbo-cliffs-and-eiheiji-temple"],
     relatedCultureSlugs: [],
   },
   {
@@ -4333,7 +4333,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukui-sake-brewing-culture", "fukui-sauce-katsudon-everyday-food", "fukui-tojinbo-cliffs-and-eiheiji-temple", "yamaguchi-uiro-traditional-sweets"],
     relatedCultureSlugs: [],
   },
   {
@@ -4361,7 +4361,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamanashi-hoshigaki-dried-persimmon-craft", "yamanashi-kofu-torimotsu-ramen", "yamanashi-mineral-water-industry", "yamanashi-shingen-mochi-wagashi"],
     relatedCultureSlugs: [],
   },
   {
@@ -4389,7 +4389,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamanashi-hoshigaki-dried-persimmon-craft", "yamanashi-hoto-noodle-stew", "yamanashi-shingen-mochi-wagashi", "yamanashi-wine-country-and-kofu", "yamanashi-mineral-water-industry"],
     relatedCultureSlugs: [],
   },
   {
@@ -4417,7 +4417,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamanashi-hoto-noodle-stew", "yamanashi-kofu-torimotsu-ramen", "yamanashi-mineral-water-industry", "yamanashi-wine-country-and-kofu"],
     relatedCultureSlugs: [],
   },
   {
@@ -4445,7 +4445,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamanashi-hoshigaki-dried-persimmon-craft", "yamanashi-hoto-noodle-stew", "yamanashi-kofu-torimotsu-ramen", "yamanashi-shingen-mochi-wagashi"],
     relatedCultureSlugs: [],
   },
   {
@@ -4473,7 +4473,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamanashi-hoto-noodle-stew", "yamanashi-kofu-torimotsu-ramen", "yamanashi-mineral-water-industry", "tokyo-sushi-culture-edomae-vs-conveyor-belt", "yamanashi-wine-country-and-kofu"],
     relatedCultureSlugs: [],
   },
   {
@@ -4501,7 +4501,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukui-echizen-oroshi-soba", "nagano-apples-and-highland-fruit", "nagano-nozawana-pickles", "nagano-oyaki", "nagano-sake-alpine-water"],
     relatedCultureSlugs: [],
   },
   {
@@ -4529,7 +4529,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagano-shinshu-soba", "nagano-snow-monkeys-matsumoto-castle-and-the-alps", "nagano-apples-and-highland-fruit", "fukui-echizen-oroshi-soba", "nagano-sake-alpine-water"],
     relatedCultureSlugs: [],
   },
   {
@@ -4557,7 +4557,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagano-nozawana-pickles", "nagano-oyaki", "nagano-shinshu-soba", "nagano-snow-monkeys-matsumoto-castle-and-the-alps"],
     relatedCultureSlugs: [],
   },
   {
@@ -4585,7 +4585,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagano-apples-and-highland-fruit", "nagano-sake-alpine-water", "nagano-shinshu-soba", "nagano-snow-monkeys-matsumoto-castle-and-the-alps"],
     relatedCultureSlugs: [],
   },
   {
@@ -4613,7 +4613,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagano-shinshu-soba", "nagano-snow-monkeys-matsumoto-castle-and-the-alps", "nagano-nozawana-pickles", "kanagawa-sake-and-craft-beer", "nagano-oyaki"],
     relatedCultureSlugs: [],
   },
   {
@@ -4641,7 +4641,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gifu-ayu-nagara-river-cormorant-fishing", "gifu-hoba-miso-mountain-cooking", "gifu-hoshigaki-dried-persimmon", "gifu-sake-brewing-tradition", "gifu-shirakawago-and-takayama"],
     relatedCultureSlugs: [],
   },
   {
@@ -4669,7 +4669,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gifu-ayu-nagara-river-cormorant-fishing", "gifu-hida-beef-wagyu", "gifu-hoshigaki-dried-persimmon", "gifu-sake-brewing-tradition", "tottori-pear-sweets-and-wagashi"],
     relatedCultureSlugs: [],
   },
   {
@@ -4697,7 +4697,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gifu-hida-beef-wagyu", "gifu-hoba-miso-mountain-cooking", "gifu-sake-brewing-tradition", "gifu-shirakawago-and-takayama"],
     relatedCultureSlugs: [],
   },
   {
@@ -4725,7 +4725,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gifu-hida-beef-wagyu", "gifu-hoba-miso-mountain-cooking", "gifu-hoshigaki-dried-persimmon", "gifu-shirakawago-and-takayama"],
     relatedCultureSlugs: [],
   },
   {
@@ -4753,7 +4753,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gifu-shirakawago-and-takayama", "gifu-hida-beef-wagyu", "gifu-hoba-miso-mountain-cooking", "ehime-mikan-citrus-varieties"],
     relatedCultureSlugs: [],
   },
   {
@@ -4781,7 +4781,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kochi-aisukurin-ice-cream-treat", "shizuoka-abekawa-mochi", "shizuoka-tea-fields-and-izu-peninsula", "shizuoka-fujinomiya-yakisoba"],
     relatedCultureSlugs: [],
   },
   {
@@ -4809,7 +4809,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aomori-apple-culture-and-orchards", "shizuoka-abekawa-mochi", "shizuoka-oden-black-broth", "shizuoka-sakura-ebi-suruga-bay", "shizuoka-tea-fields-and-izu-peninsula", "shizuoka-wasabi"],
     relatedCultureSlugs: [],
   },
   {
@@ -4837,7 +4837,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aichi-kishimen", "shizuoka-fujinomiya-yakisoba", "shizuoka-abekawa-mochi", "shizuoka-sakura-ebi-suruga-bay"],
     relatedCultureSlugs: [],
   },
   {
@@ -4865,7 +4865,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shizuoka-abekawa-mochi", "shizuoka-fujinomiya-yakisoba", "shizuoka-oden-black-broth", "shizuoka-tea-fields-and-izu-peninsula"],
     relatedCultureSlugs: [],
   },
   {
@@ -4893,7 +4893,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shiga-funazushi-fermented-sushi", "shizuoka-sakura-ebi-suruga-bay", "shizuoka-tea-fields-and-izu-peninsula", "shizuoka-wasabi", "shizuoka-fujinomiya-yakisoba", "shizuoka-oden-black-broth"],
     relatedCultureSlugs: [],
   },
   {
@@ -4921,7 +4921,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aichi-uiro", "aichi-mikawa-mirin-handa-brewing", "aichi-nagoya-castle-and-food-culture", "shizuoka-oden-black-broth", "aichi-nagoya-cochin"],
     relatedCultureSlugs: [],
   },
   {
@@ -4949,7 +4949,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aichi-mikawa-mirin-handa-brewing", "aichi-nagoya-castle-and-food-culture", "aichi-nagoya-cochin", "aichi-uiro"],
     relatedCultureSlugs: [],
   },
   {
@@ -4977,7 +4977,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aichi-kishimen", "aichi-mikawa-mirin-handa-brewing", "aichi-ogura-toast-kissaten-culture", "aichi-nagoya-castle-and-food-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -5005,7 +5005,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aichi-nagoya-castle-and-food-culture", "aichi-kishimen", "aichi-mikawa-mirin-handa-brewing", "aichi-ogura-toast-kissaten-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -5033,7 +5033,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["aichi-kishimen", "aichi-ogura-toast-kissaten-culture", "aichi-uiro", "aichi-nagoya-castle-and-food-culture", "aichi-nagoya-cochin"],
     relatedCultureSlugs: [],
   },
   {
@@ -5061,7 +5061,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["mie-akafuku-mochi-ise-sweets", "mie-ise-cha-green-tea", "mie-ise-jingu-and-ise-shima", "mie-ise-udon"],
     relatedCultureSlugs: [],
   },
   {
@@ -5089,7 +5089,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["mie-ise-cha-green-tea", "mie-ise-jingu-and-ise-shima", "mie-toba-seafood-market-culture", "mie-akafuku-mochi-ise-sweets", "mie-matsusaka-beef-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -5117,7 +5117,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["mie-matsusaka-beef-tradition", "mie-toba-seafood-market-culture", "mie-ise-cha-green-tea", "oita-toriten-chicken-tempura", "mie-ise-udon", "saitama-chichibu-soba-and-sake"],
     relatedCultureSlugs: [],
   },
   {
@@ -5145,7 +5145,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["mie-akafuku-mochi-ise-sweets", "mie-ise-jingu-and-ise-shima", "mie-ise-udon", "mie-matsusaka-beef-tradition", "mie-toba-seafood-market-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -5173,7 +5173,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["mie-akafuku-mochi-ise-sweets", "mie-ise-udon", "mie-ise-cha-green-tea", "mie-ise-jingu-and-ise-shima"],
     relatedCultureSlugs: [],
   },
   {
@@ -5201,7 +5201,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shiga-omi-beef-sukiyaki-tradition", "shiga-omi-shonin-merchant-food-culture", "shiga-sake-omi-rice-breweries", "shizuoka-abekawa-mochi", "shiga-lake-biwa-freshwater-fish"],
     relatedCultureSlugs: [],
   },
   {
@@ -5229,7 +5229,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shiga-funazushi-fermented-sushi", "shiga-lake-biwa-and-hikone-castle", "shiga-omi-beef-sukiyaki-tradition", "okinawa-sweets-chinsuko-sataandagi", "shiga-omi-shonin-merchant-food-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -5257,7 +5257,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyazaki-chicken-nanban", "shiga-funazushi-fermented-sushi", "shiga-lake-biwa-and-hikone-castle", "shiga-lake-biwa-freshwater-fish"],
     relatedCultureSlugs: [],
   },
   {
@@ -5285,7 +5285,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saga-sake-brewing", "shiga-funazushi-fermented-sushi", "shiga-lake-biwa-and-hikone-castle", "shiga-omi-shonin-merchant-food-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -5313,7 +5313,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shiga-funazushi-fermented-sushi", "shiga-lake-biwa-and-hikone-castle", "shiga-sake-omi-rice-breweries", "shiga-lake-biwa-freshwater-fish"],
     relatedCultureSlugs: [],
   },
   {
@@ -5341,7 +5341,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hyogo-kobe-western-confectionery-bread", "hyogo-nada-sake-district", "hyogo-tamba-black-soybeans-chestnuts", "aomori-senbei-jiru-hotpot", "hyogo-himeji-castle-and-kobe"],
     relatedCultureSlugs: [],
   },
   {
@@ -5369,7 +5369,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hyogo-akashiyaki-octopus-dumplings", "hyogo-awaji-island-onions-seafood", "hyogo-himeji-castle-and-kobe", "hyogo-kobe-western-confectionery-bread"],
     relatedCultureSlugs: [],
   },
   {
@@ -5397,7 +5397,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hyogo-akashiyaki-octopus-dumplings", "hyogo-awaji-island-onions-seafood", "hyogo-tamba-black-soybeans-chestnuts", "hyogo-himeji-castle-and-kobe", "hyogo-nada-sake-district"],
     relatedCultureSlugs: [],
   },
   {
@@ -5425,7 +5425,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hyogo-kobe-western-confectionery-bread", "hyogo-nada-sake-district", "hyogo-tamba-black-soybeans-chestnuts", "hiroshima-oyster-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -5453,7 +5453,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hyogo-akashiyaki-octopus-dumplings", "hyogo-awaji-island-onions-seafood", "hyogo-himeji-castle-and-kobe", "hyogo-kobe-western-confectionery-bread"],
     relatedCultureSlugs: [],
   },
   {
@@ -5481,7 +5481,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukushima-aizu-soba-culture", "wakayama-kaki-no-ha-sushi", "wakayama-koyasan-shojin-ryori", "wakayama-mikan-oranges", "wakayama-nanko-ume-umeboshi-umeshu"],
     relatedCultureSlugs: [],
   },
   {
@@ -5509,7 +5509,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["wakayama-kaki-no-ha-sushi", "wakayama-ramen-style", "wakayama-koyasan-and-kumano-kodo", "wakayama-koyasan-shojin-ryori"],
     relatedCultureSlugs: [],
   },
   {
@@ -5537,7 +5537,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["wakayama-kaki-no-ha-sushi", "wakayama-koyasan-and-kumano-kodo", "wakayama-koyasan-shojin-ryori", "wakayama-ramen-style"],
     relatedCultureSlugs: [],
   },
   {
@@ -5565,7 +5565,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["wakayama-koyasan-and-kumano-kodo", "wakayama-ramen-style", "wakayama-kaki-no-ha-sushi", "wakayama-mikan-oranges", "wakayama-nanko-ume-umeboshi-umeshu"],
     relatedCultureSlugs: [],
   },
   {
@@ -5593,7 +5593,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["wakayama-mikan-oranges", "wakayama-nanko-ume-umeboshi-umeshu", "wakayama-ramen-style", "yamaguchi-iwakuni-zushi-festival-food", "wakayama-koyasan-and-kumano-kodo", "wakayama-koyasan-shojin-ryori"],
     relatedCultureSlugs: [],
   },
   {
@@ -5621,7 +5621,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tottori-pear-sweets-and-wagashi", "tottori-rakkyo-sand-dune-pickled-scallions", "tottori-sake-daisen-mountain-water", "tottori-sand-dunes-and-snow-crab"],
     relatedCultureSlugs: [],
   },
   {
@@ -5649,7 +5649,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tottori-sand-dunes-and-snow-crab", "tottori-wagyu-beef-and-gyunabe-hot-pot", "tottori-curry-culture-everyday-food", "gifu-hoba-miso-mountain-cooking", "tottori-sake-daisen-mountain-water"],
     relatedCultureSlugs: [],
   },
   {
@@ -5677,7 +5677,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okinawa-agu-pork", "tottori-curry-culture-everyday-food", "tottori-rakkyo-sand-dune-pickled-scallions", "tottori-pear-sweets-and-wagashi", "tottori-sand-dunes-and-snow-crab", "tottori-wagyu-beef-and-gyunabe-hot-pot"],
     relatedCultureSlugs: [],
   },
   {
@@ -5705,7 +5705,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tottori-rakkyo-sand-dune-pickled-scallions", "tottori-sake-daisen-mountain-water", "tottori-sand-dunes-and-snow-crab", "osaka-battera-hakozushi-pressed-sushi", "tottori-pear-sweets-and-wagashi"],
     relatedCultureSlugs: [],
   },
   {
@@ -5733,7 +5733,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tottori-curry-culture-everyday-food", "tottori-sake-daisen-mountain-water", "tottori-sand-dunes-and-snow-crab", "tottori-wagyu-beef-and-gyunabe-hot-pot"],
     relatedCultureSlugs: [],
   },
   {
@@ -5761,7 +5761,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shimane-izumo-taisha-and-matsue", "shimane-matsue-wagashi-tea-culture", "shimane-nodoguro-san-in-coast-fish", "ehime-saijo-sake-brewing-water"],
     relatedCultureSlugs: [],
   },
   {
@@ -5789,7 +5789,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shimane-izumo-soba-warigo-style", "shimane-shijimi-clam-miso-soup", "shimane-izumo-taisha-and-matsue", "shimane-nodoguro-san-in-coast-fish", "shimane-sake-izumo-mythology"],
     relatedCultureSlugs: [],
   },
   {
@@ -5817,7 +5817,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shimane-izumo-taisha-and-matsue", "shimane-nodoguro-san-in-coast-fish", "shimane-matsue-wagashi-tea-culture", "shimane-shijimi-clam-miso-soup"],
     relatedCultureSlugs: [],
   },
   {
@@ -5845,7 +5845,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shimane-izumo-taisha-and-matsue", "shimane-matsue-wagashi-tea-culture", "shimane-sake-izumo-mythology", "shimane-nodoguro-san-in-coast-fish", "tokyo-sushi-culture-edomae-vs-conveyor-belt"],
     relatedCultureSlugs: [],
   },
   {
@@ -5873,7 +5873,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shimane-izumo-soba-warigo-style", "shimane-izumo-taisha-and-matsue", "shimane-matsue-wagashi-tea-culture", "shimane-sake-izumo-mythology", "shimane-shijimi-clam-miso-soup"],
     relatedCultureSlugs: [],
   },
   {
@@ -5901,7 +5901,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okayama-sake-bizen-omachi-rice", "okayama-demi-katsudon-everyday-food", "okayama-kibidango-momotaro-sweets", "kagoshima-satsuma-age-street-food", "okayama-korakuen-and-kurashiki"],
     relatedCultureSlugs: [],
   },
   {
@@ -5929,7 +5929,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okayama-barazushi-scattered-sushi", "okayama-demi-katsudon-everyday-food", "okayama-korakuen-and-kurashiki", "okayama-peaches-and-muscat-grapes"],
     relatedCultureSlugs: [],
   },
   {
@@ -5957,7 +5957,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okayama-barazushi-scattered-sushi", "okayama-demi-katsudon-everyday-food", "okayama-korakuen-and-kurashiki", "okayama-peaches-and-muscat-grapes"],
     relatedCultureSlugs: [],
   },
   {
@@ -5985,7 +5985,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okayama-barazushi-scattered-sushi", "okayama-peaches-and-muscat-grapes", "okayama-sake-bizen-omachi-rice", "okayama-kibidango-momotaro-sweets", "okayama-korakuen-and-kurashiki"],
     relatedCultureSlugs: [],
   },
   {
@@ -6013,7 +6013,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okayama-demi-katsudon-everyday-food", "okayama-kibidango-momotaro-sweets", "okayama-korakuen-and-kurashiki", "okayama-sake-bizen-omachi-rice"],
     relatedCultureSlugs: [],
   },
   {
@@ -6041,7 +6041,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamaguchi-dassai-sake-and-brewing", "yamaguchi-hagi-natsumikan-citrus", "yamaguchi-iwakuni-zushi-festival-food", "yamaguchi-uiro-traditional-sweets"],
     relatedCultureSlugs: [],
   },
   {
@@ -6069,7 +6069,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukui-echizen-crab-seafood-brand", "yamaguchi-dassai-sake-and-brewing", "yamaguchi-hagi-natsumikan-citrus", "yamaguchi-kawara-soba-tile-grilled-noodles"],
     relatedCultureSlugs: [],
   },
   {
@@ -6097,7 +6097,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nara-chagayu-tea-porridge", "yamaguchi-kawara-soba-tile-grilled-noodles", "yamaguchi-uiro-traditional-sweets", "yamaguchi-hagi-and-kintaikyo-bridge", "yamaguchi-iwakuni-zushi-festival-food"],
     relatedCultureSlugs: [],
   },
   {
@@ -6125,7 +6125,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["wakayama-kaki-no-ha-sushi", "yamaguchi-hagi-and-kintaikyo-bridge", "yamaguchi-hagi-natsumikan-citrus", "yamaguchi-dassai-sake-and-brewing", "yamaguchi-kawara-soba-tile-grilled-noodles"],
     relatedCultureSlugs: [],
   },
   {
@@ -6153,7 +6153,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["yamaguchi-hagi-and-kintaikyo-bridge", "yamaguchi-iwakuni-zushi-festival-food", "yamaguchi-kawara-soba-tile-grilled-noodles", "yamaguchi-uiro-traditional-sweets"],
     relatedCultureSlugs: [],
   },
   {
@@ -6181,7 +6181,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tokushima-chikuwa-sumaki-fish-cake", "tokushima-naruto-whirlpools-iya-valley", "tokushima-sudachi-citrus", "tokushima-awa-bancha-fermented-tea"],
     relatedCultureSlugs: [],
   },
   {
@@ -6209,7 +6209,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tokushima-awa-bancha-fermented-tea", "tokushima-sudachi-citrus", "tokushima-chikuwa-sumaki-fish-cake", "tokushima-naruto-whirlpools-iya-valley"],
     relatedCultureSlugs: [],
   },
   {
@@ -6237,7 +6237,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tokushima-sudachi-citrus", "tokushima-chikuwa-sumaki-fish-cake", "tokushima-naruto-kintoki-sweet-potato", "okinawa-sweets-chinsuko-sataandagi", "tokushima-ramen-dark-broth-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -6265,7 +6265,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tokushima-awa-bancha-fermented-tea", "tokushima-naruto-whirlpools-iya-valley", "tokushima-ramen-dark-broth-guide", "tokushima-sudachi-citrus", "tokushima-naruto-kintoki-sweet-potato"],
     relatedCultureSlugs: [],
   },
   {
@@ -6293,7 +6293,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tokushima-awa-bancha-fermented-tea", "tokushima-chikuwa-sumaki-fish-cake", "tokushima-naruto-kintoki-sweet-potato", "tokushima-naruto-whirlpools-iya-valley", "tokushima-ramen-dark-broth-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -6321,7 +6321,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagawa-local-sake-breweries", "kagawa-olive-gyu-olive-hamachi", "kagawa-sanuki-udon-guide", "miyagi-matsushima-oysters-seafood", "kagawa-shodoshima-soy-sauce"],
     relatedCultureSlugs: [],
   },
   {
@@ -6349,7 +6349,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagawa-olive-gyu-olive-hamachi", "kagawa-sanuki-udon-guide", "kagawa-shodoshima-soy-sauce", "toyama-masuzushi-pressed-trout-sushi"],
     relatedCultureSlugs: [],
   },
   {
@@ -6377,7 +6377,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagawa-hone-tsuki-dori-roast-chicken", "kagawa-olive-gyu-olive-hamachi", "kagawa-sanuki-udon-guide", "kagawa-shodoshima-soy-sauce"],
     relatedCultureSlugs: [],
   },
   {
@@ -6405,7 +6405,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagawa-local-sake-breweries", "kagawa-olive-gyu-olive-hamachi", "kagawa-sanuki-udon-guide", "kagawa-hone-tsuki-dori-roast-chicken", "kagawa-wasanbon-traditional-sugar"],
     relatedCultureSlugs: [],
   },
   {
@@ -6433,7 +6433,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagawa-hone-tsuki-dori-roast-chicken", "kagawa-local-sake-breweries", "kagawa-sanuki-udon-guide", "kagawa-shodoshima-soy-sauce", "kagawa-wasanbon-traditional-sugar"],
     relatedCultureSlugs: [],
   },
   {
@@ -6461,7 +6461,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-dogo-onsen-matsuyama-castle", "ehime-jakoten-uwajima-fried-fish-cake", "ehime-saijo-sake-brewing-water", "ehime-tarto-matsuyama-sponge-cake"],
     relatedCultureSlugs: [],
   },
   {
@@ -6489,7 +6489,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-dogo-onsen-matsuyama-castle", "ehime-jakoten-uwajima-fried-fish-cake", "ehime-mikan-citrus-varieties", "ehime-saijo-sake-brewing-water", "ehime-tai-meshi-sea-bream-rice"],
     relatedCultureSlugs: [],
   },
   {
@@ -6517,7 +6517,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-dogo-onsen-matsuyama-castle", "ehime-jakoten-uwajima-fried-fish-cake", "ehime-tai-meshi-sea-bream-rice", "ehime-tarto-matsuyama-sponge-cake", "shimane-izumo-soba-warigo-style"],
     relatedCultureSlugs: [],
   },
   {
@@ -6545,7 +6545,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-saijo-sake-brewing-water", "ehime-tai-meshi-sea-bream-rice", "ehime-tarto-matsuyama-sponge-cake", "fukushima-sake-award-winning", "ehime-mikan-citrus-varieties"],
     relatedCultureSlugs: [],
   },
   {
@@ -6573,7 +6573,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-tarto-matsuyama-sponge-cake", "ehime-dogo-onsen-matsuyama-castle", "ehime-jakoten-uwajima-fried-fish-cake", "kochi-sunday-market-nichiyoichi", "gifu-ayu-nagara-river-cormorant-fishing", "tochigi-kanpyo-dried-gourd-strips"],
     relatedCultureSlugs: [],
   },
   {
@@ -6601,7 +6601,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kochi-tosa-jiro-branded-chicken", "kochi-yuzu-drinks-umaji-village", "kochi-aisukurin-ice-cream-treat", "ishikawa-kanazawa-wagashi-tradition", "kochi-shimanto-river-katsurahama", "kochi-sunday-market-nichiyoichi"],
     relatedCultureSlugs: [],
   },
   {
@@ -6629,7 +6629,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kochi-shimanto-river-katsurahama", "kochi-sunday-market-nichiyoichi", "kochi-tosa-jiro-branded-chicken", "shizuoka-wasabi", "kochi-sawachi-ryori-feast-platters"],
     relatedCultureSlugs: [],
   },
   {
@@ -6657,7 +6657,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kochi-sawachi-ryori-feast-platters", "kochi-shimanto-river-katsurahama", "kochi-sunday-market-nichiyoichi", "kochi-tosa-jiro-branded-chicken"],
     relatedCultureSlugs: [],
   },
   {
@@ -6685,7 +6685,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ehime-mikan-citrus-varieties", "iwate-jajamen-morioka", "kochi-aisukurin-ice-cream-treat", "kochi-sawachi-ryori-feast-platters", "kochi-tosa-jiro-branded-chicken", "kochi-yuzu-drinks-umaji-village"],
     relatedCultureSlugs: [],
   },
   {
@@ -6713,7 +6713,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kochi-aisukurin-ice-cream-treat", "kochi-sawachi-ryori-feast-platters", "kochi-shimanto-river-katsurahama", "kochi-sunday-market-nichiyoichi", "kochi-yuzu-drinks-umaji-village"],
     relatedCultureSlugs: [],
   },
   {
@@ -6741,7 +6741,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saga-ariake-sea-nori-seafood", "saga-ureshino-tea-wagashi", "saga-yoshinogari-arita-porcelain", "saga-sake-brewing", "saga-yobuko-morning-market-squid"],
     relatedCultureSlugs: [],
   },
   {
@@ -6769,7 +6769,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["chiba-boso-biwa-loquat", "saga-ariake-sea-nori-seafood", "saga-sake-brewing", "saga-wagyu-beef-guide", "saga-yobuko-morning-market-squid"],
     relatedCultureSlugs: [],
   },
   {
@@ -6797,7 +6797,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saga-yoshinogari-arita-porcelain", "saga-ariake-sea-nori-seafood", "saga-ureshino-tea-wagashi", "shiga-sake-omi-rice-breweries", "saga-wagyu-beef-guide", "saga-yobuko-morning-market-squid"],
     relatedCultureSlugs: [],
   },
   {
@@ -6825,7 +6825,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saga-ariake-sea-nori-seafood", "saga-sake-brewing", "saga-ureshino-tea-wagashi", "saga-wagyu-beef-guide", "saga-yoshinogari-arita-porcelain"],
     relatedCultureSlugs: [],
   },
   {
@@ -6853,7 +6853,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["saga-ureshino-tea-wagashi", "saga-wagyu-beef-guide", "saga-yobuko-morning-market-squid", "tokyo-depachika-food-hall-culture", "saga-sake-brewing", "saga-yoshinogari-arita-porcelain"],
     relatedCultureSlugs: [],
   },
   {
@@ -6881,7 +6881,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagasaki-atomic-bomb-history-dejima", "nagasaki-biwa-loquat-fruit", "nagasaki-kakuni-manju-street-food", "nagasaki-seafood-market-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -6909,7 +6909,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kyoto-kyoyasai-heirloom-vegetables", "nagasaki-atomic-bomb-history-dejima", "nagasaki-biwa-loquat-fruit", "nagasaki-kakuni-manju-street-food", "nagasaki-seafood-market-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -6937,7 +6937,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagasaki-biwa-loquat-fruit", "nagasaki-castella-cake-history", "nagasaki-seafood-market-culture", "nagasaki-shippoku-ryori-feast"],
     relatedCultureSlugs: [],
   },
   {
@@ -6965,7 +6965,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagasaki-castella-cake-history", "nagasaki-kakuni-manju-street-food", "nagasaki-shippoku-ryori-feast", "nagasaki-atomic-bomb-history-dejima"],
     relatedCultureSlugs: [],
   },
   {
@@ -6993,7 +6993,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nagasaki-atomic-bomb-history-dejima", "nagasaki-shippoku-ryori-feast", "nagasaki-castella-cake-history", "nagasaki-kakuni-manju-street-food"],
     relatedCultureSlugs: [],
   },
   {
@@ -7021,7 +7021,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kumamoto-ramen-tonkotsu-culture", "kumamoto-watermelon-melon-farming", "kumamoto-castle-mount-aso", "aomori-sake-cold-climate-brewing", "kumamoto-ikinari-dango-sweets", "kumamoto-kuma-shochu-rice"],
     relatedCultureSlugs: [],
   },
   {
@@ -7049,7 +7049,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["gunma-konnyaku-konjac-culture", "kumamoto-castle-mount-aso", "kumamoto-watermelon-melon-farming", "kumamoto-basashi-horse-sashimi", "kumamoto-kuma-shochu-rice", "kumamoto-ramen-tonkotsu-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -7077,7 +7077,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kumamoto-castle-mount-aso", "kumamoto-basashi-horse-sashimi", "kumamoto-ikinari-dango-sweets", "kumamoto-ramen-tonkotsu-culture", "kumamoto-watermelon-melon-farming"],
     relatedCultureSlugs: [],
   },
   {
@@ -7105,7 +7105,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kumamoto-basashi-horse-sashimi", "kumamoto-castle-mount-aso", "kumamoto-kuma-shochu-rice", "kumamoto-ikinari-dango-sweets", "kumamoto-watermelon-melon-farming"],
     relatedCultureSlugs: [],
   },
   {
@@ -7133,7 +7133,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kumamoto-basashi-horse-sashimi", "kumamoto-ikinari-dango-sweets", "kumamoto-kuma-shochu-rice", "kumamoto-ramen-tonkotsu-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -7161,7 +7161,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["mie-akafuku-mochi-ise-sweets", "oita-beppu-jigoku-mushi-steam-cooking", "oita-mugi-shochu-barley", "oita-seki-saba-aji-brand-fish"],
     relatedCultureSlugs: [],
   },
   {
@@ -7189,7 +7189,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["oita-beppu-jigoku-mushi-steam-cooking", "oita-mugi-shochu-barley", "oita-beppu-hot-springs-yufuin", "oita-seki-saba-aji-brand-fish"],
     relatedCultureSlugs: [],
   },
   {
@@ -7217,7 +7217,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyagi-hittsumi-hotpot", "oita-beppu-hot-springs-yufuin", "oita-toriten-chicken-tempura", "oita-yaseuma-sweet-snack", "oita-seki-saba-aji-brand-fish"],
     relatedCultureSlugs: [],
   },
   {
@@ -7245,7 +7245,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["oita-beppu-hot-springs-yufuin", "oita-seki-saba-aji-brand-fish", "oita-toriten-chicken-tempura", "oita-yaseuma-sweet-snack"],
     relatedCultureSlugs: [],
   },
   {
@@ -7273,7 +7273,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["oita-beppu-hot-springs-yufuin", "oita-beppu-jigoku-mushi-steam-cooking", "oita-mugi-shochu-barley", "oita-toriten-chicken-tempura", "oita-yaseuma-sweet-snack"],
     relatedCultureSlugs: [],
   },
   {
@@ -7301,7 +7301,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyazaki-kinkan-kumquat-sweets", "miyazaki-obiten-street-food", "miyazaki-shochu-culture", "shiga-omi-beef-sukiyaki-tradition"],
     relatedCultureSlugs: [],
   },
   {
@@ -7329,7 +7329,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyazaki-chicken-nanban", "miyazaki-obiten-street-food", "miyazaki-shochu-culture", "miyazaki-takachiho-gorge-mythology"],
     relatedCultureSlugs: [],
   },
   {
@@ -7357,7 +7357,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyazaki-chicken-nanban", "miyazaki-kinkan-kumquat-sweets", "miyazaki-obiten-street-food", "miyazaki-takachiho-gorge-mythology", "miyazaki-wagyu-jidori-chicken", "toyama-jizake-sake-tateyama-snowmelt"],
     relatedCultureSlugs: [],
   },
   {
@@ -7385,7 +7385,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyazaki-chicken-nanban", "miyazaki-kinkan-kumquat-sweets", "miyazaki-shochu-culture", "miyazaki-takachiho-gorge-mythology", "miyazaki-wagyu-jidori-chicken"],
     relatedCultureSlugs: [],
   },
   {
@@ -7413,7 +7413,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["miyazaki-obiten-street-food", "miyazaki-shochu-culture", "miyazaki-takachiho-gorge-mythology", "yamanashi-wine-country-and-kofu"],
     relatedCultureSlugs: [],
   },
   {
@@ -7441,7 +7441,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagoshima-karukan-wagashi", "kagoshima-sakurajima-ibusuki-sand-baths", "kagoshima-satsuma-age-street-food", "kagoshima-satsuma-imo-sweet-potato", "okinawa-awamori-deep-dive"],
     relatedCultureSlugs: [],
   },
   {
@@ -7469,7 +7469,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagoshima-imo-jochu-culture", "kagoshima-kurobuta-black-pork", "kagoshima-sakurajima-ibusuki-sand-baths", "kagoshima-satsuma-age-street-food", "kagoshima-satsuma-imo-sweet-potato"],
     relatedCultureSlugs: [],
   },
   {
@@ -7497,7 +7497,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagoshima-satsuma-age-street-food", "kagoshima-satsuma-imo-sweet-potato", "kagoshima-karukan-wagashi", "ibaraki-local-sake-breweries", "kagoshima-sakurajima-ibusuki-sand-baths"],
     relatedCultureSlugs: [],
   },
   {
@@ -7525,7 +7525,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagoshima-imo-jochu-culture", "kagoshima-karukan-wagashi", "kagoshima-kurobuta-black-pork", "kagoshima-sakurajima-ibusuki-sand-baths", "kagoshima-satsuma-imo-sweet-potato", "okayama-barazushi-scattered-sushi"],
     relatedCultureSlugs: [],
   },
   {
@@ -7553,7 +7553,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kagoshima-imo-jochu-culture", "kagoshima-kurobuta-black-pork", "kagoshima-satsuma-age-street-food", "kagoshima-karukan-wagashi"],
     relatedCultureSlugs: [],
   },
   {
@@ -7581,7 +7581,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okinawa-agu-pork", "okinawa-sweets-chinsuko-sataandagi", "okinawa-awamori-deep-dive", "okinawa-market-food-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -7609,7 +7609,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okinawa-agu-pork", "okinawa-awamori-deep-dive", "okinawa-market-food-culture", "okinawa-ryukyu-kingdom-history-culture", "okinawa-taco-rice-history", "shiga-lake-biwa-freshwater-fish"],
     relatedCultureSlugs: [],
   },
   {
@@ -7637,7 +7637,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okinawa-market-food-culture", "okinawa-ryukyu-kingdom-history-culture", "okinawa-sweets-chinsuko-sataandagi", "kagoshima-kurobuta-black-pork", "okinawa-taco-rice-history"],
     relatedCultureSlugs: [],
   },
   {
@@ -7665,7 +7665,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okinawa-awamori-deep-dive", "okinawa-agu-pork", "okinawa-ryukyu-kingdom-history-culture", "okinawa-sweets-chinsuko-sataandagi", "okinawa-taco-rice-history"],
     relatedCultureSlugs: [],
   },
   {
@@ -7693,7 +7693,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["okinawa-ryukyu-kingdom-history-culture", "okinawa-sweets-chinsuko-sataandagi", "okinawa-taco-rice-history", "tottori-sake-daisen-mountain-water", "okinawa-market-food-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -7721,7 +7721,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tokyo-depachika-food-hall-culture", "tokyo-izakaya-culture-guide", "tokyo-ramen-styles-guide", "shimane-shijimi-clam-miso-soup", "tokyo-trains-beginner-guide", "yamanashi-hoshigaki-dried-persimmon-craft"],
     relatedCultureSlugs: [],
   },
   {
@@ -7749,7 +7749,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["tokyo-izakaya-culture-guide", "shinkansen-tickets-beginner-guide", "tokyo-3-day-itinerary", "tokyo-depachika-food-hall-culture", "tokyo-sushi-culture-edomae-vs-conveyor-belt", "tokyo-trains-beginner-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -7777,7 +7777,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hokkaido-dairy-soft-serve-culture", "tokyo-3-day-itinerary", "tokyo-depachika-food-hall-culture", "tokyo-ramen-styles-guide", "tokyo-sushi-culture-edomae-vs-conveyor-belt", "tokyo-tsukiji-toyosu-seafood-market-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -7806,7 +7806,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["shinkansen-tickets-beginner-guide", "tokyo-depachika-food-hall-culture", "tokyo-3-day-itinerary", "tokyo-izakaya-culture-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -7834,7 +7834,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["jr-pass-worth-it-guide", "saga-ariake-sea-nori-seafood", "tokyo-3-day-itinerary", "tokyo-tsukiji-toyosu-seafood-market-culture", "tokyo-izakaya-culture-guide", "tokyo-ramen-styles-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -7862,7 +7862,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "kyoto-kyoyasai-heirloom-vegetables", "kyoto-obanzai-home-style-cooking", "kyoto-temples-worth-visiting"],
     relatedCultureSlugs: [],
   },
   {
@@ -7890,7 +7890,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-wagashi-tea-sweets-culture", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "kyoto-kyoyasai-heirloom-vegetables"],
     relatedCultureSlugs: [],
   },
   {
@@ -7918,7 +7918,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["kyoto-wagashi-tea-sweets-culture", "kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "nagasaki-shippoku-ryori-feast", "kyoto-obanzai-home-style-cooking"],
     relatedCultureSlugs: [],
   },
   {
@@ -7946,7 +7946,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["osaka-attractions-castle-usj-and-umeda-sky", "osaka-dashi-udon-culture", "osaka-food-guide", "osaka-kuidaore-food-culture", "osaka-nightlife-shinsaibashi-and-amerikamura", "tottori-curry-culture-everyday-food"],
     relatedCultureSlugs: [],
   },
   {
@@ -7974,7 +7974,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["osaka-attractions-castle-usj-and-umeda-sky", "osaka-battera-hakozushi-pressed-sushi", "osaka-food-guide", "osaka-kuidaore-food-culture", "osaka-nightlife-shinsaibashi-and-amerikamura"],
     relatedCultureSlugs: [],
   },
   {
@@ -8002,7 +8002,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["osaka-battera-hakozushi-pressed-sushi", "osaka-dashi-udon-culture", "osaka-attractions-castle-usj-and-umeda-sky", "osaka-food-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -8030,7 +8030,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nara-chagayu-tea-porridge", "nara-deer-park-and-todaiji", "nara-food-and-yoshino-cherry-blossoms", "nara-miwa-somen-noodles"],
     relatedCultureSlugs: [],
   },
   {
@@ -8058,7 +8058,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nara-chagayu-tea-porridge", "nara-food-and-yoshino-cherry-blossoms", "nara-kasuga-taisha-and-other-temples", "nara-sake-brewing-birthplace"],
     relatedCultureSlugs: [],
   },
   {
@@ -8086,7 +8086,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["nara-kasuga-taisha-and-other-temples", "nara-miwa-somen-noodles", "nara-sake-brewing-birthplace", "yamaguchi-dassai-sake-and-brewing"],
     relatedCultureSlugs: [],
   },
   {
@@ -8114,7 +8114,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukuoka-city-attractions-ohori-park-and-canal-city", "fukuoka-itoshima-coast-and-yanagawa-canals", "fukuoka-food-and-yatai", "fukuoka-mizutaki-chicken-hotpot", "fukuoka-motsunabe-offal-hotpot"],
     relatedCultureSlugs: [],
   },
   {
@@ -8142,7 +8142,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukuoka-food-and-yatai", "fukuoka-itoshima-coast-and-yanagawa-canals", "fukuoka-mentaiko-spicy-cod-roe", "fukuoka-mizutaki-chicken-hotpot"],
     relatedCultureSlugs: [],
   },
   {
@@ -8170,7 +8170,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["fukuoka-city-attractions-ohori-park-and-canal-city", "fukuoka-food-and-yatai", "fukuoka-itoshima-coast-and-yanagawa-canals", "fukuoka-mentaiko-spicy-cod-roe", "fukuoka-motsunabe-offal-hotpot"],
     relatedCultureSlugs: [],
   },
   {
@@ -8198,7 +8198,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hiroshima-anagomeshi-conger-eel-rice", "hiroshima-momiji-manju-sweets", "hiroshima-peace-and-miyajima", "hiroshima-saijo-sake-brewing", "hyogo-awaji-island-onions-seafood"],
     relatedCultureSlugs: [],
   },
   {
@@ -8226,7 +8226,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hiroshima-anagomeshi-conger-eel-rice", "hiroshima-oyster-culture", "hiroshima-peace-and-miyajima", "hiroshima-saijo-sake-brewing"],
     relatedCultureSlugs: [],
   },
   {
@@ -8254,7 +8254,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hiroshima-anagomeshi-conger-eel-rice", "hiroshima-momiji-manju-sweets", "hiroshima-oyster-culture", "hiroshima-peace-and-miyajima"],
     relatedCultureSlugs: [],
   },
   {
@@ -8282,7 +8282,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hiroshima-saijo-sake-brewing", "hiroshima-momiji-manju-sweets", "hiroshima-oyster-culture", "sapporo-city-guide-ramen-beer-and-snow-festival"],
     relatedCultureSlugs: [],
   },
   {
@@ -8310,7 +8310,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hokkaido-winter-first-timers", "sapporo-city-guide-ramen-beer-and-snow-festival", "hokkaido-seafood-scallops-crab-uni", "tokyo-izakaya-culture-guide", "hokkaido-soup-curry", "hokkaido-summer-furano-lavender-and-hakodate"],
     relatedCultureSlugs: [],
   },
   {
@@ -8338,7 +8338,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hokkaido-dairy-soft-serve-culture", "hokkaido-winter-first-timers", "sapporo-city-guide-ramen-beer-and-snow-festival", "hokkaido-soup-curry"],
     relatedCultureSlugs: [],
   },
   {
@@ -8366,7 +8366,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["hokkaido-seafood-scallops-crab-uni", "hokkaido-dairy-soft-serve-culture", "hokkaido-summer-furano-lavender-and-hakodate", "hokkaido-winter-first-timers"],
     relatedCultureSlugs: [],
   },
   {
@@ -8377,7 +8377,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Transportation",
     title: "How to Buy Shinkansen Tickets: Reserved Seats, IC Cards, and Booking Ahead",
     metaDescription:
-      "An IC card gets you onto local trains, not the Shinkansen. Here's how reserved-seat tickets actually work — booking with SmartEX, boarding with a tapped IC card, and reserving oversized luggage.",
+      "An IC card won't get you onto the Shinkansen. Here's how reserved-seat tickets actually work — booking with SmartEX and reserving oversized luggage.",
     updatedAt: "2026-08-23",
     needsVerification: true,
     sections: [
@@ -8411,7 +8411,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide"],
+    relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide", "tokyo-tsukiji-toyosu-seafood-market-culture", "tokyo-3-day-itinerary", "tokyo-ramen-styles-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -8422,7 +8422,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Transportation",
     title: "Is the Japan Rail Pass Worth It? Price, Coverage, and How to Decide",
     metaDescription:
-      "The JR Pass isn't automatically the cheapest option anymore. What it actually costs, what it covers (and the two big exceptions), and a quick way to tell if it'll save you money.",
+      "The JR Pass isn't automatically the cheapest option anymore. What it costs, what it covers, and a quick way to tell if it'll save you money.",
     updatedAt: "2026-08-23",
     needsVerification: true,
     sections: [
@@ -8455,7 +8455,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["shinkansen-tickets-beginner-guide", "tokyo-trains-beginner-guide"],
+    relatedSlugs: ["shinkansen-tickets-beginner-guide", "tokyo-trains-beginner-guide", "tokyo-3-day-itinerary", "tokyo-depachika-food-hall-culture"],
     relatedCultureSlugs: [],
   },
   {
@@ -8466,7 +8466,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Nature",
     title: "Cherry Blossom (Sakura) Season in Japan: When to Go, Region by Region",
     metaDescription:
-      "Sakura season isn't one date on a calendar — it's a wave that moves across Japan over roughly four months. Here's approximately when full bloom happens in each region, and how to actually plan a trip around it.",
+      "Sakura season is a wave that moves across Japan over roughly four months. When full bloom happens in each region, and how to plan a trip around it.",
     updatedAt: "2026-08-25",
     needsVerification: true,
     sections: [
@@ -8518,11 +8518,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "nara-food-and-yoshino-cherry-blossoms",
-      "tokyo-3-day-itinerary",
-      "autumn-leaves-season-by-region",
-    ],
+    relatedSlugs: ["nara-food-and-yoshino-cherry-blossoms", "tokyo-3-day-itinerary", "autumn-leaves-season-by-region", "miyazaki-takachiho-gorge-mythology"],
     relatedCultureSlugs: [],
   },
   {
@@ -8533,7 +8529,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Nature",
     title: "Autumn Leaves (Koyo) Season in Japan: When to Go, Region by Region",
     metaDescription:
-      "Autumn colors sweep from Hokkaido to Kyushu over roughly ten weeks — twice as long as cherry blossom season. Here's approximately when peak koyo happens in each region, and why elevation matters as much as latitude.",
+      "Autumn colors sweep from Hokkaido to Kyushu over roughly ten weeks. When peak koyo happens in each region, and why elevation matters as much as latitude.",
     updatedAt: "2026-08-25",
     needsVerification: true,
     sections: [
@@ -8582,11 +8578,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "kyoto-arashiyama-and-higashiyama-walking-guide",
-      "nagano-snow-monkeys-matsumoto-castle-and-the-alps",
-      "cherry-blossom-season-by-region",
-    ],
+    relatedSlugs: ["kyoto-arashiyama-and-higashiyama-walking-guide", "nagano-snow-monkeys-matsumoto-castle-and-the-alps", "cherry-blossom-season-by-region", "toyama-tateyama-kurobe-alpine-route"],
     relatedCultureSlugs: [],
   },
   {
@@ -8597,7 +8589,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Nature",
     title: "Visiting Japan in Winter: A Region-by-Region Guide to Weather, Crowds, and What to Pack",
     metaDescription:
-      "Winter in Japan isn't one climate — it ranges from serious snow to shorts-weather in the same week, depending on region and which coast you're on. Here's what to actually expect and pack, region by region.",
+      "Winter in Japan ranges from serious snow to shorts-weather in the same week, depending on region and coast. What to expect and pack, region by region.",
     updatedAt: "2026-08-25",
     needsVerification: true,
     sections: [
@@ -8639,11 +8631,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "hokkaido-winter-first-timers",
-      "new-year-in-japan",
-      "winter-illuminations-in-japan",
-    ],
+    relatedSlugs: ["hokkaido-winter-first-timers", "new-year-in-japan", "winter-illuminations-in-japan", "ski-snowboard-season-by-region"],
     relatedCultureSlugs: [],
   },
   {
@@ -8654,7 +8642,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Planning",
     title: "New Year (Oshogatsu) in Japan: What's Open, What's Closed, and What First-Time Visitors Get Wrong",
     metaDescription:
-      "Japan's New Year holiday is the biggest nationwide shutdown of the year — bigger than Christmas for closures. Here's what actually closes, what stays open, and how to plan a trip that includes it.",
+      "Japan's New Year holiday is the biggest nationwide shutdown of the year. What actually closes, what stays open, and how to plan a trip around it.",
     updatedAt: "2026-08-25",
     needsVerification: true,
     sections: [
@@ -8695,11 +8683,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "chiba-narita-temple-town-and-boso-peninsula",
-      "winter-travel-guide-by-region",
-      "winter-illuminations-in-japan",
-    ],
+    relatedSlugs: ["chiba-narita-temple-town-and-boso-peninsula", "winter-travel-guide-by-region", "winter-illuminations-in-japan", "typhoon-season-travel-guide", "hatsumode-crowds-and-quiet-alternatives"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -8710,7 +8694,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Attractions",
     title: "Winter Illuminations in Japan: The Best Light Displays and When to See Them",
     metaDescription:
-      "Japan's winter illuminations run far longer than Christmas lights back home — some last into February. Here's where to see the best of them and roughly when, from Tokyo's districts to Kobe's Luminarie and Sapporo's snow festival.",
+      "Japan's winter illuminations run longer than Christmas lights back home, some into February — from Tokyo to Kobe's Luminarie and Sapporo's snow festival.",
     updatedAt: "2026-08-25",
     needsVerification: true,
     sections: [
@@ -8751,11 +8735,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "gifu-shirakawago-and-takayama",
-      "winter-travel-guide-by-region",
-      "new-year-in-japan",
-    ],
+    relatedSlugs: ["gifu-shirakawago-and-takayama", "winter-travel-guide-by-region", "new-year-in-japan", "mount-fuji-viewpoints"],
     relatedCultureSlugs: [],
   },
   {
@@ -8766,7 +8746,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Planning",
     title: "New Year Shrine Crowds in Japan: The Busiest Hatsumode Spots and Where to Go Instead",
     metaDescription:
-      "Japan's most famous shrines pull two to three million hatsumode visitors apiece over three days. Here's which ones, when the crush actually peaks, and a strategy for spending New Year somewhere quieter without giving up the sightseeing.",
+      "Japan's most famous shrines pull millions of hatsumode visitors over three days. Which ones, when the crush peaks, and how to spend New Year somewhere quieter.",
     updatedAt: "2026-08-25",
     needsVerification: true,
     sections: [
@@ -8811,16 +8791,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "new-year-in-japan",
-      "gifu-shirakawago-and-takayama",
-      "ishikawa-kanazawa-gardens-and-geisha-districts",
-      "gunma-kusatsu-onsen-and-tomioka-silk-mill",
-      "oita-beppu-hot-springs-yufuin",
-      "ehime-dogo-onsen-matsuyama-castle",
-      "gifu-hoba-miso-mountain-cooking",
-      "ishikawa-jibuni-kaga-cuisine-duck-stew",
-    ],
+    relatedSlugs: ["new-year-in-japan", "gifu-shirakawago-and-takayama", "ishikawa-kanazawa-gardens-and-geisha-districts", "gunma-kusatsu-onsen-and-tomioka-silk-mill", "oita-beppu-hot-springs-yufuin", "ehime-dogo-onsen-matsuyama-castle", "gifu-hoba-miso-mountain-cooking", "ishikawa-jibuni-kaga-cuisine-duck-stew"],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
   },
   {
@@ -8867,13 +8838,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "cherry-blossom-season-by-region",
-      "ibaraki-hitachi-seaside-park-and-kairakuen",
-      "fukuoka-food-and-yatai",
-      "kanagawa-kamakura-great-buddha-and-hakone",
-      "wakayama-nanko-ume-umeboshi-umeshu",
-    ],
+    relatedSlugs: ["cherry-blossom-season-by-region", "ibaraki-hitachi-seaside-park-and-kairakuen", "fukuoka-food-and-yatai", "kanagawa-kamakura-great-buddha-and-hakone", "wakayama-nanko-ume-umeboshi-umeshu"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -8884,7 +8849,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Planning",
     title: "Traveling to Japan During Typhoon Season: What Actually Happens and How to Plan Around It",
     metaDescription:
-      "Typhoon season runs roughly July through October and peaks in August-September. Here's what a typhoon actually does to a trip, and how to plan so it doesn't wreck yours.",
+      "Typhoon season runs roughly July through October and peaks in August-September. What a typhoon actually does to a trip, and how to plan around it.",
     updatedAt: "2026-08-25",
     needsVerification: true,
     sections: [
@@ -8914,11 +8879,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "okinawa-ryukyu-kingdom-history-culture",
-      "kagoshima-sakurajima-ibusuki-sand-baths",
-      "fukuoka-food-and-yatai",
-    ],
+    relatedSlugs: ["okinawa-ryukyu-kingdom-history-culture", "kagoshima-sakurajima-ibusuki-sand-baths", "fukuoka-food-and-yatai", "new-year-in-japan"],
     relatedCultureSlugs: [],
   },
   {
@@ -8981,12 +8942,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "hokkaido-winter-first-timers",
-      "yamagata-yamadera-steps-and-zao-snow-monsters",
-      "nagano-snow-monkeys-matsumoto-castle-and-the-alps",
-      "winter-travel-guide-by-region",
-    ],
+    relatedSlugs: ["hokkaido-winter-first-timers", "yamagata-yamadera-steps-and-zao-snow-monsters", "nagano-snow-monkeys-matsumoto-castle-and-the-alps", "winter-travel-guide-by-region"],
     relatedCultureSlugs: [],
   },
   {
@@ -9049,7 +9005,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["new-year-in-japan", "tokyo-3-day-itinerary"],
+    relatedSlugs: ["new-year-in-japan", "tokyo-3-day-itinerary", "japans-places-of-scenic-beauty-explained", "mie-ise-jingu-and-ise-shima"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -9106,11 +9062,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "hokkaido-summer-furano-lavender-and-hakodate",
-      "nagasaki-atomic-bomb-history-dejima",
-      "hyogo-himeji-castle-and-kobe",
-    ],
+    relatedSlugs: ["hokkaido-summer-furano-lavender-and-hakodate", "nagasaki-atomic-bomb-history-dejima", "hyogo-himeji-castle-and-kobe", "ishikawa-kanazawa-gardens-and-geisha-districts"],
     relatedCultureSlugs: [],
   },
   {
@@ -9161,12 +9113,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "ishikawa-kanazawa-gardens-and-geisha-districts",
-      "miyagi-matsushima-bay-and-sendai-gyutan",
-      "cherry-blossom-season-by-region",
-      "autumn-leaves-season-by-region",
-    ],
+    relatedSlugs: ["ishikawa-kanazawa-gardens-and-geisha-districts", "miyagi-matsushima-bay-and-sendai-gyutan", "cherry-blossom-season-by-region", "autumn-leaves-season-by-region", "coming-of-age-day-and-kimono-photography", "wakayama-koyasan-and-kumano-kodo"],
     relatedCultureSlugs: [],
   },
   {
@@ -9177,7 +9124,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Attractions",
     title: "Japan's Most CM-Famous Scenic Spots: Tsunoshima, Motonosumi, and Eshima Ohashi",
     metaDescription:
-      "Three Japanese landmarks that went viral through car commercials and CNN coverage: a turquoise bridge, a cliffside torii shrine, and an optical-illusion overpass.",
+      "Three Japanese landmarks that went viral through car commercials and CNN: a turquoise bridge, a cliffside torii shrine, and an optical-illusion overpass.",
     updatedAt: "2026-08-26",
     needsVerification: true,
     sections: [
@@ -9231,11 +9178,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "yamaguchi-hagi-and-kintaikyo-bridge",
-      "tottori-sand-dunes-and-snow-crab",
-      "shimane-izumo-taisha-and-matsue",
-    ],
+    relatedSlugs: ["yamaguchi-hagi-and-kintaikyo-bridge", "tottori-sand-dunes-and-snow-crab", "shimane-izumo-taisha-and-matsue", "kyoto-arashiyama-and-higashiyama-walking-guide"],
     relatedCultureSlugs: [],
   },
   {
@@ -9246,7 +9189,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Attractions",
     title: "Japan's Three Great Tenjin Shrines: Kitano, Dazaifu, and Hofu Tenmangu",
     metaDescription:
-      "Kitano and Dazaifu Tenmangu are always on the list of Japan's \"three great Tenjin\" shrines — the third spot is genuinely disputed. What each shrine offers, plus the annual festivals that define them, from Kyoto's plum-blossom Baika-sai to Hofu's dramatic Hadaka Bo Matsuri.",
+      "Kitano and Dazaifu Tenmangu top Japan's \"three great Tenjin\" shrines — the third spot is disputed. What each offers, plus the festivals that define them.",
     updatedAt: "2026-08-27",
     needsVerification: true,
     sections: [
@@ -9299,12 +9242,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "kyoto-temples-worth-visiting",
-      "fukuoka-city-attractions-ohori-park-and-canal-city",
-      "yamaguchi-hagi-and-kintaikyo-bridge",
-      "plum-blossom-season-by-region",
-    ],
+    relatedSlugs: ["kyoto-temples-worth-visiting", "fukuoka-city-attractions-ohori-park-and-canal-city", "yamaguchi-hagi-and-kintaikyo-bridge", "plum-blossom-season-by-region", "mount-fuji-viewpoints"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -9315,7 +9253,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     categoryLabel: "Attractions",
     title: "Japan's Three Views (Nihon Sankei): Matsushima, Miyajima, and Amanohashidate",
     metaDescription:
-      "Matsushima, Miyajima, and Amanohashidate have been Japan's official \"three great views\" since the 1600s — one of the few such lists nobody actually disputes. What each place offers, and how to see them.",
+      "Matsushima, Miyajima, and Amanohashidate have been Japan's official \"three great views\" since the 1600s — a rare list nobody disputes. What each offers.",
     updatedAt: "2026-08-27",
     needsVerification: true,
     sections: [
@@ -9358,12 +9296,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: [
-      "hiroshima-peace-and-miyajima",
-      "miyagi-matsushima-bay-and-sendai-gyutan",
-      "japans-three-great-tenjin-shrines",
-      "three-great-night-views-of-japan",
-    ],
+    relatedSlugs: ["hiroshima-peace-and-miyajima", "miyagi-matsushima-bay-and-sendai-gyutan", "japans-three-great-tenjin-shrines", "three-great-night-views-of-japan", "mount-fuji-viewpoints"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
 ];
