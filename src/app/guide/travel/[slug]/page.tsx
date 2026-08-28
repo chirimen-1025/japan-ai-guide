@@ -80,6 +80,19 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
     ],
   };
 
+  const faqLd =
+    article.faq && article.faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: article.faq.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        }
+      : null;
+
   return (
     <div className="mx-auto max-w-2xl px-5 py-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -87,6 +100,9 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+      {faqLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      )}
       <nav className="mb-6 text-sm text-muted">
         <Link href="/guide/travel" className="hover:text-ink">Travel Guide</Link> /{" "}
         <span className="text-ink">{article.title}</span>
@@ -226,6 +242,22 @@ export default async function TravelArticlePage({ params }: { params: Promise<{ 
           </Link>
         </div>
       </div>
+
+      {article.faq && article.faq.length > 0 && (
+        <div className="mt-10 border-t border-border pt-6">
+          <h2 className="disp text-xl font-semibold text-brand-strong">
+            Frequently Asked Questions
+          </h2>
+          <div className="mt-4 flex flex-col gap-4">
+            {article.faq.map((f) => (
+              <div key={f.question} className="rounded-xl border border-border bg-surface p-4">
+                <h3 className="text-[15px] font-semibold text-ink">{f.question}</h3>
+                <p className="mt-1.5 text-[15px] leading-7 text-muted">{f.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {(relatedArticles.length > 0 || relatedCulture.length > 0) && (
         <div className="mt-12 border-t border-border pt-8">
