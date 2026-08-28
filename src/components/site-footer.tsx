@@ -42,7 +42,13 @@ export function SiteFooter() {
       <div className="border-t border-border px-5 py-5 text-center text-xs text-muted">
         Prices, hours, and other details change — always double-check anything marked
         &ldquo;verify locally&rdquo; before you rely on it. Japan AI Guide is an independent
-        travel resource, not affiliated with any government tourism board.
+        travel resource, not affiliated with any government tourism board. Some links on this
+        site are affiliate links — if you book through them, we may earn a small commission at
+        no extra cost to you. See our{" "}
+        <Link href="/terms" className="underline hover:text-brand">
+          Terms &amp; Disclaimer
+        </Link>{" "}
+        for details.
       </div>
     </footer>
   );
