@@ -85,6 +85,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["tokyo-trains-beginner-guide"],
     relatedCultureSlugs: [],
+    affiliateTours: [
+      {
+        label: "Tokyo: Tsukiji Fish Market Guided Walking Tour",
+        url: "https://www.getyourguide.com/tokyo-l193/tokyo-tsukiji-fish-market-food-and-walking-tour-t695948/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "kyoto-temples-worth-visiting",
@@ -229,6 +235,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["osaka-food-guide"],
     relatedCultureSlugs: ["shrines-and-temples"],
+    affiliateTours: [
+      {
+        label: "Hiroshima & Miyajima: 2 UNESCO World Heritage Sites Small-Group Tour",
+        url: "https://www.getyourguide.com/hiroshima-l32662/hiroshima-miyajima-65h-guided-tour-dome-park-shrine-t1074537/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "fukuoka-food-and-yatai",
@@ -427,6 +439,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: [],
     relatedCultureSlugs: [],
+    affiliateTours: [
+      {
+        label: "Sendai & Matsushima Customized Half-Day Tour, Licensed Guide",
+        url: "https://www.getyourguide.com/sendai-l95867/sendai-and-matsushima-private-tour-with-licensed-guide-t1061919/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "akita-kakunodate-samurai-district-and-namahage",
@@ -1038,6 +1056,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: [],
     relatedCultureSlugs: [],
+    affiliateTours: [
+      {
+        label: "Nagoya: Castle, History & Local Food 2.5-Hour Tour",
+        url: "https://www.getyourguide.com/nagoya-l32669/25-hour-nagoya-tour-castle-history-local-food-city-view-t1069157/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "mie-ise-jingu-and-ise-shima",
@@ -1795,6 +1819,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["osaka-food-guide", "osaka-nightlife-shinsaibashi-and-amerikamura"],
     relatedCultureSlugs: [],
+    affiliateTours: [
+      {
+        label: "Osaka: Castle Tower Admission / Guided Walking Tour",
+        url: "https://www.getyourguide.com/osaka-l1204/osaka-castle-history-walking-tour-castle-tower-admission-t038691/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "osaka-nightlife-shinsaibashi-and-amerikamura",
@@ -1926,6 +1956,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["hokkaido-winter-first-timers", "hokkaido-summer-furano-lavender-and-hakodate"],
     relatedCultureSlugs: [],
+    affiliateTours: [
+      {
+        label: "Sapporo: Ramen Tasting Tour with 3 Mini Bowls of Ramen",
+        url: "https://www.getyourguide.com/sapporo-l32644/sapporo-ramen-tasting-tour-with-3-mini-bowls-of-ramen-t1206513/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "hokkaido-summer-furano-lavender-and-hakodate",
@@ -1995,6 +2031,12 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     ],
     relatedSlugs: ["fukuoka-food-and-yatai", "fukuoka-itoshima-coast-and-yanagawa-canals"],
     relatedCultureSlugs: [],
+    affiliateTours: [
+      {
+        label: "Fukuoka Essentials: History, Culture & Charms",
+        url: "https://www.getyourguide.com/fukuoka-l32581/fukuoka-essentials-history-culture-charms-t663010/?partner_id=ZWI2UDX&utm_medium=online_publisher",
+      },
+    ],
   },
   {
     slug: "fukuoka-itoshima-coast-and-yanagawa-canals",
