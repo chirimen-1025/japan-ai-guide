@@ -138,7 +138,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Nara",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Nara as a Day Trip: Deer Park, Todai-ji, and Feeding Etiquette",
+    title: "Nara as a Day Trip: Deer Park and Todai-ji",
     metaDescription:
       "Nara is an easy half-day trip from Kyoto or Osaka, built around free-roaming deer and one of the largest wooden buildings on Earth.",
     updatedAt: "2026-08-22",
@@ -350,7 +350,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Aomori",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Aomori Travel Guide: Nebuta Matsuri, Hirosaki Castle, and Oirase Gorge",
+    title: "Aomori: Nebuta Matsuri and Hirosaki Castle",
     metaDescription:
       "Aomori pairs one of Japan's loudest summer festivals with a castle famous for cherry blossoms and a remote gorge worth the extra travel time.",
     updatedAt: "2026-08-23",
@@ -384,7 +384,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Iwate",
     category: "history",
     categoryLabel: "History",
-    title: "Iwate: Hiraizumi's Golden Temple Hall and Morioka's Wanko Soba Challenge",
+    title: "Iwate: Hiraizumi's Golden Hall and Wanko Soba",
     metaDescription:
       "Iwate mixes a UNESCO-listed temple complex with gold-leafed halls and a quirky all-you-can-eat noodle tradition, but it takes real effort to reach.",
     updatedAt: "2026-08-22",
@@ -418,7 +418,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Miyagi",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Miyagi: Matsushima Bay's Pine Islands and Sendai's Grilled Beef Tongue",
+    title: "Miyagi: Matsushima Bay and Sendai's Grilled Beef Tongue",
     metaDescription:
       "Miyagi combines Matsushima, one of Japan's three classic scenic views, with Sendai, a convenient Tohoku hub known for grilled beef tongue.",
     updatedAt: "2026-08-22",
@@ -452,7 +452,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Akita",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Akita: Kakunodate's Samurai Streets and the Namahage Demon Tradition",
+    title: "Akita: Kakunodate's Samurai Streets and Namahage",
     metaDescription:
       "Akita offers a preserved samurai district, a folklore tradition involving demon-masked visitors, and hearty rice-based food, but expect rural travel.",
     updatedAt: "2026-08-23",
@@ -486,7 +486,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Yamagata",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Yamagata: Yamadera's Mountain Temple Stairs and Zao's Frost-Covered Trees",
+    title: "Yamagata: Yamadera's Stairs and Zao's Snow Monsters",
     metaDescription:
       "Yamagata rewards a steep climb to a cliffside temple and a winter trip to see frost-covered snow monsters at the Zao ski resort.",
     updatedAt: "2026-08-22",
@@ -520,7 +520,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Fukushima",
     category: "history",
     categoryLabel: "History",
-    title: "Fukushima Beyond the Headlines: Ouchi-juku's Thatched Streets and Aizu Castle",
+    title: "Fukushima: Ouchi-juku's Thatched Streets and Aizu Castle",
     metaDescription:
       "Most of Fukushima prefecture is far from the 2011 nuclear accident site and open to visitors, with a preserved post town and a samurai-era castle.",
     updatedAt: "2026-08-22",
@@ -554,7 +554,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Ibaraki",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Ibaraki Day Trips: Hitachi Seaside Park's Flower Fields and Kairakuen Garden",
+    title: "Ibaraki Day Trips: Hitachi Seaside Park and Kairakuen",
     metaDescription:
       "Ibaraki is an easy day trip from Tokyo for a hillside of blue flowers in spring and one of Japan's three great gardens in late winter.",
     updatedAt: "2026-08-22",
@@ -622,7 +622,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Gunma",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Gunma: Kusatsu Onsen's Hot Water Field and the Tomioka Silk Mill",
+    title: "Gunma: Kusatsu Onsen and the Tomioka Silk Mill",
     metaDescription:
       "Gunma is overlooked by foreign visitors but has one of Japan's most respected onsen towns and a UNESCO-listed Meiji-era silk mill.",
     updatedAt: "2026-08-22",
@@ -656,7 +656,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Saitama",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Saitama: Kawagoe's Edo-Era Streets and Chichibu's Pink Moss Phlox Fields",
+    title: "Saitama: Kawagoe's Little Edo and Chichibu's Phlox",
     metaDescription:
       "Saitama isn't a standalone destination, but Kawagoe's old warehouse district and Chichibu's flower fields make easy half-day trips from Tokyo.",
     updatedAt: "2026-08-22",
@@ -724,7 +724,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kanagawa",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Kanagawa: Kamakura's Great Buddha, Hakone's Onsen, and Yokohama's Chinatown",
+    title: "Kanagawa: Kamakura's Great Buddha and Hakone's Onsen",
     metaDescription:
       "Kanagawa packs a historic beach town, a mountain onsen resort with Mount Fuji views, and Japan's largest Chinatown within easy reach of Tokyo.",
     updatedAt: "2026-08-22",
@@ -834,7 +834,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Ishikawa",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Kanazawa: Gardens, Gold Leaf, and Geisha Districts in Ishikawa",
+    title: "Kanazawa: Gardens, Gold Leaf, and Geisha Districts",
     metaDescription:
       "Kanazawa survived WWII largely intact, so its castle garden, geisha district, and gold-leaf craft shops all feel unusually well preserved for a Japanese city.",
     updatedAt: "2026-08-22",
@@ -903,7 +903,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Yamanashi",
     category: "food",
     categoryLabel: "Food",
-    title: "Yamanashi Beyond the Fuji View: Wine Country, Kofu, and Shosenkyo Gorge",
+    title: "Yamanashi Beyond the Fuji View: Wine Country and Kofu",
     metaDescription:
       "Yamanashi is more than a Fuji viewpoint — it is also Japan's main wine region, with a granite gorge and pick-your-own orchards near Kofu city.",
     updatedAt: "2026-08-22",
@@ -932,7 +932,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Nagano",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Nagano: Snow Monkeys, Matsumoto Castle, and the Japanese Alps",
+    title: "Nagano: Snow Monkeys, Matsumoto Castle, and the Alps",
     metaDescription:
       "Nagano covers a lot of ground: wild macaques bathing in a hot spring, one of Japan's few original castle keeps, and alpine trails anyone can hike.",
     updatedAt: "2026-08-22",
@@ -1075,7 +1075,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Mie",
     category: "history",
     categoryLabel: "History",
-    title: "Mie: Ise Jingu, Japan's Most Sacred Shrine, and the Ise-Shima Coast",
+    title: "Mie: Ise Jingu and the Ise-Shima Coast",
     metaDescription:
       "Mie is home to Ise Jingu, Shinto's most important shrine, plus pearl farms and seafood in Ise-Shima — honest notes on getting there and what to skip.",
     updatedAt: "2026-08-22",
@@ -1110,7 +1110,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Shiga",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Shiga: Lake Biwa and Hikone Castle as an Easy Day Trip from Kyoto",
+    title: "Shiga: Lake Biwa and Hikone Castle From Kyoto",
     metaDescription:
       "Shiga sits right next to Kyoto and has Japan's largest lake plus one of the country's few original castles — a low-effort, underrated add-on trip.",
     updatedAt: "2026-08-22",
@@ -1184,7 +1184,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Wakayama",
     category: "history",
     categoryLabel: "History",
-    title: "Wakayama: Sleeping in a Temple on Koyasan and Walking the Kumano Kodo",
+    title: "Wakayama: Sleeping on Koyasan and the Kumano Kodo",
     metaDescription:
       "Wakayama offers a real overnight temple stay on sacred Mount Koya and ancient pilgrimage trails through the mountains, plus a classic beach onsen town.",
     updatedAt: "2026-08-22",
@@ -1219,7 +1219,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tottori",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Tottori: Japan's Only Real Desert Landscape, and Why So Few Tourists Go",
+    title: "Tottori: Japan's Only Real Desert Landscape",
     metaDescription:
       "Tottori has Japan's largest and most striking sand dunes plus excellent winter crab, but it's Japan's least-populated prefecture and genuinely hard to reach.",
     updatedAt: "2026-08-22",
@@ -1253,7 +1253,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Shimane",
     category: "history",
     categoryLabel: "History",
-    title: "Shimane: Izumo Taisha, One of Shinto's Oldest Shrines, and Matsue's Old Castle Town",
+    title: "Shimane: Izumo Taisha and Matsue's Old Castle Town",
     metaDescription:
       "Shimane holds one of Japan's oldest and most important shrines plus a real castle town, but it takes deliberate effort to reach — here's what to expect.",
     updatedAt: "2026-08-22",
@@ -1287,7 +1287,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Okayama",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Okayama: Korakuen Garden, Kurashiki's Canal Town, and the Gateway to Naoshima",
+    title: "Okayama: Korakuen Garden and Kurashiki's Canal Town",
     metaDescription:
       "Okayama has one of Japan's three great gardens, a beautifully preserved Edo-era canal district, and easy ferry access to the Naoshima art islands.",
     updatedAt: "2026-08-22",
@@ -1321,7 +1321,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Yamaguchi",
     category: "history",
     categoryLabel: "History",
-    title: "Yamaguchi: Hagi's Samurai History, Kintaikyo Bridge, and Fugu in Shimonoseki",
+    title: "Yamaguchi: Hagi's Samurai History and Kintaikyo Bridge",
     metaDescription:
       "Yamaguchi is one of Japan's least-visited prefectures by foreigners, but it holds real Meiji Restoration history, a striking wooden bridge, and famous fugu.",
     updatedAt: "2026-08-22",
@@ -1355,7 +1355,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tokushima",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Naruto Whirlpools and the Iya Valley: Tokushima's Two Signature Sights",
+    title: "Naruto Whirlpools and the Iya Valley in Tokushima",
     metaDescription:
       "Tokushima pairs the tidal whirlpools off Naruto with the remote vine bridges of the Iya Valley, two very different sights that both reward the detour.",
     updatedAt: "2026-08-22",
@@ -1391,7 +1391,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kagawa",
     category: "food",
     categoryLabel: "Food",
-    title: "Sanuki Udon in Kagawa: How to Eat at a Self-Service Udon Shop",
+    title: "Sanuki Udon in Kagawa: A Self-Service Shop Guide",
     metaDescription:
       "Kagawa is Japan's self-declared udon capital, and its bare-bones self-service noodle shops have their own ordering ritual that trips up first-timers.",
     updatedAt: "2026-08-22",
@@ -1425,7 +1425,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Ehime",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Dogo Onsen and Matsuyama Castle: Ehime's Classic One-Two Stop",
+    title: "Dogo Onsen and Matsuyama Castle: Ehime's Classic Stop",
     metaDescription:
       "Ehime's main draw is Matsuyama city, home to one of Japan's oldest hot spring bath houses and one of its few surviving original hilltop castles.",
     updatedAt: "2026-08-22",
@@ -1466,7 +1466,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kochi",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Kochi's Shimanto River and Katsurahama Beach: Shikoku's Wild Side",
+    title: "Kochi's Shimanto River and Katsurahama Beach",
     metaDescription:
       "Kochi is Shikoku's least-crowded prefecture, built around a famously clear undammed river and a rugged, currents-not-swimming coastline worth seeing.",
     updatedAt: "2026-08-22",
@@ -1535,7 +1535,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Nagasaki",
     category: "history",
     categoryLabel: "History",
-    title: "Nagasaki's Layered History: Dejima, the Atomic Bomb Museum, and Glover Garden",
+    title: "Nagasaki's Layered History: Dejima and the Atomic Bomb",
     metaDescription:
       "Nagasaki's history runs from centuries of controlled trade with the West to the second atomic bombing, and both sides are worth understanding.",
     updatedAt: "2026-08-22",
@@ -1569,7 +1569,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kumamoto",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Kumamoto Castle and Mount Aso: Rebuilding and an Active Volcano",
+    title: "Kumamoto Castle and Mount Aso: An Active Volcano",
     metaDescription:
       "Kumamoto pairs a famous castle still recovering from a 2016 earthquake with Mount Aso, one of the world's largest calderas and still active.",
     updatedAt: "2026-08-22",
@@ -1678,7 +1678,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kagoshima",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Sakurajima Volcano and Ibusuki's Sand Baths: Kagoshima's Volcanic South",
+    title: "Sakurajima Volcano and Ibusuki's Sand Baths",
     metaDescription:
       "Kagoshima sits beside an active volcano that locals live with daily, plus a beach town where you get buried up to the neck in heated black sand.",
     updatedAt: "2026-08-22",
@@ -1712,7 +1712,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Okinawa",
     category: "history",
     categoryLabel: "History",
-    title: "Okinawa's Ryukyu Kingdom Heritage: Why It Doesn't Feel Like the Rest of Japan",
+    title: "Okinawa's Ryukyu Kingdom Heritage and History",
     metaDescription:
       "Okinawa was an independent kingdom until 1879 and still has its own language, food, and history — treat it as distinct, not just a beach trip.",
     updatedAt: "2026-08-22",
@@ -1746,7 +1746,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kyoto",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Kyoto Beyond the Temple List: Arashiyama's Bamboo Grove and Higashiyama's Old Streets",
+    title: "Kyoto Beyond the Temples: Arashiyama and Higashiyama",
     metaDescription:
       "Two walkable Kyoto districts worth building a day around: Arashiyama's bamboo grove and river, and Higashiyama's preserved lanes through Gion.",
     updatedAt: "2026-08-22",
@@ -1816,7 +1816,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Osaka",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Osaka Attractions Beyond Dotonbori: Castle, Universal Studios, and Umeda Sky",
+    title: "Osaka Attractions Beyond Dotonbori: Castle and USJ",
     metaDescription:
       "Osaka's food gets most of the attention, but the castle grounds, Universal Studios Japan, and the Umeda Sky Building are worth their own day.",
     updatedAt: "2026-08-22",
@@ -1856,7 +1856,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Osaka",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Osaka at Night: Shinsaibashi Shopping and America-mura's Street Fashion",
+    title: "Osaka at Night: Shinsaibashi and America-mura",
     metaDescription:
       "Osaka's evening scene runs from a long covered shopping arcade to a youth fashion district built around vintage American style — here's how they fit together.",
     updatedAt: "2026-08-22",
@@ -1890,7 +1890,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Nara",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Beyond the Deer: Kasuga Taisha, Kofuku-ji, and Isuien Garden in Nara",
+    title: "Beyond the Deer: Kasuga Taisha and Nara's Temples",
     metaDescription:
       "Nara Park's deer get all the attention, but the lantern-lined path to Kasuga Taisha and a five-story pagoda nearby are worth the extra time.",
     updatedAt: "2026-08-22",
@@ -1953,7 +1953,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Hokkaido",
     category: "food",
     categoryLabel: "Food",
-    title: "Sapporo City Guide: Miso Ramen, Beer History, and the Snow Festival",
+    title: "Sapporo City Guide: Ramen, Beer, and Snow Festival",
     metaDescription:
       "Sapporo works as a city trip on its own, built around the ramen style it's famous for, a historic beer brewery, and Hokkaido's biggest winter festival.",
     updatedAt: "2026-08-22",
@@ -1993,7 +1993,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Hokkaido",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Hokkaido in Summer: Furano's Lavender Fields and Hakodate's Night View",
+    title: "Hokkaido in Summer: Furano's Lavender and Hakodate",
     metaDescription:
       "Hokkaido isn't only a winter destination — Furano's lavender season and Hakodate's historic port and night view make a strong case for summer too.",
     updatedAt: "2026-08-22",
@@ -2028,7 +2028,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Fukuoka",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Fukuoka City Attractions: Ohori Park, Castle Ruins, and Canal City",
+    title: "Fukuoka City Attractions: Ohori Park and Canal City",
     metaDescription:
       "Fukuoka's food scene gets the spotlight, but the city itself has an easy park-and-castle-ruins morning and a distinctive shopping complex worth a look.",
     updatedAt: "2026-08-22",
@@ -2068,7 +2068,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Fukuoka",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Day Trips from Fukuoka: Itoshima's Coast and Yanagawa's Canal Boats",
+    title: "Day Trips From Fukuoka: Itoshima and Yanagawa",
     metaDescription:
       "Two easy half-day trips from Fukuoka city: Itoshima's beaches and cafes on the coast, and Yanagawa's slow canal boat rides through an old castle town.",
     updatedAt: "2026-08-22",
@@ -2102,7 +2102,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Aomori",
     category: "food",
     categoryLabel: "Food",
-    title: "Aomori Apples: Japan's Apple Capital and How the Fruit Shapes Local Food",
+    title: "Aomori Apples: Japan's Apple Capital and Its Orchards",
     metaDescription:
       "Aomori grows more than half of Japan's apples; here's why the fruit dominates local food culture, from fresh eating varieties to cider and apple pie.",
     updatedAt: "2026-08-23",
@@ -2270,7 +2270,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Iwate",
     category: "food",
     categoryLabel: "Food",
-    title: "Iwate's Mochi Culture: Why the Ichinoseki Area Eats So Much Rice Cake",
+    title: "Iwate's Mochi Culture: Why Ichinoseki Loves Rice Cake",
     metaDescription:
       "The Ichinoseki area of Iwate has one of Japan's deepest mochi traditions, with local households said to prepare well over a hundred distinct recipes.",
     updatedAt: "2026-08-22",
@@ -2298,7 +2298,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Iwate",
     category: "food",
     categoryLabel: "Food",
-    title: "Jajamen: Morioka's Everyday Noodle Dish and DIY Egg Soup Finish",
+    title: "Jajamen: Morioka's Everyday Noodle Dish",
     metaDescription:
       "Jajamen is a flat wheat noodle tossed in miso meat sauce that Morioka locals eat as casual, everyday food, with a clever two-part finish.",
     updatedAt: "2026-08-22",
@@ -2354,7 +2354,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Iwate",
     category: "food",
     categoryLabel: "Food",
-    title: "Sanriku Coast Seafood: Iwate's Sea Urchin, Oysters, and Abalone",
+    title: "Sanriku Coast Seafood: Iwate's Sea Urchin and Oysters",
     metaDescription:
       "Iwate's Sanriku coastline is one of Japan's richest fishing grounds, known for sea urchin, oysters, abalone, and a slow recovery since 2011.",
     updatedAt: "2026-08-22",
@@ -2634,7 +2634,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Akita",
     category: "food",
     categoryLabel: "Food",
-    title: "Hinai Jidori: One of Japan's Three Great Local Chicken Breeds",
+    title: "Hinai Jidori: One of Japan's Three Great Chickens",
     metaDescription:
       "Hinai jidori is a distinctive Akita chicken breed prized for firmer texture and deeper flavor than standard broiler chicken, used in kiritanpo nabe.",
     updatedAt: "2026-08-22",
@@ -2690,7 +2690,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Yamagata",
     category: "food",
     categoryLabel: "Food",
-    title: "Shojin Ryori of Dewa Sanzan: Yamagata's Mountain Buddhist Cuisine",
+    title: "Shojin Ryori of Dewa Sanzan: Yamagata's Mountain Food",
     metaDescription:
       "The Dewa Sanzan pilgrimage mountains preserve a strict vegetarian Buddhist food tradition built around foraged mountain vegetables and sansai culture.",
     updatedAt: "2026-08-22",
@@ -2718,7 +2718,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Yamagata",
     category: "food",
     categoryLabel: "Food",
-    title: "Yamagata Sake: A Prefecture With Its Own Quality Certification System",
+    title: "Yamagata Sake: A Prefecture With Its Own Certification",
     metaDescription:
       "Yamagata was the first Japanese prefecture to certify sake under a Bordeaux-style regional appellation, backing a strong reputation among serious drinkers.",
     updatedAt: "2026-08-22",
@@ -2858,7 +2858,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Fukushima",
     category: "food",
     categoryLabel: "Food",
-    title: "Fukushima Sake: A Quiet Powerhouse at Japan's National Awards",
+    title: "Fukushima Sake: A Quiet Powerhouse at National Awards",
     metaDescription:
       "Fukushima has repeatedly topped Japan's national sake competition for most gold medals by prefecture, despite a lower profile than famous brewing regions.",
     updatedAt: "2026-08-22",
@@ -2914,7 +2914,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Fukushima",
     category: "food",
     categoryLabel: "Food",
-    title: "Joban-mono: Fukushima's Coastal Seafood and Its Long Recovery",
+    title: "Joban-mono: Fukushima's Coastal Seafood and Recovery",
     metaDescription:
       "Fukushima's Hamadori coast produces prized Joban-mono seafood like flounder and sea bream, a fishery still rebuilding trust and volume since 2011.",
     updatedAt: "2026-08-22",
@@ -3110,7 +3110,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tochigi",
     category: "food",
     categoryLabel: "Food",
-    title: "Tochigi Strawberries: Tochiotome, Skyberry, and Winter Picking Season",
+    title: "Tochigi Strawberries: Tochiotome and Skyberry",
     metaDescription:
       "Tochigi has been Japan's top strawberry-growing prefecture for decades, producing varieties like Tochiotome and Skyberry through the winter months.",
     updatedAt: "2026-08-22",
@@ -3754,7 +3754,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kanagawa",
     category: "food",
     categoryLabel: "Food",
-    title: "Kanagawa Sake and Craft Beer: Tanzawa Water and a Historic Brewing Port",
+    title: "Kanagawa Sake and Craft Beer: A Historic Brewing Port",
     metaDescription:
       "Kanagawa pairs Tanzawa mountain-spring sake breweries with Yokohama's role in Japan's earliest Western-style beer brewing and its modern craft beer scene.",
     updatedAt: "2026-08-22",
@@ -3782,7 +3782,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Niigata",
     category: "food",
     categoryLabel: "Food",
-    title: "Hegisoba: Niigata's Seaweed-Bound Buckwheat Noodles Explained",
+    title: "Hegisoba: Niigata's Seaweed-Bound Buckwheat Noodles",
     metaDescription:
       "Hegisoba is a Niigata specialty that mixes funori seaweed into buckwheat noodle dough, giving the noodles a glossy, chewy bite unlike soba found anywhere else.",
     updatedAt: "2026-08-22",
@@ -3838,7 +3838,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Niigata",
     category: "food",
     categoryLabel: "Food",
-    title: "Why Niigata's Dry, Light Sake Style Was Built for Raw Seafood",
+    title: "Niigata's Dry Sake Style, Built for Raw Seafood",
     metaDescription:
       "Niigata's tanrei karakuchi sake style is crisp and dry rather than sweet, a house style shaped specifically to pair with the prefecture's cold-water seafood.",
     updatedAt: "2026-08-22",
@@ -3894,7 +3894,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Niigata",
     category: "food",
     categoryLabel: "Food",
-    title: "Murakami's Century-Old Culture of Cooking Every Part of the Salmon",
+    title: "Murakami's Century-Old Culture of Cooking Salmon",
     metaDescription:
       "The northern Niigata city of Murakami has a long-standing salmon culture built on the Miomote River, said to use nearly every part of the fish in local cooking.",
     updatedAt: "2026-08-22",
@@ -4034,7 +4034,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Toyama",
     category: "food",
     categoryLabel: "Food",
-    title: "Shiroebi: The Translucent White Shrimp Found Only in Toyama Bay",
+    title: "Shiroebi: The White Shrimp Found Only in Toyama Bay",
     metaDescription:
       "Shiroebi live in a steep underwater trench off Toyama's shore, one of very few places they're commercially fished, and prized raw as delicate sashimi.",
     updatedAt: "2026-08-22",
@@ -4062,7 +4062,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Ishikawa",
     category: "food",
     categoryLabel: "Food",
-    title: "Jibuni: The Duck Stew at the Center of Kanazawa's Kaga Cuisine",
+    title: "Jibuni: The Duck Stew of Kanazawa's Kaga Cuisine",
     metaDescription:
       "Jibuni is a Kanazawa specialty: flour-dusted duck simmered in sweet dashi with local vegetables, topped with wasabi, tracing back to samurai-era kitchens.",
     updatedAt: "2026-08-22",
@@ -4090,7 +4090,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Ishikawa",
     category: "food",
     categoryLabel: "Food",
-    title: "Why Kanazawa Is Considered One of Japan's Great Wagashi Cities",
+    title: "Why Kanazawa Is a Great Wagashi City",
     metaDescription:
       "Kanazawa is often named alongside Kyoto and Matsue as one of Japan's three centers of wagashi, a legacy of the Maeda clan's patronage of tea ceremony culture.",
     updatedAt: "2026-08-22",
@@ -4230,7 +4230,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Fukui",
     category: "food",
     categoryLabel: "Food",
-    title: "Sauce Katsudon: Fukui's Everyday Twist on the Pork Cutlet Bowl",
+    title: "Sauce Katsudon: Fukui's Twist on the Pork Cutlet Bowl",
     metaDescription:
       "Fukui's sauce katsudon dips a freshly fried pork cutlet in tangy Worcestershire-style sauce instead of simmering it with egg, an everyday local comfort food.",
     updatedAt: "2026-08-22",
@@ -4538,7 +4538,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Nagano",
     category: "food",
     categoryLabel: "Food",
-    title: "Nagano Sake: Alpine Water and a High-Altitude Brewing Tradition",
+    title: "Nagano Sake: Alpine Water and High-Altitude Brewing",
     metaDescription:
       "Why Nagano has one of Japan's highest concentrations of sake breweries, and how to find genuinely local bottles instead of national brands.",
     updatedAt: "2026-08-22",
@@ -4594,7 +4594,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Nagano",
     category: "food",
     categoryLabel: "Food",
-    title: "Nagano's Apples and Highland Fruit: A Farm-to-Table Specialty",
+    title: "Nagano's Apples and Highland Fruit, Farm to Table",
     metaDescription:
       "Why Nagano's cool, high-altitude climate makes it one of Japan's best regions for apples and grapes, and what's actually in season when.",
     updatedAt: "2026-08-22",
@@ -4734,7 +4734,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Gifu",
     category: "food",
     categoryLabel: "Food",
-    title: "Ayu and Cormorant Fishing: Gifu's Nagara River Food Tradition",
+    title: "Ayu and Cormorant Fishing on Gifu's Nagara River",
     metaDescription:
       "How Gifu's centuries-old cormorant fishing tradition catches ayu on the Nagara River, and how the fish is traditionally salt-grilled and eaten whole.",
     updatedAt: "2026-08-22",
@@ -5658,7 +5658,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tottori",
     category: "food",
     categoryLabel: "Food",
-    title: "Tottori Sake: Small Breweries, Mountain Water, and Local Rice",
+    title: "Tottori Sake: Small Breweries and Mountain Water",
     metaDescription:
       "Tottori's sake industry is small compared to famous brewing regions, but its mountain water and local rice varieties produce distinctive, hard-to-find bottles.",
     updatedAt: "2026-08-22",
@@ -5882,7 +5882,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Okayama",
     category: "food",
     categoryLabel: "Food",
-    title: "Bara-zushi: Okayama's Scattered Sushi and Its Edo-Era Backstory",
+    title: "Bara-zushi: Okayama's Scattered Sushi Explained",
     metaDescription:
       "Okayama's colorful scattered sushi is said to trace back to a feudal-era frugality law, and it remains the prefecture's most recognizable dish.",
     updatedAt: "2026-08-22",
@@ -6190,7 +6190,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tokushima",
     category: "food",
     categoryLabel: "Food",
-    title: "Naruto Kintoki: Tokushima's Prized Sweet Potato, in Cakes and Sweets",
+    title: "Naruto Kintoki: Tokushima's Prized Sweet Potato",
     metaDescription:
       "What Naruto Kintoki sweet potato is, why Tokushima's coastal sandy fields make it unusually sweet, and how it turns up in local sweets and street snacks.",
     updatedAt: "2026-08-22",
@@ -6274,7 +6274,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tokushima",
     category: "food",
     categoryLabel: "Food",
-    title: "Sudachi: The Tart Green Citrus That Defines Tokushima Cooking",
+    title: "Sudachi: The Tart Green Citrus of Tokushima Cooking",
     metaDescription:
       "What sudachi actually is, how it differs from yuzu and kabosu, and how Tokushima locals use this tart citrus to finish grilled fish and noodles.",
     updatedAt: "2026-08-22",
@@ -6330,7 +6330,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kagawa",
     category: "food",
     categoryLabel: "Food",
-    title: "Wasanbon: The Hand-Pressed Sugar Behind Kagawa's Delicate Sweets",
+    title: "Wasanbon: The Hand-Pressed Sugar of Kagawa",
     metaDescription:
       "How wasanbon, Kagawa's hand-pressed traditional sugar, is made, and why it ends up as delicate molded higashi sweets rather than everyday cooking sugar.",
     updatedAt: "2026-08-22",
@@ -6386,7 +6386,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kagawa",
     category: "food",
     categoryLabel: "Food",
-    title: "Shodoshima Soy Sauce: Kagawa's Centuries-Old Brewing Tradition",
+    title: "Shodoshima Soy Sauce: Kagawa's Brewing Tradition",
     metaDescription:
       "The 400-year soy sauce brewing tradition on Kagawa's Shodoshima island, and why wooden-barrel soy sauce tastes different from the mass-produced kind.",
     updatedAt: "2026-08-22",
@@ -6414,7 +6414,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kagawa",
     category: "food",
     categoryLabel: "Food",
-    title: "Olive Gyu and Olive Hamachi: Kagawa's Olive-Fed Beef and Yellowtail",
+    title: "Olive Gyu and Olive Hamachi: Kagawa's Olive-Fed Livestock",
     metaDescription:
       "What Olive Gyu beef and Olive Hamachi yellowtail actually are, and why Shodoshima's olive-feeding program makes them a genuinely Kagawa-specific product.",
     updatedAt: "2026-08-22",
@@ -6498,7 +6498,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Ehime",
     category: "food",
     categoryLabel: "Food",
-    title: "Saijo, Ehime: A Sake-Brewing Town Built on Natural Spring Water",
+    title: "Saijo, Ehime: A Sake Town Built on Spring Water",
     metaDescription:
       "How Saijo's naturally rising uchinuki spring water shaped a small sake-brewing scene in Ehime, and what to know before seeking out a local bottle.",
     updatedAt: "2026-08-22",
@@ -6554,7 +6554,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Ehime",
     category: "food",
     categoryLabel: "Food",
-    title: "More Than Mikan: Ehime's Dozens of Citrus Varieties Explained",
+    title: "More Than Mikan: Ehime's Many Citrus Varieties",
     metaDescription:
       "A guide to the dozens of citrus varieties grown across Ehime beyond plain mikan, and how to shop for them by season like a local would.",
     updatedAt: "2026-08-22",
@@ -6638,7 +6638,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kochi",
     category: "food",
     categoryLabel: "Food",
-    title: "Yuzu Drinks From Kochi: Umaji Village and Japan's Favorite Sour Citrus",
+    title: "Yuzu Drinks From Kochi: Umaji Village's Sour Citrus",
     metaDescription:
       "Why Umaji village drives so much of Japan's yuzu production, and which bottled yuzu drinks and liqueurs from Kochi make sense to bring home.",
     updatedAt: "2026-08-22",
@@ -7338,7 +7338,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Miyazaki",
     category: "food",
     categoryLabel: "Food",
-    title: "Miyazaki Shochu: Barley, Sweet Potato, and a Regional Buckwheat Specialty",
+    title: "Miyazaki Shochu: Barley, Sweet Potato, and Buckwheat",
     metaDescription:
       "An honest look at Miyazaki shochu, from barley and sweet potato varieties to its distinctive buckwheat shochu, plus how locals drink it at the table.",
     updatedAt: "2026-08-22",
@@ -7394,7 +7394,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Miyazaki",
     category: "food",
     categoryLabel: "Food",
-    title: "Miyazaki Beef and Jidori Chicken: The Prefecture's Prize Livestock",
+    title: "Miyazaki Beef and Jidori Chicken: Prize Livestock",
     metaDescription:
       "A look at Miyazaki's two prized proteins: award-winning Miyazaki-gyu wagyu beef and charcoal-grilled jidori free-range chicken, and how each is served.",
     updatedAt: "2026-08-22",
@@ -7534,7 +7534,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kagoshima",
     category: "food",
     categoryLabel: "Food",
-    title: "Satsuma-Imo: The Sweet Potato That Shaped Kagoshima's Food Culture",
+    title: "Satsuma-Imo: The Sweet Potato That Shaped Kagoshima",
     metaDescription:
       "How the sweet potato reshaped Kagoshima's food history, from its arrival via Ryukyu trade routes to today's roasted yaki-imo and sweet potato desserts.",
     updatedAt: "2026-08-22",
@@ -7702,7 +7702,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tokyo",
     category: "food",
     categoryLabel: "Food",
-    title: "Edomae Sushi vs. Conveyor-Belt Sushi: Tokyo's Two Sushi Worlds",
+    title: "Edomae vs. Conveyor-Belt Sushi: Tokyo's Two Worlds",
     metaDescription:
       "Understand the real differences between Tokyo's high-end Edomae sushi counters and casual kaiten-zushi chains before deciding where and how to eat.",
     updatedAt: "2026-08-22",
@@ -7786,7 +7786,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tokyo",
     category: "food",
     categoryLabel: "Food",
-    title: "Tsukiji Outer Market and Toyosu: Tokyo's Seafood Culture Explained",
+    title: "Tsukiji Outer Market and Toyosu: Tokyo's Seafood",
     metaDescription:
       "Tsukiji and Toyosu are often confused — here's the actual difference between Tokyo's old outer market and the wholesale market that replaced it in 2018.",
     updatedAt: "2026-08-22",
@@ -7899,7 +7899,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Kyoto",
     category: "food",
     categoryLabel: "Food",
-    title: "Kyo-Yasai: Kyoto's Heirloom Vegetables and Why They're Prized",
+    title: "Kyo-Yasai: Kyoto's Prized Heirloom Vegetables",
     metaDescription:
       "Kyoto has its own certified heirloom vegetable tradition, kyo-yasai — here's what makes these varieties distinct and how they show up on the plate.",
     updatedAt: "2026-08-22",
@@ -7983,7 +7983,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Osaka",
     category: "food",
     categoryLabel: "Food",
-    title: "Kuidaore: Understanding Osaka's 'Eat Until You Drop' Food Culture",
+    title: "Kuidaore: Osaka's 'Eat Until You Drop' Food Culture",
     metaDescription:
       "Kuidaore explains why Osaka feels so food-obsessed — a look at the merchant-city history behind the city's casual, value-driven eating culture.",
     updatedAt: "2026-08-22",
@@ -8319,7 +8319,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Hokkaido",
     category: "food",
     categoryLabel: "Food",
-    title: "Hokkaido's Cold-Water Seafood: Scallops, Crab, and Sea Urchin",
+    title: "Hokkaido's Cold-Water Seafood: Scallops, Crab, Uni",
     metaDescription:
       "Hokkaido's cold, nutrient-rich seas make it one of Japan's top seafood regions — a guide to its scallops, crab, and sea urchin beyond the basics.",
     updatedAt: "2026-08-22",
@@ -8375,7 +8375,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tokyo",
     category: "transportation",
     categoryLabel: "Transportation",
-    title: "How to Buy Shinkansen Tickets: Reserved Seats, IC Cards, and Booking Ahead",
+    title: "How to Buy Shinkansen Tickets: A Beginner's Guide",
     metaDescription:
       "An IC card won't get you onto the Shinkansen. Here's how reserved-seat tickets actually work — booking with SmartEX and reserving oversized luggage.",
     updatedAt: "2026-08-23",
@@ -8420,7 +8420,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tokyo",
     category: "transportation",
     categoryLabel: "Transportation",
-    title: "Is the Japan Rail Pass Worth It? Price, Coverage, and How to Decide",
+    title: "Is the Japan Rail Pass Worth It?",
     metaDescription:
       "The JR Pass isn't automatically the cheapest option anymore. What it costs, what it covers, and a quick way to tell if it'll save you money.",
     updatedAt: "2026-08-23",
@@ -8464,7 +8464,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Cherry Blossom Season",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Cherry Blossom (Sakura) Season in Japan: When to Go, Region by Region",
+    title: "Cherry Blossom (Sakura) Season in Japan by Region",
     metaDescription:
       "Sakura season is a wave that moves across Japan over roughly four months. When full bloom happens in each region, and how to plan a trip around it.",
     updatedAt: "2026-08-25",
@@ -8527,7 +8527,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Autumn Leaves Season",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Autumn Leaves (Koyo) Season in Japan: When to Go, Region by Region",
+    title: "Autumn Leaves (Koyo) Season in Japan by Region",
     metaDescription:
       "Autumn colors sweep from Hokkaido to Kyushu over roughly ten weeks. When peak koyo happens in each region, and why elevation matters as much as latitude.",
     updatedAt: "2026-08-25",
@@ -8587,7 +8587,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Winter Travel",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Visiting Japan in Winter: A Region-by-Region Guide to Weather, Crowds, and What to Pack",
+    title: "Visiting Japan in Winter: A Region-by-Region Guide",
     metaDescription:
       "Winter in Japan ranges from serious snow to shorts-weather in the same week, depending on region and coast. What to expect and pack, region by region.",
     updatedAt: "2026-08-25",
@@ -8640,7 +8640,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "New Year in Japan",
     category: "planning",
     categoryLabel: "Planning",
-    title: "New Year (Oshogatsu) in Japan: What's Open, What's Closed, and What First-Time Visitors Get Wrong",
+    title: "New Year (Oshogatsu) in Japan: What's Open and Closed",
     metaDescription:
       "Japan's New Year holiday is the biggest nationwide shutdown of the year. What actually closes, what stays open, and how to plan a trip around it.",
     updatedAt: "2026-08-25",
@@ -8692,7 +8692,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Winter Illuminations",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Winter Illuminations in Japan: The Best Light Displays and When to See Them",
+    title: "Winter Illuminations in Japan: Best Light Displays",
     metaDescription:
       "Japan's winter illuminations run longer than Christmas lights back home, some into February — from Tokyo to Kobe's Luminarie and Sapporo's snow festival.",
     updatedAt: "2026-08-25",
@@ -8744,7 +8744,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Hatsumode Crowds",
     category: "planning",
     categoryLabel: "Planning",
-    title: "New Year Shrine Crowds in Japan: The Busiest Hatsumode Spots and Where to Go Instead",
+    title: "New Year Shrine Crowds: Busiest Hatsumode Spots in Japan",
     metaDescription:
       "Japan's most famous shrines pull millions of hatsumode visitors over three days. Which ones, when the crush peaks, and how to spend New Year somewhere quieter.",
     updatedAt: "2026-08-25",
@@ -8800,7 +8800,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Plum Blossom Season",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Plum Blossom Season in Japan: Where to See Ume Before Everyone Else Arrives for Sakura",
+    title: "Plum Blossom Season in Japan: Where to See Ume Early",
     metaDescription:
       "Plum blossoms (ume) bloom weeks before cherry blossoms and draw a fraction of the crowd. Here's the region-by-region bloom order and where to actually go.",
     updatedAt: "2026-08-25",
@@ -8847,7 +8847,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Typhoon Season Travel",
     category: "planning",
     categoryLabel: "Planning",
-    title: "Traveling to Japan During Typhoon Season: What Actually Happens and How to Plan Around It",
+    title: "Traveling to Japan During Typhoon Season: What to Expect",
     metaDescription:
       "Typhoon season runs roughly July through October and peaks in August-September. What a typhoon actually does to a trip, and how to plan around it.",
     updatedAt: "2026-08-25",
@@ -8888,7 +8888,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Ski & Snowboard Season",
     category: "nature",
     categoryLabel: "Nature",
-    title: "Japan's Ski Season by Region: Niseko, Hakuba, Zao, and Naeba Compared",
+    title: "Japan's Ski Season by Region: Niseko, Hakuba, Zao",
     metaDescription:
       "How Japan's top ski regions compare on snow quality, season length, access from Tokyo, and atmosphere, so you can pick the right base for your trip.",
     updatedAt: "2026-08-26",
@@ -9014,7 +9014,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Great Night Views",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "The Three Great Night Views of Japan: Hakodate, Nagasaki, and Kobe",
+    title: "The Three Great Night Views of Japan",
     metaDescription:
       "Hakodate, Nagasaki, and Kobe form Japan's classic \"Three Great Night Views\" trio — here's how to see each one, and how a newer list differs.",
     updatedAt: "2026-08-26",
@@ -9122,7 +9122,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "CM-Famous Scenic Spots",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Japan's Most CM-Famous Scenic Spots: Tsunoshima, Motonosumi, and Eshima Ohashi",
+    title: "Japan's Most CM-Famous Scenic Spots",
     metaDescription:
       "Three Japanese landmarks that went viral through car commercials and CNN: a turquoise bridge, a cliffside torii shrine, and an optical-illusion overpass.",
     updatedAt: "2026-08-26",
@@ -9187,7 +9187,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Japan's Three Great Tenjin",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Japan's Three Great Tenjin Shrines: Kitano, Dazaifu, and Hofu Tenmangu",
+    title: "Japan's Three Great Tenjin Shrines Explained",
     metaDescription:
       "Kitano and Dazaifu Tenmangu top Japan's \"three great Tenjin\" shrines — the third spot is disputed. What each offers, plus the festivals that define them.",
     updatedAt: "2026-08-27",
@@ -9251,7 +9251,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Japan's Three Views",
     category: "attractions",
     categoryLabel: "Attractions",
-    title: "Japan's Three Views (Nihon Sankei): Matsushima, Miyajima, and Amanohashidate",
+    title: "Japan's Three Views (Nihon Sankei) Explained",
     metaDescription:
       "Matsushima, Miyajima, and Amanohashidate have been Japan's official \"three great views\" since the 1600s — a rare list nobody disputes. What each offers.",
     updatedAt: "2026-08-27",
@@ -9305,7 +9305,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Visa & Entry",
     category: "planning",
     categoryLabel: "Planning",
-    title: "Japan Visa-Free Entry and Visit Japan Web: What First-Time Visitors Need to Know",
+    title: "Japan Visa-Free Entry and Visit Japan Web Explained",
     metaDescription:
       "Most visitors don't need a visa for short trips, but Visit Japan Web and a few entry-requirement details trip people up. Here's what actually matters.",
     updatedAt: "2026-08-28",
@@ -9342,7 +9342,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Money & Payments",
     category: "planning",
     categoryLabel: "Planning",
-    title: "Money in Japan: Cash, Cards, and Mobile Payments for Visitors",
+    title: "Money in Japan: Cash, Cards, and Mobile Payments",
     metaDescription:
       "Japan is more cashless than its reputation suggests, but cards still fail at small shops and shrines. Here's what actually works, and how much cash to carry.",
     updatedAt: "2026-08-28",
@@ -9376,7 +9376,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Tipping Culture",
     category: "planning",
     categoryLabel: "Planning",
-    title: "Tipping in Japan: Why You Shouldn't (and the Rare Exceptions)",
+    title: "Tipping in Japan: Why You Shouldn't",
     metaDescription:
       "Trying to tip in Japan usually just confuses people. Here's why the custom doesn't exist, and the few situations where a gratuity is genuinely expected.",
     updatedAt: "2026-08-28",
@@ -9439,7 +9439,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Staying Connected",
     category: "planning",
     categoryLabel: "Planning",
-    title: "SIM, eSIM, Pocket WiFi, or Free WiFi: Staying Connected in Japan",
+    title: "SIM, eSIM, or Pocket WiFi? Staying Connected in Japan",
     metaDescription:
       "Japan's free WiFi is patchier than you'd expect, so most visitors need a data plan. Here's how to pick between eSIM, a physical SIM, and pocket WiFi.",
     updatedAt: "2026-08-28",
@@ -9473,7 +9473,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Airport Arrival",
     category: "transportation",
     categoryLabel: "Transportation",
-    title: "Narita, Haneda, and Kansai Airport: Arrival and Transport Guide",
+    title: "Narita, Haneda, and Kansai Airport Arrival Guide",
     metaDescription:
       "Which Tokyo or Osaka airport you land at changes your whole first day. Here's what to expect at immigration and the fastest way into the city from each.",
     updatedAt: "2026-08-28",
@@ -9513,7 +9513,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Trash & Recycling",
     category: "planning",
     categoryLabel: "Planning",
-    title: "Why There Are No Trash Cans in Japan (and What to Do With Your Garbage)",
+    title: "Why There Are No Trash Cans in Japan",
     metaDescription:
       "Japan is spotless despite having almost no public trash cans. Here's the actual reason, and where visitors are supposed to put their garbage instead.",
     updatedAt: "2026-08-28",
@@ -9581,7 +9581,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Avoiding Crowds",
     category: "planning",
     categoryLabel: "Planning",
-    title: "Overtourism in Japan: New Fees, Rules, and How to Avoid the Worst Crowds",
+    title: "Overtourism in Japan: New Fees and How to Avoid Crowds",
     metaDescription:
       "Record visitor numbers have brought new fees and restrictions to Mount Fuji and Kyoto. Here's what changed, and how to plan around the crowds.",
     updatedAt: "2026-08-28",
@@ -9611,7 +9611,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Accommodation Types",
     category: "planning",
     categoryLabel: "Planning",
-    title: "Hotel, Ryokan, or Capsule Hotel? Japan's Accommodation Types Explained",
+    title: "Hotel, Ryokan, or Capsule Hotel? Japan's Lodging Types",
     metaDescription:
       "Japan's lodging options go well beyond generic hotels. Here's what a ryokan, minshuku, business hotel, and capsule hotel each actually offer.",
     updatedAt: "2026-08-28",
@@ -9645,7 +9645,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Packing List",
     category: "planning",
     categoryLabel: "Planning",
-    title: "What to Pack for Japan: A Practical, Season-Aware Packing List",
+    title: "What to Pack for Japan: A Season-Aware Packing List",
     metaDescription:
       "Japan's plugs, weather swings, and shoe-off culture catch first-time visitors off guard. Here's what's actually worth packing, and what to buy there instead.",
     updatedAt: "2026-08-28",
@@ -9679,7 +9679,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
     regionLabel: "Luggage & Lockers",
     category: "planning",
     categoryLabel: "Planning",
-    title: "Luggage Forwarding and Coin Lockers: Traveling Light in Japan",
+    title: "Luggage Forwarding and Coin Lockers in Japan",
     metaDescription:
       "You don't have to drag suitcases through train stations in Japan. Here's how takkyubin luggage forwarding and coin lockers actually work.",
     updatedAt: "2026-08-28",
