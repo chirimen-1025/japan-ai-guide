@@ -98,7 +98,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide", "shinkansen-tickets-beginner-guide", "tokyo-depachika-food-hall-culture", "tokyo-izakaya-culture-guide", "tokyo-ramen-styles-guide"],
+    relatedSlugs: ["tokyo-trains-beginner-guide", "jr-pass-worth-it-guide", "shinkansen-tickets-beginner-guide", "tokyo-depachika-food-hall-culture", "tokyo-izakaya-culture-guide", "tokyo-ramen-styles-guide", "nikko-or-hakone-day-trip-from-tokyo"],
     relatedCultureSlugs: [],
     affiliateTours: [
       {
@@ -138,7 +138,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["nara-deer-park-and-todaiji", "kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "kyoto-wagashi-tea-sweets-culture", "avoiding-crowds-overtourism-japan"],
+    relatedSlugs: ["nara-deer-park-and-todaiji", "kyoto-arashiyama-and-higashiyama-walking-guide", "kyoto-food-guide-kaiseki-tofu-and-nishiki-market", "kyoto-wagashi-tea-sweets-culture", "avoiding-crowds-overtourism-japan", "kansai-multi-city-itinerary"],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
     affiliateTours: [
       {
@@ -178,7 +178,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["kyoto-temples-worth-visiting", "nara-kasuga-taisha-and-other-temples", "nara-food-and-yoshino-cherry-blossoms", "nara-sake-brewing-birthplace"],
+    relatedSlugs: ["kyoto-temples-worth-visiting", "nara-kasuga-taisha-and-other-temples", "nara-food-and-yoshino-cherry-blossoms", "nara-sake-brewing-birthplace", "kansai-multi-city-itinerary"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -288,7 +288,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["fukuoka-city-attractions-ohori-park-and-canal-city", "fukuoka-itoshima-coast-and-yanagawa-canals", "fukuoka-mizutaki-chicken-hotpot", "fukuoka-motsunabe-offal-hotpot", "fukuoka-mentaiko-spicy-cod-roe"],
+    relatedSlugs: ["fukuoka-city-attractions-ohori-park-and-canal-city", "fukuoka-itoshima-coast-and-yanagawa-canals", "fukuoka-mizutaki-chicken-hotpot", "fukuoka-motsunabe-offal-hotpot", "fukuoka-mentaiko-spicy-cod-roe", "kyushu-multi-city-itinerary"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -628,7 +628,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["tochigi-nasu-sake-breweries", "tochigi-utsunomiya-gyoza", "tochigi-kanpyo-dried-gourd-strips", "tochigi-nikko-yuba-tofu-skin", "tochigi-strawberries-tochiotome-skyberry"],
+    relatedSlugs: ["tochigi-nasu-sake-breweries", "tochigi-utsunomiya-gyoza", "tochigi-kanpyo-dried-gourd-strips", "tochigi-nikko-yuba-tofu-skin", "tochigi-strawberries-tochiotome-skyberry", "nikko-or-hakone-day-trip-from-tokyo"],
     relatedCultureSlugs: ["shrines-and-temples"],
   },
   {
@@ -764,7 +764,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["kanagawa-odawara-kamaboko-fish-cake", "kanagawa-sake-and-craft-beer", "kanagawa-shonan-shirasu-whitebait", "miyagi-matsushima-bay-and-sendai-gyutan", "kanagawa-yokohama-chinatown-food"],
+    relatedSlugs: ["kanagawa-odawara-kamaboko-fish-cake", "kanagawa-sake-and-craft-beer", "kanagawa-shonan-shirasu-whitebait", "miyagi-matsushima-bay-and-sendai-gyutan", "kanagawa-yokohama-chinatown-food", "nikko-or-hakone-day-trip-from-tokyo"],
     relatedCultureSlugs: ["shrines-and-temples", "onsen-etiquette"],
     affiliateTours: [
       {
@@ -1575,7 +1575,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["nagasaki-shippoku-ryori-feast", "nagasaki-biwa-loquat-fruit", "nagasaki-castella-cake-history", "yamaguchi-hagi-and-kintaikyo-bridge", "nagasaki-seafood-market-culture"],
+    relatedSlugs: ["nagasaki-shippoku-ryori-feast", "nagasaki-biwa-loquat-fruit", "nagasaki-castella-cake-history", "yamaguchi-hagi-and-kintaikyo-bridge", "nagasaki-seafood-market-culture", "kyushu-multi-city-itinerary"],
     relatedCultureSlugs: [],
   },
   {
@@ -1643,7 +1643,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["oita-beppu-jigoku-mushi-steam-cooking", "oita-mugi-shochu-barley", "oita-seki-saba-aji-brand-fish", "shiga-lake-biwa-and-hikone-castle", "oita-yaseuma-sweet-snack"],
+    relatedSlugs: ["oita-beppu-jigoku-mushi-steam-cooking", "oita-mugi-shochu-barley", "oita-seki-saba-aji-brand-fish", "shiga-lake-biwa-and-hikone-castle", "oita-yaseuma-sweet-snack", "kyushu-multi-city-itinerary"],
     relatedCultureSlugs: ["onsen-etiquette"],
     affiliateTours: [
       {
@@ -1856,7 +1856,7 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
         ],
       },
     ],
-    relatedSlugs: ["osaka-food-guide", "osaka-nightlife-shinsaibashi-and-amerikamura", "osaka-battera-hakozushi-pressed-sushi", "osaka-dashi-udon-culture", "osaka-kuidaore-food-culture"],
+    relatedSlugs: ["osaka-food-guide", "osaka-nightlife-shinsaibashi-and-amerikamura", "osaka-battera-hakozushi-pressed-sushi", "osaka-dashi-udon-culture", "osaka-kuidaore-food-culture", "kansai-multi-city-itinerary"],
     relatedCultureSlugs: [],
     affiliateTours: [
       {
@@ -9963,6 +9963,180 @@ export const TRAVEL_ARTICLES: TravelArticle[] = [
       {
         question: "Do budget airlines in Japan include checked baggage?",
         answer: "Usually not — LCCs like Peach and Jetstar Japan charge extra for checked bags on top of the base fare.",
+      },
+    ],
+  },
+  {
+    slug: "kansai-multi-city-itinerary",
+    region: "kansai-itinerary",
+    regionLabel: "Kansai Itinerary",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Kansai in 4 Days: Osaka, Kyoto, and Nara",
+    metaDescription:
+      "Osaka, Kyoto, and Nara sit under an hour apart by train, so one base works for all three — a realistic 4-day route and how to split your time between them.",
+    updatedAt: "2026-08-29",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Why one base works for all three cities",
+        body: [
+          "Osaka, Kyoto, and Nara are close enough that you don't need to change hotels to see all three — Shin-Osaka to Kyoto is about 13-15 minutes on the Shinkansen or 29 minutes on the JR Special Rapid Service, and Kyoto to Nara is 35-45 minutes depending on whether you take the Kintetsu or JR line. That makes a single base in either Osaka or Kyoto, with day trips to the other two, a more efficient plan than packing and moving every one or two nights.",
+        ],
+      },
+      {
+        heading: "Day 1-2 — Osaka",
+        body: [
+          "Osaka is the food city of the three — start with the castle and Umeda Sky Building for the skyline view, then spend an evening working through Dotonbori's street food (takoyaki, okonomiyaki, kushikatsu) and the Shinsaibashi and Amerikamura shopping and nightlife streets. Universal Studios Japan is a full extra day on its own if that's part of the trip.",
+        ],
+      },
+      {
+        heading: "Day 2-3 — Kyoto",
+        body: [
+          "Kyoto rewards splitting your time by area rather than trying to see everything in one sweep — Fushimi Inari and Kiyomizu-dera on one day, the Arashiyama bamboo grove and Higashiyama's preserved streets on another. Kyoto Station itself has a Shinkansen connection, so it also works as the base if you'd rather sleep closer to the temples.",
+        ],
+      },
+      {
+        heading: "Day 4 — Nara as a day trip",
+        body: [
+          "Nara is small enough to see in a single day and is a genuinely easy add-on from either Osaka or Kyoto — Nara Park's free-roaming deer, Todai-ji's Great Buddha Hall, and Kasuga Taisha's lantern-lined paths are all walkable from Kintetsu Nara Station. Most visitors treat it as a day trip rather than an overnight stop.",
+        ],
+      },
+      {
+        heading: "Getting between the three, and where to base yourself",
+        body: [
+          "For a Kansai-only trip, a national Japan Rail Pass usually isn't worth it — the regional Kansai-area passes or just paying per ride with an IC card work out cheaper over three or four days of short hops. Kyoto puts you closest to the most temples but books up and costs more during cherry blossom and autumn foliage season; Osaka tends to have more hotel availability and is the stronger base if food and nightlife matter more to your trip than being steps from a specific shrine. (Verify locally — train frequencies and fares can change.)",
+        ],
+      },
+    ],
+    relatedSlugs: ["kyoto-temples-worth-visiting", "osaka-attractions-castle-usj-and-umeda-sky", "nara-deer-park-and-todaiji", "japan-ic-card-guide", "jr-pass-worth-it-guide", "tokyo-3-day-itinerary"],
+    relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "Should I base myself in Osaka or Kyoto for a Kansai trip?",
+        answer: "Either works well since they're 13-29 minutes apart by train — Kyoto puts you closer to the temples but costs more and books up faster in peak season, while Osaka tends to have more room availability and stronger food and nightlife options.",
+      },
+      {
+        question: "Is the Japan Rail Pass worth it for a Kansai-only trip?",
+        answer: "Usually not — for short hops between Osaka, Kyoto, and Nara, a regional Kansai pass or just paying per ride with an IC card typically costs less than a national JR Pass.",
+      },
+      {
+        question: "Can I visit Nara as a day trip from Osaka or Kyoto?",
+        answer: "Yes — Nara is about 35-50 minutes from either city depending on the line, and its main sights (Nara Park, Todai-ji, Kasuga Taisha) are compact enough to see comfortably in a single day.",
+      },
+    ],
+  },
+  {
+    slug: "kyushu-multi-city-itinerary",
+    region: "kyushu-itinerary",
+    regionLabel: "Kyushu Itinerary",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Kyushu in 5 Days: Fukuoka, Beppu, and Nagasaki",
+    metaDescription:
+      "Fukuoka's food, Beppu and Yufuin's hot springs, and Nagasaki's harbor history sit far enough apart to reward a loop — a realistic 5-day Kyushu route.",
+    updatedAt: "2026-08-29",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "Why Kyushu rewards a loop, not a single city",
+        body: [
+          "Kyushu's main draws — Fukuoka's food scene, the hot springs around Beppu and Yufuin, and Nagasaki's harbor history — sit far enough apart that a single-city trip misses most of what makes the island distinct. A loop starting and ending in Fukuoka (Hakata), the island's main transit hub, avoids backtracking and keeps each leg to a couple of hours or less.",
+        ],
+      },
+      {
+        heading: "Day 1-2 — Fukuoka (Hakata)",
+        body: [
+          "Fukuoka is the easiest entry point, with its own airport a short subway ride from downtown. Spend an evening at the yatai food stalls along the river, and use a day for Ohori Park, Canal City, and the mentaiko and motsunabe that the city is known for.",
+        ],
+      },
+      {
+        heading: "Day 2-3 — Beppu and Yufuin (hot springs)",
+        body: [
+          "From Hakata, Beppu is around 2 hours by limited express train, known for its steaming \"jigoku\" hell-pools and a huge volume of onsen baths. Yufuin, about an hour further inland by train or bus, is a quieter mountain town built around Lake Kinrin and a single main shopping street — many visitors do Beppu and Yufuin back to back as a 2-day hot spring stop.",
+        ],
+      },
+      {
+        heading: "Day 4-5 — Nagasaki",
+        body: [
+          "From the Beppu/Yufuin area, the fastest way to Nagasaki is back through Hakata: the Kamome limited express to Shin-Tosu connects to the Nishi-Kyushu Shinkansen, covering Hakata to Nagasaki in roughly 1 hour 40 minutes combined. Nagasaki's atomic bomb history sites and Dejima's Dutch trading post history make it a distinct stop from the rest of the loop — plan at least a full day, two if you want to add a side trip.",
+        ],
+      },
+      {
+        heading: "Getting around: the JR Kyushu Rail Pass",
+        body: [
+          "A JR Kyushu Rail Pass (sold in regional and all-Kyushu versions) usually pays for itself on a loop like this one, since it covers the limited express and Shinkansen legs between Fukuoka, Oita, and Nagasaki. It doesn't cover local buses in Beppu or Yufuin, so budget separately for those short hops. (Verify locally — routes, transfer points, and pass coverage change as new Shinkansen sections open.)",
+        ],
+      },
+    ],
+    relatedSlugs: ["fukuoka-food-and-yatai", "oita-beppu-hot-springs-yufuin", "nagasaki-atomic-bomb-history-dejima", "jr-pass-worth-it-guide", "japan-ic-card-guide", "kumamoto-castle-mount-aso"],
+    relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "How long does a Fukuoka-Beppu-Nagasaki loop take?",
+        answer: "5 days is a comfortable minimum — roughly 2 days in Fukuoka, 2 days split between Beppu and Yufuin, and a full day or two in Nagasaki, with Fukuoka as the start and end point.",
+      },
+      {
+        question: "Is the JR Kyushu Rail Pass worth it for this route?",
+        answer: "Usually yes — it covers the limited express and Shinkansen legs between Fukuoka, Oita, and Nagasaki, which are the most expensive parts of the loop if bought as individual tickets.",
+      },
+      {
+        question: "Can I visit both Beppu and Yufuin without backtracking?",
+        answer: "Yes — they're about an hour apart by direct train or bus, so most visitors treat them as one combined 2-day stop rather than two separate side trips.",
+      },
+    ],
+  },
+  {
+    slug: "nikko-or-hakone-day-trip-from-tokyo",
+    region: "day-trips-from-tokyo",
+    regionLabel: "Day Trips From Tokyo",
+    category: "planning",
+    categoryLabel: "Planning",
+    title: "Nikko or Hakone: Which Day Trip From Tokyo?",
+    metaDescription:
+      "Nikko and Hakone are Tokyo's two classic day-trip add-ons — here's how their shrines, hot springs, travel times, and Mt. Fuji views actually compare.",
+    updatedAt: "2026-08-29",
+    needsVerification: true,
+    sections: [
+      {
+        heading: "The short answer",
+        body: [
+          "Nikko and Hakone are both easy add-ons to a Tokyo trip, but they suit different priorities — Nikko is temples, shrines, and waterfalls in a mountain setting about 2 hours north of Tokyo, while Hakone is hot springs, art museums, and (on a clear day) views of Mt. Fuji about 90 minutes southwest. If you only have time for one, pick Hakone for onsen and Fuji views, or Nikko for shrines and a quieter, less touristy pace.",
+        ],
+      },
+      {
+        heading: "Nikko: shrines, waterfalls, and a mountain lake",
+        body: [
+          "The Tobu Limited Express from Asakusa reaches Tobu-Nikko Station in about 1 hour 50 minutes; a cheaper local-train option takes closer to 2 hours 45 minutes. The main draw is Toshogu Shrine, the elaborately decorated mausoleum of shogun Tokugawa Ieyasu, along with Kegon Falls and Lake Chuzenji a bus ride further up the mountain.",
+        ],
+      },
+      {
+        heading: "Hakone: hot springs, Mt. Fuji views, and the loop course",
+        body: [
+          "The Odakyu Romancecar reaches Hakone-Yumoto Station from Shinjuku in about 90 minutes with no transfers. From there, the classic Hakone loop combines a mountain railway, ropeway, and pirate-ship cruise across Lake Ashi, with Mt. Fuji visible from several points on a clear day. A Hakone Freepass covers most of the local transport plus a discount on the Romancecar seat surcharge.",
+        ],
+      },
+      {
+        heading: "Day trip or overnight?",
+        body: [
+          "Both are doable as a long day trip from Tokyo, but an overnight stay is worth it for either — Nikko's shrine complex and waterfalls take a full day on their own without rushing, and Hakone's ryokan with private onsen baths are a big part of why people go in the first place. If time is tight, Hakone's shorter travel time makes it the easier one to fit into a single day. (Verify locally — bus and cable car schedules on the Hakone loop can change seasonally.)",
+        ],
+      },
+    ],
+    relatedSlugs: ["tochigi-nikko-toshogu-shrine", "kanagawa-kamakura-great-buddha-and-hakone", "tokyo-3-day-itinerary", "tokyo-trains-beginner-guide", "japan-ic-card-guide"],
+    relatedCultureSlugs: [],
+    faq: [
+      {
+        question: "Which is better for a Tokyo day trip, Nikko or Hakone?",
+        answer: "Hakone is the easier day trip at about 90 minutes each way, while Nikko's roughly 2-hour journey and full-day shrine complex make it better suited to an overnight stay if your schedule allows.",
+      },
+      {
+        question: "Can I see Mt. Fuji from Hakone?",
+        answer: "On a clear day, yes — several points on the Hakone loop, including the Lake Ashi cruise and the ropeway, offer views of Mt. Fuji, though it's often obscured by cloud.",
+      },
+      {
+        question: "What does the Hakone Freepass cover?",
+        answer: "It covers most local transport around Hakone — the mountain railway, cable car, ropeway, and Lake Ashi pirate-ship cruise — plus a discount on the Romancecar's reserved-seat surcharge from Odakyu's Tokyo stations.",
       },
     ],
   },
